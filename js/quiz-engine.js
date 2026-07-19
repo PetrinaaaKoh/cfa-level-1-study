@@ -243,3 +243,6 @@ export class QuizEngine {
 
 // Export singleton instance
 export const quizEngine = new QuizEngine();
+
+// Make it globally available
+window.quizEngine = quizEngine;
