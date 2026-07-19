@@ -163,58 +163,30 @@ class App {
      * Load topic overview
      * @param {string} topicId - Topic ID
      */
-    async loadTopic(topicId) {
-        const topic = this.topics.find(t => t.id === topicId);
-        if (!topic) {
-            this.showError('Topic not found');
-            return;
+    async loadTopics() {
+    try {
+        console.log('Loading topics from ./data/topics.json');
+        const response = await fetch('./data/topics.json');
+        console.log('Response status:', response.status);
+        
+        if (!response.ok) {
+            throw new Error(`Failed to load topics: ${response.status}`);
         }
         
-        this.currentTopic = topic;
+        const data = await response.json();
+        console.log('Topics loaded:', data);
+        this.topics = data.topics;
         
-        // Hide welcome, show content
-        const welcome = $('#welcome-screen');
-        const content = $('#topic-content');
-        
-        if (welcome) welcome.style.display = 'none';
-        if (content) content.style.display = 'block';
-        
-        // Update active state in sidebar
-        $$('.topic-btn').forEach(btn => {
-            btn.classList.toggle('active', btn.dataset.topicId === topicId);
+        this.topics.forEach(topic => {
+            this.totalSections += topic.sections.length;
         });
         
-        // Render topic header
-        content.innerHTML = `
-            <div class="topic-header">
-                <h2>${escapeHtml(topic.name)}</h2>
-                <p class="topic-weight-display">Exam Weight: ${escapeHtml(topic.weight)}</p>
-            </div>
-            <div id="sections-container"></div>
-        `;
-        
-        // Load topic content
-        await this.loadTopicContent(topicId);
+        console.log('Total sections:', this.totalSections);
+    } catch (error) {
+        console.error('Error loading topics:', error);
+        this.showError('Failed to load topics: ' + error.message);
     }
-    
-    /**
-     * Load topic content from JSON
-     * @param {string} topicId - Topic ID
-     */
-    async loadTopicContent(topicId) {
-        try {
-            const response = await fetch(`data/${topicId}.json`);
-            if (!response.ok) {
-                throw new Error(`Failed to load ${topicId} content`);
-            }
-            
-            const topicData = await response.json();
-            this.renderSections(topicData);
-        } catch (error) {
-            console.error('Failed to load topic content:', error);
-            this.showError('Failed to load topic content');
-        }
-    }
+}
     
     /**
      * Render topic sections
