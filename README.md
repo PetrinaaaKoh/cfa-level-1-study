@@ -95,12 +95,6 @@ The site works on:
 
 ---
 
-## 🔄 **Updates**
-
-New questions and content are added regularly. Bookmark the site and check back!
-
----
-
 ## ⚠️ **Important Notes**
 
 - This is a **free study resource** for educational purposes
