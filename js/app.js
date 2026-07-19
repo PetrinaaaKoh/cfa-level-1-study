@@ -12,58 +12,45 @@ class App {
     
     async init() {
         try {
-            console.log('App starting...');
             await this.loadTopics();
             this.renderTopicList();
             this.setupEventListeners();
-            console.log('App started successfully!');
+            console.log('App initialized successfully!');
         } catch (error) {
-            console.error('App init error:', error);
-            alert('Error loading app: ' + error.message);
+            console.error('Init error:', error);
+            alert('Error: ' + error.message);
         }
     }
     
     async loadTopics() {
-        console.log('Loading topics from ./data/topics.json...');
         const response = await fetch('./data/topics.json');
-        console.log('Response status:', response.status);
-        
         if (!response.ok) {
-            throw new Error('Failed to load topics: ' + response.status);
+            throw new Error('Failed to load topics');
         }
         
         const data = await response.json();
-        console.log('Topics data loaded:', data);
         
-        this.topics = data.topics || [];
-        console.log('Number of topics:', this.topics.length);
+        // Handle the data structure
+        if (data.topics && Array.isArray(data.topics)) {
+            this.topics = data.topics;
+        } else {
+            this.topics = [];
+        }
         
-        // Count total sections for progress
-        this.topics.forEach(topic => {
-            this.totalSections += 6; // Estimate 6 sections per topic
-        });
+        console.log('Loaded', this.topics.length, 'topics');
+        this.totalSections = this.topics.length * 6;
     }
     
     renderTopicList() {
-        console.log('Rendering topic list...');
         const topicList = document.getElementById('topic-list');
-        
         if (!topicList) {
-            console.error('topic-list element not found!');
+            console.error('topic-list not found!');
             return;
         }
         
         topicList.innerHTML = '';
         
-        if (!this.topics || this.topics.length === 0) {
-            console.error('No topics to render!');
-            topicList.innerHTML = '<li style="padding: 12px; color: red;">No topics loaded</li>';
-            return;
-        }
-        
         this.topics.forEach(topic => {
-            console.log('Rendering topic:', topic.name);
-            
             const li = document.createElement('li');
             li.className = 'topic-item';
             
@@ -78,7 +65,6 @@ class App {
             `;
             
             button.addEventListener('click', () => {
-                console.log('Topic clicked:', topic.id);
                 this.loadTopic(topic.id);
             });
             
@@ -86,17 +72,12 @@ class App {
             topicList.appendChild(li);
         });
         
-        console.log('Topic list rendered with', this.topics.length, 'topics');
+        console.log('Rendered', this.topics.length, 'topics in sidebar');
     }
     
     async loadTopic(topicId) {
-        console.log('Loading topic:', topicId);
-        
         const topic = this.topics.find(t => t.id === topicId);
-        if (!topic) {
-            console.error('Topic not found:', topicId);
-            return;
-        }
+        if (!topic) return;
         
         // Hide welcome, show content
         const welcome = document.getElementById('welcome-screen');
@@ -116,15 +97,13 @@ class App {
         // Load topic content
         try {
             const response = await fetch(`./data/${topicId}.json`);
-            if (!response.ok) {
-                throw new Error('Failed to load topic content');
-            }
+            if (!response.ok) throw new Error('Failed to load content');
             
             const topicData = await response.json();
             this.renderTopicContent(topic, topicData);
         } catch (error) {
-            console.error('Error loading topic:', error);
-            content.innerHTML = '<p style="color: red;">Error loading topic content</p>';
+            console.error('Error:', error);
+            content.innerHTML = '<p>Error loading content</p>';
         }
     }
     
@@ -137,76 +116,43 @@ class App {
                 <h2>${topic.name}</h2>
                 <p class="topic-weight-display">Exam Weight: ${topic.weight}</p>
             </div>
-            <div id="sections-container">
         `;
         
         if (topicData.sections && topicData.sections.length > 0) {
-            topicData.sections.forEach((section, index) => {
-                html += `
-                    <div class="section">
-                        <h3>${section.title}</h3>
-                        <div class="section-content">${section.content}</div>
-                `;
+            topicData.sections.forEach((section, idx) => {
+                html += `<div class="section"><h3>${section.title}</h3>`;
+                html += `<div class="section-content">${section.content}</div>`;
                 
                 if (section.keyPoints && section.keyPoints.length > 0) {
                     html += '<div class="key-points"><h4>Key Points</h4><ul>';
-                    section.keyPoints.forEach(point => {
-                        html += `<li>${point}</li>`;
-                    });
+                    section.keyPoints.forEach(pt => html += `<li>${pt}</li>`);
                     html += '</ul></div>';
                 }
                 
                 if (section.formulas && section.formulas.length > 0) {
-                    html += '<div class="formulas-container"><h4>Formulas</h4>';
-                    section.formulas.forEach(formula => {
-                        html += `
-                            <div class="formula-card">
-                                <div class="formula">${formula.expression}</div>
-                        `;
-                        if (formula.variables) {
-                            html += '<dl class="formula-vars">';
-                            Object.entries(formula.variables).forEach(([symbol, def]) => {
-                                html += `<dt>${symbol}</dt><dd>${def}</dd>`;
-                            });
-                            html += '</dl>';
-                        }
-                        html += '</div>';
+                    html += '<h4>Formulas</h4>';
+                    section.formulas.forEach(f => {
+                        html += `<div class="formula-card"><div class="formula">${f.expression}</div></div>`;
                     });
-                    html += '</div>';
                 }
                 
                 if (section.practiceQuestions && section.practiceQuestions.length > 0) {
-                    html += `
-                        <div class="section quiz-section">
-                            <div class="quiz-header">
-                                <h3>Practice Questions</h3>
-                                <span id="quiz-progress">0 of ${section.practiceQuestions.length}</span>
-                            </div>
-                            <div id="quiz-container-${index}"></div>
-                            <div id="quiz-controls-${index}" class="quiz-controls"></div>
-                        </div>
-                    `;
+                    html += `<div class="section quiz-section"><h3>Practice Questions</h3>`;
+                    html += `<div id="quiz-${idx}"></div><div id="quiz-controls-${idx}" class="quiz-controls"></div></div>`;
                 }
                 
-                html += `
-                    <button class="btn btn-primary" onclick="this.textContent='✓ Completed'; this.className='btn btn-secondary';" style="margin-top: 16px;">
-                        Mark as Complete
-                    </button>
-                    </div>
-                `;
+                html += `<button class="btn btn-primary" style="margin-top:16px" onclick="this.textContent='✓ Completed';this.className='btn btn-secondary'">Mark as Complete</button></div>`;
             });
         }
         
-        html += '</div>';
         content.innerHTML = html;
         
         // Initialize quizzes
         if (topicData.sections) {
-            topicData.sections.forEach((section, index) => {
-                if (section.practiceQuestions && section.practiceQuestions.length > 0) {
-                    const container = document.getElementById(`quiz-container-${index}`);
-                    const controls = document.getElementById(`quiz-controls-${index}`);
-                    if (container && controls) {
+            topicData.sections.forEach((section, idx) => {
+                if (section.practiceQuestions) {
+                    const container = document.getElementById(`quiz-${idx}`);
+                    if (container) {
                         quizEngine.init(section.practiceQuestions);
                     }
                 }
@@ -215,21 +161,13 @@ class App {
     }
     
     setupEventListeners() {
-        // Search modal
         const searchBtn = document.getElementById('search-btn');
         const searchModal = document.getElementById('search-modal');
-        const closeBtn = document.querySelector('.close-btn');
         
         if (searchBtn && searchModal) {
             searchBtn.addEventListener('click', () => {
                 searchModal.style.display = 'flex';
             });
-            
-            if (closeBtn) {
-                closeBtn.addEventListener('click', () => {
-                    searchModal.style.display = 'none';
-                });
-            }
             
             searchModal.addEventListener('click', (e) => {
                 if (e.target === searchModal) {
@@ -240,7 +178,7 @@ class App {
     }
 }
 
-// Initialize when DOM is ready
+// Initialize
 if (document.readyState === 'loading') {
     document.addEventListener('DOMContentLoaded', () => new App());
 } else {
