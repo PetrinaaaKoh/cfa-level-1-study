@@ -1,110 +1,190 @@
 {
   "sections": [
     {
-      "title": "Financial Reporting Standards",
-      "content": "<p>Financial reporting standards ensure consistency and comparability in financial statements. Key frameworks include IFRS and US GAAP.</p>",
+      "title": "Financial Reporting Standards - Overview",
+      "content": "<p><strong>WHAT THIS MEANS:</strong> Financial reporting standards are the 'rules of the game' for how companies prepare their financial statements. These standards ensure that financial statements are consistent, comparable, and reliable.</p><p><strong>WHY THIS MATTERS FOR THE EXAM:</strong> FSA represents 13-17% of the CFA Level I exam (approximately 23-31 questions out of 180). This is the SECOND HIGHEST weighted topic. Understanding financial statements is fundamental to analyzing investments.</p><p><strong>TWO MAJOR FRAMEWORKS:</strong></p><table style='width:100%;border-collapse:collapse;margin:20px 0;'><tr style='background:#f0f9ff;'><th style='border:1px solid #bae6fd;padding:12px;text-align:left;'>Feature</th><th style='border:1px solid #bae6fd;padding:12px;text-align:left;'>IFRS</th><th style='border:1px solid #bae6fd;padding:12px;text-align:left;'>US GAAP</th></tr><tr><td style='border:1px solid #e2e8f0;padding:12px;'>Full Name</td><td style='border:1px solid #e2e8f0;padding:12px;'>International Financial Reporting Standards</td><td style='border:1px solid #e2e8f0;padding:12px;'>U.S. Generally Accepted Accounting Principles</td></tr><tr><td style='border:1px solid #e2e8f0;padding:12px;'>Issued By</td><td style='border:1px solid #e2e8f0;padding:12px;'>IASB (International Accounting Standards Board)</td><td style='border:1px solid #e2e8f0;padding:12px;'>FASB (Financial Accounting Standards Board)</td></tr><tr><td style='border:1px solid #e2e8f0;padding:12px;'>Approach</td><td style='border:1px solid #e2e8f0;padding:12px;'>Principles-based (general guidelines, more judgment)</td><td style='border:1px solid #e2e8f0;padding:12px;'>Rules-based (specific rules, less judgment)</td></tr><tr><td style='border:1px solid #e2e8f0;padding:12px;'>Used In</td><td style='border:1px solid #e2e8f0;padding:12px;'>140+ countries including EU, Australia, Canada</td><td style='border:1px solid #e2e8f0;padding:12px;'>Primarily United States</td></tr><tr><td style='border:1px solid #e2e8f0;padding:12px;'>Inventory (LIFO)</td><td style='border:1px solid #e2e8f0;padding:12px;'>LIFO is PROHIBITED</td><td style='border:1px solid #e2e8f0;padding:12px;'>LIFO is ALLOWED</td></tr></table><p><strong>THE FOUR MAIN FINANCIAL STATEMENTS:</strong></p><ol><li><strong>Balance Sheet (Statement of Financial Position):</strong> Shows what the company OWNS (assets) and OWES (liabilities) at a specific point in time. Also shows shareholders' equity. FORMULA: Assets = Liabilities + Equity</li><li><strong>Income Statement (Statement of Profit or Loss):</strong> Shows the company's REVENUES and EXPENSES over a period of time (e.g., one year). Shows whether the company made a profit or loss.</li><li><strong>Cash Flow Statement:</strong> Shows how cash moved in and out of the company during a period. Divided into: Operating activities, Investing activities, Financing activities.</li><li><strong>Statement of Changes in Equity:</strong> Shows changes in shareholders' equity over a period.</li></ol><p><strong>ACCRUAL ACCOUNTING vs. CASH ACCOUNTING:</strong></p><ul><li><strong>Accrual Accounting (REQUIRED for financial statements):</strong> Record revenue when EARNED (not when cash is received). Record expenses when INCURRED (not when cash is paid). EXAMPLE: You deliver goods in December 2024 but don't get paid until January 2025. Under accrual accounting, you record the revenue in DECEMBER 2024 (when earned).</li><li><strong>Cash Accounting:</strong> Record revenue when CASH IS RECEIVED. Record expenses when CASH IS PAID. EXAMPLE: Using the same scenario, you'd record revenue in JANUARY 2025 (when cash received). This is NOT allowed for financial statements but is used for some tax purposes.</li></ul><p><strong>EXAM MEMORY TIP:</strong> Remember 'BARC' - Balance sheet, Activity (income), Revenue/expense matching, Cash flow statement. These are the four main statements.</p>",
       "keyPoints": [
+        "FSA = 13-17% of exam (23-31 questions) - SECOND HIGHEST weighted topic",
         "IFRS is principles-based, used in 140+ countries",
-        "US GAAP is rules-based, used primarily in the US",
-        "Key financial statements: Balance Sheet, Income Statement, Cash Flow",
-        "Accrual accounting recognizes revenues when earned"
+        "US GAAP is rules-based, used primarily in United States",
+        "IFRS prohibits LIFO inventory method; US GAAP allows it",
+        "Four main statements: Balance Sheet, Income Statement, Cash Flow, Changes in Equity",
+        "Balance Sheet formula: Assets = Liabilities + Equity",
+        "Accrual accounting records revenue when EARNED, not when cash received",
+        "Accrual accounting is REQUIRED for financial statements",
+        "Memory aid: 'BARC' - Balance sheet, Activity, Revenue/expense, Cash flow"
       ],
-      "formulas": [],
+      "formulas": [
+        {
+          "expression": "Assets = Liabilities + Shareholders' Equity",
+          "variables": {
+            "Assets": "What the company owns",
+            "Liabilities": "What the company owes",
+            "Shareholders' Equity": "Owners' residual claim"
+          }
+        }
+      ],
       "practiceQuestions": [
         {
           "id": "fsa-q1",
-          "question": "Under accrual accounting, revenue is recognized when:",
+          "question": "A company delivers products to a customer in December 2024 but doesn't receive payment until January 2025. Under accrual accounting, when should the revenue be recognized?",
           "options": [
-            "Cash is received",
-            "Goods are delivered or services performed",
-            "The contract is signed"
+            "December 2024, when the products were delivered",
+            "January 2025, when cash was received",
+            "Either December 2024 or January 2025, at management's discretion"
           ],
-          "correctAnswer": "B",
-          "explanation": "Accrual accounting recognizes revenue when it is earned (goods delivered or services performed), regardless of when cash is received."
+          "correctAnswer": "A",
+          "explanation": "Under accrual accounting, revenue is recognized when EARNED (when products are delivered), not when cash is received. This is the revenue recognition principle. Even though cash wasn't received until January, the company earned the revenue in December by delivering the products. EXAM TIP: This is a FUNDAMENTAL concept - accrual accounting focuses on when economic activity occurs, not when cash changes hands."
         },
         {
           "id": "fsa-q2",
-          "question": "Which of the following is a key difference between IFRS and US GAAP?",
+          "question": "Which of the following is a KEY DIFFERENCE between IFRS and US GAAP?",
           "options": [
-            "IFRS is rules-based",
-            "US GAAP is principles-based",
-            "IFRS is principles-based, US GAAP is rules-based"
+            "IFRS is rules-based while US GAAP is principles-based",
+            "IFRS prohibits LIFO inventory method while US GAAP allows it",
+            "IFRS is used only in Europe while US GAAP is used worldwide"
           ],
-          "correctAnswer": "C",
-          "explanation": "IFRS uses a principles-based approach providing general guidelines, while US GAAP uses a rules-based approach with specific requirements."
+          "correctAnswer": "B",
+          "explanation": "IFRS prohibits the LIFO (Last-In, First-Out) inventory method, while US GAAP allows it. This is one of the most important differences between the two frameworks. Option A is backwards - IFRS is principles-based, US GAAP is rules-based. Option C is wrong - IFRS is used in 140+ countries worldwide, not just Europe. EXAM TIP: LIFO prohibition is a VERY common exam question on IFRS vs. US GAAP differences."
+        },
+        {
+          "id": "fsa-q3",
+          "question": "The balance sheet equation states that:",
+          "options": [
+            "Assets + Liabilities = Equity",
+            "Assets = Liabilities + Equity",
+            "Assets - Equity = Liabilities + Equity"
+          ],
+          "correctAnswer": "B",
+          "explanation": "The fundamental balance sheet equation is: Assets = Liabilities + Equity. This equation must ALWAYS balance, which is why it's called a 'balance sheet.' Everything the company owns (assets) is financed either by creditors (liabilities) or by owners (equity). EXAM TIP: This is THE most fundamental accounting equation. You must know this cold for the exam."
         }
       ]
     },
     {
       "title": "Income Statement Analysis",
-      "content": "<p>The income statement shows a company's financial performance over a period. Key metrics include revenue, gross profit, operating income, and net income.</p>",
+      "content": "<p><strong>WHAT THIS MEANS:</strong> The income statement shows whether a company made money (profit) or lost money (loss) over a period of time. It's like a 'video' of the company's performance, not a 'snapshot' like the balance sheet.</p><p><strong>THE INCOME STATEMENT STRUCTURE (Top to Bottom):</strong></p><ol><li><strong>Revenue (Sales):</strong> Money coming in from selling goods or services. This is the 'top line.'</li><li><strong>Cost of Goods Sold (COGS):</strong> Direct costs of producing the goods or services sold. EXAMPLE: For a car manufacturer, COGS includes steel, tires, labor to assemble cars.</li><li><strong>Gross Profit:</strong> Revenue minus COGS. This shows how much profit the company makes on its core business BEFORE overhead costs. FORMULA: Gross Profit = Revenue - COGS</li><li><strong>Operating Expenses:</strong> Indirect costs not directly tied to production. EXAMPLES: Sales salaries, rent, utilities, marketing, R&D, administrative salaries.</li><li><strong>Operating Income (EBIT):</strong> Gross profit minus operating expenses. This shows profit from CORE OPERATIONS before interest and taxes. FORMULA: Operating Income = Gross Profit - Operating Expenses</li><li><strong>Interest Expense:</strong> Cost of borrowing money (interest on debt).</li><li><strong>Pre-Tax Income (EBT):</strong> Operating income minus interest expense. FORMULA: EBT = Operating Income - Interest</li><li><strong>Income Tax Expense:</strong> Taxes owed to the government.</li><li><strong>Net Income:</strong> The 'bottom line' - what's left after ALL expenses. FORMULA: Net Income = Pre-Tax Income - Taxes</li></ol><p><strong>KEY PROFITABILITY RATIOS:</strong></p><ul><li><strong>Gross Profit Margin:</strong> Shows what percentage of revenue remains after paying direct production costs. FORMULA: Gross Profit Margin = Gross Profit ÷ Revenue. EXAMPLE: If revenue is $1,000,000 and COGS is $600,000, then Gross Profit = $400,000 and Gross Profit Margin = 40%. This means for every $1 of sales, the company keeps $0.40 after direct production costs.</li><li><strong>Operating Profit Margin:</strong> Shows what percentage of revenue remains after ALL operating expenses. FORMULA: Operating Profit Margin = Operating Income ÷ Revenue. EXAMPLE: If revenue is $1,000,000 and operating income is $200,000, Operating Profit Margin = 20%.</li><li><strong>Net Profit Margin:</strong> Shows what percentage of revenue becomes actual profit (bottom line). FORMULA: Net Profit Margin = Net Income ÷ Revenue. EXAMPLE: If revenue is $1,000,000 and net income is $100,000, Net Profit Margin = 10%.</li></ul><p><strong>REAL EXAMPLE:</strong> Let's analyze Apple's income statement (simplified):<ul><li>Revenue: $394 billion</li><li>COGS: $223 billion</li><li>Gross Profit: $171 billion (43% margin)</li><li>Operating Expenses: $51 billion</li><li>Operating Income: $120 billion (30% margin)</li><li>Interest & Taxes: $20 billion</li><li>Net Income: $100 billion (25% margin)</li></ul>This tells us Apple keeps 43 cents of every dollar after direct costs, 30 cents after all operating costs, and 25 cents as final profit.</p><p><strong>EXAM MEMORY TIP:</strong> Remember the income statement flows like water falling down stairs: Revenue → Gross Profit → Operating Income → Net Income. Each step subtracts more expenses.</p>",
       "keyPoints": [
-        "Revenue - Cost of Goods Sold = Gross Profit",
-        "Gross Profit - Operating Expenses = Operating Income",
-        "Operating Income - Interest - Taxes = Net Income",
-        "EPS = Net Income / Shares Outstanding"
+        "Income statement shows performance OVER A PERIOD OF TIME (not a point in time)",
+        "Revenue is the 'top line,' Net Income is the 'bottom line'",
+        "Gross Profit = Revenue - Cost of Goods Sold (COGS)",
+        "Operating Income = Gross Profit - Operating Expenses",
+        "Net Income = Operating Income - Interest - Taxes",
+        "Gross Profit Margin = Gross Profit ÷ Revenue",
+        "Operating Profit Margin = Operating Income ÷ Revenue",
+        "Net Profit Margin = Net Income ÷ Revenue",
+        "Higher margins are generally better (but compare within same industry)"
       ],
       "formulas": [
         {
+          "expression": "Gross Profit = Revenue - COGS",
+          "variables": {
+            "Revenue": "Total sales",
+            "COGS": "Cost of goods sold (direct production costs)"
+          }
+        },
+        {
           "expression": "Gross Profit Margin = Gross Profit / Revenue",
           "variables": {
-            "Gross Profit": "Revenue - COGS",
+            "Gross Profit": "Revenue minus COGS",
             "Revenue": "Total sales"
           }
         },
         {
           "expression": "Net Profit Margin = Net Income / Revenue",
           "variables": {
-            "Net Income": "Bottom line profit",
+            "Net Income": "Bottom line profit after all expenses",
             "Revenue": "Total sales"
           }
         }
       ],
       "practiceQuestions": [
         {
-          "id": "fsa-q3",
-          "question": "If a company has revenue of $1,000,000 and COGS of $600,000, its gross profit margin is:",
+          "id": "fsa-q4",
+          "question": "A company has revenue of $500,000, COGS of $300,000, and operating expenses of $100,000. What is the company's gross profit?",
           "options": [
-            "40%",
-            "50%",
-            "60%"
+            "$100,000",
+            "$200,000",
+            "$300,000"
           ],
-          "correctAnswer": "A",
-          "explanation": "Gross Profit = $1,000,000 - $600,000 = $400,000. Gross Profit Margin = $400,000 / $1,000,000 = 40%"
+          "correctAnswer": "B",
+          "explanation": "Gross Profit = Revenue - COGS = $500,000 - $300,000 = $200,000. Operating expenses are NOT subtracted when calculating gross profit - they're subtracted later to get operating income. EXAM TIP: Don't confuse gross profit with operating income. Gross profit only subtracts COGS; operating income also subtracts operating expenses."
+        },
+        {
+          "id": "fsa-q5",
+          "question": "If a company has a gross profit margin of 40% and revenue of $1,000,000, what is its COGS?",
+          "options": [
+            "$400,000",
+            "$600,000",
+            "$800,000"
+          ],
+          "correctAnswer": "B",
+          "explanation": "Gross Profit Margin = 40% means Gross Profit = 40% × $1,000,000 = $400,000. Since Gross Profit = Revenue - COGS, we can solve: $400,000 = $1,000,000 - COGS. Therefore COGS = $1,000,000 - $400,000 = $600,000. EXAM TIP: You need to know how to work with margins in both directions - from revenue to profit, and from profit margin back to COGS."
         }
       ]
     },
     {
       "title": "Balance Sheet Analysis",
-      "content": "<p>The balance sheet shows a company's financial position at a point in time. It follows the equation: Assets = Liabilities + Equity.</p>",
+      "content": "<p><strong>WHAT THIS MEANS:</strong> The balance sheet is a 'snapshot' of the company's financial position at a specific point in time. It shows what the company owns, what it owes, and what's left for shareholders.</p><p><strong>THE BALANCE SHEET EQUATION (MUST KNOW):</strong></p><p style='background:#f0f9ff;padding:15px;border-radius:8px;text-align:center;font-size:1.2em;'><strong>ASSETS = LIABILITIES + SHAREHOLDERS' EQUITY</strong></p><p>This equation MUST always balance - that's why it's called a BALANCE sheet!</p><p><strong>THREE MAIN SECTIONS:</strong></p><ol><li><strong>ASSETS (What the company OWNS):</strong><ul><li><strong>Current Assets:</strong> Expected to be converted to cash or used up within ONE YEAR. EXAMPLES: Cash, accounts receivable (money customers owe), inventory, prepaid expenses.</li><li><strong>Non-Current Assets (Long-term):</strong> Expected to provide benefit for MORE THAN ONE YEAR. EXAMPLES: Property, plant & equipment (PP&E), intangible assets (patents, trademarks), long-term investments.</li></ul></li><li><strong>LIABILITIES (What the company OWES):</strong><ul><li><strong>Current Liabilities:</strong> Due within ONE YEAR. EXAMPLES: Accounts payable (money owed to suppliers), short-term debt, accrued expenses, taxes payable.</li><li><strong>Non-Current Liabilities (Long-term):</strong> Due after MORE THAN ONE YEAR. EXAMPLES: Long-term debt, pension obligations, deferred tax liabilities.</li></ul></li><li><strong>SHAREHOLDERS' EQUITY (What's LEFT for owners):</strong><ul><li><strong>Common Stock:</strong> Money shareholders invested by buying stock.</li><li><strong>Retained Earnings:</strong> Profits the company kept (didn't pay out as dividends).</li><li><strong>Additional Paid-In Capital:</strong> Extra money shareholders paid above par value.</li></ul></li></ol><p><strong>KEY BALANCE SHEET RATIOS:</strong></p><ul><li><strong>Current Ratio:</strong> Measures ability to pay short-term bills. FORMULA: Current Ratio = Current Assets ÷ Current Liabilities. EXAMPLE: If current assets = $500,000 and current liabilities = $250,000, Current Ratio = 2.0. This means the company has $2 in current assets for every $1 in current liabilities. RULE OF THUMB: Current ratio above 1.5 is generally healthy; below 1.0 is concerning.</li><li><strong>Quick Ratio (Acid Test):</strong> More conservative measure of liquidity (excludes inventory). FORMULA: Quick Ratio = (Current Assets - Inventory) ÷ Current Liabilities. EXAMPLE: If current assets = $500,000, inventory = $200,000, and current liabilities = $250,000, Quick Ratio = ($500,000 - $200,000) ÷ $250,000 = 1.2.</li><li><strong>Debt-to-Equity Ratio:</strong> Measures financial leverage (how much debt vs. equity). FORMULA: Debt-to-Equity = Total Debt ÷ Total Equity. EXAMPLE: If total debt = $1,000,000 and total equity = $2,000,000, D/E = 0.5 or 50%. This means the company uses 50 cents of debt for every $1 of equity.</li></ul><p><strong>REAL EXAMPLE:</strong> Let's analyze a simple balance sheet:<table style='width:100%;border-collapse:collapse;margin:20px 0;'><tr style='background:#f0f9ff;'><th style='border:1px solid #bae6fd;padding:12px;'>ASSETS</th><th style='border:1px solid #bae6fd;padding:12px;'>LIABILITIES & EQUITY</th></tr><tr><td style='border:1px solid #e2e8f0;padding:12px;'>Cash: $100,000</td><td style='border:1px solid #e2e8f0;padding:12px;'>Accounts Payable: $80,000</td></tr><tr><td style='border:1px solid #e2e8f0;padding:12px;'>Accounts Receivable: $150,000</td><td style='border:1px solid #e2e8f0;padding:12px;'>Short-term Debt: $70,000</td></tr><tr><td style='border:1px solid #e2e8f0;padding:12px;'>Inventory: $200,000</td><td style='border:1px solid #e2e8f0;padding:12px;'>Total Current Liabilities: $150,000</td></tr><tr><td style='border:1px solid #e2e8f0;padding:12px;'>Total Current Assets: $450,000</td><td style='border:1px solid #e2e8f0;padding:12px;'>Long-term Debt: $300,000</td></tr><tr><td style='border:1px solid #e2e8f0;padding:12px;'>PP&E: $550,000</td><td style='border:1px solid #e2e8f0;padding:12px;'>Total Liabilities: $450,000</td></tr><tr><td style='border:1px solid #e2e8f0;padding:12px;'>Total Assets: $1,000,000</td><td style='border:1px solid #e2e8f0;padding:12px;'>Equity: $550,000</td></tr><tr><td style='border:1px solid #e2e8f0;padding:12px;'></td><td style='border:1px solid #e2e8f0;padding:12px;'>Total Liab. + Equity: $1,000,000 ✓</td></tr></table>Current Ratio = $450,000 ÷ $150,000 = 3.0 (very liquid!) Debt-to-Equity = $450,000 ÷ $550,000 = 0.82 (reasonable leverage)</p><p><strong>EXAM MEMORY TIP:</strong> Remember 'CLANCY' for Current Assets: Cash, Liquid assets, Accounts receivable, Not inventory (yet), Yes inventory. Current assets are listed in order of liquidity (how quickly they can be converted to cash).</p>",
       "keyPoints": [
-        "Assets = Liabilities + Shareholders' Equity",
-        "Current assets expected to be converted to cash within one year",
-        "Current liabilities due within one year",
-        "Working capital = Current assets - Current liabilities"
+        "Balance sheet is a SNAPSHOT at a point in time (not over a period)",
+        "Assets = Liabilities + Equity (MUST ALWAYS BALANCE)",
+        "Current assets expected to be used/converted within ONE YEAR",
+        "Current liabilities due within ONE YEAR",
+        "Current Ratio = Current Assets ÷ Current Liabilities",
+        "Quick Ratio = (Current Assets - Inventory) ÷ Current Liabilities",
+        "Debt-to-Equity = Total Debt ÷ Total Equity",
+        "Current ratio above 1.5 is generally healthy; below 1.0 is concerning",
+        "Assets listed in order of liquidity (most liquid first)"
       ],
       "formulas": [
         {
           "expression": "Current Ratio = Current Assets / Current Liabilities",
           "variables": {
-            "Current Assets": "Cash + receivables + inventory",
-            "Current Liabilities": "Short-term debt + payables"
+            "Current Assets": "Cash + receivables + inventory + other short-term assets",
+            "Current Liabilities": "Payables + short-term debt + other obligations due within 1 year"
+          }
+        },
+        {
+          "expression": "Quick Ratio = (Current Assets - Inventory) / Current Liabilities",
+          "variables": {
+            "Current Assets": "Total current assets",
+            "Inventory": "Excluded because less liquid",
+            "Current Liabilities": "Obligations due within 1 year"
+          }
+        },
+        {
+          "expression": "Debt-to-Equity = Total Debt / Total Equity",
+          "variables": {
+            "Total Debt": "Short-term + long-term debt",
+            "Total Equity": "Shareholders' equity"
           }
         }
       ],
       "practiceQuestions": [
         {
-          "id": "fsa-q4",
-          "question": "A company with current assets of $500,000 and current liabilities of $250,000 has a current ratio of:",
+          "id": "fsa-q6",
+          "question": "A company has current assets of $600,000 and current liabilities of $300,000. What is its current ratio?",
           "options": [
             "0.5",
             "2.0",
-            "1.5"
+            "3.0"
           ],
           "correctAnswer": "B",
-          "explanation": "Current Ratio = $500,000 / $250,000 = 2.0"
+          "explanation": "Current Ratio = Current Assets ÷ Current Liabilities = $600,000 ÷ $300,000 = 2.0. This means the company has $2 in current assets for every $1 in current liabilities, which is a healthy liquidity position. EXAM TIP: Current ratio above 1.0 means the company can pay its short-term bills; above 1.5 is generally considered healthy."
+        },
+        {
+          "id": "fsa-q7",
+          "question": "Which of the following is classified as a CURRENT ASSET?",
+          "options": [
+            "Property, plant, and equipment",
+            "Accounts receivable expected to be collected in 6 months",
+            "Long-term investments"
+          ],
+          "correctAnswer": "B",
+          "explanation": "Accounts receivable expected to be collected in 6 months is a current asset because it will be converted to cash within one year. Property, plant, and equipment (option A) and long-term investments (option C) are non-current assets because they provide benefit for more than one year. EXAM TIP: The key question is: Will this be converted to cash or used up within ONE YEAR? If yes, it's current; if no, it's non-current."
         }
       ]
-    }
-  ]
-}
+    },
+    {
+      "title": "Cash Flow Statement Analysis",
+      "content": "<p><strong>WHAT THIS MEANS:</strong> The cash flow statement shows how cash moved in and out of the company during a period. It answers: 'Where did cash come from, and where did it go?'</p><p><strong>WHY CASH FLOW MATTERS:</strong> A company can show a PROFIT on the income statement but still run out of CASH. EXAMPLE: A company sells $1 million of products (records revenue) but customers haven't paid yet (all on credit). The income statement shows $1 million profit, but the company has ZERO cash to pay employees and suppliers. Cash flow statement reveals this problem.</p><p><strong>THREE SECTIONS OF CASH FLOW STATEMENT:</strong></p><ol><li><strong>CASH FLOW FROM OPERATING ACTIVITIES (CFO):</strong> Cash from the company's CORE BUSINESS OPERATIONS.<ul><li><strong>Cash INFLOWS (+):</strong> Cash from customers, interest received, dividends received</li><li><strong>Cash OUTFLOWS (-):</strong> Cash paid to suppliers, cash paid to employees, interest paid, taxes paid</li><li><strong>EXAMPLE:</strong> If a retail store collects $500,000 from customers and pays $300,000 to suppliers and $100,000 to employees, CFO = +$100,000</li><li><strong>IMPORTANT:</strong> Positive CFO is CRITICAL for long-term survival. Companies can survive with negative investing or financing cash flow, but NOT with negative operating cash flow (for long).</li></ul></li><li><strong>CASH FLOW FROM INVESTING ACTIVITIES (CFI):</strong> Cash from buying/selling LONG-TERM ASSETS.<ul><li><strong>Cash INFLOWS (+):</strong> Selling property/equipment, selling investments, collecting loan principal</li><li><strong>Cash OUTFLOWS (-):</strong> Buying property/equipment (CapEx), buying investments, lending money</li><li><strong>EXAMPLE:</strong> If a company sells old equipment for $50,000 but buys new equipment for $200,000, CFI = -$150,000</li><li><strong>IMPORTANT:</strong> Negative CFI is often GOOD - it means the company is investing in growth (buying new equipment, expanding).</li></ul></li><li><strong>CASH FLOW FROM FINANCING ACTIVITIES (CFF):</strong> Cash from transactions with OWNERS and CREDITORS.<ul><li><strong>Cash INFLOWS (+):</strong> Issuing stock, issuing bonds, borrowing from banks</li><li><strong>Cash OUTFLOWS (-):</strong> Paying dividends, repurchasing stock, repaying debt principal</li><li><strong>EXAMPLE:</strong> If a company issues $1 million in bonds, pays $200,000 in dividends, and repays $300,000 of debt, CFF = +$500,000</li><li><strong>IMPORTANT:</strong> Positive CFF means raising capital; negative CFF means returning capital to investors/creditors.</li></ul></li></ol><p><strong>CALCULATING NET CHANGE IN CASH:</strong></p><p style='background:#f0f9ff;padding:15px;border-radius:8px;'><strong>Net Change in Cash = CFO + CFI + CFF</strong></p><p>Then: <strong>Ending Cash = Beginning Cash + Net Change in Cash</strong></p><p><strong>REAL EXAMPLE:</strong> Let's analyze Apple's cash flow (simplified, in billions):<table style='width:100%;border-collapse:collapse;margin:20px 0;'><tr style='background:#f0f9ff;'><th style='border:1px solid #bae6fd;padding:12px;'>Cash Flow Category</th><th style='border:1px solid #bae6fd;padding:12px;'>Amount</th><th style='border:1px solid #bae6fd;padding:12px;'>What It Means</th></tr><tr><td style='border:1px solid #e2e8f0;padding:12px;'>Operating (CFO)</td><td style='border:1px solid #e2e8f0;padding:12px;'>+$122 billion</td><td style='border:1px solid #e2e8f0;padding:12px;'>Core business generates lots of cash ✓</td></tr><tr><td style='border:1px solid #e2e8f0;padding:12px;'>Investing (CFI)</td><td style='border:1px solid #e2e8f0;padding:12px;'>-$22 billion</td><td style='border:1px solid #e2e8f0;padding:12px;'>Investing in equipment, acquisitions</td></tr><tr><td style='border:1px solid #e2e8f0;padding:12px;'>Financing (CFF)</td><td style='border:1px solid #e2e8f0;padding:12px;'>-$110 billion</td><td style='border:1px solid #e2e8f0;padding:12px;'>Paying dividends, buybacks, repaying debt</td></tr><tr><td style='border:1px solid #e2e8f0;padding:12px;'><strong>Net Change</strong></td><td style='border:1px solid #e2e8f0;padding:12px;'><strong>-$10 billion</strong></td><td style='border:1px solid #e2e8f0;padding:12px;'>Cash decreased slightly</td></tr></table>This tells us Apple's core business is a cash machine (+$122B from operations), they're investing in growth (-$22B), and returning massive cash to shareholders (-$110B in dividends and buybacks).</p><p><strong>INDIRECT METHOD vs. DIRECT METHOD:</strong></p><ul><li><strong>Indirect Method (MOST COMMON):</strong> Starts with net income and adjusts for non-cash items. EXAMPLE: Net Income: $100M, Add back depreciation: +$20M, Subtract increase in accounts receivable: -$10M → CFO = $110M</li><li><strong>Direct Method:</strong> Lists actual cash receipts and payments. EXAMPLE: Cash from customers: $500M, Cash to suppliers: -$300M, Cash to employees: -$100M 
