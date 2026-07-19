@@ -1,31 +1,37 @@
 {
   "sections": [
     {
-      "title": "Time Value of Money",
-      "content": "<p>The time value of money is a fundamental concept in finance stating that a dollar today is worth more than a dollar in the future due to its potential earning capacity.</p><p>Key applications include calculating present value, future value, and understanding compounding periods.</p>",
+      "title": "Time Value of Money - Core Concepts",
+      "content": "<p><strong>WHAT THIS MEANS:</strong> The time value of money (TVM) is the MOST IMPORTANT concept in finance. It means: A dollar TODAY is worth MORE than a dollar TOMORROW. Why? Because you can invest today's dollar and earn interest on it.</p><p><strong>WHY THIS MATTERS FOR THE EXAM:</strong> Quantitative Methods represents 8-12% of the CFA Level I exam (approximately 14-22 questions out of 180). TVM is the FOUNDATION for everything else - bond valuation, stock valuation, capital budgeting, etc. You MUST master this.</p><p><strong>THE BASIC IDEA:</strong> If I offer you $1,000 TODAY or $1,000 ONE YEAR FROM NOW, which should you choose? ANSWER: Take it TODAY! Why? Because you can invest it and earn interest. If you can earn 5% interest, that $1,000 today becomes $1,050 in one year. So $1,000 today is WORTH MORE than $1,000 next year.</p><p><strong>KEY TERMS:</strong></p><ul><li><strong>Present Value (PV):</strong> What money is worth TODAY. EXAMPLE: If you need $1,050 in one year and can earn 5% interest, you need to invest $1,000 TODAY. So PV = $1,000.</li><li><strong>Future Value (FV):</strong> What money will be worth in the FUTURE. EXAMPLE: If you invest $1,000 today at 5% interest, in one year you'll have $1,050. So FV = $1,050.</li><li><strong>Interest Rate (r or I/Y):</strong> The rate of return you can earn. Also called 'discount rate' or 'required rate of return.' EXAMPLE: 5% per year.</li><li><strong>Number of Periods (N or n):</strong> How many time periods (years, months, etc.). EXAMPLE: 5 years = N=5.</li></ul><p><strong>THE BASIC TVM FORMULA:</strong></p><p style='background:#f0f9ff;padding:15px;border-radius:8px;text-align:center;font-size:1.2em;'><strong>FV = PV × (1 + r)^N</strong></p><p>Where:<ul><li>FV = Future Value</li><li>PV = Present Value</li><li>r = Interest rate per period (as a decimal, so 5% = 0.05)</li><li>N = Number of periods</li></ul></p><p><strong>EXAMPLE:</strong> You invest $1,000 at 8% annual interest for 5 years. What will you have?</p><ul><li>PV = $1,000</li><li>r = 8% = 0.08</li><li>N = 5 years</li><li>FV = $1,000 × (1 + 0.08)^5</li><li>FV = $1,000 × 1.4693</li><li>FV = $1,469.33</li></ul><p>After 5 years, you'll have $1,469.33.</p><p><strong>COMPOUNDING FREQUENCY MATTERS:</strong></p><p>The more frequently interest is compounded, the HIGHER your future value will be.</p><ul><li><strong>Annual compounding:</strong> Interest paid once per year</li><li><strong>Semi-annual compounding:</strong> Interest paid twice per year</li><li><strong>Quarterly compounding:</strong> Interest paid 4 times per year</li><li><strong>Monthly compounding:</strong> Interest paid 12 times per year</li><li><strong>Daily compounding:</strong> Interest paid 365 times per year</li><li><strong>Continuous compounding:</strong> Interest paid constantly (maximum possible)</li></ul><p><strong>ADJUSTING FOR COMPOUNDING FREQUENCY:</strong></p><p>If interest is compounded more than once per year, you must adjust:</p><ul><li>Divide the interest rate by the number of compounding periods per year (m)</li><li>Multiply the number of years by m</li></ul><p>FORMULA: FV = PV × (1 + r/m)^(N×m)</p><p><strong>EXAMPLE:</strong> $1,000 invested at 12% annual rate for 2 years, compounded SEMI-ANNUALLY:</p><ul><li>r = 12% annual, but 6% per semi-annual period (12% ÷ 2)</li><li>N = 2 years, but 4 semi-annual periods (2 × 2)</li><li>FV = $1,000 × (1 + 0.06)^4</li><li>FV = $1,000 × 1.2625</li><li>FV = $1,262.48</li></ul><p><strong>EFFECTIVE ANNUAL RATE (EAR):</strong></p><p>The EAR tells you the TRUE annual return when compounding occurs more than once per year.</p><p style='background:#f0f9ff;padding:15px;border-radius:8px;'><strong>EAR = (1 + periodic_rate)^m - 1</strong></p><p>Where m = number of compounding periods per year</p><p><strong>EXAMPLE:</strong> 12% stated rate, compounded monthly:</p><ul><li>Periodic rate = 12% ÷ 12 = 1% per month</li><li>EAR = (1 + 0.01)^12 - 1</li><li>EAR = 1.1268 - 1 = 0.1268 = 12.68%</li></ul><p>Even though the stated rate is 12%, you actually earn 12.68% due to monthly compounding!</p><p><strong>EXAM MEMORY TIP:</strong> Remember 'MORE = MORE' - More frequent compounding = MORE future value = MORE EAR. Continuous compounding gives the MAXIMUM possible EAR.</p>",
       "keyPoints": [
-        "Present value (PV) discounts future cash flows",
-        "Future value (FV) compounds current cash flows",
-        "More frequent compounding increases future value",
-        "Effective annual rate (EAR) accounts for compounding frequency"
+        "Quant = 8-12% of exam (14-22 questions) - THIRD highest weighted topic",
+        "Time Value of Money is the FOUNDATION for all valuation",
+        "A dollar TODAY is worth MORE than a dollar TOMORROW",
+        "FV = PV × (1 + r)^N - MUST KNOW THIS FORMULA",
+        "More frequent compounding = HIGHER future value",
+        "EAR = (1 + periodic_rate)^m - 1",
+        "Continuous compounding gives the MAXIMUM EAR",
+        "For semi-annual: divide rate by 2, multiply periods by 2",
+        "For monthly: divide rate by 12, multiply periods by 12",
+        "Memory aid: 'MORE = MORE' - More compounding = More FV"
       ],
       "formulas": [
         {
-          "expression": "FV = PV × (1 + r)^n",
+          "expression": "FV = PV × (1 + r)^N",
           "variables": {
             "FV": "Future value",
             "PV": "Present value",
-            "r": "Interest rate per period",
-            "n": "Number of periods"
+            "r": "Interest rate per period (as decimal)",
+            "N": "Number of periods"
           }
         },
         {
-          "expression": "PV = FV / (1 + r)^n",
+          "expression": "PV = FV / (1 + r)^N",
           "variables": {
             "PV": "Present value",
             "FV": "Future value",
             "r": "Interest rate per period",
-            "n": "Number of periods"
+            "N": "Number of periods"
           }
         },
         {
@@ -40,39 +46,28 @@
       "practiceQuestions": [
         {
           "id": "quant-q1",
-          "question": "If you invest $1,000 today at 8% annual interest compounded annually, what will be the value after 5 years?",
+          "question": "If you invest $5,000 today at 6% annual interest compounded annually, what will be the value after 10 years?",
           "options": [
-            "$1,400.25",
-            "$1,469.33",
-            "$1,520.50"
+            "$8,000.00",
+            "$8,954.24",
+            "$9,500.00"
           ],
           "correctAnswer": "B",
-          "explanation": "FV = $1,000 × (1 + 0.08)^5 = $1,000 × 1.46933 = $1,469.33"
+          "explanation": "FV = PV × (1 + r)^N = $5,000 × (1 + 0.06)^10 = $5,000 × 1.7908 = $8,954.24. EXAM TIP: Make sure your calculator is set to the correct compounding frequency. For annual compounding, I/Y = 6, N = 10, PV = -5000, CPT FV."
         },
         {
           "id": "quant-q2",
-          "question": "What is the present value of $10,000 to be received in 10 years, discounted at 6% annually?",
-          "options": [
-            "$5,583.95",
-            "$6,139.20",
-            "$5,000.00"
-          ],
-          "correctAnswer": "A",
-          "explanation": "PV = $10,000 / (1 + 0.06)^10 = $10,000 / 1.79085 = $5,583.95"
-        },
-        {
-          "id": "quant-q3",
-          "question": "Which compounding frequency produces the highest effective annual rate for a 10% stated annual rate?",
+          "question": "Which of the following compounding frequencies produces the HIGHEST effective annual rate for a 10% stated annual rate?",
           "options": [
             "Annual compounding",
             "Monthly compounding",
             "Continuous compounding"
           ],
           "correctAnswer": "C",
-          "explanation": "Continuous compounding produces the highest EAR. EAR for continuous compounding = e^0.10 - 1 = 10.517%, which is higher than monthly (10.47%) or annual (10%)."
+          "explanation": "Continuous compounding produces the MAXIMUM possible EAR. For 10% stated rate: Annual EAR = 10.00%, Monthly EAR = 10.47%, Continuous EAR = e^0.10 - 1 = 10.517%. EXAM TIP: Remember 'MORE = MORE' - more frequent compounding = higher EAR. Continuous is the maximum."
         },
         {
-          "id": "quant-q4",
+          "id": "quant-q3",
           "question": "The effective annual rate (EAR) for a 12% stated annual rate compounded quarterly is closest to:",
           "options": [
             "12.00%",
@@ -80,55 +75,172 @@
             "12.68%"
           ],
           "correctAnswer": "B",
-          "explanation": "EAR = (1 + 0.12/4)^4 - 1 = (1.03)^4 - 1 = 1.1255 - 1 = 12.55%"
-        },
-        {
-          "id": "quant-q5",
-          "question": "An annuity that pays $1,000 at the end of each year for 5 years, discounted at 8%, has a present value closest to:",
-          "options": [
-            "$3,992.71",
-            "$4,312.13",
-            "$5,000.00"
-          ],
-          "correctAnswer": "A",
-          "explanation": "PV of ordinary annuity = PMT × [(1 - (1+r)^-n) / r] = $1,000 × [(1 - 1.08^-5) / 0.08] = $1,000 × 3.99271 = $3,992.71"
+          "explanation": "EAR = (1 + periodic_rate)^m - 1 = (1 + 0.12/4)^4 - 1 = (1.03)^4 - 1 = 1.1255 - 1 = 12.55%. EXAM TIP: For quarterly compounding, divide the rate by 4 and raise to the 4th power."
         }
       ]
     },
     {
-      "title": "Statistical Measures",
-      "content": "<p>Statistical measures help summarize and describe data sets. Key measures include central tendency (mean, median, mode) and dispersion (variance, standard deviation, range).</p>",
+      "title": "Annuities and Perpetuities",
+      "content": "<p><strong>WHAT THIS MEANS:</strong> An annuity is a series of EQUAL payments made at REGULAR intervals. A perpetuity is an annuity that goes on FOREVER (infinite payments).</p><p><strong>TYPES OF ANNUITIES:</strong></p><ol><li><strong>Ordinary Annuity:</strong> Payments occur at the END of each period. EXAMPLE: Most bonds pay interest at the end of each period. Mortgage payments are typically ordinary annuities.</li><li><strong>Annuity Due:</strong> Payments occur at the BEGINNING of each period. EXAMPLE: Rent payments, insurance premiums, lease payments - you pay at the start of the month.</li></ol><p><strong>KEY DIFFERENCE:</strong> Annuity Due payments happen ONE PERIOD EARLIER, so they have MORE time to earn interest. Therefore, for the same payment amount and interest rate, an Annuity Due has a HIGHER present value and future value than an Ordinary Annuity.</p><p><strong>PRESENT VALUE OF ORDINARY ANNUITY:</strong></p><p style='background:#f0f9ff;padding:15px;border-radius:8px;'><strong>PV = PMT × [1 - (1 + r)^-N] / r</strong></p><p>Where:<ul><li>PV = Present value of the annuity</li><li>PMT = Payment amount per period</li><li>r = Interest rate per period</li><li>N = Number of payments</li></ul></p><p><strong>EXAMPLE:</strong> You win a lottery that pays $10,000 per year for 20 years (ordinary annuity). If you can earn 5% on your investments, what is the present value of your winnings?</p><ul><li>PMT = $10,000</li><li>r = 5% = 0.05</li><li>N = 20 years</li><li>PV = $10,000 × [1 - (1.05)^-20] / 0.05</li><li>PV = $10,000 × [1 - 0.3769] / 0.05</li><li>PV = $10,000 × 12.4622</li><li>PV = $124,622</li></ul><p>Even though you'll receive $200,000 total ($10,000 × 20 years), the present value is only $124,622 because of the time value of money.</p><p><strong>FUTURE VALUE OF ORDINARY ANNUITY:</strong></p><p style='background:#f0f9ff;padding:15px;border-radius:8px;'><strong>FV = PMT × [(1 + r)^N - 1] / r</strong></p><p><strong>EXAMPLE:</strong> You save $5,000 per year for 30 years in a retirement account earning 7% annually. How much will you have?</p><ul><li>PMT = $5,000</li><li>r = 7% = 0.07</li><li>N = 30 years</li><li>FV = $5,000 × [(1.07)^30 - 1] / 0.07</li><li>FV = $5,000 × [7.6123 - 1] / 0.07</li><li>FV = $5,000 × 94.461</li><li>FV = $472,305</li></ul><p>You only contributed $150,000 ($5,000 × 30), but earned $322,305 in interest!</p><p><strong>PERPETUITY (Infinite Annuity):</strong></p><p>A perpetuity pays the SAME amount FOREVER. While this sounds unrealistic, it's used to value preferred stock and some bonds (consols).</p><p style='background:#f0f9ff;padding:15px;border-radius:8px;'><strong>PV of Perpetuity = PMT / r</strong></p><p><strong>EXAMPLE:</strong> A preferred stock pays $5 per year forever. If your required return is 8%, what is the stock worth?</p><ul><li>PMT = $5</li><li>r = 8% = 0.08</li><li>PV = $5 / 0.08 = $62.50</li></ul><p>The stock is worth $62.50.</p><p><strong>ANNUITY DUE ADJUSTMENT:</strong></p><p>To convert an Ordinary Annuity value to Annuity Due, MULTIPLY by (1 + r):</p><ul><li>PV of Annuity Due = PV of Ordinary Annuity × (1 + r)</li><li>FV of Annuity Due = FV of Ordinary Annuity × (1 + r)</li></ul><p><strong>EXAM MEMORY TIP:</strong> Remember 'BEGIN = BIGGER' - Annuity Due (BEGINning of period) has BIGGER PV and FV than Ordinary Annuity.</p>",
       "keyPoints": [
-        "Arithmetic mean is the sum divided by count",
-        "Geometric mean is used for compound growth rates",
-        "Standard deviation measures dispersion from mean",
-        "Coefficient of variation normalizes dispersion"
+        "Ordinary Annuity: payments at END of each period",
+        "Annuity Due: payments at BEGINNING of each period",
+        "Annuity Due has HIGHER PV and FV than Ordinary Annuity",
+        "PV of Ordinary Annuity = PMT × [1 - (1+r)^-N] / r",
+        "FV of Ordinary Annuity = PMT × [(1+r)^N - 1] / r",
+        "PV of Perpetuity = PMT / r (simple formula!)",
+        "Perpetuity pays FOREVER (infinite payments)",
+        "To convert Ordinary to Due: multiply by (1 + r)",
+        "Most bonds and mortgages are ordinary annuities",
+        "Rent and insurance premiums are annuities due",
+        "Memory aid: 'BEGIN = BIGGER' - Annuity Due is bigger"
+      ],
+      "formulas": [
+        {
+          "expression": "PV of Ordinary Annuity = PMT × [1 - (1+r)^-N] / r",
+          "variables": {
+            "PMT": "Payment per period",
+            "r": "Interest rate per period",
+            "N": "Number of periods"
+          }
+        },
+        {
+          "expression": "FV of Ordinary Annuity = PMT × [(1+r)^N - 1] / r",
+          "variables": {
+            "PMT": "Payment per period",
+            "r": "Interest rate per period",
+            "N": "Number of periods"
+          }
+        },
+        {
+          "expression": "PV of Perpetuity = PMT / r",
+          "variables": {
+            "PMT": "Payment per period (continues forever)",
+            "r": "Discount rate"
+          }
+        }
+      ],
+      "practiceQuestions": [
+        {
+          "id": "quant-q4",
+          "question": "A preferred stock pays a $6 annual dividend forever. If the required rate of return is 7%, what is the value of the stock?",
+          "options": [
+            "$42.00",
+            "$60.00",
+            "$85.71"
+          ],
+          "correctAnswer": "C",
+          "explanation": "PV of Perpetuity = PMT / r = $6 / 0.07 = $85.71. EXAM TIP: Preferred stock valuation is a classic perpetuity problem. Remember the simple formula: PV = PMT / r."
+        },
+        {
+          "id": "quant-q5",
+          "question": "For the same payment amount, interest rate, and number of periods, which has a HIGHER present value?",
+          "options": [
+            "Ordinary annuity",
+            "Annuity due",
+            "They have the same present value"
+          ],
+          "correctAnswer": "B",
+          "explanation": "Annuity Due has a higher present value because payments occur at the BEGINNING of each period, giving each payment one extra period to earn interest. To convert: PV of Annuity Due = PV of Ordinary Annuity × (1 + r). EXAM TIP: Remember 'BEGIN = BIGGER' - payments at the beginning are worth more."
+        }
+      ]
+    },
+    {
+      "title": "Statistical Measures - Central Tendency",
+      "content": "<p><strong>WHAT THIS MEANS:</strong> Statistical measures help us summarize and describe data. 'Central tendency' tells us where the 'center' or 'average' of the data is.</p><p><strong>THREE MEASURES OF CENTRAL TENDENCY:</strong></p><ol><li><strong>Arithmetic Mean (Average):</strong> The sum of all values divided by the number of values. FORMULA: Mean = (Sum of all values) / (Number of values). EXAMPLE: Returns of 5%, 10%, 15% → Mean = (5 + 10 + 15) / 3 = 10%. MOST COMMONLY USED measure of central tendency.</li><li><strong>Median:</strong> The MIDDLE value when data is arranged from smallest to largest. EXAMPLE: Returns of 5%, 10%, 15%, 20%, 25% → Median = 15% (the middle value). If there's an even number of observations, take the average of the two middle values. EXAMPLE: 5%, 10%, 15%, 20% → Median = (10% + 15%) / 2 = 12.5%. USEFUL WHEN: Data has OUTLIERS (extreme values). The median is not affected by outliers.</li><li><strong>Mode:</strong> The value that appears MOST FREQUENTLY. EXAMPLE: Returns of 5%, 10%, 10%, 15%, 20% → Mode = 10% (appears twice). A dataset can have NO mode (all values appear once) or MULTIPLE modes (two or more values appear equally often).</li></ol><p><strong>WHEN TO USE EACH:</strong></p><ul><li><strong>Mean:</strong> Use for most situations. BEST for symmetric data without outliers.</li><li><strong>Median:</strong> Use when data has OUTLIERS. EXAMPLE: In a room of 10 people, if 9 earn $50,000 and 1 earns $10 million, the mean income is skewed way up. The median ($50,000) better represents the 'typical' person.</li><li><strong>Mode:</strong> Use for categorical data. EXAMPLE: What's the most common eye color? The mode tells you.</li></ul><p><strong>GEOMETRIC MEAN:</strong></p><p>The geometric mean is used for COMPOUND GROWTH RATES. It's ALWAYS less than or equal to the arithmetic mean.</p><p style='background:#f0f9ff;padding:15px;border-radius:8px;'><strong>Geometric Mean = (X₁ × X₂ × ... × Xₙ)^(1/n)</strong></p><p><strong>WHEN TO USE GEOMETRIC MEAN:</strong></p><ul><li>Calculating average investment returns over multiple periods</li><li>When values are multiplied together (compounding)</li><li>When you want the 'compound annual growth rate' (CAGR)</li></ul><p><strong>EXAMPLE:</strong> An investment earns +20% in Year 1, -10% in Year 2, and +15% in Year 3. What's the average annual return?</p><p>WRONG (Arithmetic Mean): (20% + (-10%) + 15%) / 3 = 8.33%</p><p>RIGHT (Geometric Mean): [(1.20) × (0.90) × (1.15)]^(1/3) - 1 = 7.70%</p><p>The geometric mean (7.70%) is the TRUE average compound return.</p><p><strong>HARMONIC MEAN:</strong></p><p>Used for averaging MULTIPLES like P/E ratios. It's ALWAYS less than or equal to the geometric mean.</p><p style='background:#f0f9ff;padding:15px;border-radius:8px;'><strong>Harmonic Mean = n / (1/X₁ + 1/X₂ + ... + 1/Xₙ)</strong></p><p><strong>RELATIONSHIP:</strong> For positive numbers: Arithmetic Mean ≥ Geometric Mean ≥ Harmonic Mean</p><p><strong>EXAM MEMORY TIP:</strong> Remember 'AGH' - Arithmetic, Geometric, Harmonic. They go from LARGEST to SMALLEST. AGH! The monster gets smaller!</p>",
+      "keyPoints": [
+        "Arithmetic Mean = Sum of values / Number of values (most common)",
+        "Median = Middle value (best when data has outliers)",
+        "Mode = Most frequently occurring value",
+        "Geometric Mean is used for COMPOUND GROWTH RATES",
+        "Geometric Mean is ALWAYS ≤ Arithmetic Mean",
+        "Harmonic Mean is used for averaging MULTIPLES (P/E ratios)",
+        "Relationship: Arithmetic ≥ Geometric ≥ Harmonic",
+        "For investment returns over time, use Geometric Mean",
+        "Median is NOT affected by outliers",
+        "Memory aid: 'AGH' - Arithmetic, Geometric, Harmonic (largest to smallest)"
       ],
       "formulas": [
         {
           "expression": "Arithmetic Mean = (ΣX_i) / n",
           "variables": {
             "X_i": "Each observation",
+            "n": "Number of observations",
+            "Σ": "Sum of"
+          }
+        },
+        {
+          "expression": "Geometric Mean = (X_1 × X_2 × ... × X_n)^(1/n) - 1",
+          "variables": {
+            "X_i": "Each observation (as 1 + return)",
             "n": "Number of observations"
           }
         },
         {
-          "expression": "Geometric Mean = (X_1 × X_2 × ... × X_n)^(1/n)",
+          "expression": "Harmonic Mean = n / (1/X_1 + 1/X_2 + ... + 1/X_n)",
+          "variables": {
+            "n": "Number of observations",
+            "X_i": "Each observation"
+          }
+        }
+      ],
+      "practiceQuestions": [
+        {
+          "id": "quant-q6",
+          "question": "An investment has the following annual returns: Year 1: +20%, Year 2: -10%, Year 3: +15%. The geometric mean return is closest to:",
+          "options": [
+            "8.33%",
+            "7.70%",
+            "6.50%"
+          ],
+          "correctAnswer": "B",
+          "explanation": "Geometric Mean = [(1.20) × (0.90) × (1.15)]^(1/3) - 1 = (1.242)^(1/3) - 1 = 1.0770 - 1 = 7.70%. The arithmetic mean would be (20% + (-10%) + 15%) / 3 = 8.33%, but this OVERSTATES the true compound return. EXAM TIP: For multi-period investment returns, ALWAYS use geometric mean, not arithmetic mean."
+        },
+        {
+          "id": "quant-q7",
+          "question": "Which measure of central tendency is MOST APPROPRIATE when the dataset contains extreme outliers?",
+          "options": [
+            "Arithmetic mean",
+            "Median",
+            "Mode"
+          ],
+          "correctAnswer": "B",
+          "explanation": "The median is most appropriate when there are outliers because it is NOT affected by extreme values. The arithmetic mean would be pulled toward the outlier. EXAMPLE: Incomes of $50K, $50K, $50K, $50K, $10 million → Mean = $2 million (misleading), Median = $50K (accurate). EXAM TIP: When you see 'outliers' or 'skewed distribution' in a question, think MEDIAN."
+        }
+      ]
+    },
+    {
+      "title": "Statistical Measures - Dispersion",
+      "content": "<p><strong>WHAT THIS MEANS:</strong> Dispersion tells us how 'spread out' the data is. Two datasets can have the SAME mean but VERY different dispersion. In investing, dispersion = RISK.</p><p><strong>KEY MEASURES OF DISPERSION:</strong></p><ol><li><strong>Range:</strong> The difference between the largest and smallest values. FORMULA: Range = Maximum value - Minimum value. EXAMPLE: Returns of 5%, 10%, 15%, 20%, 25% → Range = 25% - 5% = 20%. SIMPLE but LIMITED - only uses two values, ignores everything else.</li><li><strong>Variance:</strong> The average of the SQUARED deviations from the mean. Measures how far each value is from the mean, on average. FORMULA (Population): σ² = Σ(X_i - μ)² / N. FORMULA (Sample): s² = Σ(X_i - X̄)² / (n - 1). KEY POINT: Sample variance divides by (n-1), not n. This is called 'Bessel's correction' and corrects for bias.</li><li><strong>Standard Deviation:</strong> The SQUARE ROOT of variance. This is the MOST IMPORTANT measure of risk in finance. FORMULA: σ = √Variance. WHY USE IT: Standard deviation is in the SAME UNITS as the original data. EXAMPLE: If returns have variance of 0.04, standard deviation = √0.04 = 0.20 = 20%. Much easier to interpret!</li></ol><p><strong>STEP-BY-STEP EXAMPLE:</strong> Calculate variance and standard deviation for returns: 5%, 10%, 15%</p><ol><li>Find the mean: (5 + 10 + 15) / 3 = 10%</li><li>Find deviations from mean: (5-10) = -5%, (10-10) = 0%, (15-10) = +5%</li><li>Square the deviations: (-5)² = 25, (0)² = 0, (+5)² = 25</li><li>Sum of squared deviations: 25 + 0 + 25 = 50</li><li>Variance (population): 50 / 3 = 16.67</li><li>Variance (sample): 50 / (3-1) = 25</li><li>Standard deviation (sample): √25 = 5%</li></ol><p><strong>INTERPRETING STANDARD DEVIATION:</strong></p><ul><li>Low standard deviation = Returns are CLUSTERED near the mean (LOW RISK)</li><li>High standard deviation = Returns are SPREAD OUT (HIGH RISK)</li><li>EXAMPLE: Stock A has σ = 10%, Stock B has σ = 30%. Stock B is RISKIER.</li></ul><p><strong>COEFFICIENT OF VARIATION (CV):</strong></p><p>The CV measures risk PER UNIT OF RETURN. It allows you to compare risk-adjusted performance across investments with different means.</p><p style='background:#f0f9ff;padding:15px;border-radius:8px;'><strong>CV = Standard Deviation / Mean</strong></p><p><strong>INTERPRETATION:</strong> LOWER CV is BETTER (less risk per unit of return).</p><p><strong>EXAMPLE:</strong> Compare two investments:</p><ul><li>Investment A: Mean return = 10%, σ = 15% → CV = 15%/10% = 1.5</li><li>Investment B: Mean return = 15%, σ = 20% → CV = 20%/15% = 1.33</li></ul><p>Investment B has a HIGHER absolute risk (20% vs 15%), but a LOWER CV (1.33 vs 1.5). So Investment B has BETTER risk-adjusted performance!</p><p><strong>SEMI-VARIANCE AND SEMI-DEVIATION:</strong></p><p>These measure ONLY DOWNSIDE risk (returns below the mean or below a target).</p><ul><li>Some investors care more about LOSSES than gains</li><li>Semi-variance only considers returns BELOW the mean</li><li>Useful for asymmetric return distributions</li></ul><p><strong>EXAM MEMORY TIP:</strong> Remember 'VRSC' - Variance, Range, Standard deviation, Coefficient of variation. These are the four dispersion measures, in order of importance for the exam.</p>",
+      "keyPoints": [
+        "Range = Maximum - Minimum (simplest measure)",
+        "Variance = Average of SQUARED deviations from mean",
+        "Standard Deviation = Square root of Variance (MOST IMPORTANT)",
+        "Sample variance divides by (n-1), not n (Bessel's correction)",
+        "Standard deviation measures RISK in finance",
+        "Coefficient of Variation = Standard Deviation / Mean",
+        "LOWER CV is BETTER (less risk per unit of return)",
+        "CV allows comparison across investments with different means",
+        "Semi-variance measures only DOWNSIDE risk",
+        "Memory aid: 'VRSC' - Variance, Range, Standard deviation, CV"
+      ],
+      "formulas": [
+        {
+          "expression": "Variance (Sample) = Σ(X_i - X̄)² / (n - 1)",
           "variables": {
             "X_i": "Each observation",
-            "n": "Number of observations"
+            "X̄": "Sample mean",
+            "n": "Sample size"
           }
         },
         {
-          "expression": "Variance = Σ(X_i - μ)² / n",
+          "expression": "Standard Deviation = √Variance",
           "variables": {
-            "X_i": "Each observation",
-            "μ": "Population mean",
-            "n": "Number of observations"
+            "Variance": "Average of squared deviations"
           }
         },
         {
-          "expression": "Coefficient of Variation = σ / μ",
+          "expression": "Coefficient of Variation (CV) = σ / μ",
           "variables": {
             "σ": "Standard deviation",
             "μ": "Mean"
@@ -137,79 +249,62 @@
       ],
       "practiceQuestions": [
         {
-          "id": "quant-q6",
-          "question": "The arithmetic mean of the returns 5%, 10%, 15%, and 20% is:",
-          "options": [
-            "10%",
-            "12.5%",
-            "15%"
-          ],
-          "correctAnswer": "B",
-          "explanation": "Arithmetic mean = (5 + 10 + 15 + 20) / 4 = 50 / 4 = 12.5%"
-        },
-        {
-          "id": "quant-q7",
-          "question": "Which measure of central tendency is most appropriate for calculating the average compound growth rate?",
-          "options": [
-            "Arithmetic mean",
-            "Geometric mean",
-            "Median"
-          ],
-          "correctAnswer": "B",
-          "explanation": "The geometric mean is appropriate for compound growth rates because it accounts for the compounding effect over time."
-        },
-        {
           "id": "quant-q8",
-          "question": "A distribution with a coefficient of variation of 0.5 indicates:",
+          "question": "Investment A has a mean return of 12% and standard deviation of 18%. Investment B has a mean return of 8% and standard deviation of 10%. Which investment has a LOWER coefficient of variation?",
           "options": [
-            "High risk relative to return",
-            "Low risk relative to return",
-            "Standard deviation is half the mean"
+            "Investment A",
+            "Investment B",
+            "They have the same coefficient of variation"
           ],
-          "correctAnswer": "C",
-          "explanation": "Coefficient of variation = σ/μ = 0.5, meaning the standard deviation is 50% of the mean. Lower CV indicates better risk-return tradeoff."
+          "correctAnswer": "B",
+          "explanation": "CV of A = 18%/12% = 1.5. CV of B = 10%/8% = 1.25. Investment B has a lower CV, meaning LESS risk per unit of return. Even though Investment A has a higher absolute return, Investment B has better risk-adjusted performance. EXAM TIP: When comparing investments with different means, ALWAYS use CV, not just standard deviation."
         },
         {
           "id": "quant-q9",
-          "question": "The variance of a dataset with standard deviation of 15% is:",
+          "question": "When calculating SAMPLE variance, we divide by:",
           "options": [
-            "2.25%",
-            "225 basis points",
-            "Both A and B"
+            "n",
+            "n - 1",
+            "n + 1"
           ],
-          "correctAnswer": "C",
-          "explanation": "Variance = σ² = (0.15)² = 0.0225 = 2.25% = 225 basis points"
+          "correctAnswer": "B",
+          "explanation": "Sample variance divides by (n - 1), not n. This is called 'Bessel's correction' and it corrects for the bias that occurs when estimating population variance from a sample. Using (n-1) gives a slightly larger (and more accurate) estimate of variance. EXAM TIP: This is a COMMON exam question. Remember: SAMPLE = (n-1), POPULATION = n."
         }
       ]
     },
     {
       "title": "Probability Concepts",
-      "content": "<p>Probability theory provides the foundation for statistical inference and risk analysis. Key concepts include probability rules, expected value, and Bayes' formula.</p>",
+      "content": "<p><strong>WHAT THIS MEANS:</strong> Probability is the likelihood that an event will occur. In finance, we use probability to assess risk and expected returns.</p><p><strong>BASIC PROBABILITY RULES:</strong></p><ul><li>Probability ranges from 0 to 1 (or 0% to 100%)</li><li>P(Event) = 0 means the event will NEVER happen</li><li>P(Event) = 1 means the event will DEFINITELY happen</li><li>The sum of probabilities of all possible outcomes = 1</li></ul><p><strong>EXPECTED VALUE:</strong></p><p>The expected value is the probability-weighted AVERAGE of all possible outcomes.</p><p style='background:#f0f9ff;padding:15px;border-radius:8px;'><strong>E(X) = Σ[P(x_i) × x_i]</strong></p><p><strong>EXAMPLE:</strong> A stock has three possible returns:</p><ul><li>30% probability of +20% return</li><li>50% probability of +10% return</li><li>20% probability of -5% return</li></ul><p>Expected Return = (0.30 × 20%) + (0.50 × 10%) + (0.20 × -5%) = 6% + 5% - 1% = 10%</p><p><strong>JOINT PROBABILITY:</strong></p><p>The probability that TWO events BOTH occur.</p><p style='background:#f0f9ff;padding:15px;border-radius:8px;'><strong>P(AB) = P(A) × P(B|A)</strong></p><p>If events are INDEPENDENT: P(AB) = P(A) × P(B)</p><p><strong>EXAMPLE:</strong> Probability of Stock A rising = 60%, Probability of Stock B rising = 50%. If independent, probability BOTH rise = 0.60 × 0.50 = 30%.</p><p><strong>CONDITIONAL PROBABILITY:</strong></p><p>The probability of event A OCCURRING GIVEN THAT event B has already occurred.</p><p style='background:#f0f9ff;padding:15px;border-radius:8px;'><strong>P(A|B) = P(AB) / P(B)</strong></p><p><strong>EXAMPLE:</strong> P(Rain and Traffic) = 20%, P(Rain) = 40%. What's P(Traffic | Rain)?</p><p>P(Traffic | Rain) = P(Rain and Traffic) / P(Rain) = 0.20 / 0.40 = 50%</p><p>Given that it rains, there's a 50% chance of traffic.</p><p><strong>BAYES' FORMULA:</strong></p><p>Bayes' formula UPDATES probabilities based on NEW INFORMATION.</p><p style='background:#f0f9ff;padding:15px;border-radius:8px;'><strong>P(A|B) = [P(B|A) × P(A)] / P(B)</strong></p><p>Where:<ul><li>P(A|B) = Posterior probability (updated probability of A given B)</li><li>P(B|A) = Likelihood (probability of B given A)</li><li>P(A) = Prior probability (original probability of A)</li><li>P(B) = Marginal probability of B</li></ul></p><p><strong>REAL EXAMPLE:</strong> A medical test is 95% accurate. Disease occurs in 1% of population. If you test positive, what's the probability you actually have the disease?</p><p>Using Bayes' formula:<ul><li>P(Disease) = 0.01 (prior)</li><li>P(Positive | Disease) = 0.95 (test accuracy)</li><li>P(Positive) = P(Positive | Disease) × P(Disease) + P(Positive | No Disease) × P(No Disease)</li><li>P(Positive) = (0.95 × 0.01) + (0.05 × 0.99) = 0.0095 + 0.0495 = 0.059</li><li>P(Disease | Positive) = (0.95 × 0.01) / 0.059 = 16.1%</li></ul>Even with a 95% accurate test, you only have a 16.1% chance of having the disease! This is because the disease is so rare (1%).</p><p><strong>INDEPENDENT vs. DEPENDENT EVENTS:</strong></p><ul><li><strong>Independent:</strong> One event does NOT affect the probability of the other. EXAMPLE: Flipping a coin twice. The first flip doesn't affect the second flip.</li><li><strong>Dependent:</strong> One event DOES affect the probability of the other. EXAMPLE: Drawing cards from a deck WITHOUT replacement. After drawing one ace, the probability of drawing another ace changes.</li></ul><p><strong>MUTUALLY EXCLUSIVE EVENTS:</strong></p><p>Two events that CANNOT both occur at the same time.</p><ul><li>EXAMPLE: A coin flip cannot be both heads AND tails</li><li>For mutually exclusive events: P(A or B) = P(A) + P(B)</li></ul><p><strong>EXAM MEMORY TIP:</strong> Remember 'JECE' - Joint, Expected, Conditional, Expected. These are the four probability concepts tested most often.</p>",
       "keyPoints": [
-        "Probability ranges from 0 to 1",
-        "Expected value is probability-weighted average",
-        "Conditional probability: P(A|B) = P(A∩B) / P(B)",
-        "Bayes' formula updates probabilities with new information"
+        "Probability ranges from 0 (impossible) to 1 (certain)",
+        "Expected Value = Probability-weighted average of outcomes",
+        "Joint Probability = P(AB) = P(A) × P(B) if independent",
+        "Conditional Probability = P(A|B) = P(AB) / P(B)",
+        "Bayes' Formula updates probabilities with new information",
+        "Independent events: one does NOT affect the other",
+        "Mutually exclusive events: CANNOT both occur",
+        "For mutually exclusive: P(A or B) = P(A) + P(B)",
+        "Sum of all probabilities must equal 1",
+        "Memory aid: 'JECE' - Joint, Expected, Conditional, Expected"
       ],
       "formulas": [
         {
-          "expression": "E(X) = Σ[P(x_i) × x_i]",
+          "expression": "Expected Value: E(X) = Σ[P(x_i) × x_i]",
           "variables": {
-            "E(X)": "Expected value of X",
             "P(x_i)": "Probability of outcome x_i",
             "x_i": "Each possible outcome"
           }
         },
         {
-          "expression": "P(A|B) = P(A ∩ B) / P(B)",
+          "expression": "Conditional Probability: P(A|B) = P(AB) / P(B)",
           "variables": {
             "P(A|B)": "Probability of A given B",
-            "P(A ∩ B)": "Joint probability of A and B",
+            "P(AB)": "Joint probability of A and B",
             "P(B)": "Probability of B"
           }
         },
         {
-          "expression": "Bayes: P(A|B) = [P(B|A) × P(A)] / P(B)",
+          "expression": "Bayes' Formula: P(A|B) = [P(B|A) × P(A)] / P(B)",
           "variables": {
             "P(A|B)": "Posterior probability",
             "P(B|A)": "Likelihood",
@@ -221,193 +316,25 @@
       "practiceQuestions": [
         {
           "id": "quant-q10",
-          "question": "The expected value of a random variable that pays $100 with probability 0.3 and $0 with probability 0.7 is:",
+          "question": "A stock has a 40% probability of returning 15%, a 35% probability of returning 8%, and a 25% probability of returning -5%. The expected return is closest to:",
           "options": [
-            "$30",
-            "$50",
-            "$70"
+            "6.55%",
+            "8.00%",
+            "7.55%"
           ],
-          "correctAnswer": "A",
-          "explanation": "E(X) = (0.3 × $100) + (0.7 × $0) = $30 + $0 = $30"
+          "correctAnswer": "C",
+          "explanation": "E(X) = (0.40 × 15%) + (0.35 × 8%) + (0.25 × -5%) = 6% + 2.8% - 1.25% = 7.55%. EXAM TIP: Expected value is simply the probability-weighted average. Multiply each outcome by its probability, then sum."
         },
         {
           "id": "quant-q11",
-          "question": "If P(A) = 0.4, P(B) = 0.5, and P(A ∩ B) = 0.2, then P(A|B) equals:",
+          "question": "If P(A) = 0.4, P(B) = 0.5, and A and B are independent events, what is P(AB)?",
           "options": [
-            "0.4",
-            "0.5",
-            "0.8"
+            "0.20",
+            "0.45",
+            "0.90"
           ],
           "correctAnswer": "A",
-          "explanation": "P(A|B) = P(A ∩ B) / P(B) = 0.2 / 0.5 = 0.4"
-        },
-        {
-          "id": "quant-q12",
-          "question": "Two events are independent if:",
-          "options": [
-            "P(A|B) = P(A)",
-            "P(A ∩ B) = 0",
-            "P(A) + P(B) = 1"
-          ],
-          "correctAnswer": "A",
-          "explanation": "Events are independent when the occurrence of one does not affect the probability of the other, i.e., P(A|B) = P(A)."
-        },
-        {
-          "id": "quant-q13",
-          "question": "Bayes' formula is used to:",
-          "options": [
-            "Calculate expected values",
-            "Update probabilities with new information",
-            "Determine variance"
-          ],
-          "correctAnswer": "B",
-          "explanation": "Bayes' formula allows us to update prior probabilities based on new evidence, producing posterior probabilities."
-        }
-      ]
-    },
-    {
-      "title": "Hypothesis Testing",
-      "content": "<p>Hypothesis testing is a statistical method for making decisions about population parameters based on sample data. It involves formulating null and alternative hypotheses and determining statistical significance.</p>",
-      "keyPoints": [
-        "Null hypothesis (H₀) is the default assumption",
-        "Alternative hypothesis (H₁) contradicts H₀",
-        "Type I error: rejecting true H₀",
-        "Type II error: failing to reject false H₀",
-        "p-value < significance level → reject H₀"
-      ],
-      "formulas": [
-        {
-          "expression": "z = (x̄ - μ) / (σ/√n)",
-          "variables": {
-            "z": "z-statistic",
-            "x̄": "Sample mean",
-            "μ": "Population mean",
-            "σ": "Population standard deviation",
-            "n": "Sample size"
-          }
-        },
-        {
-          "expression": "t = (x̄ - μ) / (s/√n)",
-          "variables": {
-            "t": "t-statistic",
-            "x̄": "Sample mean",
-            "μ": "Hypothesized population mean",
-            "s": "Sample standard deviation",
-            "n": "Sample size"
-          }
-        }
-      ],
-      "practiceQuestions": [
-        {
-          "id": "quant-q14",
-          "question": "A Type I error occurs when we:",
-          "options": [
-            "Reject a true null hypothesis",
-            "Fail to reject a false null hypothesis",
-            "Accept a true alternative hypothesis"
-          ],
-          "correctAnswer": "A",
-          "explanation": "A Type I error is rejecting the null hypothesis when it is actually true. The significance level (α) is the probability of making a Type I error."
-        },
-        {
-          "id": "quant-q15",
-          "question": "If the p-value is 0.03 and the significance level is 0.05, we should:",
-          "options": [
-            "Reject the null hypothesis",
-            "Fail to reject the null hypothesis",
-            "Accept the null hypothesis"
-          ],
-          "correctAnswer": "A",
-          "explanation": "When p-value (0.03) < significance level (0.05), we reject the null hypothesis. The result is statistically significant."
-        },
-        {
-          "id": "quant-q16",
-          "question": "The power of a test is the probability of:",
-          "options": [
-            "Correctly rejecting a false null hypothesis",
-            "Correctly accepting a true null hypothesis",
-            "Making a Type I error"
-          ],
-          "correctAnswer": "A",
-          "explanation": "Power = 1 - P(Type II error). It's the probability of correctly rejecting a false null hypothesis."
-        },
-        {
-          "id": "quant-q17",
-          "question": "When the population standard deviation is unknown, we use:",
-          "options": [
-            "z-test",
-            "t-test",
-            "chi-square test"
-          ],
-          "correctAnswer": "B",
-          "explanation": "When σ is unknown, we use the sample standard deviation (s) and the t-distribution, conducting a t-test instead of a z-test."
-        }
-      ]
-    },
-    {
-      "title": "Correlation and Regression",
-      "content": "<p>Correlation measures the strength and direction of linear relationship between two variables. Regression analysis models the relationship between a dependent variable and one or more independent variables.</p>",
-      "keyPoints": [
-        "Correlation coefficient ranges from -1 to +1",
-        "Positive correlation: variables move together",
-        "Negative correlation: variables move oppositely",
-        "R² measures proportion of variance explained",
-        "Correlation does not imply causation"
-      ],
-      "formulas": [
-        {
-          "expression": "r = Cov(X,Y) / (σ_X × σ_Y)",
-          "variables": {
-            "r": "Correlation coefficient",
-            "Cov(X,Y)": "Covariance of X and Y",
-            "σ_X": "Standard deviation of X",
-            "σ_Y": "Standard deviation of Y"
-          }
-        },
-        {
-          "expression": "Y = β₀ + β₁X + ε",
-          "variables": {
-            "Y": "Dependent variable",
-            "β₀": "Intercept",
-            "β₁": "Slope coefficient",
-            "X": "Independent variable",
-            "ε": "Error term"
-          }
-        }
-      ],
-      "practiceQuestions": [
-        {
-          "id": "quant-q18",
-          "question": "A correlation coefficient of -0.85 indicates:",
-          "options": [
-            "Strong positive relationship",
-            "Strong negative relationship",
-            "No relationship"
-          ],
-          "correctAnswer": "B",
-          "explanation": "A correlation of -0.85 indicates a strong negative (inverse) relationship. The negative sign indicates opposite movement, and 0.85 indicates strong correlation."
-        },
-        {
-          "id": "quant-q19",
-          "question": "In a regression equation Y = 5 + 2X, if X increases by 1 unit, Y will:",
-          "options": [
-            "Increase by 2 units",
-            "Increase by 5 units",
-            "Decrease by 2 units"
-          ],
-          "correctAnswer": "A",
-          "explanation": "The slope coefficient (β₁ = 2) indicates that for each 1-unit increase in X, Y increases by 2 units."
-        },
-        {
-          "id": "quant-q20",
-          "question": "The coefficient of determination (R²) represents:",
-          "options": [
-            "The correlation coefficient",
-            "The proportion of variance in Y explained by X",
-            "The slope of the regression line"
-          ],
-          "correctAnswer": "B",
-          "explanation": "R² (coefficient of determination) measures the proportion of the variance in the dependent variable that is predictable from the independent variable(s)."
+          "explanation": "For independent events: P(AB) = P(A) × P(B) = 0.4 × 0.5 = 0.20 or 20%. EXAM TIP: The key word is 'independent.' If events are independent, multiply their probabilities. If they're NOT independent, you need additional information."
         }
       ]
     }
