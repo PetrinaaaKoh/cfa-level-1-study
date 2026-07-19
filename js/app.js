@@ -1,5 +1,3 @@
-// app.js - Simple Version
-
 class App {
     constructor() {
         this.topics = [];
@@ -16,44 +14,30 @@ class App {
         const response = await fetch('./data/topics.json');
         const data = await response.json();
         this.topics = data.topics;
-        console.log('Loaded', this.topics.length, 'topics');
     }
     
     renderTopicList() {
         const topicList = document.getElementById('topic-list');
         topicList.innerHTML = '';
         
-        this.topics.forEach(function(topic) {
+        for (let i = 0; i < this.topics.length; i++) {
+            const topic = this.topics[i];
             const li = document.createElement('li');
             li.className = 'topic-item';
             
             const btn = document.createElement('button');
             btn.className = 'topic-btn';
             btn.setAttribute('data-topic-id', topic.id);
+            btn.innerHTML = '<span class="topic-status"></span><span class="topic-name">' + topic.name + '</span><span class="topic-weight">' + topic.weight + '</span>';
             
-            const status = document.createElement('span');
-            status.className = 'topic-status';
-            status.textContent = '\u2610';
-            
-            const name = document.createElement('span');
-            name.className = 'topic-name';
-            name.textContent = topic.name;
-            
-            const weight = document.createElement('span');
-            weight.className = 'topic-weight';
-            weight.textContent = topic.weight;
-            
-            btn.appendChild(status);
-            btn.appendChild(name);
-            btn.appendChild(weight);
-            
+            const self = this;
             btn.addEventListener('click', function() {
-                window.app.loadTopic(topic.id);
+                self.loadTopic(topic.id);
             });
             
             li.appendChild(btn);
             topicList.appendChild(li);
-        });
+        }
     }
     
     async loadTopic(topicId) {
@@ -69,12 +53,12 @@ class App {
         if (content) content.style.display = 'block';
         
         const buttons = document.querySelectorAll('.topic-btn');
-        buttons.forEach(function(btn) {
-            btn.classList.remove('active');
-            if (btn.getAttribute('data-topic-id') === topicId) {
-                btn.classList.add('active');
+        for (let i = 0; i < buttons.length; i++) {
+            buttons[i].classList.remove('active');
+            if (buttons[i].getAttribute('data-topic-id') === topicId) {
+                buttons[i].classList.add('active');
             }
-        });
+        }
         
         const response = await fetch('./data/' + topicId + '.json');
         const topicData = await response.json();
@@ -108,18 +92,17 @@ class App {
             }
             
             if (section.practiceQuestions && section.practiceQuestions.length > 0) {
-                html += '<div class="quiz-section" style="margin-top:32px">';
-                html += '<h3>Practice Questions</h3>';
+                html += '<div class="quiz-section" style="margin-top:32px"><h3>Practice Questions</h3>';
                 html += '<div id="quiz-' + idx + '"></div>';
                 html += '<div id="quiz-controls-' + idx + '" class="quiz-controls"></div></div>';
             }
             
-            html += '<button class="btn btn-primary" style="margin-top:16px" onclick="this.textContent=\'Completed\';this.className=\'btn btn-secondary\'">Mark as Complete</button></div>';
+            html += '<button class="btn btn-primary" style="margin-top:16px">Mark as Complete</button></div>';
         }
         
         content.innerHTML = html;
         
-        // Initialize quizzes
+        const self = this;
         setTimeout(function() {
             for (let idx = 0; idx < sections.length; idx++) {
                 const section = sections[idx];
