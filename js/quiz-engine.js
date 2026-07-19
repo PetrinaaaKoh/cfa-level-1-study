@@ -1,12 +1,39 @@
-// quiz-engine.js
+// quiz-engine.js - No ES6 modules
 
-import { $, $$, createElement, shuffleArray } from './utils.js';
-import { progressTracker } from './progress.js';
+// Simple DOM helpers
+function $(selector) {
+    return document.querySelector(selector);
+}
 
-/**
- * Quiz engine for rendering and managing practice questions
- */
-export class QuizEngine {
+function $$(selector) {
+    return document.querySelectorAll(selector);
+}
+
+function createElement(tag, className, content) {
+    const el = document.createElement(tag);
+    if (className) el.className = className;
+    if (content) el.textContent = content;
+    return el;
+}
+
+function shuffleArray(array) {
+    const shuffled = [...array];
+    for (let i = shuffled.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+    }
+    return shuffled;
+}
+
+// Progress tracker
+const progressTracker = {
+    recordQuestion: function(qid, selected, correct, isCorrect) {
+        console.log('Question recorded:', qid, isCorrect ? 'correct' : 'incorrect');
+    }
+};
+
+// Quiz Engine
+class QuizEngine {
     constructor() {
         this.currentQuestion = null;
         this.questions = [];
@@ -14,10 +41,6 @@ export class QuizEngine {
         this.score = { correct: 0, incorrect: 0 };
     }
     
-    /**
-     * Initialize quiz with questions
-     * @param {Array} questions - Array of question objects
-     */
     init(questions) {
         this.questions = shuffleArray([...questions]);
         this.currentIndex = 0;
@@ -25,9 +48,6 @@ export class QuizEngine {
         this.renderQuestion();
     }
     
-    /**
-     * Render current question
-     */
     renderQuestion() {
         const container = $('#quiz-container');
         if (!container || this.currentIndex >= this.questions.length) {
@@ -40,114 +60,75 @@ export class QuizEngine {
         
         container.innerHTML = '';
         
-        const questionCard = createElement('div', { className: 'question-card' });
+        const card = createElement('div', 'question-card');
         
-        // Question text
-        const questionText = createElement('p', { 
-            className: 'question-text',
-            textContent: q.question 
-        });
-        questionCard.appendChild(questionText);
+        const qText = createElement('p', 'question-text', q.question);
+        card.appendChild(qText);
         
-        // Options
-        const optionsList = createElement('ul', { className: 'options-list' });
+        const optionsList = createElement('ul', 'options-list');
         const letters = ['A', 'B', 'C'];
         
-        q.options.forEach((option, index) => {
-            const optionItem = createElement('li', {
-                className: 'option-item',
-                dataset: { option: letters[index] }
-            });
+        for (let i = 0; i < q.options.length; i++) {
+            const optItem = createElement('li', 'option-item');
+            optItem.dataset.option = letters[i];
             
-            const optionLabel = createElement('div', { 
-                className: 'option-label' 
-            });
+            const optLabel = createElement('div', 'option-label');
+            const optLetter = createElement('span', 'option-letter', letters[i]);
+            const optText = createElement('span', '', q.options[i]);
             
-            const optionLetter = createElement('span', {
-                className: 'option-letter',
-                textContent: letters[index]
-            });
+            optLabel.appendChild(optLetter);
+            optLabel.appendChild(optText);
+            optItem.appendChild(optLabel);
             
-            const optionText = createElement('span', {
-                textContent: option
-            });
+            const self = this;
+            optItem.onclick = function() {
+                self.selectOption(i);
+            };
             
-            optionLabel.appendChild(optionLetter);
-            optionLabel.appendChild(optionText);
-            optionItem.appendChild(optionLabel);
-            
-            optionItem.addEventListener('click', () => this.selectOption(index));
-            optionsList.appendChild(optionItem);
-        });
+            optionsList.appendChild(optItem);
+        }
         
-        questionCard.appendChild(optionsList);
+        card.appendChild(optionsList);
         
-        // Explanation (hidden initially)
-        const explanation = createElement('div', {
-            className: 'explanation',
-            id: 'explanation'
-        });
+        const explanation = createElement('div', 'explanation');
+        explanation.id = 'explanation';
+        explanation.innerHTML = '<h4>Explanation</h4><p>' + q.explanation + '</p>';
+        card.appendChild(explanation);
         
-        const explanationTitle = createElement('h4', {
-            textContent: 'Explanation'
-        });
-        
-        const explanationText = createElement('p', {
-            textContent: q.explanation
-        });
-        
-        explanation.appendChild(explanationTitle);
-        explanation.appendChild(explanationText);
-        questionCard.appendChild(explanation);
-        
-        container.appendChild(questionCard);
-        
-        // Controls
+        container.appendChild(card);
         this.renderControls();
         this.updateProgress();
     }
     
-    /**
-     * Handle option selection
-     * @param {number} index - Selected option index
-     */
     selectOption(index) {
         if (this.currentQuestion.answered) return;
         
+        this.currentQuestion.answered = true;
         const options = $$('.option-item');
         const correctLetter = this.currentQuestion.correctAnswer;
         const selectedLetter = ['A', 'B', 'C'][index];
         const isCorrect = selectedLetter === correctLetter;
         
-        // Mark as answered
-        this.currentQuestion.answered = true;
-        
-        // Update UI
-        options.forEach((opt, i) => {
-            opt.style.pointerEvents = 'none';
+        for (let i = 0; i < options.length; i++) {
+            options[i].style.pointerEvents = 'none';
             const letter = ['A', 'B', 'C'][i];
             
             if (letter === correctLetter) {
-                opt.classList.add('correct');
+                options[i].classList.add('correct');
             } else if (i === index && !isCorrect) {
-                opt.classList.add('incorrect');
+                options[i].classList.add('incorrect');
             }
-        });
-        
-        // Show explanation
-        const explanation = $('#explanation');
-        if (explanation) {
-            explanation.classList.add('visible');
         }
         
-        // Update score
+        const explanation = $('#explanation');
+        if (explanation) explanation.classList.add('visible');
+        
         if (isCorrect) {
             this.score.correct++;
         } else {
             this.score.incorrect++;
         }
         
-        // Record in progress
         progressTracker.recordQuestion(
             this.currentQuestion.id,
             selectedLetter,
@@ -155,94 +136,55 @@ export class QuizEngine {
             isCorrect
         );
         
-        // Update controls
         this.renderControls();
         this.updateProgress();
     }
     
-    /**
-     * Render quiz controls
-     */
     renderControls() {
         const container = $('#quiz-controls');
         if (!container) return;
         
         container.innerHTML = '';
         
-        if (!this.currentQuestion?.answered) {
-            const submitBtn = createElement('button', {
-                className: 'btn btn-primary',
-                textContent: 'Submit Answer',
-                disabled: true,
-                id: 'submit-btn'
-            });
-            container.appendChild(submitBtn);
+        if (!this.currentQuestion.answered) {
+            const btn = createElement('button', 'btn btn-primary', 'Submit Answer');
+            btn.disabled = true;
+            container.appendChild(btn);
         } else {
-            const nextBtn = createElement('button', {
-                className: 'btn btn-primary',
-                textContent: this.currentIndex < this.questions.length - 1 
-                    ? 'Next Question' 
-                    : 'Finish Quiz'
-            });
-            
-            nextBtn.addEventListener('click', () => {
-                this.currentIndex++;
-                this.renderQuestion();
-            });
-            
-            container.appendChild(nextBtn);
+            const self = this;
+            const btn = createElement('button', 'btn btn-primary', 
+                this.currentIndex < this.questions.length - 1 ? 'Next Question' : 'Finish Quiz');
+            btn.onclick = function() {
+                self.currentIndex++;
+                self.renderQuestion();
+            };
+            container.appendChild(btn);
         }
     }
     
-    /**
-     * Update question progress indicator
-     */
     updateProgress() {
-        const progressEl = $('#quiz-progress');
-        if (progressEl) {
-            progressEl.textContent = `Question ${this.currentIndex + 1} of ${this.questions.length}`;
+        const el = $('#quiz-progress');
+        if (el) {
+            el.textContent = 'Question ' + (this.currentIndex + 1) + ' of ' + this.questions.length;
         }
     }
     
-    /**
-     * Render quiz complete screen
-     */
     renderQuizComplete() {
         const container = $('#quiz-container');
         if (!container) return;
         
-        const percentage = this.questions.length > 0 
-            ? Math.round((this.score.correct / this.questions.length) * 100) 
-            : 0;
+        const pct = this.questions.length > 0 ? 
+            Math.round((this.score.correct / this.questions.length) * 100) : 0;
         
-        container.innerHTML = `
-            <div class="question-card" style="text-align: center; padding: 48px 24px;">
-                <h3 style="font-size: 1.5rem; color: var(--primary-color); margin-bottom: 16px;">
-                    Quiz Complete! 🎉
-                </h3>
-                <p style="font-size: 1.125rem; margin-bottom: 24px;">
-                    You scored ${this.score.correct} out of ${this.questions.length}
-                </p>
-                <p style="font-size: 2rem; font-weight: bold; color: var(--success-color);">
-                    ${percentage}%
-                </p>
-                <div class="quiz-controls" style="justify-content: center; margin-top: 32px;">
-                    <button class="btn btn-secondary" id="retry-quiz-btn">Retry Quiz</button>
-                </div>
-            </div>
-        `;
-        
-        const retryBtn = $('#retry-quiz-btn');
-        if (retryBtn) {
-            retryBtn.addEventListener('click', () => {
-                this.init(this.questions);
-            });
-        }
+        container.innerHTML = '<div class="question-card" style="text-align:center;padding:48px 24px">' +
+            '<h3 style="color:var(--primary-color);margin-bottom:16px">Quiz Complete!</h3>' +
+            '<p style="font-size:1.125rem;margin-bottom:24px">You scored ' + this.score.correct + 
+            ' out of ' + this.questions.length + '</p>' +
+            '<p style="font-size:2rem;font-weight:bold;color:var(--success-color)">' + pct + '%</p>' +
+            '</div>';
     }
 }
 
-// Export singleton instance
-export const quizEngine = new QuizEngine();
-
-// Make it globally available
-window.quizEngine = quizEngine;
+// Attach to window
+window.quizEngine = new QuizEngine();
+console.log('quizEngine loaded and attached to window');
