@@ -1,0 +1,54 @@
+{
+  "topics": [
+    {
+      "id": "ethics",
+      "name": "Ethical and Professional Standards",
+      "weight": "15-20%"
+    },
+    {
+      "id": "quant",
+      "name": "Quantitative Methods",
+      "weight": "8-12%"
+    },
+    {
+      "id": "economics",
+      "name": "Economics",
+      "weight": "8-12%"
+    },
+    {
+      "id": "fsa",
+      "name": "Financial Statement Analysis",
+      "weight": "13-17%"
+    },
+    {
+      "id": "corporate-finance",
+      "name": "Corporate Finance",
+      "weight": "8-12%"
+    },
+    {
+      "id": "equity",
+      "name": "Equity Investments",
+      "weight": "10-12%"
+    },
+    {
+      "id": "fixed-income",
+      "name": "Fixed Income",
+      "weight": "10-12%"
+    },
+    {
+      "id": "derivatives",
+      "name": "Derivatives",
+      "weight": "5-8%"
+    },
+    {
+      "id": "alt-investments",
+      "name": "Alternative Investments",
+      "weight": "5-8%"
+    },
+    {
+      "id": "portfolio-mgmt",
+      "name": "Portfolio Management",
+      "weight": "5-8%"
+    }
+  ]
+}

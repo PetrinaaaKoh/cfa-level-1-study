@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="CFA Level I Study Materials - Comprehensive exam preparation">
+    <title>CFA Level I Study Materials</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div id="app">
+        <header class="header">
+            <h1>CFA Level I Study Materials</h1>
+            <div class="header-controls">
+                <div id="progress-indicator" class="progress-indicator">
+                    <span class="progress-label">Overall Progress:</span>
+                    <span id="overall-progress">0%</span>
+                </div>
+                <button id="search-btn" class="btn-icon" aria-label="Search">
+                    🔍
+                </button>
+            </div>
+        </header>
+        
+        <div class="main-container">
+            <nav id="sidebar" class="sidebar">
+                <h2>Topics</h2>
+                <ul id="topic-list" class="topic-list">
+                    <!-- Topics loaded dynamically -->
+                </ul>
+            </nav>
+            
+            <main id="content-area" class="content-area">
+                <div id="welcome-screen" class="welcome-screen">
+                    <h2>Welcome to CFA Level I Study Materials</h2>
+                    <p>Select a topic from the sidebar to begin studying.</p>
+                    <div class="stats-grid">
+                        <div class="stat-card">
+                            <h3>10 Topics</h3>
+                            <p>Comprehensive coverage</p>
+                        </div>
+                        <div class="stat-card">
+                            <h3>200+ Questions</h3>
+                            <p>Practice with explanations</p>
+                        </div>
+                        <div class="stat-card">
+                            <h3>Progress Tracking</h3>
+                            <p>Track your study journey</p>
+                        </div>
+                    </div>
+                </div>
+                <div id="topic-content" class="topic-content" style="display: none;">
+                    <!-- Content loaded dynamically -->
+                </div>
+            </main>
+        </div>
+        
+        <div id="search-modal" class="modal" style="display: none;">
+            <div class="modal-content">
+                <span class="close-btn">&times;</span>
+                <h2>Search</h2>
+                <input type="text" id="search-input" placeholder="Search topics, concepts, formulas..." class="search-input">
+                <div id="search-results" class="search-results"></div>
+            </div>
+        </div>
+    </div>
+    
+    <script type="module" src="js/app.js"></script>
+</body>
+</html>
