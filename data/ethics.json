@@ -2,15 +2,18 @@
   "sections": [
     {
       "title": "Code of Ethics and Standards of Professional Conduct",
-      "content": "<p>The CFA Institute Code of Ethics establishes the ethical standards for investment professionals worldwide. It emphasizes integrity, competence, diligence, and professionalism in the investment industry.</p><p>The Standards of Professional Conduct provide specific guidance on professional responsibilities and are organized into seven key areas. All CFA members and candidates MUST adhere to these standards.</p><p><strong>Why Ethics Matters:</strong> The investment industry is built on trust. Clients entrust professionals with their life savings, retirement funds, and financial futures. Ethical conduct ensures this trust is maintained and the capital markets function properly.</p>",
+      "content": "<p><strong>OVERVIEW:</strong> The CFA Institute Code of Ethics is the foundation of ethical conduct for investment professionals worldwide. It establishes six core principles that all CFA members and candidates must follow in their professional activities.</p><p><strong>Why This Matters for the Exam:</strong> Ethics represents 15-20% of the CFA Level I exam (approximately 27-36 questions out of 180). This is the HIGHEST weighted topic, making it critical for exam success. Additionally, the Ethics section has a unique grading adjustment - if your total score is borderline pass/fail, a strong Ethics performance can push you to a PASS.</p><p><strong>The Six Components of the Code of Ethics:</strong></p><ol><li><strong>Act with integrity, competence, diligence, respect, and in an ethical manner</strong> - This means being honest in all dealings, maintaining your knowledge and skills, working hard for clients, treating others with respect, and doing what is ethically right even when not required by law.</li><li><strong>Place the integrity and interests of clients above your own personal interests</strong> - This is the FIDUCIARY DUTY. Clients trust you with their money, retirement, and financial futures. Their interests must come before your commissions, bonuses, or personal investments.</li><li><strong>Use reasonable care and exercise independent professional judgment</strong> - Don't blindly follow others' recommendations. Do your own research and analysis. Think critically and make decisions based on your professional expertise.</li><li><strong>Practice and encourage others to practice in a professional and ethical manner</strong> - Not only must YOU act ethically, but you should also promote ethical behavior among colleagues and in the industry.</li><li><strong>Promote the integrity and viability of the global capital markets</strong> - The investment industry depends on trust. Your actions should support market integrity, not undermine it.</li><li><strong>Maintain and improve professional competence</strong> - Commit to lifelong learning. Stay current with industry developments, regulations, and best practices.</li></ol><p><strong>REAL-WORLD EXAMPLE:</strong> Imagine you are a portfolio manager. You discover that Stock A (which you personally own) is overvalued and should be sold. However, your firm's investment banking division is helping Company A raise capital and wants you to keep buying. What do you do? According to the Code of Ethics, you must place CLIENT interests above both your personal interests AND your employer's interests. You should recommend selling the stock to clients (if suitable for them), regardless of the impact on your personal portfolio or banking relationships.</p>",
       "keyPoints": [
-        "Act with integrity, competence, diligence, and in an ethical manner",
-        "Place the integrity and interests of clients ABOVE your own interests",
-        "Use reasonable care and exercise independent professional judgment",
-        "Practice and encourage others to practice in a professional and ethical manner",
-        "Promote the integrity and viability of the global capital markets",
-        "Maintain and improve professional competence",
-        "Standards apply to ALL professional activities, not just investment decisions"
+        "Ethics is 15-20% of the exam (27-36 questions) - HIGHEST weighted topic",
+        "Strong Ethics performance can help borderline candidates PASS the exam",
+        "Act with integrity, competence, diligence, respect, and ethical behavior in ALL activities",
+        "Client interests come BEFORE your personal interests AND employer interests (FIDUCIARY DUTY)",
+        "Exercise INDEPENDENT judgment - don't blindly follow others' recommendations",
+        "Must promote ethical behavior among colleagues, not just practice it yourself",
+        "Support market integrity - your actions affect trust in the entire financial system",
+        "Commit to lifelong learning - maintain and improve your professional competence",
+        "Code of Ethics applies to ALL professional activities, not just investment decisions",
+        "When in doubt, ask: Would I be comfortable if this appeared on the front page of the newspaper?"
       ],
       "formulas": [],
       "practiceQuestions": [
@@ -18,316 +21,151 @@
           "id": "ethics-q1",
           "question": "According to the CFA Institute Code of Ethics, when a member's personal interests conflict with client interests, the member should:",
           "options": [
-            "Balance both interests equally",
+            "Balance both interests equally to find a fair compromise",
             "Place client interests above personal interests",
-            "Disclose the conflict and proceed as planned"
+            "Disclose the conflict to the client and then proceed as planned"
           ],
           "correctAnswer": "B",
-          "explanation": "The Code of Ethics explicitly states that members must place the integrity and interests of clients above their own personal interests. This is a fundamental principle."
+          "explanation": "The Code of Ethics explicitly states that members must place the integrity and interests of clients ABOVE their own personal interests. This is a fundamental fiduciary duty. Simply disclosing the conflict (option C) is not sufficient - you must actually prioritize client interests. Balancing interests equally (option A) is also wrong because client interests must come FIRST, not be treated equally with personal interests."
         },
         {
           "id": "ethics-q2",
           "question": "Which of the following is NOT one of the six components of the Code of Ethics?",
           "options": [
-            "Maintain and improve professional competence",
-            "Guarantee investment returns to clients",
-            "Promote the integrity of capital markets"
+            "Maintain and improve professional competence through continuous learning",
+            "Guarantee investment returns to clients based on historical performance",
+            "Promote the integrity and viability of the global capital markets"
           ],
           "correctAnswer": "B",
-          "explanation": "The Code of Ethics does NOT require guaranteeing returns (which would be impossible and unethical). It focuses on ethical conduct, competence, diligence, and market integrity."
+          "explanation": "The Code of Ethics does NOT require (or even permit) guaranteeing returns. Investment performance CANNOT be guaranteed because markets are uncertain. Guaranteeing returns would actually be UNETHICAL and a violation of Standard I(C) on Misrepresentation. Options A and C are both actual components of the Code of Ethics."
         },
         {
           "id": "ethics-q3",
           "question": "The CFA Institute Standards of Professional Conduct apply to:",
           "options": [
-            "Only investment research activities",
+            "Only investment research and analysis activities",
             "All professional activities of members and candidates",
-            "Only activities involving client accounts"
+            "Only activities involving direct client account management"
           ],
           "correctAnswer": "B",
-          "explanation": "The Standards apply to ALL professional activities, not just investment decisions or client work. This includes teaching, writing, and any activity where the member represents themselves as a finance professional."
+          "explanation": "The Standards apply to ALL professional activities, not just investment decisions or client work. This includes teaching finance courses, writing articles, serving on boards, volunteer work where you represent yourself as a CFA member/candidate, and any other activity where you are acting as an investment professional. The key question is: Are you acting in a professional capacity? If yes, the Standards apply."
+        },
+        {
+          "id": "ethics-q4",
+          "question": "A CFA candidate posts on social media: 'I guarantee my clients will earn 12% returns this year.' This statement:",
+          "options": [
+            "Is acceptable if the candidate has achieved this return in previous years",
+            "Violates the Code of Ethics because investment returns cannot be guaranteed",
+            "Is acceptable if the client is sophisticated and understands investment risks"
+          ],
+          "correctAnswer": "B",
+          "explanation": "Guaranteeing investment returns is NEVER acceptable, regardless of past performance, client sophistication, or any other factor. Investment returns are inherently uncertain and cannot be guaranteed. This statement violates both the Code of Ethics (acting with integrity) and Standard I(C) on Misrepresentation. Even if the candidate has achieved 12% in the past, there is no guarantee of future performance."
         }
       ]
     },
     {
       "title": "Professional Misconduct - Standard I(D)",
-      "content": "<p>Standard I(D) prohibits professional misconduct in any form. Members must not engage in any conduct involving dishonesty, fraud, or deceit, or commit any act that reflects adversely on their professional reputation, integrity, or competence.</p><p><strong>Key Understanding:</strong> This standard applies to BOTH professional and personal conduct. A conviction for certain crimes (especially those involving fraud or dishonesty) may constitute a violation even if unrelated to work.</p><p><strong>Examples of Violations:</strong></p><ul><li>Fraudulent business practices</li><li>Lying to clients or employers</li><li>Cheating on professional examinations</li><li>Conduct that calls into question your fitness to serve clients</li></ul>",
+      "content": "<p><strong>OVERVIEW:</strong> Standard I(D) prohibits professional misconduct in any form. This is a BROAD standard that covers both professional and personal conduct.</p><p><strong>What Constitutes Misconduct:</strong></p><ul><li><strong>Dishonesty:</strong> Lying, cheating, stealing, or any deceptive behavior</li><li><strong>Fraud:</strong> Intentional deception for personal gain</li><li><strong>Deceit:</strong> Misleading others through words or actions</li><li><strong>Conduct reflecting adversely on professional reputation:</strong> Any behavior that would cause a reasonable person to question your fitness to serve clients</li></ul><p><strong>CRITICAL DISTINCTION:</strong> This standard applies to BOTH professional AND personal conduct. You can violate Standard I(D) for behavior completely unrelated to work if it reflects poorly on your professional reputation.</p><p><strong>Examples of Violations:</strong></p><ul><li>Conviction of crimes involving fraud or dishonesty (embezzlement, tax fraud, insider trading)</li><li>Cheating on the CFA exam or any professional examination</li><li>Lying to clients about qualifications or track record</li><li>Engaging in fraudulent business practices</li><li>Conduct that calls into question your integrity or fitness to serve clients</li></ul><p><strong>What Typically Does NOT Violate This Standard:</strong></p><ul><li>Minor traffic violations (speeding tickets, parking tickets)</li><li>Personal bankruptcy (unless involving fraud)</li><li>Political activities (unless involving dishonesty)</li><li>Legal but unpopular personal activities</li></ul><p><strong>REAL-WORLD EXAMPLE:</strong> John, a CFA charterholder, is arrested and convicted of shoplifting items worth $200 from a retail store. Even though this is unrelated to his investment work and occurred on his personal time, it involves dishonesty and theft. This would likely violate Standard I(D) because it reflects adversely on his integrity and professional reputation. A reasonable client might question whether someone who steals from stores can be trusted with their investment portfolio.</p><p><strong>REAL-WORLD EXAMPLE:</strong> Sarah, a CFA candidate, is convicted of a DUI (driving under the influence). While this is a criminal conviction, it does not inherently involve dishonesty, fraud, or deceit. Unless there are aggravating factors (like lying to police), a simple DUI typically would NOT violate Standard I(D). However, multiple DUIs might suggest a pattern of conduct that reflects adversely on professional reputation.</p>",
       "keyPoints": [
-        "Dishonesty, fraud, and deceit are STRICTLY PROHIBITED",
-        "Conduct reflecting adversely on professional reputation is misconduct",
-        "Applies to BOTH professional and personal conduct",
-        "Criminal convictions may constitute misconduct (especially fraud-related)",
-        "Minor traffic violations typically do NOT violate this standard",
-        "Personal bankruptcy alone does NOT violate this standard"
+        "Dishonesty, fraud, and deceit are STRICTLY PROHIBITED in all forms",
+        "Standard applies to BOTH professional AND personal conduct",
+        "Criminal convictions involving fraud or dishonesty typically violate this standard",
+        "Minor traffic violations (speeding, parking) typically do NOT violate this standard",
+        "Personal bankruptcy alone does NOT violate this standard (unless fraud involved)",
+        "Cheating on CFA exam or any professional examination is a violation",
+        "The test: Would a reasonable person question your fitness to serve clients?",
+        "Multiple minor violations can accumulate to become a problem",
+        "You can violate this standard even for conduct outside of work hours",
+        "When in doubt, consider: Would I be embarrassed if clients knew about this?"
       ],
       "formulas": [],
       "practiceQuestions": [
         {
-          "id": "ethics-q4",
+          "id": "ethics-q5",
           "question": "Which of the following would MOST LIKELY violate Standard I(D) regarding Professional Misconduct?",
           "options": [
-            "Being convicted of a misdemeanor traffic violation",
-            "Engaging in fraudulent business practices",
-            "Filing for personal bankruptcy"
+            "Being convicted of a misdemeanor traffic violation for speeding",
+            "Engaging in fraudulent business practices that deceive investors",
+            "Filing for personal bankruptcy due to medical expenses"
           ],
           "correctAnswer": "B",
-          "explanation": "Fraudulent business practices involve dishonesty and deceit, which directly violate Standard I(D). Minor traffic violations and personal bankruptcy typically do not reflect on professional integrity."
+          "explanation": "Fraudulent business practices involve dishonesty and deceit directed at investors, which directly violates Standard I(D). This type of conduct clearly reflects adversely on professional reputation and integrity. Option A (speeding ticket) is a minor traffic violation that typically does not violate the standard. Option C (personal bankruptcy) alone does not violate the standard unless it involves fraud or deceit."
         },
         {
-          "id": "ethics-q5",
+          "id": "ethics-q6",
           "question": "Standard I(D) on Professional Misconduct applies to:",
           "options": [
-            "Only professional activities during work hours",
-            "Only activities related to client accounts",
+            "Only professional activities during normal work hours",
+            "Only activities directly related to client investment accounts",
             "Both professional and personal conduct"
           ],
           "correctAnswer": "C",
-          "explanation": "Standard I(D) applies to ANY conduct that reflects adversely on a member's professional reputation, integrity, or competence, whether in professional or personal activities."
+          "explanation": "Standard I(D) applies to ANY conduct that reflects adversely on a member's or candidate's professional reputation, integrity, or competence, whether in professional or personal activities. The key is not WHERE or WHEN the conduct occurred, but whether it would cause a reasonable person to question your fitness to serve clients."
+        },
+        {
+          "id": "ethics-q7",
+          "question": "A CFA member is convicted of cheating on a professional licensing exam unrelated to finance. This conduct:",
+          "options": [
+            "Does not violate the Standards because it is unrelated to finance",
+            "Violates Standard I(D) because it involves dishonesty",
+            "Only violates the Standards if the member lied about it"
+          ],
+          "correctAnswer": "B",
+          "explanation": "Cheating on ANY professional examination involves dishonesty and reflects adversely on the member's integrity. This violates Standard I(D) regardless of whether the exam is finance-related. The Standards apply to all professional conduct, and dishonesty in any professional context calls into question the member's fitness to serve clients in the investment industry."
         }
       ]
     },
     {
       "title": "Knowledge of the Law - Standard I(A)",
-      "content": "<p>Standard I(A) requires members to understand and comply with all applicable laws, rules, and regulations (including the CFA Institute Code and Standards) that govern their professional activities.</p><p><strong>When Laws Conflict with Standards:</strong></p><ul><li>If applicable law is MORE STRICT than the Code and Standards → Follow the law</li><li>If the Code and Standards are MORE STRICT → Follow the Code and Standards</li><li>If applicable law is LESS STRICT → Still follow the Code and Standards</li></ul><p><strong>If You Discover Violations:</strong></p><ol><li>Do NOT participate in the violation</li><li>Disassociate from the activity</li><li>Seek advice from compliance or legal counsel</li><li>Consider reporting to appropriate authorities</li></ol>",
+      "content": "<p><strong>OVERVIEW:</strong> Standard I(A) requires members to understand and comply with all applicable laws, rules, and regulations that govern their professional activities. This includes local, state, provincial, federal, and international laws, as well as the CFA Institute Code and Standards.</p><p><strong>Key Requirements:</strong></p><ol><li><strong>Know the Law:</strong> You are expected to understand the laws and regulations that apply to your professional activities. Ignorance is NOT an acceptable excuse.</li><li><strong>Comply with the Law:</strong> Once you know the law, you must follow it.</li><li><strong>Do Not Knowingly Participate in Violations:</strong> If you discover illegal activity, you must not participate in it.</li></ol><p><strong>When Laws Conflict with the Code and Standards:</strong></p><p>This is a CRITICAL exam concept. Here's how to handle conflicts:</p><ul><li><strong>If applicable law is MORE STRICT than the Code and Standards:</strong> Follow the LAW (the more strict requirement)</li><li><strong>If the Code and Standards are MORE STRICT than applicable law:</strong> Follow the CODE AND STANDARDS (the more strict requirement)</li><li><strong>If applicable law and Code and Standards are the SAME:</strong> Follow either (they're the same)</li></ul><p><strong>MNEMONIC FOR EXAM:</strong> 'When in conflict, follow the MORE STRICT rule.'</p><p><strong>If You Discover Violations:</strong></p><ol><li><strong>Do NOT participate:</strong> Remove yourself from the activity immediately.</li><li><strong>Disassociate:</strong> Distance yourself from the violation. Document your objection in writing (email to compliance, memo to file, etc.).</li><li><strong>Seek guidance:</strong> Consult with compliance department, legal counsel, or supervisor.</li><li><strong>Consider reporting:</strong> If the violation is not remedied, consider reporting to appropriate regulatory authorities.</li><li><strong>Consider resigning:</strong> In extreme cases, you may need to leave the firm to avoid association with ongoing violations.</li></ol><p><strong>REAL-WORLD EXAMPLE:</strong> You work for an investment firm in Country X. Country X's laws allow you to accept gifts from clients up to $500 without disclosure. However, the CFA Standards require disclosure of ALL gifts regardless of value. Which rule do you follow? ANSWER: Follow the CFA Standards because they are MORE STRICT. Even though local law permits gifts up to $500 without disclosure, the Standards require disclosure of all gifts. As a CFA member/candidate, you must follow the more strict requirement.</p><p><strong>REAL-WORLD EXAMPLE:</strong> You discover that your supervisor is engaging in insider trading (illegal in all jurisdictions). What should you do? First, do NOT participate. Second, document your objection in writing (email to compliance). Third, if the activity continues, consider reporting to regulators and/or resigning from the firm. Simply ignoring the violation or continuing to work for the supervisor without taking action could make you complicit in the violation.</p>",
       "keyPoints": [
         "Must understand and comply with ALL applicable laws and regulations",
-        "When conflicts exist, follow the MORE STRICT requirement",
-        "Cannot knowingly participate in violations",
-        "Should disassociate from violations and document your objection",
-        "Inaction + knowledge of violation = potential violation",
-        "May need to seek legal counsel and report to authorities"
-      ],
-      "formulas": [],
-      "practiceQuestions": [
-        {
-          "id": "ethics-q6",
-          "question": "When there is a conflict between local law and the CFA Code and Standards, a member should:",
-          "options": [
-            "Always follow local law regardless of strictness",
-            "Always follow the CFA Code and Standards",
-            "Follow the MORE STRICT of the two requirements"
-          ],
-          "correctAnswer": "C",
-          "explanation": "Standard I(A) requires members to follow the MORE STRICT of applicable law or the Code and Standards when there is a conflict. This ensures the highest ethical standards are maintained."
-        },
-        {
-          "id": "ethics-q7",
-          "question": "If a member discovers their employer is engaging in illegal activities, they should FIRST:",
-          "options": [
-            "Ignore it as it's management's responsibility",
-            "Disassociate from the activity and seek guidance from compliance/legal",
-            "Immediately report it to the media"
-          ],
-          "correctAnswer": "B",
-          "explanation": "Members must NOT knowingly participate in violations. They should disassociate from the activity, seek guidance from compliance or legal counsel, and potentially report to appropriate authorities if the situation is not remedied."
-        }
-      ]
-    },
-    {
-      "title": "Independence and Objectivity - Standard I(B)",
-      "content": "<p>Standard I(B) requires members to maintain independence and objectivity in their professional activities. They must not offer, solicit, or accept any gift, benefit, compensation, or consideration that could reasonably be expected to compromise their independence or objectivity.</p><p><strong>Gift Guidelines:</strong></p><ul><li>Modest gifts from clients: Generally acceptable</li><li>Expensive gifts: Should be declined or require employer permission</li><li>Gifts intended to influence decisions: Must be declined</li></ul><p><strong>Special Situations:</strong></p><ul><li>Issuer-paid research: Allowed ONLY if compensation is flat fee (not tied to conclusions)</li><li>Credit rating agencies: Must maintain independence from issuers</li><li>Investment banking relationships: Must separate research from banking pressure</li></ul>",
-      "keyPoints": [
-        "Maintain independence in investment analysis and recommendations",
-        "Avoid conflicts of interest or the APPEARANCE of conflicts",
-        "Disclose conflicts to employers and clients",
-        "Modest gifts are acceptable; substantial gifts require permission",
-        "Issuer-paid research allowed only with flat fee (not performance-based)",
-        "Must resist pressure from investment banking or other departments"
+        "Ignorance of the law is NOT an acceptable excuse for violations",
+        "When laws conflict with Standards, follow the MORE STRICT requirement",
+        "Cannot knowingly participate in violations under any circumstances",
+        "Should disassociate from violations and document objection in writing",
+        "May need to seek legal counsel and report to authorities",
+        "In extreme cases, may need to resign from firm to avoid association",
+        "Applies to laws in ALL jurisdictions where you conduct business",
+        "CFA Institute Standards apply even if local law is less strict",
+        "Documentation is critical - put objections in writing (email, memo)"
       ],
       "formulas": [],
       "practiceQuestions": [
         {
           "id": "ethics-q8",
-          "question": "A research analyst receives expensive tickets to a sporting event from a company whose stock she covers. According to Standard I(B), she should:",
+          "question": "When there is a conflict between local law and the CFA Code and Standards, a member should:",
           "options": [
-            "Accept the tickets without disclosure",
-            "Decline the tickets or seek employer permission before accepting",
-            "Accept and sell the tickets for cash"
+            "Always follow local law regardless of which is more strict",
+            "Always follow the CFA Code and Standards regardless of local law",
+            "Follow the MORE STRICT of the two requirements"
           ],
-          "correctAnswer": "B",
-          "explanation": "Expensive gifts could compromise independence and objectivity. Members should either decline such gifts or seek employer permission with appropriate disclosure before accepting."
+          "correctAnswer": "C",
+          "explanation": "Standard I(A) requires members to follow the MORE STRICT of applicable law or the Code and Standards when there is a conflict. This ensures the highest ethical standards are maintained. If local law is more strict, follow local law. If the Code and Standards are more strict, follow the Code and Standards. The key principle is: always follow the more strict requirement."
         },
         {
           "id": "ethics-q9",
-          "question": "Which of the following best describes the requirement for independence and objectivity?",
+          "question": "If a member discovers their employer is engaging in illegal activities, they should FIRST:",
           "options": [
-            "Members must never accept any gift from anyone",
-            "Members must avoid situations that could reasonably compromise their judgment",
-            "Members must only work for one employer"
+            "Ignore it as it is management's responsibility, not theirs",
+            "Disassociate from the activity and seek guidance from compliance or legal counsel",
+            "Immediately report it to the media to expose the wrongdoing"
           ],
           "correctAnswer": "B",
-          "explanation": "Standard I(B) requires members to avoid situations that could REASONABLY be expected to compromise their independence and objectivity. It's about both actual independence and the appearance of independence."
-        }
-      ]
-    },
-    {
-      "title": "Misrepresentation - Standard I(C)",
-      "content": "<p>Standard I(C) prohibits members from making any misrepresentations relating to investment analysis, recommendations, actions, or other professional activities.</p><p><strong>Types of Misrepresentation:</strong></p><ul><li>Guaranteeing investment performance (NEVER allowed)</li><li>Plagiarism (using others' work without attribution)</li><li>Misstating qualifications or credentials</li><li>Misrepresenting services or track record</li><li>Omitting material information that would change the meaning of statements</li></ul><p><strong>Plagiarism Prevention:</strong></p><ul><li>Always attribute quotes and ideas to their source</li><li>Cite data from recognized sources (government, exchanges, etc.)</li><li>When in doubt, provide attribution</li></ul>",
-      "keyPoints": [
-        "Cannot make FALSE or MISLEADING statements about investments",
-        "CANNOT guarantee specific investment returns (EVER)",
-        "Must attribute quotes and ideas to their source (no plagiarism)",
-        "Cannot misrepresent qualifications, services, or track record",
-        "Factual information from recognized sources need not be attributed",
-        "Omissions can be misrepresentation if material information is left out"
-      ],
-      "formulas": [],
-      "practiceQuestions": [
+          "explanation": "Standard I(A) requires members to NOT knowingly participate in violations. The first step is to disassociate from the activity and seek guidance from compliance or legal counsel. Members should document their objection in writing. If the violation is not remedied, they may need to report to regulatory authorities and/or consider resigning. Option A is wrong because ignoring violations makes you complicit. Option C is wrong because going to the media is not the appropriate first step - internal channels and regulatory authorities are more appropriate."
+        },
         {
           "id": "ethics-q10",
-          "question": "Which of the following would violate Standard I(C) on Misrepresentation?",
+          "question": "A CFA member works in a country where certain types of insider trading are legal under local law. The member:",
           "options": [
-            "Presenting a colleague's research as your own without attribution",
-            "Disclosing all material risks to clients",
-            "Using industry-standard financial models"
-          ],
-          "correctAnswer": "A",
-          "explanation": "Presenting someone else's work as your own constitutes plagiarism, which is a form of misrepresentation under Standard I(C). Always attribute work to its original source."
-        },
-        {
-          "id": "ethics-q11",
-          "question": "A portfolio manager tells a client: 'I guarantee you'll earn 15% returns this year.' This statement:",
-          "options": [
-            "Is acceptable if based on strong historical performance",
-            "Violates Standard I(C) on Misrepresentation",
-            "Is acceptable if the client is sophisticated and understands risks"
+            "May engage in insider trading because it is legal in that jurisdiction",
+            "Must still comply with CFA Standards which prohibit insider trading",
+            "May engage in insider trading only if disclosing it to clients"
           ],
           "correctAnswer": "B",
-          "explanation": "Guaranteeing specific investment returns is ALWAYS a misrepresentation because investment performance CANNOT be guaranteed. This violates Standard I(C) regardless of client sophistication or past performance."
+          "explanation": "Even if local law permits certain activities, CFA members and candidates must comply with the Code and Standards. The Standards prohibit insider trading regardless of local law. Since the Standards are MORE STRICT than the local law in this case, the member must follow the Standards. This is a direct application of the 'follow the more strict requirement' principle from Standard I(A)."
         }
       ]
-    },
-    {
-      "title": "Duties to Clients - Loyalty, Prudence, and Care (III-A)",
-      "content": "<p>Standard III(A) requires loyalty to clients and mandates that members place client interests above their own interests and above their employer's interests.</p><p><strong>Key Requirements:</strong></p><ul><li>Act for the benefit of clients</li><li>Exercise prudence and care in managing client assets</li><li>Vote proxies in clients' best interests (don't waste proxy votes)</li><li>Disclose conflicts of interest to clients</li><li>Seek best execution for client transactions</li></ul><p><strong>Client Definition:</strong> The client may be the entity that pays you (e.g., pension fund, mutual fund) OR the ultimate beneficiaries (e.g., pension beneficiaries, fund shareholders). Understand who YOUR client is in each situation.</p>",
-      "keyPoints": [
-        "Client interests come BEFORE employer or personal interests",
-        "Must exercise prudence and care (the 'prudent person' standard)",
-        "Must vote proxies in clients' best interests",
-        "Must disclose ALL conflicts of interest to clients",
-        "Must seek best execution for client transactions",
-        "Understand who your client is (may be the entity OR beneficiaries)"
-      ],
-      "formulas": [],
-      "practiceQuestions": [
-        {
-          "id": "ethics-q12",
-          "question": "When a conflict arises between a member's personal interests and client interests, the member should:",
-          "options": [
-            "Prioritize personal interests",
-            "Prioritize client interests",
-            "Split the difference equally"
-          ],
-          "correctAnswer": "B",
-          "explanation": "Standard III(A) on Loyalty, Prudence, and Care requires members to place client interests above their own personal interests. This is a fundamental duty."
-        },
-        {
-          "id": "ethics-q13",
-          "question": "Regarding proxy voting, members should:",
-          "options": [
-            "Always vote with management recommendations",
-            "Vote proxies in the best interests of clients",
-            "Not vote proxies as it creates conflicts"
-          ],
-          "correctAnswer": "B",
-          "explanation": "Standard III(A) requires members to vote proxies in the best interests of clients. This means analyzing each proposal and voting accordingly, not automatically following management."
-        }
-      ]
-    },
-    {
-      "title": "Fair Dealing - Standard III(B)",
-      "content": "<p>Standard III(B) requires members to deal fairly and objectively with all clients when providing investment analysis, making investment recommendations, taking investment action, or engaging in other professional activities.</p><p><strong>What Fair Dealing Means:</strong></p><ul><li>NOT treating all clients exactly the same</li><li>But NOT discriminating against any clients</li><li>Different service levels are acceptable (if disclosed)</li><li>All clients should have FAIR OPPORTUNITY to act on recommendations</li></ul><p><strong>Best Practices:</strong></p><ul><li>Disseminate recommendations simultaneously to all clients who might be interested</li><li>Don't tell favored clients first</li><li>Use broad distribution methods (email, website, etc.)</li></ul>",
-      "keyPoints": [
-        "Must treat all clients FAIRLY (not necessarily EQUALLY)",
-        "Cannot favor some clients over others for recommendations",
-        "Different service levels acceptable if disclosed in advance",
-        "Disseminate recommendations to all interested clients simultaneously",
-        "Don't selectively disclose to favored clients first",
-        "Apply to both recommendations AND investment actions"
-      ],
-      "formulas": [],
-      "practiceQuestions": [
-        {
-          "id": "ethics-q14",
-          "question": "A firm is issuing a buy recommendation for a stock. To comply with Standard III(B) on Fair Dealing, the firm should:",
-          "options": [
-            "Tell favored clients first, then others",
-            "Make the recommendation available to all clients who might be interested at approximately the same time",
-            "Only tell clients who have large accounts"
-          ],
-          "correctAnswer": "B",
-          "explanation": "Standard III(B) requires members to deal fairly and objectively with all clients when disseminating investment recommendations. All clients who might be interested should have fair opportunity to receive and act on the recommendation."
-        },
-        {
-          "id": "ethics-q15",
-          "question": "Standard III(B) on Fair Dealing allows for:",
-          "options": [
-            "Different service levels for different clients if disclosed",
-            "Telling some clients about recommendations before others",
-            "Charging all clients the same fees regardless of service"
-          ],
-          "correctAnswer": "A",
-          "explanation": "Fair dealing does NOT mean identical treatment. Different service levels (and fees) are acceptable as long as they are disclosed to all clients and no client is discriminated against."
-        }
-      ]
-    },
-    {
-      "title": "Suitability - Standard III(C)",
-      "content": "<p>Standard III(C) requires members to make a reasonable inquiry into a client's or prospective client's investment experience, risk and return objectives, and financial constraints BEFORE making investment recommendations or taking investment action.</p><p><strong>Required Information (IPS Elements):</strong></p><ul><li>Return objectives</li><li>Risk tolerance</li><li>Time horizon</li><li>Liquidity needs</li><li>Tax considerations</li><li>Legal and regulatory constraints</li><li>Unique circumstances</li></ul><p><strong>When Managing a Portfolio:</strong></p><ul><li>Must judge suitability in context of the ENTIRE portfolio</li><li>Individual investments may be risky but suitable as part of diversified portfolio</li><li>Must update client information regularly</li></ul>",
-      "keyPoints": [
-        "Must understand client's investment objectives BEFORE recommending",
-        "Must assess client's risk tolerance",
-        "Must consider time horizon, liquidity needs, tax situation",
-        "Recommendations must be suitable for client's ENTIRE portfolio",
-        "Must update client information REGULARLY",
-        "Apply to BOTH recommendations AND investment actions"
-      ],
-      "formulas": [],
-      "practiceQuestions": [
-        {
-          "id": "ethics-q16",
-          "question": "Before making an investment recommendation, a member must:",
-          "options": [
-            "Only consider the investment's expected return",
-            "Make a reasonable inquiry into the client's investment objectives and constraints",
-            "Recommend the same portfolio to all clients"
-          ],
-          "correctAnswer": "B",
-          "explanation": "Standard III(C) requires members to make a reasonable inquiry into a client's investment experience, objectives, and constraints before making recommendations. This ensures recommendations are suitable."
-        },
-        {
-          "id": "ethics-q17",
-          "question": "Which client information is LEAST important for determining investment suitability?",
-          "options": [
-            "Client's risk tolerance",
-            "Client's investment time horizon",
-            "Client's favorite industry sector"
-          ],
-          "correctAnswer": "C",
-          "explanation": "While client preferences may be considered, risk tolerance and time horizon are ESSENTIAL for suitability determinations. Favorite sectors are less critical and should not override suitability requirements."
-        }
-      ]
-    },
-    {
-      "title": "Performance Presentation - Standard III(D)",
-      "content": "<p>Standard III(D) requires members to make reasonable efforts to ensure that investment performance information is fair, accurate, and complete. Members must not misrepresent past performance or reasonably expected performance.</p><p><strong>Prohibited Practices:</strong></p><ul><li>Cherry-picking only best-performing accounts</li><li>Presenting gross returns without disclosing fees</li><li>Imputing past performance to new funds without disclosure</li><li>Using hypothetical performance without clear labeling</li><li>Omitting relevant information that would affect interpretation</li></ul><p><strong>Best Practices:</strong></p><ul><li>Present composite performance (not just selected accounts)</li><li>Disclose whether performance is gross or net of fees</li><li>Disclose if performance is hypothetical or simulated</li><li>Follow GIPS standards when possible</li></ul>",
-      "keyPoints": [
-        "Cannot misrepresent past or expected performance",
-        "Must present performance FAIRLY, ACCURATELY, and COMPLETELY",
-        "Cannot cherry-pick only best-performing accounts",
-        "Must disclose if performance is gross or net of fees",
-        "Must clearly label hypothetical or simulated performance",
-        "Should follow GIPS (Global Investment Performance Standards)"
-      ],
-      "formulas": [],
-      "practiceQuestions": [
-        {
-          "id": "ethics-q18",
-          "question": "A portfolio manager advertises only their best-performing account from the past year. This practice:",
-          "options": [
-            "Is acceptable marketing",
-            "Violates Standard III(D) on Performance Presentation",
-            "Is required by regulations"
-          ],
-          "correctAnswer": "B",
-          "explanation": "Cherry-picking only the best performance without context misrepresents overall performance and violates Standard III(D). Performance 
+    }
+  ]
+}
