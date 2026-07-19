@@ -1,141 +1,215 @@
 {
   "sections": [
     {
-      "title": "Capital Budgeting",
-      "content": "<p>Capital budgeting involves evaluating investment projects to determine which ones to undertake. Key methods include NPV, IRR, and payback period.</p>",
+      "title": "Capital Budgeting - Investment Decision Making",
+      "content": "<p><strong>WHAT THIS MEANS:</strong> Capital budgeting is how companies decide which BIG projects to invest in. Should they build a new factory? Launch a new product? Buy another company? These decisions involve LARGE amounts of money and affect the company for YEARS to come.</p><p><strong>WHY THIS MATTERS FOR THE EXAM:</strong> Corporate Finance represents 8-12% of the CFA Level I exam (approximately 14-22 questions). Capital budgeting is THE MOST TESTED topic in Corporate Finance.</p><p><strong>THE BASIC IDEA:</strong> A company has limited money to invest. It must choose which projects will create the MOST VALUE for shareholders. Think of it like this: You have $100,000 to invest. Option A: Open a coffee shop (expected profit: $20,000/year). Option B: Buy rental property (expected profit: $15,000/year). Which do you choose? The coffee shop - it creates more value!</p><p><strong>FOUR MAIN CAPITAL BUDGETING METHODS:</strong></p><ol><li><strong>Net Present Value (NPV) - THE BEST METHOD:</strong><p>NPV calculates the PRESENT VALUE of all future cash flows from a project, minus the initial investment.</p><p style='background:#f0f9ff;padding:15px;border-radius:8px;'><strong>NPV = Σ[CF_t / (1+r)^t] - Initial Investment</strong></p><ul><li>CF_t = Cash flow in year t</li><li>r = Required rate of return (cost of capital)</li><li>t = Time period (year 1, 2, 3, etc.)</li></ul><p><strong>DECISION RULE:</strong></p><ul><li>If NPV > 0: ACCEPT the project (creates value)</li><li>If NPV < 0: REJECT the project (destroys value)</li><li>If NPV = 0: Indifferent (no value created or destroyed)</li></ul><p><strong>EXAMPLE:</strong> A project costs $100,000 today and will generate $40,000 per year for 3 years. Cost of capital = 10%.</p><ul><li>Year 0: -$100,000 (initial investment)</li><li>Year 1: $40,000 / (1.10)^1 = $36,364</li><li>Year 2: $40,000 / (1.10)^2 = $33,058</li><li>Year 3: $40,000 / (1.10)^3 = $30,053</li><li>PV of inflows = $99,475</li><li>NPV = $99,475 - $100,000 = -$525</li></ul><p>NPV is NEGATIVE, so REJECT the project. It destroys value.</p><p><strong>WHY NPV IS THE BEST:</strong> NPV directly measures how much VALUE a project creates for shareholders. A positive NPV means the project earns MORE than the required return.</p></li><li><strong>Internal Rate of Return (IRR):</strong><p>IRR is the discount rate that makes NPV = 0. It's the project's 'break-even' rate of return.</p><p><strong>DECISION RULE:</strong></p><ul><li>If IRR > cost of capital: ACCEPT</li><li>If IRR < cost of capital: REJECT</li></ul><p><strong>EXAMPLE:</strong> Same project as above. Using a financial calculator, IRR = 9.7%. Since 9.7% < 10% (cost of capital), REJECT.</p><p><strong>PROBLEM WITH IRR:</strong> When projects are MUTUALLY EXCLUSIVE (can only choose one), IRR can give the WRONG answer. ALWAYS use NPV for mutually exclusive projects.</p></li><li><strong>Payback Period:</strong><p>How long it takes to RECOVER the initial investment.</p><p><strong>EXAMPLE:</strong> Project costs $100,000, generates $25,000/year. Payback = $100,000 / $25,000 = 4 years.</p><p><strong>DECISION RULE:</strong> Accept if payback < maximum acceptable payback (set by company).</p><p><strong>PROBLEM:</strong> Ignores time value of money! Ignores cash flows AFTER payback period.</p></li><li><strong>Discounted Payback Period:</strong><p>Like payback period, but uses DISCOUNTED cash flows. Fixes the time value problem, but STILL ignores cash flows after payback.</p></li></ol><p><strong>EXAM MEMORY TIP:</strong> Remember 'NPV is KING' - Net Present Value is the BEST method. When in doubt, choose NPV. If NPV and IRR conflict, ALWAYS go with NPV.</p>",
       "keyPoints": [
-        "NPV > 0 indicates value-creating project",
+        "Corporate Finance = 8-12% of exam (14-22 questions)",
+        "NPV is the BEST capital budgeting method",
+        "NPV > 0: ACCEPT (creates value for shareholders)",
+        "NPV < 0: REJECT (destroys value)",
         "IRR is the discount rate that makes NPV = 0",
-        "Payback period measures time to recover initial investment",
-        "NPV is preferred over IRR for mutually exclusive projects"
+        "If IRR > cost of capital: ACCEPT",
+        "For mutually exclusive projects, ALWAYS use NPV (not IRR)",
+        "Payback period ignores time value of money (flawed method)",
+        "Discounted payback fixes time value but still ignores later cash flows",
+        "NPV directly measures shareholder value creation",
+        "Memory aid: 'NPV is KING' - always choose NPV when in doubt"
       ],
       "formulas": [
         {
           "expression": "NPV = Σ[CF_t / (1+r)^t] - Initial Investment",
           "variables": {
             "CF_t": "Cash flow in period t",
-            "r": "Discount rate",
+            "r": "Required rate of return (cost of capital)",
             "t": "Time period"
           }
         },
         {
-          "expression": "IRR: NPV = 0",
+          "expression": "IRR: The rate where NPV = 0",
           "variables": {
-            "IRR": "Internal rate of return",
-            "NPV": "Net present value"
+            "IRR": "Internal Rate of Return",
+            "NPV": "Net Present Value"
+          }
+        },
+        {
+          "expression": "Payback Period = Initial Investment / Annual Cash Flow",
+          "variables": {
+            "Initial Investment": "Upfront cost",
+            "Annual Cash Flow": "Constant annual cash inflow"
           }
         }
       ],
       "practiceQuestions": [
         {
           "id": "corp-q1",
-          "question": "A project with a positive NPV should be:",
+          "question": "A project has an NPV of +$50,000. What should the company do?",
           "options": [
-            "Rejected",
-            "Accepted",
-            "Deferred for further analysis"
+            "Reject the project because it's too risky",
+            "Accept the project because it creates value",
+            "Calculate IRR before making a decision"
           ],
           "correctAnswer": "B",
-          "explanation": "A positive NPV indicates the project will create value for shareholders and should be accepted."
+          "explanation": "A POSITIVE NPV means the project creates value for shareholders. The decision rule is simple: If NPV > 0, ACCEPT. The $50,000 represents the amount of value (in today's dollars) the project will create. EXAM TIP: Positive NPV = Accept. Negative NPV = Reject. This is the MOST IMPORTANT rule in capital budgeting."
         },
         {
           "id": "corp-q2",
-          "question": "The IRR is the discount rate that makes:",
+          "question": "When NPV and IRR give conflicting recommendations for mutually exclusive projects, which should you follow?",
           "options": [
-            "NPV equal to zero",
-            "NPV equal to one",
-            "Cash flows equal to initial investment"
+            "Always follow IRR",
+            "Always follow NPV",
+            "Take the average of both"
           ],
-          "correctAnswer": "A",
-          "explanation": "By definition, IRR is the discount rate that makes the net present value of all cash flows equal to zero."
+          "correctAnswer": "B",
+          "explanation": "For MUTUALLY EXCLUSIVE projects (can only choose one), ALWAYS follow NPV. IRR can give misleading results when projects have different sizes or timing of cash flows. NPV directly measures value creation, so it's always correct. EXAM TIP: This is a VERY common exam question. Remember: 'NPV is KING' - when they conflict, choose NPV."
         },
         {
           "id": "corp-q3",
-          "question": "When NPV and IRR give conflicting rankings for mutually exclusive projects, which should be preferred?",
+          "question": "The payback period method has which of the following weaknesses?",
           "options": [
-            "IRR ranking",
-            "NPV ranking",
-            "Payback period ranking"
+            "It's too complicated to calculate",
+            "It ignores the time value of money",
+            "It requires too much information"
           ],
           "correctAnswer": "B",
-          "explanation": "NPV is preferred because it directly measures value creation and assumes reinvestment at the cost of capital, which is more realistic."
+          "explanation": "The payback period's BIGGEST weakness is that it ignores the time value of money. A dollar received in year 1 is treated the same as a dollar received in year 5. It also ignores all cash flows AFTER the payback period. EXAM TIP: Payback period is simple but flawed. Discounted payback fixes the time value problem but still ignores later cash flows."
         }
       ]
     },
     {
-      "title": "Cost of Capital",
-      "content": "<p>The cost of capital represents the opportunity cost of investing in a project. WACC is commonly used as the discount rate in capital budgeting.</p>",
+      "title": "Cost of Capital - The Required Return",
+      "content": "<p><strong>WHAT THIS MEANS:</strong> The cost of capital is the MINIMUM return a company must earn on its investments to satisfy its investors (both debt holders and equity holders). It's the 'hurdle rate' for capital budgeting decisions.</p><p><strong>WHY THIS MATTERS:</strong> If a company earns LESS than its cost of capital, it's DESTROYING value even if it's profitable. EXAMPLE: A company earns 8% on its investments, but investors require 10%. The company is destroying 2% of value per year!</p><p><strong>WEIGHTED AVERAGE COST OF CAPITAL (WACC):</strong></p><p>WACC is the AVERAGE cost of all the company's capital, weighted by how much of each type they use.</p><p style='background:#f0f9ff;padding:15px;border-radius:8px;'><strong>WACC = (E/V) × R_e + (D/V) × R_d × (1 - T)</strong></p><p>Where:<ul><li>E = Market value of equity</li><li>D = Market value of debt</li><li>V = E + D (total value of the firm)</li><li>R_e = Cost of equity</li><li>R_d = Cost of debt</li><li>T = Corporate tax rate</li></ul></p><p><strong>WHY DEBT IS CHEAPER THAN EQUITY:</strong></p><ol><li><strong>Debt is LESS RISKY for investors:</strong> Debt holders get paid FIRST (before equity holders) if the company goes bankrupt.</li><li><strong>Interest is TAX-DEDUCTIBLE:</strong> Companies can deduct interest payments from taxable income. This creates a 'tax shield' that makes debt even cheaper.</li></ol><p><strong>EXAMPLE:</strong> Company XYZ has:<ul><li>Equity: $600 million (60% of capital)</li><li>Debt: $400 million (40% of capital)</li><li>Cost of equity (R_e): 12%</li><li>Cost of debt (R_d): 6%</li><li>Tax rate: 30%</li></ul><p>WACC = (0.60 × 12%) + (0.40 × 6% × (1 - 0.30))<br>WACC = 7.2% + (0.40 × 6% × 0.70)<br>WACC = 7.2% + 1.68%<br>WACC = 8.88%</p><p>The company must earn AT LEAST 8.88% on its investments to satisfy investors.</p><p><strong>COST OF EQUITY - CAPM MODEL:</strong></p><p>The Capital Asset Pricing Model (CAPM) estimates the cost of equity.</p><p style='background:#f0f9ff;padding:15px;border-radius:8px;'><strong>R_e = R_f + β × (R_m - R_f)</strong></p><p>Where:<ul><li>R_f = Risk-free rate (usually government bonds)</li><li>β = Beta (measure of stock's risk relative to market)</li><li>R_m = Expected market return</li><li>(R_m - R_f) = Market risk premium</li></ul></p><p><strong>EXAMPLE:</strong> Risk-free rate = 3%, Beta = 1.2, Market risk premium = 6%.<br>R_e = 3% + 1.2 × 6% = 3% + 7.2% = 10.2%</p><p><strong>INTERPRETING BETA:</strong></p><ul><li>β = 1.0: Stock moves with the market (average risk)</li><li>β > 1.0: Stock is MORE volatile than market (higher risk, higher required return)</li><li>β < 1.0: Stock is LESS volatile than market (lower risk, lower required return)</li></ul><p><strong>EXAM MEMORY TIP:</strong> Remember 'WACC is the HURDLE' - WACC is the minimum return (hurdle rate) a company must earn. Also remember 'Debt is CHEAPER' - debt costs less than equity due to lower risk and tax deductibility.</p>",
       "keyPoints": [
-        "WACC = weighted average of cost of debt and equity",
-        "Cost of equity > Cost of debt (due to tax shield)",
-        "CAPM estimates cost of equity",
-        "Marginal cost of capital increases with more capital raised"
+        "WACC = Weighted Average Cost of Capital",
+        "WACC is the MINIMUM return company must earn (hurdle rate)",
+        "WACC = (E/V)×R_e + (D/V)×R_d×(1-T)",
+        "Debt is CHEAPER than equity (less risky + tax deductible)",
+        "Interest on debt is TAX-DEDUCTIBLE (creates tax shield)",
+        "Cost of Equity (CAPM): R_e = R_f + β×(R_m - R_f)",
+        "Beta > 1 = More risky than market",
+        "Beta < 1 = Less risky than market",
+        "Use MARKET values (not book values) for E and D",
+        "If project earns less than WACC, it destroys value",
+        "Memory aid: 'WACC is the HURDLE' - minimum return required"
       ],
       "formulas": [
         {
-          "expression": "WACC = (E/V)×Re + (D/V)×Rd×(1-T)",
+          "expression": "WACC = (E/V) × R_e + (D/V) × R_d × (1 - T)",
           "variables": {
             "E": "Market value of equity",
             "D": "Market value of debt",
-            "V": "E + D (total value)",
-            "Re": "Cost of equity",
-            "Rd": "Cost of debt",
-            "T": "Tax rate"
+            "V": "E + D (total firm value)",
+            "R_e": "Cost of equity",
+            "R_d": "Cost of debt",
+            "T": "Corporate tax rate"
           }
         },
         {
-          "expression": "CAPM: Re = Rf + β(Rm - Rf)",
+          "expression": "CAPM: R_e = R_f + β × (R_m - R_f)",
           "variables": {
-            "Re": "Cost of equity",
-            "Rf": "Risk-free rate",
-            "β": "Beta",
-            "Rm": "Market return"
+            "R_e": "Cost of equity (required return)",
+            "R_f": "Risk-free rate",
+            "β": "Beta (systematic risk)",
+            "R_m": "Expected market return",
+            "(R_m - R_f)": "Market risk premium"
           }
         }
       ],
       "practiceQuestions": [
         {
           "id": "corp-q4",
-          "question": "The cost of equity is typically higher than the cost of debt because:",
+          "question": "Why is the cost of debt typically LOWER than the cost of equity?",
           "options": [
-            "Equity is less risky",
-            "Equity holders have residual claims and higher risk",
-            "Interest is tax-deductible"
+            "Debt holders have voting rights",
+            "Debt is less risky and interest is tax-deductible",
+            "Equity holders get paid first in bankruptcy"
           ],
           "correctAnswer": "B",
-          "explanation": "Equity holders bear more risk (residual claims, no guaranteed payments), so they require higher returns than debt holders."
+          "explanation": "Debt is cheaper for TWO reasons: (1) Debt holders have FIRST CLAIM on assets in bankruptcy (less risky), so they accept lower returns. (2) Interest payments are TAX-DEDUCTIBLE, reducing the after-tax cost of debt. Option A is wrong - debt holders don't have voting rights. Option C is backwards - debt holders get paid first, not equity holders. EXAM TIP: Remember 'Debt is CHEAPER' - Lower risk + Tax shield = Lower cost."
+        },
+        {
+          "id": "corp-q5",
+          "question": "A company has a WACC of 9%. A proposed project has an expected return of 7%. Should the company accept the project?",
+          "options": [
+            "Yes, because 7% is a positive return",
+            "No, because 7% < 9% (destroys value)",
+            "Yes, because the project is low risk"
+          ],
+          "correctAnswer": "B",
+          "explanation": "The project should be REJECTED. WACC (9%) is the MINIMUM return required. If the project only earns 7%, it's earning 2% LESS than investors require. This DESTROYS shareholder value. Even though 7% is 'positive,' it's not enough to compensate investors for the risk. EXAM TIP: Compare project return to WACC. Return > WACC = Accept. Return < WACC = Reject."
         }
       ]
     },
     {
       "title": "Leverage and Capital Structure",
-      "content": "<p>Capital structure decisions involve choosing the mix of debt and equity financing. Modigliani-Miller theorem provides the theoretical foundation.</p>",
+      "content": "<p><strong>WHAT THIS MEANS:</strong> Leverage means using DEBT to finance the company. Capital structure is the MIX of debt and equity the company uses. The big question: What's the OPTIMAL mix?</p><p><strong>WHY THIS MATTERS:</strong> Too little debt = missing out on tax benefits. Too much debt = risk of bankruptcy. Finding the right balance MAXIMIZES company value.</p><p><strong>TYPES OF LEVERAGE:</strong></p><ol><li><strong>Operating Leverage:</strong> Using FIXED OPERATING COSTS (like rent, salaries, depreciation). HIGH operating leverage = small change in sales → BIG change in operating income.<p><strong>EXAMPLE:</strong> An airline has high fixed costs (planes, gates, staff). If sales increase 10%, profits might increase 50% because fixed costs don't change. But if sales FALL 10%, profits might CRASH 50%.</p></li><li><strong>Financial Leverage:</strong> Using DEBT to finance the company. HIGH financial leverage = small change in operating income → BIG change in earnings per share (EPS).<p><strong>EXAMPLE:</strong> Company borrows $1 million at 5% interest. If the company earns 15% on that money, shareholders benefit from the 10% spread. But if the company only earns 3%, shareholders LOSE because interest must be paid regardless.</p></li></ol><p><strong>DEGREE OF LEVERAGE MEASURES:</strong></p><ul><li><strong>DOL (Degree of Operating Leverage):</strong> % Change in Operating Income / % Change in Sales</li><li><strong>DFL (Degree of Financial Leverage):</strong> % Change in EPS / % Change in Operating Income</li><li><strong>DCL (Degree of Combined Leverage):</strong> DOL × DFL = % Change in EPS / % Change in Sales</li></ul><p><strong>MODIGLIANI-MILLER THEOREMS (M&M):</strong></p><p>These are FOUNDATIONAL theories about capital structure.</p><ol><li><strong>M&M Proposition I (No Taxes):</strong> Capital structure DOESN'T MATTER. The value of the firm is independent of how it's financed (debt vs. equity). WHY? Investors can create 'homemade leverage' by borrowing on their own.</li><li><strong>M&M Proposition I (With Taxes):</strong> With corporate taxes, debt FINANCING INCREASES firm value. WHY? Interest is tax-deductible, creating a 'tax shield.' Value of levered firm = Value of unlevered firm + (Tax Rate × Debt).</li><li><strong>M&M Proposition II:</strong> As debt increases, cost of equity INCREASES (because equity becomes riskier). The benefit of cheap debt is exactly offset by higher cost of equity.</li></ol><p><strong>OPTIMAL CAPITAL STRUCTURE:</strong></p><p>In REALITY (not M&M theory), there IS an optimal capital structure:</p><ul><li><strong>Benefits of Debt:</strong> Tax shield, discipline on management</li><li><strong>Costs of Debt:</strong> Bankruptcy risk, financial distress costs, agency costs</li></ul><p><strong>THE TRADE-OFF:</strong> Companies should use debt up to the point where MARGINAL BENEFIT = MARGINAL COST. This is the optimal capital structure.</p><p><strong>EXAM MEMORY TIP:</strong> Remember 'M&M = Taxes Matter' - Without taxes, capital structure doesn't matter. With taxes, debt adds value through the tax shield. Also remember 'Too Much Debt = Bankruptcy Risk' - there's a trade-off.</p>",
       "keyPoints": [
-        "Financial leverage magnifies both gains and losses",
-        "Interest tax shield makes debt attractive",
-        "Financial distress costs limit debt usage",
-        "Optimal capital structure balances benefits and costs of debt"
+        "Operating Leverage = Fixed operating costs",
+        "Financial Leverage = Using debt financing",
+        "High leverage = Small sales change → BIG profit change",
+        "DOL = %Δ Operating Income / %Δ Sales",
+        "DFL = %Δ EPS / %Δ Operating Income",
+        "DCL = DOL × DFL (combined leverage)",
+        "M&M (No Taxes): Capital structure doesn't matter",
+        "M&M (With Taxes): Debt increases firm value (tax shield)",
+        "Optimal capital structure balances benefits and costs of debt",
+        "Too much debt = Bankruptcy risk and financial distress",
+        "Interest tax shield = Interest × Tax Rate",
+        "Memory aid: 'M&M = Taxes Matter'"
       ],
       "formulas": [
         {
-          "expression": "Degree of Financial Leverage = EBIT / (EBIT - Interest)",
+          "expression": "DOL = %Δ Operating Income / %Δ Sales",
           "variables": {
-            "EBIT": "Earnings before interest and taxes",
-            "Interest": "Interest expense"
+            "DOL": "Degree of Operating Leverage",
+            "%Δ": "Percentage change"
+          }
+        },
+        {
+          "expression": "DFL = %Δ EPS / %Δ Operating Income",
+          "variables": {
+            "DFL": "Degree of Financial Leverage",
+            "EPS": "Earnings per share"
+          }
+        },
+        {
+          "expression": "DCL = DOL × DFL",
+          "variables": {
+            "DCL": "Degree of Combined Leverage"
+          }
+        },
+        {
+          "expression": "V_L = V_U + (T × D)",
+          "variables": {
+            "V_L": "Value of levered firm",
+            "V_U": "Value of unlevered firm",
+            "T": "Tax rate",
+            "D": "Debt"
           }
         }
       ],
       "practiceQuestions": [
         {
-          "id": "corp-q5",
-          "question": "According to Modigliani-Miller (with taxes), the value of a levered firm is:",
+          "id": "corp-q6",
+          "question": "According to Modigliani-Miller Proposition I (with taxes), adding debt to the capital structure:",
           "options": [
-            "Equal to unlevered firm value",
-            "Greater than unlevered firm value",
-            "Less than unlevered firm value"
+            "Decreases firm value due to bankruptcy risk",
+            "Has no effect on firm value",
+            "Increases firm value due to the interest tax shield"
+          ],
+          "correctAnswer": "C",
+          "explanation": "With corporate taxes, M&M Proposition I states that debt INCREASES firm value because interest payments are TAX-DEDUCTIBLE. This creates a 'tax shield' that adds value. The formula is: V_L = V_U + (T × D). EXAM TIP: Remember the KEY DISTINCTION - M&M without taxes says capital structure doesn't matter. M&M WITH taxes says debt adds value."
+        },
+        {
+          "id": "corp-q7",
+          "question": "A company with HIGH operating leverage will experience:",
+          "options": [
+            "Small changes in profits when sales change",
+            "Large changes in profits when sales change",
+            "No change in profits when sales change"
           ],
           "correctAnswer": "B",
-          "explanation": "With corporate taxes, the interest tax shield makes levered firms more valuable than unlevered firms by the present value of the tax shield."
+          "explanation": "High operating leverage means the company has HIGH FIXED COSTS. When sales increase, profits increase DISPROPORTIONATELY because fixed costs don't change. But when sales DECREASE, profits also crash disproportionately. High leverage = HIGH RISK, HIGH REWARD. EXAM TIP: Think of an airline - high fixed costs (planes, staff) mean profits are very sensitive to changes in ticket sales."
         }
       ]
     }

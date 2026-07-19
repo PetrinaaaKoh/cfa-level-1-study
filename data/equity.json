@@ -2,131 +2,176 @@
   "sections": [
     {
       "title": "Market Organization and Structure",
-      "content": "<p>Financial markets facilitate the exchange of securities. Understanding market structures, order types, and trading mechanisms is essential for equity investing.</p>",
+      "content": "<p><strong>WHAT THIS MEANS:</strong> Financial markets are where securities (stocks, bonds, etc.) are bought and sold. Understanding HOW markets work is essential for investors.</p><p><strong>WHY THIS MATTERS FOR THE EXAM:</strong> Equity Investments represents 10-12% of the CFA Level I exam (approximately 18-22 questions). Market structure is the FOUNDATION for understanding equity investing.</p><p><strong>PRIMARY vs. SECONDARY MARKETS:</strong></p><table style='width:100%;border-collapse:collapse;margin:20px 0;'><tr style='background:#f0f9ff;'><th style='border:1px solid #bae6fd;padding:12px;'>Market Type</th><th style='border:1px solid #bae6fd;padding:12px;'>What Happens</th><th style='border:1px solid #bae6fd;padding:12px;'>Example</th></tr><tr><td style='border:1px solid #e2e8f0;padding:12px;'>PRIMARY Market</td><td style='border:1px solid #e2e8f0;padding:12px;'>NEW securities issued to investors</td><td style='border:1px solid #e2e8f0;padding:12px;'>IPO (Initial Public Offering)</td></tr><tr><td style='border:1px solid #e2e8f0;padding:12px;'>SECONDARY Market</td><td style='border:1px solid #e2e8f0;padding:12px;'>EXISTING securities traded between investors</td><td style='border:1px solid #e2e8f0;padding:12px;'>NYSE, NASDAQ trading</td></tr></table><p><strong>KEY POINT:</strong> In the PRIMARY market, money goes TO THE COMPANY (they issue new shares). In the SECONDARY market, money goes TO OTHER INVESTORS (company doesn't receive anything).</p><p><strong>EXAMPLE:</strong> Company XYZ does an IPO, selling 10 million shares at $20 each. This is the PRIMARY market - XYZ receives $200 million. One year later, you buy 100 shares of XYZ from another investor on the NYSE at $25 per share. This is the SECONDARY market - XYZ receives NOTHING; the money goes to the selling investor.</p><p><strong>MARKET TYPES:</strong></p><ol><li><strong>Quote-Driven Markets (Dealer Markets):</strong><ul><li>Dealers (market makers) stand ready to buy or sell</li><li>Dealers earn the 'bid-ask spread'</li><li>EXAMPLE: Bond markets, foreign exchange markets</li></ul></li><li><strong>Order-Driven Markets:</strong><ul><li>Buyers and sellers submit orders that are matched</li><li>No dealers - direct matching</li><li>EXAMPLE: Most stock exchanges (NYSE, NASDAQ)</li></ul></li><li><strong>Brokered Markets:</strong><ul><li>Brokers find counterparties for clients</li><li>EXAMPLE: Real estate, large block trades</li></ul></li></ol><p><strong>ORDER TYPES:</strong></p><ul><li><strong>Market Order:</strong> Execute IMMEDIATELY at the best available price. FAST but uncertain price.</li><li><strong>Limit Order:</strong> Execute ONLY at a specific price (or better). Certain price but uncertain execution.</li><li><strong>Stop Order:</strong> Becomes a market order ONCE a certain price is hit. Used to limit losses.</li></ul><p><strong>EXAMPLE:</strong> Stock XYZ is trading at $50.<ul><li>Market order: Buy NOW at whatever price (might be $50.05)</li><li>Limit order: Buy ONLY at $49 or less (might not execute if price never falls)</li><li>Stop order: If price falls to $45, sell immediately (limits losses)</li></ul></p><p><strong>EXAM MEMORY TIP:</strong> Remember 'PRIMARY = NEW, SECONDARY = USED' - Primary market is for new securities (IPOs). Secondary market is for existing securities (regular trading). Also remember 'Market = Fast, Limit = Price Control' - market orders execute fast, limit orders control the price.</p>",
       "keyPoints": [
-        "Primary markets: new securities issued",
-        "Secondary markets: existing securities traded",
-        "Market orders execute at current market price",
-        "Limit orders execute at specified price or better"
+        "Equity = 10-12% of exam (18-22 questions)",
+        "Primary Market = NEW securities issued (company gets money)",
+        "Secondary Market = EXISTING securities traded (investors trade)",
+        "IPO = Initial Public Offering (primary market)",
+        "Quote-Driven = Dealers make markets (bond markets)",
+        "Order-Driven = Orders matched directly (stock exchanges)",
+        "Market Order = Execute immediately at current price",
+        "Limit Order = Execute ONLY at specified price",
+        "Stop Order = Becomes market order when price hits trigger",
+        "Bid-Ask Spread = Difference between buy and sell prices",
+        "Memory aid: 'PRIMARY = NEW, SECONDARY = USED'"
       ],
       "formulas": [],
       "practiceQuestions": [
         {
           "id": "equity-q1",
-          "question": "In which market are new securities issued to investors?",
+          "question": "When a company conducts an IPO (Initial Public Offering), this transaction occurs in the:",
           "options": [
             "Secondary market",
             "Primary market",
             "Dark pool"
           ],
           "correctAnswer": "B",
-          "explanation": "The primary market is where new securities are issued and sold to investors for the first time (e.g., IPOs)."
+          "explanation": "An IPO is a PRIMARY market transaction because NEW shares are being issued and sold to investors for the FIRST time. The company receives the money from the IPO. After the IPO, when those shares trade on the stock exchange, that's the SECONDARY market. EXAM TIP: Remember 'PRIMARY = NEW' - any time a company issues NEW securities, it's the primary market."
         },
         {
           "id": "equity-q2",
-          "question": "A limit order to buy will execute:",
+          "question": "An investor wants to buy a stock but ONLY if the price is $50 or less. Which order type should they use?",
           "options": [
-            "At any available price",
-            "At the specified price or lower",
-            "At the specified price or higher"
+            "Market order",
+            "Limit order",
+            "Stop order"
           ],
           "correctAnswer": "B",
-          "explanation": "A limit buy order specifies the maximum price the buyer is willing to pay. It will execute at that price or lower."
+          "explanation": "A LIMIT ORDER specifies the maximum price the buyer will pay (or minimum price a seller will accept). This order will only execute at $50 or better. A market order would execute immediately at whatever price is available. A stop order becomes a market order once a trigger price is hit. EXAM TIP: Limit orders give PRICE CERTAINTY but not EXECUTION CERTAINTY (might not execute if price never reaches the limit)."
+        },
+        {
+          "id": "equity-q3",
+          "question": "In a quote-driven market, liquidity is provided by:",
+          "options": [
+            "Other investors submitting orders",
+            "Dealers (market makers)",
+            "Auction specialists"
+          ],
+          "correctAnswer": "B",
+          "explanation": "In QUOTE-DRIVEN markets, DEALERS (market makers) stand ready to buy or sell at quoted prices. They earn the bid-ask spread. This is different from ORDER-DRIVEN markets where buyers and sellers submit orders that are matched directly. EXAM TIP: Bond markets and foreign exchange markets are typically quote-driven. Stock exchanges are typically order-driven."
         }
       ]
     },
     {
       "title": "Security Market Indices",
-      "content": "<p>Market indices track the performance of a group of securities representing a particular market or sector. They serve as benchmarks and investment vehicles.</p>",
+      "content": "<p><strong>WHAT THIS MEANS:</strong> A market index tracks the performance of a GROUP of securities. It's like a 'thermometer' that measures how a particular market or sector is doing.</p><p><strong>WHY THIS MATTERS:</strong> Indices are used as BENCHMARKS (to measure portfolio performance), as ECONOMIC INDICATORS (is the market going up or down?), and as INVESTMENT VEHICLES (index funds, ETFs).</p><p><p><strong>COMMON INDICES:</strong></p><ul><li><strong>S&P 500:</strong> 500 largest U.S. companies. Market-cap weighted.</li><li><strong>Dow Jones Industrial Average (DJIA):</strong> 30 large U.S. companies. PRICE-WEIGHTED.</li><li><strong>NASDAQ Composite:</strong> All stocks on NASDAQ exchange. Market-cap weighted.</li><li><strong>Russell 2000:</strong> 2,000 small-cap U.S. companies. Market-cap weighted.</li></ul><p><strong>THREE WEIGHTING METHODS:</strong></p><ol><li><strong>Price-Weighted Index:</strong><p>Stocks with HIGHER PRICES have MORE influence on the index.</p><p style='background:#f0f9ff;padding:15px;border-radius:8px;'><strong>Index Value = Sum of Stock Prices / Divisor</strong></p><p><strong>EXAMPLE:</strong> Index has 3 stocks: Stock A = $100, Stock B = $50, Stock C = $25.<br>Index = ($100 + $50 + $25) / Divisor = $175 / Divisor</p><p><strong>PROBLEM:</strong> Stock A has 4× more influence than Stock C, even if Company C is much larger! A 10% move in Stock A affects the index more than a 10% move in Stock C.</p><p><strong>REAL EXAMPLE:</strong> Dow Jones Industrial Average (DJIA) is price-weighted. This is why some people criticize it - a high-priced stock has outsized influence.</p></li><li><strong>Market-Capitalization Weighted:</strong><p>LARGER companies have MORE influence on the index.</p><p style='background:#f0f9ff;padding:15px;border-radius:8px;'><strong>Weight of Stock = Market Cap of Stock / Total Market Cap of Index</strong></p><p><strong>EXAMPLE:</strong> Index has 2 stocks:<ul><li>Company A: 1 million shares × $100 = $100 million market cap</li><li>Company B: 10 million shares × $20 = $200 million market cap</li><li>Total = $300 million</li><li>Weight of A = $100M / $300M = 33%</li><li>Weight of B = $200M / $300M = 67%</li></ul>Company B has 2× more influence because it's twice as large.</p><p><strong>ADVANTAGE:</strong> Reflects the actual market. Larger companies SHOULD have more influence.</p><p><strong>REAL EXAMPLE:</strong> S&P 500 is market-cap weighted. Apple, Microsoft have huge weights because they're the largest companies.</p></li><li><strong>Equal-Weighted:</strong><p>ALL stocks have the SAME influence, regardless of price or size.</p><p><strong>EXAMPLE:</strong> Index has 100 stocks. Each stock gets 1% weight.</p><p><strong>ADVANTAGE:</strong> Small companies have same influence as large companies.</p><p><strong>DISADVANTAGE:</strong> Requires frequent REBALANCING (as prices change, weights drift).</p></li></ol><p><strong>INDEX PURPOSES:</strong></p><ul><li><strong>Benchmark:</strong> Compare your portfolio performance to the index. Did you beat the market?</li><li><strong>Economic Indicator:</strong> Rising stock market often signals economic growth.</li><li><strong>Investment Vehicle:</strong> Index funds and ETFs allow investors to buy the entire market.</li><li><strong>Measure of Market Sentiment:</strong> Is the market optimistic (bullish) or pessimistic (bearish)?</li></ul><p><strong>EXAM MEMORY TIP:</strong> Remember 'PME' - Price-weighted (DJIA), Market-cap weighted (S&P 500), Equal-weighted. Also remember 'DJIA = 30 stocks, S&P 500 = 500 stocks' - common exam facts.</p>",
       "keyPoints": [
-        "Price-weighted: higher-priced stocks have more weight",
-        "Market-cap weighted: larger companies have more weight",
-        "Equal-weighted: all stocks have same weight",
-        "S&P 500 is market-cap weighted"
+        "Index tracks performance of a GROUP of securities",
+        "Used as benchmarks, economic indicators, investment vehicles",
+        "Price-Weighted: Higher-priced stocks have more influence",
+        "Market-Cap Weighted: Larger companies have more influence",
+        "Equal-Weighted: All stocks have same influence",
+        "DJIA = Price-weighted (30 stocks)",
+        "S&P 500 = Market-cap weighted (500 stocks)",
+        "Price-weighted has a DIVISOR that adjusts for splits",
+        "Market-cap weighted reflects actual market structure",
+        "Equal-weighted requires frequent rebalancing",
+        "Memory aid: 'PME' - Price, Market-cap, Equal weighting"
       ],
       "formulas": [
         {
-          "expression": "Price-Weighted Index = ΣPrices / Divisor",
+          "expression": "Price-Weighted Index = Σ(Stock Prices) / Divisor",
           "variables": {
-            "ΣPrices": "Sum of stock prices",
-            "Divisor": "Adjusted for splits, dividends"
+            "Σ": "Sum of all stock prices in index",
+            "Divisor": "Adjusted for stock splits, changes"
+          }
+        },
+        {
+          "expression": "Market-Cap Weight = Market Cap of Stock / Total Index Market Cap",
+          "variables": {
+            "Market Cap": "Share Price × Shares Outstanding"
           }
         }
       ],
       "practiceQuestions": [
         {
-          "id": "equity-q3",
-          "question": "The Dow Jones Industrial Average is what type of index?",
+          "id": "equity-q4",
+          "question": "The Dow Jones Industrial Average (DJIA) uses which weighting method?",
           "options": [
-            "Market-cap weighted",
+            "Market-capitalization weighted",
             "Price-weighted",
             "Equal-weighted"
           ],
           "correctAnswer": "B",
-          "explanation": "The DJIA is a price-weighted index, meaning higher-priced stocks have a greater impact on the index value."
+          "explanation": "The DJIA is PRICE-WEIGHTED. Stocks with higher share prices have more influence on the index, regardless of the company's actual size. This is why the DJIA is sometimes criticized - a $300 stock has 3× more influence than a $100 stock, even if the $100 company is larger. EXAM TIP: DJIA = Price-weighted, S&P 500 = Market-cap weighted. This is a common exam fact."
         },
         {
-          "id": "equity-q4",
-          "question": "Which index weighting method gives the same importance to each stock regardless of size?",
+          "id": "equity-q5",
+          "question": "In a market-capitalization weighted index, which company has the MOST influence?",
           "options": [
-            "Market-cap weighted",
-            "Price-weighted",
-            "Equal-weighted"
+            "The company with the highest stock price",
+            "The company with the largest market capitalization",
+            "All companies have equal influence"
           ],
-          "correctAnswer": "C",
-          "explanation": "Equal-weighted indices assign the same weight to each constituent stock, regardless of market capitalization or price."
+          "correctAnswer": "B",
+          "explanation": "In MARKET-CAP weighted indices, the company with the LARGEST MARKET CAPITALIZATION (share price × shares outstanding) has the most influence. This makes sense - larger companies SHOULD have more impact on the market. EXAMPLE: Apple has huge weight in S&P 500 because it's the largest company by market cap. EXAM TIP: Market-cap weighting is the MOST COMMON method for major indices."
         }
       ]
     },
     {
-      "title": "Equity Valuation",
-      "content": "<p>Equity valuation methods estimate the intrinsic value of stocks. Common approaches include DDM, DCF, and valuation multiples.</p>",
+      "title": "Equity Valuation - Intrinsic Value",
+      "content": "<p><strong>WHAT THIS MEANS:</strong> Equity valuation is determining what a stock is REALLY WORTH (intrinsic value) vs. what it's trading for (market price). If intrinsic value > market price, the stock is UNDERVALUED (buy!). If intrinsic value < market price, the stock is OVERVALUED (sell!).</p><p><strong>WHY THIS MATTERS:</strong> This is THE CORE SKILL of equity investing. The entire CFA program teaches you to find mispriced securities.</p><p><strong>TWO MAIN APPROACHES:</strong></p><ol><li><strong>Absolute Valuation (DCF Models):</strong> Calculate the INTRINSIC VALUE based on expected future cash flows.<ul><li>Dividend Discount Model (DDM)</li><li>Free Cash Flow to Equity (FCFE)</li><li>Free Cash Flow to Firm (FCFF)</li></ul></li><li><strong>Relative Valuation (Multiples):</strong> Compare the stock to SIMILAR companies using ratios.<ul><li>P/E ratio (Price/Earnings)</li><li>P/B ratio (Price/Book)</li><li>P/S ratio (Price/Sales)</li></ul></li></ol><p><strong>DIVIDEND DISCOUNT MODEL (DDM):</strong></p><p>The value of a stock is the PRESENT VALUE of all future dividends.</p><p style='background:#f0f9ff;padding:15px;border-radius:8px;'><strong>V_0 = D_1 / (r - g)</strong></p><p>This is the GORDON GROWTH MODEL (for constant growth).<br>Where:<ul><li>V_0 = Intrinsic value today</li><li>D_1 = Dividend next year</li><li>r = Required return on equity</li><li>g = Dividend growth rate (must be < r)</li></ul></p><p><strong>EXAMPLE:</strong> A stock pays $2 dividend next year. Required return = 10%. Dividends grow at 5% per year.</p><ul><li>V_0 = $2 / (0.10 - 0.05)</li><li>V_0 = $2 / 0.05</li><li>V_0 = $40</li></ul><p>The stock is worth $40. If it's trading at $35, it's UNDERVALUED (buy!). If it's trading at $50, it's OVERVALUED (sell!).</p><p><strong>CRITICAL ASSUMPTION:</strong> g must be LESS THAN r. If g ≥ r, the formula BREAKS (division by zero or negative). This makes sense - no company can grow faster than the required return FOREVER.</p><p><strong>PRICE MULTIPLES:</strong></p><ul><li><strong>P/E Ratio (Price/Earnings):</strong><p style='background:#f0f9ff;padding:15px;border-radius:8px;'>P/E = Price per Share / Earnings per Share</p><p>HIGH P/E = Investors expect HIGH GROWTH (or stock is overvalued).<br>LOW P/E = Investors expect LOW GROWTH (or stock is undervalued).</p><p><strong>EXAMPLE:</strong> Stock price = $50, EPS = $5. P/E = $50 / $5 = 10×. Investors pay $10 for every $1 of earnings.</p></li><li><strong>P/B Ratio (Price/Book):</strong><p style='background:#f0f9ff;padding:15px;border-radius:8px;'>P/B = Market Cap / Book Value of Equity</p><p>Useful for asset-heavy companies (banks, insurance). P/B < 1 might indicate undervaluation.</p></li><li><strong>P/S Ratio (Price/Sales):</strong><p style='background:#f0f9ff;padding:15px;border-radius:8px;'>P/S = Market Cap / Total Revenue</p><p>Useful for companies with no earnings yet (startups, tech).</p></li></ul><p><strong>EXAM MEMORY TIP:</strong> Remember 'DDM = Dividends Discounted to Market' - Dividend Discount Model discounts future dividends to present value. Also remember 'P/E = Price per Earnings dollar' - how much investors pay for $1 of earnings.</p>",
       "keyPoints": [
-        "Intrinsic value vs. market value",
-        "DDM values stock based on expected dividends",
-        "P/E ratio compares price to earnings",
-        "P/B ratio compares price to book value"
+        "Intrinsic Value = What stock is REALLY worth",
+        "Market Price = What stock trades for",
+        "Intrinsic > Market = UNDERVALUED (buy)",
+        "Intrinsic < Market = OVERVALUED (sell)",
+        "Gordon Growth: V_0 = D_1 / (r - g)",
+        "Growth rate (g) MUST be less than required return (r)",
+        "P/E = Price / Earnings per Share",
+        "High P/E = High growth expectations (or overvalued)",
+        "P/B = Price / Book Value (good for banks)",
+        "P/S = Price / Sales (good for unprofitable companies)",
+        "Memory aid: 'DDM = Dividends Discounted to Market'"
       ],
       "formulas": [
         {
           "expression": "Gordon Growth: V_0 = D_1 / (r - g)",
           "variables": {
             "V_0": "Intrinsic value today",
-            "D_1": "Expected dividend next year",
-            "r": "Required return",
-            "g": "Dividend growth rate"
+            "D_1": "Dividend next year",
+            "r": "Required return on equity",
+            "g": "Constant dividend growth rate"
           }
         },
         {
-          "expression": "P/E Ratio = Price / Earnings per Share",
+          "expression": "P/E Ratio = Price per Share / Earnings per Share",
           "variables": {
-            "Price": "Current stock price",
+            "Price per Share": "Current market price",
             "EPS": "Earnings per share"
+          }
+        },
+        {
+          "expression": "P/B Ratio = Market Cap / Book Value of Equity",
+          "variables": {
+            "Market Cap": "Total market value of equity",
+            "Book Value": "Shareholders' equity from balance sheet"
           }
         }
       ],
       "practiceQuestions": [
         {
-          "id": "equity-q5",
-          "question": "Using the Gordon Growth Model, if D₁ = $2, r = 10%, and g = 5%, the intrinsic value is:",
+          "id": "equity-q6",
+          "question": "A stock pays a $3 dividend next year. Required return is 12% and dividends grow at 4% annually. What is the intrinsic value?",
           "options": [
-            "$20",
-            "$40",
-            "$50"
+            "$25.00",
+            "$37.50",
+            "$75.00"
           ],
           "correctAnswer": "B",
-          "explanation": "V₀ = $2 / (0.10 - 0.05) = $2 / 0.05 = $40"
+          "explanation": "Using Gordon Growth Model: V_0 = D_1 / (r - g) = $3 / (0.12 - 0.04) = $3 / 0.08 = $37.50. The stock's intrinsic value is $37.50. If market price is below this, it's undervalued. EXAM TIP: Make sure g < r! If g ≥ r, the formula doesn't work. Also remember D_1 is NEXT YEAR'S dividend, not this year's."
         },
         {
-          "id": "equity-q6",
-          "question": "A stock trading at $50 with EPS of $5 has a P/E ratio of:",
+          "id": "equity-q7",
+          "question": "A stock trades at $80 per share with earnings of $4 per share. What is the P/E ratio?",
           "options": [
-            "5",
-            "10",
-            "15"
+            "0.05",
+            "20",
+            "320"
           ],
           "correctAnswer": "B",
-          "explanation": "P/E = $50 / $5 = 10"
+          "explanation": "P/E = Price / EPS = $80 / $4 = 20. This means investors pay $20 for every $1 of earnings. Whether this is 'high' or 'low' depends on the industry and growth prospects. EXAM TIP: P/E is one of the MOST COMMON valuation metrics. A P/E of 20× is typical for the S&P 500 (historical average)."
         }
       ]
     }
