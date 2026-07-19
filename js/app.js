@@ -83,22 +83,30 @@ class App {
                     html += '<h4>Formulas</h4>';
                     section.formulas.forEach(f => html += '<div class="formula-card"><div class="formula">' + f.expression + '</div></div>');
                 }
-                if (section.practiceQuestions) {
-                    html += '<div class="quiz-section"><h3>Practice Questions</h3><div id="quiz-' + idx + '"></div><div id="quiz-controls-' + idx + '" class="quiz-controls"></div></div>';
-                }
+               if (section.practiceQuestions && section.practiceQuestions.length > 0) {
+    html += '<div class="section quiz-section" style="margin-top:32px"><h3>Practice Questions (' + section.practiceQuestions.length + ' questions)</h3>';
+    html += '<div id="quiz-' + topic.id + '-' + idx + '"></div>';
+    html += '<div id="quiz-controls-' + topic.id + '-' + idx + '" class="quiz-controls"></div></div>';
+}
                 html += '<button class="btn btn-primary" style="margin-top:16px" onclick="this.textContent=\'Completed\';this.className=\'btn btn-secondary\'">Mark as Complete</button></div>';
             });
         }
         content.innerHTML = html;
-        if (topicData.sections) {
-            topicData.sections.forEach((section, idx) => {
-                if (section.practiceQuestions) {
-                    const container = document.getElementById('quiz-' + idx);
-                    if (container) quizEngine.init(section.practiceQuestions);
+// Initialize quizzes after content is rendered
+setTimeout(() => {
+    if (topicData.sections) {
+        topicData.sections.forEach((section, idx) => {
+            if (section.practiceQuestions && section.practiceQuestions.length > 0) {
+                const container = document.getElementById('quiz-' + topic.id + '-' + idx);
+                const controls = document.getElementById('quiz-controls-' + topic.id + '-' + idx);
+                if (container && controls) {
+                    console.log('Initializing quiz for section', idx, 'with', section.practiceQuestions.length, 'questions');
+                    quizEngine.init(section.practiceQuestions);
                 }
-            });
-        }
+            }
+        });
     }
+}, 100);
     
     setupEventListeners() {
         const searchBtn = document.getElementById('search-btn');
