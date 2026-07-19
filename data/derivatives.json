@@ -1,0 +1,100 @@
+{
+  "sections": [
+    {
+      "title": "Derivative Markets and Instruments",
+      "content": "<p>Derivatives are financial instruments whose value depends on (derives from) an underlying asset. Main types include forwards, futures, options, and swaps.</p>",
+      "keyPoints": [
+        "Forwards: customized OTC contracts",
+        "Futures: standardized exchange-traded contracts",
+        "Options: right but not obligation to buy/sell",
+        "Swaps: exchange of cash flows"
+      ],
+      "formulas": [],
+      "practiceQuestions": [
+        {
+          "id": "deriv-q1",
+          "question": "A forward contract is:",
+          "options": [
+            "Standardized and exchange-traded",
+            "Customized and traded over-the-counter",
+            "An option to buy or sell"
+          ],
+          "correctAnswer": "B",
+          "explanation": "Forward contracts are customized agreements between two parties to buy/sell an asset at a future date for a price agreed today. They trade over-the-counter (OTC)."
+        },
+        {
+          "id": "deriv-q2",
+          "question": "A call option gives the holder the right to:",
+          "options": [
+            "Sell the underlying asset",
+            "Buy the underlying asset",
+            "Exchange cash flows"
+          ],
+          "correctAnswer": "B",
+          "explanation": "A call option gives the holder the right (but not obligation) to buy the underlying asset at the strike price."
+        },
+        {
+          "id": "deriv-q3",
+          "question": "Which derivative is typically used to hedge against interest rate risk?",
+          "options": [
+            "Stock options",
+            "Interest rate swaps",
+            "Commodity futures"
+          ],
+          "correctAnswer": "B",
+          "explanation": "Interest rate swaps are commonly used to hedge against or speculate on interest rate movements by exchanging fixed and floating rate payments."
+        }
+      ]
+    },
+    {
+      "title": "Option Valuation",
+      "content": "<p>Option pricing depends on several factors including underlying price, strike price, time to expiration, volatility, and interest rates. Intrinsic value and time value make up an option's premium.</p>",
+      "keyPoints": [
+        "Call option: right to buy",
+        "Put option: right to sell",
+        "Intrinsic value: immediate exercise value",
+        "Time value: premium over intrinsic value"
+      ],
+      "formulas": [
+        {
+          "expression": "Call Intrinsic Value = Max(0, S - X)",
+          "variables": {
+            "S": "Current stock price",
+            "X": "Strike price"
+          }
+        },
+        {
+          "expression": "Put Intrinsic Value = Max(0, X - S)",
+          "variables": {
+            "X": "Strike price",
+            "S": "Current stock price"
+          }
+        }
+      ],
+      "practiceQuestions": [
+        {
+          "id": "deriv-q4",
+          "question": "A call option with strike price $50 when the stock trades at $55 has an intrinsic value of:",
+          "options": [
+            "$0",
+            "$5",
+            "$55"
+          ],
+          "correctAnswer": "B",
+          "explanation": "Call Intrinsic Value = Max(0, $55 - $50) = $5"
+        },
+        {
+          "id": "deriv-q5",
+          "question": "An out-of-the-money put option has:",
+          "options": [
+            "Positive intrinsic value",
+            "Zero intrinsic value",
+            "Negative intrinsic value"
+          ],
+          "correctAnswer": "B",
+          "explanation": "A put option is out-of-the-money when the stock price is above the strike price. Intrinsic value = Max(0, X - S) = 0."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,139 @@
+{
+  "sections": [
+    {
+      "title": "Supply and Demand Analysis",
+      "content": "<p>Supply and demand is the fundamental model of price determination in a market economy. The interaction of supply and demand determines market prices and quantities.</p>",
+      "keyPoints": [
+        "Law of demand: price and quantity demanded are inversely related",
+        "Law of supply: price and quantity supplied are directly related",
+        "Equilibrium occurs where supply equals demand",
+        "Shifts in curves vs. movements along curves"
+      ],
+      "formulas": [],
+      "practiceQuestions": [
+        {
+          "id": "econ-q1",
+          "question": "If the price of a good increases, what happens to the quantity demanded?",
+          "options": [
+            "It increases",
+            "It decreases",
+            "It remains unchanged"
+          ],
+          "correctAnswer": "B",
+          "explanation": "According to the law of demand, there is an inverse relationship between price and quantity demanded. When price increases, quantity demanded decreases."
+        },
+        {
+          "id": "econ-q2",
+          "question": "Market equilibrium occurs when:",
+          "options": [
+            "Supply exceeds demand",
+            "Demand exceeds supply",
+            "Quantity supplied equals quantity demanded"
+          ],
+          "correctAnswer": "C",
+          "explanation": "Market equilibrium is the point where the supply and demand curves intersect, meaning quantity supplied equals quantity demanded at the equilibrium price."
+        },
+        {
+          "id": "econ-q3",
+          "question": "Which of the following would cause a shift in the demand curve?",
+          "options": [
+            "A change in the price of the good",
+            "A change in consumer income",
+            "A change in the quantity supplied"
+          ],
+          "correctAnswer": "B",
+          "explanation": "A change in consumer income shifts the entire demand curve. A change in the price of the good causes a movement along the demand curve, not a shift."
+        }
+      ]
+    },
+    {
+      "title": "Elasticity",
+      "content": "<p>Elasticity measures the responsiveness of quantity demanded or supplied to changes in various factors such as price, income, or prices of related goods.</p>",
+      "keyPoints": [
+        "Price elasticity of demand measures responsiveness to price changes",
+        "Elastic demand: |E| > 1; Inelastic demand: |E| < 1",
+        "Cross-price elasticity indicates substitutes or complements",
+        "Income elasticity distinguishes normal from inferior goods"
+      ],
+      "formulas": [
+        {
+          "expression": "Price Elasticity = %ΔQ_d / %ΔP",
+          "variables": {
+            "%ΔQ_d": "Percentage change in quantity demanded",
+            "%ΔP": "Percentage change in price"
+          }
+        }
+      ],
+      "practiceQuestions": [
+        {
+          "id": "econ-q4",
+          "question": "If a 10% increase in price leads to a 20% decrease in quantity demanded, the demand is:",
+          "options": [
+            "Elastic",
+            "Inelastic",
+            "Unit elastic"
+          ],
+          "correctAnswer": "A",
+          "explanation": "Elasticity = 20%/10% = 2. Since |E| > 1, demand is elastic."
+        },
+        {
+          "id": "econ-q5",
+          "question": "A positive cross-price elasticity indicates that two goods are:",
+          "options": [
+            "Complements",
+            "Substitutes",
+            "Unrelated"
+          ],
+          "correctAnswer": "B",
+          "explanation": "Positive cross-price elasticity means that when the price of one good increases, demand for the other good increases, indicating they are substitutes."
+        }
+      ]
+    },
+    {
+      "title": "Macroeconomic Measures",
+      "content": "<p>Key macroeconomic indicators include GDP, inflation, and unemployment rates. These measures help assess the overall health of an economy.</p>",
+      "keyPoints": [
+        "GDP measures total output of an economy",
+        "CPI and PPI measure inflation",
+        "Unemployment rate = Unemployed / Labor Force",
+        "Real GDP adjusts for inflation"
+      ],
+      "formulas": [
+        {
+          "expression": "GDP = C + I + G + (X - M)",
+          "variables": {
+            "C": "Consumption",
+            "I": "Investment",
+            "G": "Government spending",
+            "X": "Exports",
+            "M": "Imports"
+          }
+        }
+      ],
+      "practiceQuestions": [
+        {
+          "id": "econ-q6",
+          "question": "Which component is the largest in most countries' GDP?",
+          "options": [
+            "Investment",
+            "Government spending",
+            "Consumption"
+          ],
+          "correctAnswer": "C",
+          "explanation": "Consumption (C) is typically the largest component of GDP in most economies, often representing 60-70% of total GDP."
+        },
+        {
+          "id": "econ-q7",
+          "question": "Real GDP differs from nominal GDP in that real GDP:",
+          "options": [
+            "Includes only goods, not services",
+            "Is adjusted for inflation",
+            "Excludes government spending"
+          ],
+          "correctAnswer": "B",
+          "explanation": "Real GDP is adjusted for inflation using a price index, allowing for meaningful comparisons of output over time."
+        }
+      ]
+    }
+  ]
+}

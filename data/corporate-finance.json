@@ -1,0 +1,143 @@
+{
+  "sections": [
+    {
+      "title": "Capital Budgeting",
+      "content": "<p>Capital budgeting involves evaluating investment projects to determine which ones to undertake. Key methods include NPV, IRR, and payback period.</p>",
+      "keyPoints": [
+        "NPV > 0 indicates value-creating project",
+        "IRR is the discount rate that makes NPV = 0",
+        "Payback period measures time to recover initial investment",
+        "NPV is preferred over IRR for mutually exclusive projects"
+      ],
+      "formulas": [
+        {
+          "expression": "NPV = Σ[CF_t / (1+r)^t] - Initial Investment",
+          "variables": {
+            "CF_t": "Cash flow in period t",
+            "r": "Discount rate",
+            "t": "Time period"
+          }
+        },
+        {
+          "expression": "IRR: NPV = 0",
+          "variables": {
+            "IRR": "Internal rate of return",
+            "NPV": "Net present value"
+          }
+        }
+      ],
+      "practiceQuestions": [
+        {
+          "id": "corp-q1",
+          "question": "A project with a positive NPV should be:",
+          "options": [
+            "Rejected",
+            "Accepted",
+            "Deferred for further analysis"
+          ],
+          "correctAnswer": "B",
+          "explanation": "A positive NPV indicates the project will create value for shareholders and should be accepted."
+        },
+        {
+          "id": "corp-q2",
+          "question": "The IRR is the discount rate that makes:",
+          "options": [
+            "NPV equal to zero",
+            "NPV equal to one",
+            "Cash flows equal to initial investment"
+          ],
+          "correctAnswer": "A",
+          "explanation": "By definition, IRR is the discount rate that makes the net present value of all cash flows equal to zero."
+        },
+        {
+          "id": "corp-q3",
+          "question": "When NPV and IRR give conflicting rankings for mutually exclusive projects, which should be preferred?",
+          "options": [
+            "IRR ranking",
+            "NPV ranking",
+            "Payback period ranking"
+          ],
+          "correctAnswer": "B",
+          "explanation": "NPV is preferred because it directly measures value creation and assumes reinvestment at the cost of capital, which is more realistic."
+        }
+      ]
+    },
+    {
+      "title": "Cost of Capital",
+      "content": "<p>The cost of capital represents the opportunity cost of investing in a project. WACC is commonly used as the discount rate in capital budgeting.</p>",
+      "keyPoints": [
+        "WACC = weighted average of cost of debt and equity",
+        "Cost of equity > Cost of debt (due to tax shield)",
+        "CAPM estimates cost of equity",
+        "Marginal cost of capital increases with more capital raised"
+      ],
+      "formulas": [
+        {
+          "expression": "WACC = (E/V)×Re + (D/V)×Rd×(1-T)",
+          "variables": {
+            "E": "Market value of equity",
+            "D": "Market value of debt",
+            "V": "E + D (total value)",
+            "Re": "Cost of equity",
+            "Rd": "Cost of debt",
+            "T": "Tax rate"
+          }
+        },
+        {
+          "expression": "CAPM: Re = Rf + β(Rm - Rf)",
+          "variables": {
+            "Re": "Cost of equity",
+            "Rf": "Risk-free rate",
+            "β": "Beta",
+            "Rm": "Market return"
+          }
+        }
+      ],
+      "practiceQuestions": [
+        {
+          "id": "corp-q4",
+          "question": "The cost of equity is typically higher than the cost of debt because:",
+          "options": [
+            "Equity is less risky",
+            "Equity holders have residual claims and higher risk",
+            "Interest is tax-deductible"
+          ],
+          "correctAnswer": "B",
+          "explanation": "Equity holders bear more risk (residual claims, no guaranteed payments), so they require higher returns than debt holders."
+        }
+      ]
+    },
+    {
+      "title": "Leverage and Capital Structure",
+      "content": "<p>Capital structure decisions involve choosing the mix of debt and equity financing. Modigliani-Miller theorem provides the theoretical foundation.</p>",
+      "keyPoints": [
+        "Financial leverage magnifies both gains and losses",
+        "Interest tax shield makes debt attractive",
+        "Financial distress costs limit debt usage",
+        "Optimal capital structure balances benefits and costs of debt"
+      ],
+      "formulas": [
+        {
+          "expression": "Degree of Financial Leverage = EBIT / (EBIT - Interest)",
+          "variables": {
+            "EBIT": "Earnings before interest and taxes",
+            "Interest": "Interest expense"
+          }
+        }
+      ],
+      "practiceQuestions": [
+        {
+          "id": "corp-q5",
+          "question": "According to Modigliani-Miller (with taxes), the value of a levered firm is:",
+          "options": [
+            "Equal to unlevered firm value",
+            "Greater than unlevered firm value",
+            "Less than unlevered firm value"
+          ],
+          "correctAnswer": "B",
+          "explanation": "With corporate taxes, the interest tax shield makes levered firms more valuable than unlevered firms by the present value of the tax shield."
+        }
+      ]
+    }
+  ]
+}

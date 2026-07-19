@@ -1,0 +1,106 @@
+{
+  "sections": [
+    {
+      "title": "Hedge Funds",
+      "content": "<p>Hedge funds are pooled investment vehicles that employ various strategies to earn positive returns. They typically have more flexibility than traditional funds.</p>",
+      "keyPoints": [
+        "Long/short equity strategies",
+        "Event-driven strategies (mergers, bankruptcies)",
+        "Global macro strategies",
+        "Management fee + performance fee structure"
+      ],
+      "formulas": [],
+      "practiceQuestions": [
+        {
+          "id": "alt-q1",
+          "question": "A typical hedge fund fee structure is:",
+          "options": [
+            "1% management fee, no performance fee",
+            "2% management fee, 20% performance fee",
+            "No management fee, 50% performance fee"
+          ],
+          "correctAnswer": "B",
+          "explanation": "The traditional hedge fund fee structure is '2 and 20': 2% management fee on assets and 20% of profits as performance fee."
+        },
+        {
+          "id": "alt-q2",
+          "question": "A long/short equity hedge fund strategy involves:",
+          "options": [
+            "Only buying stocks",
+            "Buying undervalued stocks and shorting overvalued stocks",
+            "Only shorting stocks"
+          ],
+          "correctAnswer": "B",
+          "explanation": "Long/short equity funds take long positions in stocks expected to increase and short positions in stocks expected to decrease."
+        }
+      ]
+    },
+    {
+      "title": "Private Equity",
+      "content": "<p>Private equity involves investing in private companies or taking public companies private. Strategies include venture capital, buyouts, and growth capital.</p>",
+      "keyPoints": [
+        "Venture capital: early-stage companies",
+        "Buyouts: mature companies using leverage",
+        "Growth capital: expanding companies",
+        "Illiquidity premium compensates for long lock-ups"
+      ],
+      "formulas": [],
+      "practiceQuestions": [
+        {
+          "id": "alt-q3",
+          "question": "Venture capital primarily invests in:",
+          "options": [
+            "Mature public companies",
+            "Early-stage private companies",
+            "Government bonds"
+          ],
+          "correctAnswer": "B",
+          "explanation": "Venture capital focuses on early-stage, high-growth potential private companies, typically in technology or innovative sectors."
+        },
+        {
+          "id": "alt-q4",
+          "question": "A leveraged buyout (LBO) is characterized by:",
+          "options": [
+            "Minimal debt usage",
+            "High debt financing to acquire a company",
+            "Only equity financing"
+          ],
+          "correctAnswer": "B",
+          "explanation": "An LBO uses significant debt (leverage) to finance the acquisition of a company, with the target's cash flows used to service the debt."
+        }
+      ]
+    },
+    {
+      "title": "Real Estate and Commodities",
+      "content": "<p>Real estate and commodities provide diversification benefits and inflation hedging. They have unique valuation and risk characteristics.</p>",
+      "keyPoints": [
+        "Real estate provides income and appreciation",
+        "Commodities can hedge against inflation",
+        "REITs offer liquid real estate exposure",
+        "Storage costs affect commodity prices"
+      ],
+      "formulas": [
+        {
+          "expression": "Cap Rate = Net Operating Income / Property Value",
+          "variables": {
+            "NOI": "Net operating income",
+            "Property Value": "Market value of property"
+          }
+        }
+      ],
+      "practiceQuestions": [
+        {
+          "id": "alt-q5",
+          "question": "A property with NOI of $100,000 valued at $1,250,000 has a cap rate of:",
+          "options": [
+            "6%",
+            "8%",
+            "10%"
+          ],
+          "correctAnswer": "B",
+          "explanation": "Cap Rate = $100,000 / $1,250,000 = 0.08 = 8%"
+        }
+      ]
+    }
+  ]
+}

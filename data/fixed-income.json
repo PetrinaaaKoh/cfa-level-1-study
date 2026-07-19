@@ -1,0 +1,117 @@
+{
+  "sections": [
+    {
+      "title": "Fixed Income Securities",
+      "content": "<p>Fixed income securities represent debt obligations that pay periodic interest and return principal at maturity. Key types include government bonds, corporate bonds, and municipal bonds.</p>",
+      "keyPoints": [
+        "Coupon rate: stated interest rate on bond",
+        "Maturity: time until principal repayment",
+        "Par value: face value repaid at maturity",
+        "Zero-coupon bonds pay no periodic interest"
+      ],
+      "formulas": [],
+      "practiceQuestions": [
+        {
+          "id": "fixed-q1",
+          "question": "A zero-coupon bond:",
+          "options": [
+            "Pays interest annually",
+            "Pays no periodic interest",
+            "Pays interest semi-annually"
+          ],
+          "correctAnswer": "B",
+          "explanation": "Zero-coupon bonds do not pay periodic interest. They are issued at a discount and pay par value at maturity."
+        },
+        {
+          "id": "fixed-q2",
+          "question": "The coupon rate of a bond is:",
+          "options": [
+            "The market interest rate",
+            "The stated interest rate on the bond",
+            "The yield to maturity"
+          ],
+          "correctAnswer": "B",
+          "explanation": "The coupon rate is the stated annual interest rate on the bond, expressed as a percentage of par value."
+        }
+      ]
+    },
+    {
+      "title": "Bond Valuation",
+      "content": "<p>Bond prices are determined by discounting future cash flows (coupons and principal) at the market required rate of return. Bond prices and yields move inversely.</p>",
+      "keyPoints": [
+        "Bond price = PV of coupons + PV of principal",
+        "When market rate > coupon rate, bond trades at discount",
+        "When market rate < coupon rate, bond trades at premium",
+        "Price and yield move in opposite directions"
+      ],
+      "formulas": [
+        {
+          "expression": "Bond Price = Σ[C/(1+r)^t] + F/(1+r)^n",
+          "variables": {
+            "C": "Coupon payment",
+            "r": "Market interest rate",
+            "t": "Time period",
+            "F": "Face value",
+            "n": "Number of periods"
+          }
+        }
+      ],
+      "practiceQuestions": [
+        {
+          "id": "fixed-q3",
+          "question": "If market interest rates rise, existing bond prices will:",
+          "options": [
+            "Rise",
+            "Fall",
+            "Remain unchanged"
+          ],
+          "correctAnswer": "B",
+          "explanation": "Bond prices and interest rates move inversely. When market rates rise, existing bonds with lower coupon rates become less attractive, causing their prices to fall."
+        },
+        {
+          "id": "fixed-q4",
+          "question": "A bond with a 5% coupon rate when market rates are 6% will trade at:",
+          "options": [
+            "Par",
+            "Premium",
+            "Discount"
+          ],
+          "correctAnswer": "C",
+          "explanation": "When the coupon rate (5%) is below the market rate (6%), the bond must trade at a discount to compensate investors for the lower coupon payments."
+        }
+      ]
+    },
+    {
+      "title": "Duration and Convexity",
+      "content": "<p>Duration measures a bond's sensitivity to interest rate changes. Convexity provides a more accurate measure for larger rate changes.</p>",
+      "keyPoints": [
+        "Duration: approximate % price change for 1% rate change",
+        "Longer maturity = higher duration",
+        "Lower coupon = higher duration",
+        "Convexity improves duration estimate"
+      ],
+      "formulas": [
+        {
+          "expression": "%ΔPrice ≈ -Duration × ΔYield",
+          "variables": {
+            "Duration": "Modified duration",
+            "ΔYield": "Change in yield"
+          }
+        }
+      ],
+      "practiceQuestions": [
+        {
+          "id": "fixed-q5",
+          "question": "A bond with duration of 5 years will approximately change in price by what percentage if rates increase by 1%?",
+          "options": [
+            "+5%",
+            "-5%",
+            "-1%"
+          ],
+          "correctAnswer": "B",
+          "explanation": "%ΔPrice ≈ -5 × 1% = -5%. The negative sign indicates price falls when rates rise."
+        }
+      ]
+    }
+  ]
+}

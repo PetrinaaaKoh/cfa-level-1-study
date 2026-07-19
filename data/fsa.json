@@ -1,0 +1,110 @@
+{
+  "sections": [
+    {
+      "title": "Financial Reporting Standards",
+      "content": "<p>Financial reporting standards ensure consistency and comparability in financial statements. Key frameworks include IFRS and US GAAP.</p>",
+      "keyPoints": [
+        "IFRS is principles-based, used in 140+ countries",
+        "US GAAP is rules-based, used primarily in the US",
+        "Key financial statements: Balance Sheet, Income Statement, Cash Flow",
+        "Accrual accounting recognizes revenues when earned"
+      ],
+      "formulas": [],
+      "practiceQuestions": [
+        {
+          "id": "fsa-q1",
+          "question": "Under accrual accounting, revenue is recognized when:",
+          "options": [
+            "Cash is received",
+            "Goods are delivered or services performed",
+            "The contract is signed"
+          ],
+          "correctAnswer": "B",
+          "explanation": "Accrual accounting recognizes revenue when it is earned (goods delivered or services performed), regardless of when cash is received."
+        },
+        {
+          "id": "fsa-q2",
+          "question": "Which of the following is a key difference between IFRS and US GAAP?",
+          "options": [
+            "IFRS is rules-based",
+            "US GAAP is principles-based",
+            "IFRS is principles-based, US GAAP is rules-based"
+          ],
+          "correctAnswer": "C",
+          "explanation": "IFRS uses a principles-based approach providing general guidelines, while US GAAP uses a rules-based approach with specific requirements."
+        }
+      ]
+    },
+    {
+      "title": "Income Statement Analysis",
+      "content": "<p>The income statement shows a company's financial performance over a period. Key metrics include revenue, gross profit, operating income, and net income.</p>",
+      "keyPoints": [
+        "Revenue - Cost of Goods Sold = Gross Profit",
+        "Gross Profit - Operating Expenses = Operating Income",
+        "Operating Income - Interest - Taxes = Net Income",
+        "EPS = Net Income / Shares Outstanding"
+      ],
+      "formulas": [
+        {
+          "expression": "Gross Profit Margin = Gross Profit / Revenue",
+          "variables": {
+            "Gross Profit": "Revenue - COGS",
+            "Revenue": "Total sales"
+          }
+        },
+        {
+          "expression": "Net Profit Margin = Net Income / Revenue",
+          "variables": {
+            "Net Income": "Bottom line profit",
+            "Revenue": "Total sales"
+          }
+        }
+      ],
+      "practiceQuestions": [
+        {
+          "id": "fsa-q3",
+          "question": "If a company has revenue of $1,000,000 and COGS of $600,000, its gross profit margin is:",
+          "options": [
+            "40%",
+            "50%",
+            "60%"
+          ],
+          "correctAnswer": "A",
+          "explanation": "Gross Profit = $1,000,000 - $600,000 = $400,000. Gross Profit Margin = $400,000 / $1,000,000 = 40%"
+        }
+      ]
+    },
+    {
+      "title": "Balance Sheet Analysis",
+      "content": "<p>The balance sheet shows a company's financial position at a point in time. It follows the equation: Assets = Liabilities + Equity.</p>",
+      "keyPoints": [
+        "Assets = Liabilities + Shareholders' Equity",
+        "Current assets expected to be converted to cash within one year",
+        "Current liabilities due within one year",
+        "Working capital = Current assets - Current liabilities"
+      ],
+      "formulas": [
+        {
+          "expression": "Current Ratio = Current Assets / Current Liabilities",
+          "variables": {
+            "Current Assets": "Cash + receivables + inventory",
+            "Current Liabilities": "Short-term debt + payables"
+          }
+        }
+      ],
+      "practiceQuestions": [
+        {
+          "id": "fsa-q4",
+          "question": "A company with current assets of $500,000 and current liabilities of $250,000 has a current ratio of:",
+          "options": [
+            "0.5",
+            "2.0",
+            "1.5"
+          ],
+          "correctAnswer": "B",
+          "explanation": "Current Ratio = $500,000 / $250,000 = 2.0"
+        }
+      ]
+    }
+  ]
+}

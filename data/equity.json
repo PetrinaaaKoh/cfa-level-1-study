@@ -1,0 +1,134 @@
+{
+  "sections": [
+    {
+      "title": "Market Organization and Structure",
+      "content": "<p>Financial markets facilitate the exchange of securities. Understanding market structures, order types, and trading mechanisms is essential for equity investing.</p>",
+      "keyPoints": [
+        "Primary markets: new securities issued",
+        "Secondary markets: existing securities traded",
+        "Market orders execute at current market price",
+        "Limit orders execute at specified price or better"
+      ],
+      "formulas": [],
+      "practiceQuestions": [
+        {
+          "id": "equity-q1",
+          "question": "In which market are new securities issued to investors?",
+          "options": [
+            "Secondary market",
+            "Primary market",
+            "Dark pool"
+          ],
+          "correctAnswer": "B",
+          "explanation": "The primary market is where new securities are issued and sold to investors for the first time (e.g., IPOs)."
+        },
+        {
+          "id": "equity-q2",
+          "question": "A limit order to buy will execute:",
+          "options": [
+            "At any available price",
+            "At the specified price or lower",
+            "At the specified price or higher"
+          ],
+          "correctAnswer": "B",
+          "explanation": "A limit buy order specifies the maximum price the buyer is willing to pay. It will execute at that price or lower."
+        }
+      ]
+    },
+    {
+      "title": "Security Market Indices",
+      "content": "<p>Market indices track the performance of a group of securities representing a particular market or sector. They serve as benchmarks and investment vehicles.</p>",
+      "keyPoints": [
+        "Price-weighted: higher-priced stocks have more weight",
+        "Market-cap weighted: larger companies have more weight",
+        "Equal-weighted: all stocks have same weight",
+        "S&P 500 is market-cap weighted"
+      ],
+      "formulas": [
+        {
+          "expression": "Price-Weighted Index = ΣPrices / Divisor",
+          "variables": {
+            "ΣPrices": "Sum of stock prices",
+            "Divisor": "Adjusted for splits, dividends"
+          }
+        }
+      ],
+      "practiceQuestions": [
+        {
+          "id": "equity-q3",
+          "question": "The Dow Jones Industrial Average is what type of index?",
+          "options": [
+            "Market-cap weighted",
+            "Price-weighted",
+            "Equal-weighted"
+          ],
+          "correctAnswer": "B",
+          "explanation": "The DJIA is a price-weighted index, meaning higher-priced stocks have a greater impact on the index value."
+        },
+        {
+          "id": "equity-q4",
+          "question": "Which index weighting method gives the same importance to each stock regardless of size?",
+          "options": [
+            "Market-cap weighted",
+            "Price-weighted",
+            "Equal-weighted"
+          ],
+          "correctAnswer": "C",
+          "explanation": "Equal-weighted indices assign the same weight to each constituent stock, regardless of market capitalization or price."
+        }
+      ]
+    },
+    {
+      "title": "Equity Valuation",
+      "content": "<p>Equity valuation methods estimate the intrinsic value of stocks. Common approaches include DDM, DCF, and valuation multiples.</p>",
+      "keyPoints": [
+        "Intrinsic value vs. market value",
+        "DDM values stock based on expected dividends",
+        "P/E ratio compares price to earnings",
+        "P/B ratio compares price to book value"
+      ],
+      "formulas": [
+        {
+          "expression": "Gordon Growth: V_0 = D_1 / (r - g)",
+          "variables": {
+            "V_0": "Intrinsic value today",
+            "D_1": "Expected dividend next year",
+            "r": "Required return",
+            "g": "Dividend growth rate"
+          }
+        },
+        {
+          "expression": "P/E Ratio = Price / Earnings per Share",
+          "variables": {
+            "Price": "Current stock price",
+            "EPS": "Earnings per share"
+          }
+        }
+      ],
+      "practiceQuestions": [
+        {
+          "id": "equity-q5",
+          "question": "Using the Gordon Growth Model, if D₁ = $2, r = 10%, and g = 5%, the intrinsic value is:",
+          "options": [
+            "$20",
+            "$40",
+            "$50"
+          ],
+          "correctAnswer": "B",
+          "explanation": "V₀ = $2 / (0.10 - 0.05) = $2 / 0.05 = $40"
+        },
+        {
+          "id": "equity-q6",
+          "question": "A stock trading at $50 with EPS of $5 has a P/E ratio of:",
+          "options": [
+            "5",
+            "10",
+            "15"
+          ],
+          "correctAnswer": "B",
+          "explanation": "P/E = $50 / $5 = 10"
+        }
+      ]
+    }
+  ]
+}

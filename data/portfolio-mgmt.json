@@ -1,0 +1,135 @@
+{
+  "sections": [
+    {
+      "title": "Portfolio Management Process",
+      "content": "<p>The portfolio management process is a systematic approach to managing client portfolios. It involves planning, execution, and feedback stages.</p>",
+      "keyPoints": [
+        "Investment Policy Statement (IPS) guides decisions",
+        "IPS includes objectives and constraints",
+        "Strategic asset allocation sets long-term targets",
+        "Tactical asset allocation makes short-term deviations"
+      ],
+      "formulas": [],
+      "practiceQuestions": [
+        {
+          "id": "pm-q1",
+          "question": "The Investment Policy Statement (IPS) primarily serves to:",
+          "options": [
+            "Maximize returns",
+            "Guide investment decisions based on client needs",
+            "Minimize taxes"
+          ],
+          "correctAnswer": "B",
+          "explanation": "The IPS documents the client's objectives, constraints, and guidelines, serving as a roadmap for investment decisions."
+        },
+        {
+          "id": "pm-q2",
+          "question": "Strategic asset allocation refers to:",
+          "options": [
+            "Short-term market timing",
+            "Long-term target asset class weights",
+            "Security selection"
+          ],
+          "correctAnswer": "B",
+          "explanation": "Strategic asset allocation establishes long-term target weights for asset classes based on the client's objectives and constraints."
+        }
+      ]
+    },
+    {
+      "title": "Risk and Return",
+      "content": "<p>Understanding the risk-return tradeoff is fundamental to portfolio management. Key measures include expected return, variance, standard deviation, and Sharpe ratio.</p>",
+      "keyPoints": [
+        "Expected return is probability-weighted average",
+        "Standard deviation measures total risk",
+        "Sharpe ratio measures risk-adjusted return",
+        "Diversification reduces unsystematic risk"
+      ],
+      "formulas": [
+        {
+          "expression": "Sharpe Ratio = (R_p - R_f) / σ_p",
+          "variables": {
+            "R_p": "Portfolio return",
+            "R_f": "Risk-free rate",
+            "σ_p": "Portfolio standard deviation"
+          }
+        },
+        {
+          "expression": "E(R_p) = Σ(w_i × R_i)",
+          "variables": {
+            "w_i": "Weight of asset i",
+            "R_i": "Return of asset i"
+          }
+        }
+      ],
+      "practiceQuestions": [
+        {
+          "id": "pm-q3",
+          "question": "The Sharpe ratio measures:",
+          "options": [
+            "Total return",
+            "Risk-adjusted return",
+            "Systematic risk"
+          ],
+          "correctAnswer": "B",
+          "explanation": "The Sharpe ratio measures excess return per unit of total risk, providing a measure of risk-adjusted performance."
+        },
+        {
+          "id": "pm-q4",
+          "question": "Diversification primarily reduces:",
+          "options": [
+            "Systematic risk",
+            "Unsystematic risk",
+            "Market risk"
+          ],
+          "correctAnswer": "B",
+          "explanation": "Diversification reduces unsystematic (company-specific) risk but cannot eliminate systematic (market) risk."
+        }
+      ]
+    },
+    {
+      "title": "Modern Portfolio Theory",
+      "content": "<p>Modern Portfolio Theory (MPT) provides a framework for constructing portfolios to maximize expected return for a given level of risk. The efficient frontier represents optimal portfolios.</p>",
+      "keyPoints": [
+        "Efficient frontier: optimal risk-return combinations",
+        "Capital Market Line (CML): risk-free + market portfolio",
+        "CAPM relates expected return to beta",
+        "Beta measures systematic risk"
+      ],
+      "formulas": [
+        {
+          "expression": "CAPM: E(R_i) = R_f + β_i[E(R_m) - R_f]",
+          "variables": {
+            "E(R_i)": "Expected return on asset i",
+            "R_f": "Risk-free rate",
+            "β_i": "Beta of asset i",
+            "E(R_m)": "Expected market return"
+          }
+        }
+      ],
+      "practiceQuestions": [
+        {
+          "id": "pm-q5",
+          "question": "According to CAPM, the expected return on a stock with beta of 1.5, when Rf = 3% and expected market return = 10%, is:",
+          "options": [
+            "10.5%",
+            "13.5%",
+            "15.0%"
+          ],
+          "correctAnswer": "B",
+          "explanation": "E(R) = 3% + 1.5(10% - 3%) = 3% + 1.5(7%) = 3% + 10.5% = 13.5%"
+        },
+        {
+          "id": "pm-q6",
+          "question": "A stock with a beta greater than 1 is:",
+          "options": [
+            "Less volatile than the market",
+            "More volatile than the market",
+            "Unaffected by market movements"
+          ],
+          "correctAnswer": "B",
+          "explanation": "Beta > 1 indicates the stock is more volatile than the market. It amplifies market movements."
+        }
+      ]
+    }
+  ]
+}

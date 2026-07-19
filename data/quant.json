@@ -1,0 +1,415 @@
+{
+  "sections": [
+    {
+      "title": "Time Value of Money",
+      "content": "<p>The time value of money is a fundamental concept in finance stating that a dollar today is worth more than a dollar in the future due to its potential earning capacity.</p><p>Key applications include calculating present value, future value, and understanding compounding periods.</p>",
+      "keyPoints": [
+        "Present value (PV) discounts future cash flows",
+        "Future value (FV) compounds current cash flows",
+        "More frequent compounding increases future value",
+        "Effective annual rate (EAR) accounts for compounding frequency"
+      ],
+      "formulas": [
+        {
+          "expression": "FV = PV × (1 + r)^n",
+          "variables": {
+            "FV": "Future value",
+            "PV": "Present value",
+            "r": "Interest rate per period",
+            "n": "Number of periods"
+          }
+        },
+        {
+          "expression": "PV = FV / (1 + r)^n",
+          "variables": {
+            "PV": "Present value",
+            "FV": "Future value",
+            "r": "Interest rate per period",
+            "n": "Number of periods"
+          }
+        },
+        {
+          "expression": "EAR = (1 + periodic_rate)^m - 1",
+          "variables": {
+            "EAR": "Effective annual rate",
+            "periodic_rate": "Stated rate / m",
+            "m": "Number of compounding periods per year"
+          }
+        }
+      ],
+      "practiceQuestions": [
+        {
+          "id": "quant-q1",
+          "question": "If you invest $1,000 today at 8% annual interest compounded annually, what will be the value after 5 years?",
+          "options": [
+            "$1,400.25",
+            "$1,469.33",
+            "$1,520.50"
+          ],
+          "correctAnswer": "B",
+          "explanation": "FV = $1,000 × (1 + 0.08)^5 = $1,000 × 1.46933 = $1,469.33"
+        },
+        {
+          "id": "quant-q2",
+          "question": "What is the present value of $10,000 to be received in 10 years, discounted at 6% annually?",
+          "options": [
+            "$5,583.95",
+            "$6,139.20",
+            "$5,000.00"
+          ],
+          "correctAnswer": "A",
+          "explanation": "PV = $10,000 / (1 + 0.06)^10 = $10,000 / 1.79085 = $5,583.95"
+        },
+        {
+          "id": "quant-q3",
+          "question": "Which compounding frequency produces the highest effective annual rate for a 10% stated annual rate?",
+          "options": [
+            "Annual compounding",
+            "Monthly compounding",
+            "Continuous compounding"
+          ],
+          "correctAnswer": "C",
+          "explanation": "Continuous compounding produces the highest EAR. EAR for continuous compounding = e^0.10 - 1 = 10.517%, which is higher than monthly (10.47%) or annual (10%)."
+        },
+        {
+          "id": "quant-q4",
+          "question": "The effective annual rate (EAR) for a 12% stated annual rate compounded quarterly is closest to:",
+          "options": [
+            "12.00%",
+            "12.55%",
+            "12.68%"
+          ],
+          "correctAnswer": "B",
+          "explanation": "EAR = (1 + 0.12/4)^4 - 1 = (1.03)^4 - 1 = 1.1255 - 1 = 12.55%"
+        },
+        {
+          "id": "quant-q5",
+          "question": "An annuity that pays $1,000 at the end of each year for 5 years, discounted at 8%, has a present value closest to:",
+          "options": [
+            "$3,992.71",
+            "$4,312.13",
+            "$5,000.00"
+          ],
+          "correctAnswer": "A",
+          "explanation": "PV of ordinary annuity = PMT × [(1 - (1+r)^-n) / r] = $1,000 × [(1 - 1.08^-5) / 0.08] = $1,000 × 3.99271 = $3,992.71"
+        }
+      ]
+    },
+    {
+      "title": "Statistical Measures",
+      "content": "<p>Statistical measures help summarize and describe data sets. Key measures include central tendency (mean, median, mode) and dispersion (variance, standard deviation, range).</p>",
+      "keyPoints": [
+        "Arithmetic mean is the sum divided by count",
+        "Geometric mean is used for compound growth rates",
+        "Standard deviation measures dispersion from mean",
+        "Coefficient of variation normalizes dispersion"
+      ],
+      "formulas": [
+        {
+          "expression": "Arithmetic Mean = (ΣX_i) / n",
+          "variables": {
+            "X_i": "Each observation",
+            "n": "Number of observations"
+          }
+        },
+        {
+          "expression": "Geometric Mean = (X_1 × X_2 × ... × X_n)^(1/n)",
+          "variables": {
+            "X_i": "Each observation",
+            "n": "Number of observations"
+          }
+        },
+        {
+          "expression": "Variance = Σ(X_i - μ)² / n",
+          "variables": {
+            "X_i": "Each observation",
+            "μ": "Population mean",
+            "n": "Number of observations"
+          }
+        },
+        {
+          "expression": "Coefficient of Variation = σ / μ",
+          "variables": {
+            "σ": "Standard deviation",
+            "μ": "Mean"
+          }
+        }
+      ],
+      "practiceQuestions": [
+        {
+          "id": "quant-q6",
+          "question": "The arithmetic mean of the returns 5%, 10%, 15%, and 20% is:",
+          "options": [
+            "10%",
+            "12.5%",
+            "15%"
+          ],
+          "correctAnswer": "B",
+          "explanation": "Arithmetic mean = (5 + 10 + 15 + 20) / 4 = 50 / 4 = 12.5%"
+        },
+        {
+          "id": "quant-q7",
+          "question": "Which measure of central tendency is most appropriate for calculating the average compound growth rate?",
+          "options": [
+            "Arithmetic mean",
+            "Geometric mean",
+            "Median"
+          ],
+          "correctAnswer": "B",
+          "explanation": "The geometric mean is appropriate for compound growth rates because it accounts for the compounding effect over time."
+        },
+        {
+          "id": "quant-q8",
+          "question": "A distribution with a coefficient of variation of 0.5 indicates:",
+          "options": [
+            "High risk relative to return",
+            "Low risk relative to return",
+            "Standard deviation is half the mean"
+          ],
+          "correctAnswer": "C",
+          "explanation": "Coefficient of variation = σ/μ = 0.5, meaning the standard deviation is 50% of the mean. Lower CV indicates better risk-return tradeoff."
+        },
+        {
+          "id": "quant-q9",
+          "question": "The variance of a dataset with standard deviation of 15% is:",
+          "options": [
+            "2.25%",
+            "225 basis points",
+            "Both A and B"
+          ],
+          "correctAnswer": "C",
+          "explanation": "Variance = σ² = (0.15)² = 0.0225 = 2.25% = 225 basis points"
+        }
+      ]
+    },
+    {
+      "title": "Probability Concepts",
+      "content": "<p>Probability theory provides the foundation for statistical inference and risk analysis. Key concepts include probability rules, expected value, and Bayes' formula.</p>",
+      "keyPoints": [
+        "Probability ranges from 0 to 1",
+        "Expected value is probability-weighted average",
+        "Conditional probability: P(A|B) = P(A∩B) / P(B)",
+        "Bayes' formula updates probabilities with new information"
+      ],
+      "formulas": [
+        {
+          "expression": "E(X) = Σ[P(x_i) × x_i]",
+          "variables": {
+            "E(X)": "Expected value of X",
+            "P(x_i)": "Probability of outcome x_i",
+            "x_i": "Each possible outcome"
+          }
+        },
+        {
+          "expression": "P(A|B) = P(A ∩ B) / P(B)",
+          "variables": {
+            "P(A|B)": "Probability of A given B",
+            "P(A ∩ B)": "Joint probability of A and B",
+            "P(B)": "Probability of B"
+          }
+        },
+        {
+          "expression": "Bayes: P(A|B) = [P(B|A) × P(A)] / P(B)",
+          "variables": {
+            "P(A|B)": "Posterior probability",
+            "P(B|A)": "Likelihood",
+            "P(A)": "Prior probability",
+            "P(B)": "Marginal probability"
+          }
+        }
+      ],
+      "practiceQuestions": [
+        {
+          "id": "quant-q10",
+          "question": "The expected value of a random variable that pays $100 with probability 0.3 and $0 with probability 0.7 is:",
+          "options": [
+            "$30",
+            "$50",
+            "$70"
+          ],
+          "correctAnswer": "A",
+          "explanation": "E(X) = (0.3 × $100) + (0.7 × $0) = $30 + $0 = $30"
+        },
+        {
+          "id": "quant-q11",
+          "question": "If P(A) = 0.4, P(B) = 0.5, and P(A ∩ B) = 0.2, then P(A|B) equals:",
+          "options": [
+            "0.4",
+            "0.5",
+            "0.8"
+          ],
+          "correctAnswer": "A",
+          "explanation": "P(A|B) = P(A ∩ B) / P(B) = 0.2 / 0.5 = 0.4"
+        },
+        {
+          "id": "quant-q12",
+          "question": "Two events are independent if:",
+          "options": [
+            "P(A|B) = P(A)",
+            "P(A ∩ B) = 0",
+            "P(A) + P(B) = 1"
+          ],
+          "correctAnswer": "A",
+          "explanation": "Events are independent when the occurrence of one does not affect the probability of the other, i.e., P(A|B) = P(A)."
+        },
+        {
+          "id": "quant-q13",
+          "question": "Bayes' formula is used to:",
+          "options": [
+            "Calculate expected values",
+            "Update probabilities with new information",
+            "Determine variance"
+          ],
+          "correctAnswer": "B",
+          "explanation": "Bayes' formula allows us to update prior probabilities based on new evidence, producing posterior probabilities."
+        }
+      ]
+    },
+    {
+      "title": "Hypothesis Testing",
+      "content": "<p>Hypothesis testing is a statistical method for making decisions about population parameters based on sample data. It involves formulating null and alternative hypotheses and determining statistical significance.</p>",
+      "keyPoints": [
+        "Null hypothesis (H₀) is the default assumption",
+        "Alternative hypothesis (H₁) contradicts H₀",
+        "Type I error: rejecting true H₀",
+        "Type II error: failing to reject false H₀",
+        "p-value < significance level → reject H₀"
+      ],
+      "formulas": [
+        {
+          "expression": "z = (x̄ - μ) / (σ/√n)",
+          "variables": {
+            "z": "z-statistic",
+            "x̄": "Sample mean",
+            "μ": "Population mean",
+            "σ": "Population standard deviation",
+            "n": "Sample size"
+          }
+        },
+        {
+          "expression": "t = (x̄ - μ) / (s/√n)",
+          "variables": {
+            "t": "t-statistic",
+            "x̄": "Sample mean",
+            "μ": "Hypothesized population mean",
+            "s": "Sample standard deviation",
+            "n": "Sample size"
+          }
+        }
+      ],
+      "practiceQuestions": [
+        {
+          "id": "quant-q14",
+          "question": "A Type I error occurs when we:",
+          "options": [
+            "Reject a true null hypothesis",
+            "Fail to reject a false null hypothesis",
+            "Accept a true alternative hypothesis"
+          ],
+          "correctAnswer": "A",
+          "explanation": "A Type I error is rejecting the null hypothesis when it is actually true. The significance level (α) is the probability of making a Type I error."
+        },
+        {
+          "id": "quant-q15",
+          "question": "If the p-value is 0.03 and the significance level is 0.05, we should:",
+          "options": [
+            "Reject the null hypothesis",
+            "Fail to reject the null hypothesis",
+            "Accept the null hypothesis"
+          ],
+          "correctAnswer": "A",
+          "explanation": "When p-value (0.03) < significance level (0.05), we reject the null hypothesis. The result is statistically significant."
+        },
+        {
+          "id": "quant-q16",
+          "question": "The power of a test is the probability of:",
+          "options": [
+            "Correctly rejecting a false null hypothesis",
+            "Correctly accepting a true null hypothesis",
+            "Making a Type I error"
+          ],
+          "correctAnswer": "A",
+          "explanation": "Power = 1 - P(Type II error). It's the probability of correctly rejecting a false null hypothesis."
+        },
+        {
+          "id": "quant-q17",
+          "question": "When the population standard deviation is unknown, we use:",
+          "options": [
+            "z-test",
+            "t-test",
+            "chi-square test"
+          ],
+          "correctAnswer": "B",
+          "explanation": "When σ is unknown, we use the sample standard deviation (s) and the t-distribution, conducting a t-test instead of a z-test."
+        }
+      ]
+    },
+    {
+      "title": "Correlation and Regression",
+      "content": "<p>Correlation measures the strength and direction of linear relationship between two variables. Regression analysis models the relationship between a dependent variable and one or more independent variables.</p>",
+      "keyPoints": [
+        "Correlation coefficient ranges from -1 to +1",
+        "Positive correlation: variables move together",
+        "Negative correlation: variables move oppositely",
+        "R² measures proportion of variance explained",
+        "Correlation does not imply causation"
+      ],
+      "formulas": [
+        {
+          "expression": "r = Cov(X,Y) / (σ_X × σ_Y)",
+          "variables": {
+            "r": "Correlation coefficient",
+            "Cov(X,Y)": "Covariance of X and Y",
+            "σ_X": "Standard deviation of X",
+            "σ_Y": "Standard deviation of Y"
+          }
+        },
+        {
+          "expression": "Y = β₀ + β₁X + ε",
+          "variables": {
+            "Y": "Dependent variable",
+            "β₀": "Intercept",
+            "β₁": "Slope coefficient",
+            "X": "Independent variable",
+            "ε": "Error term"
+          }
+        }
+      ],
+      "practiceQuestions": [
+        {
+          "id": "quant-q18",
+          "question": "A correlation coefficient of -0.85 indicates:",
+          "options": [
+            "Strong positive relationship",
+            "Strong negative relationship",
+            "No relationship"
+          ],
+          "correctAnswer": "B",
+          "explanation": "A correlation of -0.85 indicates a strong negative (inverse) relationship. The negative sign indicates opposite movement, and 0.85 indicates strong correlation."
+        },
+        {
+          "id": "quant-q19",
+          "question": "In a regression equation Y = 5 + 2X, if X increases by 1 unit, Y will:",
+          "options": [
+            "Increase by 2 units",
+            "Increase by 5 units",
+            "Decrease by 2 units"
+          ],
+          "correctAnswer": "A",
+          "explanation": "The slope coefficient (β₁ = 2) indicates that for each 1-unit increase in X, Y increases by 2 units."
+        },
+        {
+          "id": "quant-q20",
+          "question": "The coefficient of determination (R²) represents:",
+          "options": [
+            "The correlation coefficient",
+            "The proportion of variance in Y explained by X",
+            "The slope of the regression line"
+          ],
+          "correctAnswer": "B",
+          "explanation": "R² (coefficient of determination) measures the proportion of the variance in the dependent variable that is predictable from the independent variable(s)."
+        }
+      ]
+    }
+  ]
+}
