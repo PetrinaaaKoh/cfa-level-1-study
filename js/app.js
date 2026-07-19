@@ -62,14 +62,42 @@ class App {
                 html += '</ul></div>';
             }
             
-            if (section.practiceQuestions && section.practiceQuestions.length > 0) {
-                html += '<div class="quiz-section"><h3>Practice Questions (' + section.practiceQuestions.length + ')</h3></div>';
+            if (section.formulas && section.formulas.length > 0) {
+                html += '<h4>Formulas</h4>';
+                for (let j = 0; j < section.formulas.length; j++) {
+                    html += '<div class="formula-card"><div class="formula">' + section.formulas[j].expression + '</div></div>';
+                }
             }
             
+            if (section.practiceQuestions && section.practiceQuestions.length > 0) {
+                html += '<div class="quiz-section" style="margin-top:32px">';
+                html += '<h3>Practice Questions</h3>';
+                html += '<div id="quiz-' + i + '"></div>';
+                html += '<div id="quiz-controls-' + i + '" class="quiz-controls"></div>';
+                html += '</div>';
+            }
+            
+            html += '<button class="btn btn-primary" style="margin-top:16px">Mark as Complete</button>';
             html += '</div>';
         }
         
         content.innerHTML = html;
+        
+        // Initialize quizzes after DOM is ready
+        const self = this;
+        setTimeout(function() {
+            for (let i = 0; i < topicData.sections.length; i++) {
+                const section = topicData.sections[i];
+                if (section.practiceQuestions && section.practiceQuestions.length > 0) {
+                    const container = document.getElementById('quiz-' + i);
+                    const controls = document.getElementById('quiz-controls-' + i);
+                    
+                    if (container && controls && window.quizEngine) {
+                        window.quizEngine.init(section.practiceQuestions);
+                    }
+                }
+            }
+        }, 200);
     }
 }
 
