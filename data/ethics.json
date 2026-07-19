@@ -2,168 +2,444 @@
   "sections": [
     {
       "title": "Code of Ethics and Standards of Professional Conduct",
-      "content": "<p><strong>OVERVIEW:</strong> The CFA Institute Code of Ethics is the foundation of ethical conduct for investment professionals worldwide. It establishes six core principles that all CFA members and candidates must follow in their professional activities.</p><p><strong>Why This Matters for the Exam:</strong> Ethics represents 15-20% of the CFA Level I exam (approximately 27-36 questions out of 180). This is the HIGHEST weighted topic, making it critical for exam success. Additionally, the Ethics section has a unique grading adjustment - if your total score is borderline pass/fail, a strong Ethics performance can push you to a PASS.</p><p><strong>The Six Components of the Code of Ethics:</strong></p><ol><li><strong>Act with integrity, competence, diligence, respect, and in an ethical manner</strong> - This means being honest in all dealings, maintaining your knowledge and skills, working hard for clients, treating others with respect, and doing what is ethically right even when not required by law.</li><li><strong>Place the integrity and interests of clients above your own personal interests</strong> - This is the FIDUCIARY DUTY. Clients trust you with their money, retirement, and financial futures. Their interests must come before your commissions, bonuses, or personal investments.</li><li><strong>Use reasonable care and exercise independent professional judgment</strong> - Don't blindly follow others' recommendations. Do your own research and analysis. Think critically and make decisions based on your professional expertise.</li><li><strong>Practice and encourage others to practice in a professional and ethical manner</strong> - Not only must YOU act ethically, but you should also promote ethical behavior among colleagues and in the industry.</li><li><strong>Promote the integrity and viability of the global capital markets</strong> - The investment industry depends on trust. Your actions should support market integrity, not undermine it.</li><li><strong>Maintain and improve professional competence</strong> - Commit to lifelong learning. Stay current with industry developments, regulations, and best practices.</li></ol><p><strong>REAL-WORLD EXAMPLE:</strong> Imagine you are a portfolio manager. You discover that Stock A (which you personally own) is overvalued and should be sold. However, your firm's investment banking division is helping Company A raise capital and wants you to keep buying. What do you do? According to the Code of Ethics, you must place CLIENT interests above both your personal interests AND your employer's interests. You should recommend selling the stock to clients (if suitable for them), regardless of the impact on your personal portfolio or banking relationships.</p>",
+      "content": "<p><strong>WHAT THIS MEANS:</strong> The CFA Institute Code of Ethics is like a 'professional promise' that all CFA members and candidates make. It's six commitments that guide how you should behave as an investment professional.</p><p><strong>WHY THIS MATTERS:</strong> Ethics is 15-20% of the CFA Level I exam (27-36 questions out of 180). This is the BIGGEST topic on the exam. Also, if your total score is close to passing, a strong Ethics performance can push you to a PASS. Think of Ethics as your 'safety net' for passing the exam.</p><p><strong>THE SIX PROMISES (Code of Ethics):</strong></p><ol><li><strong>Act with integrity, competence, diligence, respect, and ethically</strong> - Translation: Be honest, know your stuff, work hard, treat people well, and do the right thing. EXAMPLE: If a client asks about an investment you don't understand, say 'I need to research this' rather than making something up. That's acting with competence and integrity.</li><li><strong>Place client interests ABOVE your own</strong> - Translation: Clients come first, ALWAYS. This is called 'fiduciary duty.' EXAMPLE: You personally own Stock XYZ. You analyze it and realize it's overvalued and should be sold. Even though selling will lose you money personally, you must recommend selling to clients if it's in THEIR best interest. Your loss doesn't matter - client interests come first.</li><li><strong>Use reasonable care and independent judgment</strong> - Translation: Think for yourself. Don't just copy what others say. EXAMPLE: Your boss recommends buying Company ABC stock. Instead of blindly agreeing, you do your own research. If your analysis says 'sell,' you should say 'sell' even if it disagrees with your boss.</li><li><strong>Practice and encourage ethical behavior in others</strong> - Translation: Not only must YOU be ethical, but you should also promote ethics around you. EXAMPLE: If you see a colleague doing something questionable, speak up. Don't be a bystander to unethical behavior.</li><li><strong>Promote integrity of capital markets</strong> - Translation: The investment industry runs on TRUST. Your actions should support that trust. EXAMPLE: Don't participate in schemes that manipulate stock prices, even if they're legal. It undermines market integrity.</li><li><strong>Maintain and improve professional competence</strong> - Translation: Never stop learning. EXAMPLE: Take continuing education courses, read industry publications, stay current with new regulations and investment products.</li></ol><p><strong>EXAM MEMORY TIP:</strong> Remember the acronym 'ICARE' - Integrity, Clients first, Analysis (independent), Respect/encourage others, Education (continuous learning)</p>",
       "keyPoints": [
-        "Ethics is 15-20% of the exam (27-36 questions) - HIGHEST weighted topic",
-        "Strong Ethics performance can help borderline candidates PASS the exam",
-        "Act with integrity, competence, diligence, respect, and ethical behavior in ALL activities",
-        "Client interests come BEFORE your personal interests AND employer interests (FIDUCIARY DUTY)",
-        "Exercise INDEPENDENT judgment - don't blindly follow others' recommendations",
+        "Ethics = 15-20% of exam (27-36 questions) - HIGHEST weighted topic",
+        "Strong Ethics performance can help borderline candidates PASS",
+        "Six components of Code of Ethics - memorize all six",
+        "Client interests come BEFORE personal AND employer interests (fiduciary duty)",
+        "Exercise INDEPENDENT judgment - don't blindly follow others",
         "Must promote ethical behavior among colleagues, not just practice it yourself",
-        "Support market integrity - your actions affect trust in the entire financial system",
-        "Commit to lifelong learning - maintain and improve your professional competence",
-        "Code of Ethics applies to ALL professional activities, not just investment decisions",
-        "When in doubt, ask: Would I be comfortable if this appeared on the front page of the newspaper?"
+        "Code applies to ALL professional activities, not just investment decisions",
+        "When in doubt, ask: 'Would I be comfortable if this appeared in the news?'",
+        "Memory aid: 'ICARE' - Integrity, Clients first, Analysis, Respect, Education"
       ],
       "formulas": [],
       "practiceQuestions": [
         {
           "id": "ethics-q1",
-          "question": "According to the CFA Institute Code of Ethics, when a member's personal interests conflict with client interests, the member should:",
+          "question": "According to the CFA Institute Code of Ethics, when a member's personal investment conflicts with a client's interest, the member should:",
           "options": [
-            "Balance both interests equally to find a fair compromise",
-            "Place client interests above personal interests",
+            "Balance both interests equally to find a fair middle ground",
+            "Place the client's interests above their own personal interests",
             "Disclose the conflict to the client and then proceed as planned"
           ],
           "correctAnswer": "B",
-          "explanation": "The Code of Ethics explicitly states that members must place the integrity and interests of clients ABOVE their own personal interests. This is a fundamental fiduciary duty. Simply disclosing the conflict (option C) is not sufficient - you must actually prioritize client interests. Balancing interests equally (option A) is also wrong because client interests must come FIRST, not be treated equally with personal interests."
+          "explanation": "The Code of Ethics requires members to place CLIENT interests ABOVE their own personal interests. This is the fiduciary duty. Simply disclosing the conflict (option C) is not enough - you must actually prioritize the client. 'Balancing' interests (option A) is wrong because client interests must come FIRST, not be treated equally. Think of it this way: If you were the client, wouldn't you want your advisor putting YOUR interests first?"
         },
         {
           "id": "ethics-q2",
           "question": "Which of the following is NOT one of the six components of the Code of Ethics?",
           "options": [
             "Maintain and improve professional competence through continuous learning",
-            "Guarantee investment returns to clients based on historical performance",
+            "Guarantee investment returns to clients based on past performance",
             "Promote the integrity and viability of the global capital markets"
           ],
           "correctAnswer": "B",
-          "explanation": "The Code of Ethics does NOT require (or even permit) guaranteeing returns. Investment performance CANNOT be guaranteed because markets are uncertain. Guaranteeing returns would actually be UNETHICAL and a violation of Standard I(C) on Misrepresentation. Options A and C are both actual components of the Code of Ethics."
+          "explanation": "The Code of Ethics does NOT permit guaranteeing returns - this is actually PROHIBITED. Investment returns can NEVER be guaranteed because markets are uncertain. Guaranteeing returns would violate Standard I(C) on Misrepresentation. Options A and C are both actual components of the Code. EXAM TIP: If an answer choice mentions 'guaranteeing returns,' it's almost always wrong on the CFA exam."
         },
         {
           "id": "ethics-q3",
-          "question": "The CFA Institute Standards of Professional Conduct apply to:",
+          "question": "A CFA charterholder teaches finance courses at a local university on weekends. The Standards of Professional Conduct:",
           "options": [
-            "Only investment research and analysis activities",
-            "All professional activities of members and candidates",
-            "Only activities involving direct client account management"
+            "Do not apply because teaching is not investment work",
+            "Apply only if students are paying for the courses",
+            "Apply to the teaching activities because it is professional conduct"
           ],
-          "correctAnswer": "B",
-          "explanation": "The Standards apply to ALL professional activities, not just investment decisions or client work. This includes teaching finance courses, writing articles, serving on boards, volunteer work where you represent yourself as a CFA member/candidate, and any other activity where you are acting as an investment professional. The key question is: Are you acting in a professional capacity? If yes, the Standards apply."
-        },
-        {
-          "id": "ethics-q4",
-          "question": "A CFA candidate posts on social media: 'I guarantee my clients will earn 12% returns this year.' This statement:",
-          "options": [
-            "Is acceptable if the candidate has achieved this return in previous years",
-            "Violates the Code of Ethics because investment returns cannot be guaranteed",
-            "Is acceptable if the client is sophisticated and understands investment risks"
-          ],
-          "correctAnswer": "B",
-          "explanation": "Guaranteeing investment returns is NEVER acceptable, regardless of past performance, client sophistication, or any other factor. Investment returns are inherently uncertain and cannot be guaranteed. This statement violates both the Code of Ethics (acting with integrity) and Standard I(C) on Misrepresentation. Even if the candidate has achieved 12% in the past, there is no guarantee of future performance."
+          "correctAnswer": "C",
+          "explanation": "The Standards apply to ALL professional activities where you represent yourself as a CFA member or finance professional, including teaching. Even though teaching is not direct investment work, you are still acting as an investment professional. Your behavior as a teacher reflects on the CFA designation and the investment industry. EXAM TIP: When in doubt, ask 'Am I acting in a professional capacity?' If yes, the Standards apply."
         }
       ]
     },
     {
       "title": "Professional Misconduct - Standard I(D)",
-      "content": "<p><strong>OVERVIEW:</strong> Standard I(D) prohibits professional misconduct in any form. This is a BROAD standard that covers both professional and personal conduct.</p><p><strong>What Constitutes Misconduct:</strong></p><ul><li><strong>Dishonesty:</strong> Lying, cheating, stealing, or any deceptive behavior</li><li><strong>Fraud:</strong> Intentional deception for personal gain</li><li><strong>Deceit:</strong> Misleading others through words or actions</li><li><strong>Conduct reflecting adversely on professional reputation:</strong> Any behavior that would cause a reasonable person to question your fitness to serve clients</li></ul><p><strong>CRITICAL DISTINCTION:</strong> This standard applies to BOTH professional AND personal conduct. You can violate Standard I(D) for behavior completely unrelated to work if it reflects poorly on your professional reputation.</p><p><strong>Examples of Violations:</strong></p><ul><li>Conviction of crimes involving fraud or dishonesty (embezzlement, tax fraud, insider trading)</li><li>Cheating on the CFA exam or any professional examination</li><li>Lying to clients about qualifications or track record</li><li>Engaging in fraudulent business practices</li><li>Conduct that calls into question your integrity or fitness to serve clients</li></ul><p><strong>What Typically Does NOT Violate This Standard:</strong></p><ul><li>Minor traffic violations (speeding tickets, parking tickets)</li><li>Personal bankruptcy (unless involving fraud)</li><li>Political activities (unless involving dishonesty)</li><li>Legal but unpopular personal activities</li></ul><p><strong>REAL-WORLD EXAMPLE:</strong> John, a CFA charterholder, is arrested and convicted of shoplifting items worth $200 from a retail store. Even though this is unrelated to his investment work and occurred on his personal time, it involves dishonesty and theft. This would likely violate Standard I(D) because it reflects adversely on his integrity and professional reputation. A reasonable client might question whether someone who steals from stores can be trusted with their investment portfolio.</p><p><strong>REAL-WORLD EXAMPLE:</strong> Sarah, a CFA candidate, is convicted of a DUI (driving under the influence). While this is a criminal conviction, it does not inherently involve dishonesty, fraud, or deceit. Unless there are aggravating factors (like lying to police), a simple DUI typically would NOT violate Standard I(D). However, multiple DUIs might suggest a pattern of conduct that reflects adversely on professional reputation.</p>",
+      "content": "<p><strong>WHAT THIS MEANS:</strong> Standard I(D) says 'don't be dishonest' - in your work AND in your personal life. This standard is broader than many people expect.</p><p><strong>THE KEY TEST:</strong> Would a reasonable person who knows about your conduct question whether you're fit to manage their money? If yes, it's probably misconduct.</p><p><strong>WHAT COUNTS AS MISCONDUCT:</strong></p><ul><li><strong>Dishonesty:</strong> Lying, cheating, stealing, deception. EXAMPLE: Lying to a client about an investment's performance.</li><li><strong>Fraud:</strong> Intentional deception for personal gain. EXAMPLE: Creating fake documents to hide investment losses.</li><li><strong>Conduct reflecting poorly on your reputation:</strong> Any behavior that makes people question your integrity. EXAMPLE: Being convicted of theft, even from a non-work situation.</li></ul><p><strong>CRITICAL POINT:</strong> This applies to BOTH work AND personal life. You can violate this standard for something you do on weekends, completely unrelated to work.</p><p><strong>REAL EXAMPLES:</strong></p><ul><li>✅ VIOLATION: Convicted of embezzling money from a charity (involves dishonesty)</li><li>✅ VIOLATION: Caught cheating on the CFA exam (involves dishonesty)</li><li>✅ VIOLATION: Arrested for shoplifting (involves theft/dishonesty)</li><li>❌ NOT A VIOLATION: Single speeding ticket (minor traffic violation)</li><li>❌ NOT A VIOLATION: Personal bankruptcy due to medical bills (no dishonesty involved)</li><li>❌ NOT A VIOLATION: Divorce proceedings (personal matter, no dishonesty)</li></ul><p><strong>EXAM MEMORY TIP:</strong> Ask yourself: 'Does this involve DISHONESTY?' If yes → violation. If it's just a minor personal issue with no dishonesty → probably not a violation.</p>",
       "keyPoints": [
-        "Dishonesty, fraud, and deceit are STRICTLY PROHIBITED in all forms",
         "Standard applies to BOTH professional AND personal conduct",
-        "Criminal convictions involving fraud or dishonesty typically violate this standard",
-        "Minor traffic violations (speeding, parking) typically do NOT violate this standard",
-        "Personal bankruptcy alone does NOT violate this standard (unless fraud involved)",
-        "Cheating on CFA exam or any professional examination is a violation",
-        "The test: Would a reasonable person question your fitness to serve clients?",
+        "The test: Would reasonable people question your fitness to serve clients?",
+        "Dishonesty, fraud, deceit = ALWAYS violations",
+        "Criminal convictions involving fraud typically violate this standard",
+        "Minor traffic violations (speeding, parking) = typically NOT violations",
+        "Personal bankruptcy alone = NOT a violation (unless fraud involved)",
+        "Cheating on ANY professional exam = violation",
         "Multiple minor violations can accumulate to become a problem",
-        "You can violate this standard even for conduct outside of work hours",
-        "When in doubt, consider: Would I be embarrassed if clients knew about this?"
+        "Memory aid: 'DISHONESTY' = the key word for this standard"
       ],
       "formulas": [],
       "practiceQuestions": [
         {
-          "id": "ethics-q5",
-          "question": "Which of the following would MOST LIKELY violate Standard I(D) regarding Professional Misconduct?",
+          "id": "ethics-q4",
+          "question": "A CFA member is convicted of shoplifting items worth $50 from a store. This conduct:",
           "options": [
-            "Being convicted of a misdemeanor traffic violation for speeding",
-            "Engaging in fraudulent business practices that deceive investors",
-            "Filing for personal bankruptcy due to medical expenses"
+            "Does not violate the Standards because it is unrelated to work",
+            "Violates Standard I(D) because it involves dishonesty",
+            "Only violates the Standards if the member lies about it"
           ],
           "correctAnswer": "B",
-          "explanation": "Fraudulent business practices involve dishonesty and deceit directed at investors, which directly violates Standard I(D). This type of conduct clearly reflects adversely on professional reputation and integrity. Option A (speeding ticket) is a minor traffic violation that typically does not violate the standard. Option C (personal bankruptcy) alone does not violate the standard unless it involves fraud or deceit."
+          "explanation": "Shoplifting involves theft and dishonesty, which violates Standard I(D). Even though this occurred outside of work and is unrelated to investments, the standard applies to personal conduct too. A reasonable client might question whether someone who steals from stores can be trusted with their investment portfolio. EXAM TIP: Crimes involving dishonesty (theft, fraud, embezzlement) almost always violate Standard I(D), regardless of where they occur."
         },
         {
-          "id": "ethics-q6",
-          "question": "Standard I(D) on Professional Misconduct applies to:",
+          "id": "ethics-q5",
+          "question": "Which of the following would MOST LIKELY violate Standard I(D)?",
           "options": [
-            "Only professional activities during normal work hours",
-            "Only activities directly related to client investment accounts",
-            "Both professional and personal conduct"
+            "A single conviction for driving under the influence (DUI)",
+            "Filing for personal bankruptcy due to medical expenses",
+            "Cheating on a professional licensing examination"
           ],
           "correctAnswer": "C",
-          "explanation": "Standard I(D) applies to ANY conduct that reflects adversely on a member's or candidate's professional reputation, integrity, or competence, whether in professional or personal activities. The key is not WHERE or WHEN the conduct occurred, but whether it would cause a reasonable person to question your fitness to serve clients."
-        },
-        {
-          "id": "ethics-q7",
-          "question": "A CFA member is convicted of cheating on a professional licensing exam unrelated to finance. This conduct:",
-          "options": [
-            "Does not violate the Standards because it is unrelated to finance",
-            "Violates Standard I(D) because it involves dishonesty",
-            "Only violates the Standards if the member lied about it"
-          ],
-          "correctAnswer": "B",
-          "explanation": "Cheating on ANY professional examination involves dishonesty and reflects adversely on the member's integrity. This violates Standard I(D) regardless of whether the exam is finance-related. The Standards apply to all professional conduct, and dishonesty in any professional context calls into question the member's fitness to serve clients in the investment industry."
+          "explanation": "Cheating on ANY professional examination involves dishonesty and directly violates Standard I(D). Option A (single DUI) typically does not violate the standard unless there are aggravating factors involving dishonesty. Option B (personal bankruptcy) alone does not violate the standard - bankruptcy is a legal process and doesn't inherently involve dishonesty. EXAM TIP: Look for the answer that involves DISHONESTY - that's usually the violation."
         }
       ]
     },
     {
       "title": "Knowledge of the Law - Standard I(A)",
-      "content": "<p><strong>OVERVIEW:</strong> Standard I(A) requires members to understand and comply with all applicable laws, rules, and regulations that govern their professional activities. This includes local, state, provincial, federal, and international laws, as well as the CFA Institute Code and Standards.</p><p><strong>Key Requirements:</strong></p><ol><li><strong>Know the Law:</strong> You are expected to understand the laws and regulations that apply to your professional activities. Ignorance is NOT an acceptable excuse.</li><li><strong>Comply with the Law:</strong> Once you know the law, you must follow it.</li><li><strong>Do Not Knowingly Participate in Violations:</strong> If you discover illegal activity, you must not participate in it.</li></ol><p><strong>When Laws Conflict with the Code and Standards:</strong></p><p>This is a CRITICAL exam concept. Here's how to handle conflicts:</p><ul><li><strong>If applicable law is MORE STRICT than the Code and Standards:</strong> Follow the LAW (the more strict requirement)</li><li><strong>If the Code and Standards are MORE STRICT than applicable law:</strong> Follow the CODE AND STANDARDS (the more strict requirement)</li><li><strong>If applicable law and Code and Standards are the SAME:</strong> Follow either (they're the same)</li></ul><p><strong>MNEMONIC FOR EXAM:</strong> 'When in conflict, follow the MORE STRICT rule.'</p><p><strong>If You Discover Violations:</strong></p><ol><li><strong>Do NOT participate:</strong> Remove yourself from the activity immediately.</li><li><strong>Disassociate:</strong> Distance yourself from the violation. Document your objection in writing (email to compliance, memo to file, etc.).</li><li><strong>Seek guidance:</strong> Consult with compliance department, legal counsel, or supervisor.</li><li><strong>Consider reporting:</strong> If the violation is not remedied, consider reporting to appropriate regulatory authorities.</li><li><strong>Consider resigning:</strong> In extreme cases, you may need to leave the firm to avoid association with ongoing violations.</li></ol><p><strong>REAL-WORLD EXAMPLE:</strong> You work for an investment firm in Country X. Country X's laws allow you to accept gifts from clients up to $500 without disclosure. However, the CFA Standards require disclosure of ALL gifts regardless of value. Which rule do you follow? ANSWER: Follow the CFA Standards because they are MORE STRICT. Even though local law permits gifts up to $500 without disclosure, the Standards require disclosure of all gifts. As a CFA member/candidate, you must follow the more strict requirement.</p><p><strong>REAL-WORLD EXAMPLE:</strong> You discover that your supervisor is engaging in insider trading (illegal in all jurisdictions). What should you do? First, do NOT participate. Second, document your objection in writing (email to compliance). Third, if the activity continues, consider reporting to regulators and/or resigning from the firm. Simply ignoring the violation or continuing to work for the supervisor without taking action could make you complicit in the violation.</p>",
+      "content": "<p><strong>WHAT THIS MEANS:</strong> You must know and follow the laws that apply to your work. You can't say 'I didn't know that was illegal' as an excuse.</p><p><strong>THE GOLDEN RULE:</strong> When local law and CFA Standards conflict, follow whichever is MORE STRICT (more demanding).</p><p><strong>HOW TO HANDLE CONFLICTS:</strong></p><table style='width:100%;border-collapse:collapse;margin:20px 0;'><tr style='background:#f0f9ff;'><th style='border:1px solid #bae6fd;padding:12px;text-align:left;'>Situation</th><th style='border:1px solid #bae6fd;padding:12px;text-align:left;'>What to Follow</th><th style='border:1px solid #bae6fd;padding:12px;text-align:left;'>Example</th></tr><tr><td style='border:1px solid #e2e8f0;padding:12px;'>Law is MORE strict than Standards</td><td style='border:1px solid #e2e8f0;padding:12px;'>Follow the LAW</td><td style='border:1px solid #e2e8f0;padding:12px;'>Law requires 10 years record retention, Standards require 7 years → Keep records for 10 years</td></tr><tr><td style='border:1px solid #e2e8f0;padding:12px;'>Standards are MORE strict than law</td><td style='border:1px solid #e2e8f0;padding:12px;'>Follow the STANDARDS</td><td style='border:1px solid #e2e8f0;padding:12px;'>Law allows gifts up to $500, Standards require disclosure of ALL gifts → Disclose all gifts</td></tr><tr><td style='border:1px solid #e2e8f0;padding:12px;'>Law and Standards are the same</td><td style='border:1px solid #e2e8f0;padding:12px;'>Follow either (same thing)</td><td style='border:1px solid #e2e8f0;padding:12px;'>Both prohibit insider trading → Don't engage in insider trading</td></tr></table><p><strong>IF YOU DISCOVER ILLEGAL ACTIVITY AT YOUR FIRM:</strong></p><ol><li><strong>Step 1:</strong> Do NOT participate in the illegal activity</li><li><strong>Step 2:</strong> Tell your supervisor or compliance department (in writing - email is good)</li><li><strong>Step 3:</strong> If they don't fix it, distance yourself from the activity</li><li><strong>Step 4:</strong> If still not fixed, consider reporting to regulators</li><li><strong>Step 5:</strong> In extreme cases, consider quitting your job</li></ol><p><strong>REAL EXAMPLE:</strong> You work in Country X where accepting client gifts up to $500 is legal with no disclosure required. CFA Standards require disclosure of ALL gifts. What do you do? ANSWER: Disclose all gifts. The Standards are MORE STRICT, so you follow them. Even though local law is more lenient, as a CFA member/candidate you must follow the stricter rule.</p><p><strong>EXAM MEMORY TIP:</strong> Remember 'STRICTER WINS' - whichever rule is more strict is the one you follow.</p>",
       "keyPoints": [
-        "Must understand and comply with ALL applicable laws and regulations",
-        "Ignorance of the law is NOT an acceptable excuse for violations",
-        "When laws conflict with Standards, follow the MORE STRICT requirement",
-        "Cannot knowingly participate in violations under any circumstances",
-        "Should disassociate from violations and document objection in writing",
-        "May need to seek legal counsel and report to authorities",
-        "In extreme cases, may need to resign from firm to avoid association",
-        "Applies to laws in ALL jurisdictions where you conduct business",
-        "CFA Institute Standards apply even if local law is less strict",
-        "Documentation is critical - put objections in writing (email, memo)"
+        "Must know and comply with ALL applicable laws - ignorance is not an excuse",
+        "When law and Standards conflict, follow the MORE STRICT requirement",
+        "Cannot knowingly participate in illegal activities under any circumstances",
+        "Document objections in writing (email, memo to file)",
+        "May need to report to regulators if firm doesn't fix violations",
+        "In extreme cases, may need to resign to avoid association",
+        "Applies to laws in ALL jurisdictions where you do business",
+        "Memory aid: 'STRICTER WINS' - follow the more strict rule"
+      ],
+      "formulas": [],
+      "practiceQuestions": [
+        {
+          "id": "ethics-q6",
+          "question": "A CFA member works in a country where local law permits accepting gifts from clients up to $1,000 without disclosure. The CFA Standards require disclosure of all gifts regardless of value. The member should:",
+          "options": [
+            "Follow local law and not disclose gifts under $1,000",
+            "Follow CFA Standards and disclose all gifts",
+            "Follow local law but disclose gifts over $500"
+          ],
+          "correctAnswer": "B",
+          "explanation": "The CFA Standards are MORE STRICT (require disclosure of ALL gifts vs. only gifts over $1,000). When Standards are stricter than local law, members must follow the Standards. This is a direct application of Standard I(A). EXAM TIP: This is a VERY common exam scenario - local law is lenient, Standards are strict. Always choose the Standards in these cases."
+        },
+        {
+          "id": "ethics-q7",
+          "question": "A member discovers their supervisor is engaging in illegal insider trading. The member should FIRST:",
+          "options": [
+            "Ignore it since the supervisor is responsible",
+            "Disassociate from the activity and report to compliance in writing",
+            "Immediately contact the media to expose the wrongdoing"
+          ],
+          "correctAnswer": "B",
+          "explanation": "Standard I(A) requires members to NOT participate in illegal activities. The first step is to disassociate and report through proper channels (compliance, legal) IN WRITING. This creates documentation that you objected. Option A is wrong - ignoring violations makes you complicit. Option C is wrong - media is not the appropriate first step; use internal channels and regulators first. EXAM TIP: 'In writing' is key - always document your objections."
+        }
+      ]
+    },
+    {
+      "title": "Independence and Objectivity - Standard I(B)",
+      "content": "<p><strong>WHAT THIS MEANS:</strong> You must think for yourself and not let others influence your investment decisions. Your analysis and recommendations must be YOURS, not what someone else wants to hear.</p><p><strong>COMMON SITUATIONS WHERE THIS APPLIES:</strong></p><ul><li><strong>Gifts from clients or companies:</strong> Small gifts (coffee mug, calendar) = OK. Expensive gifts (tickets to Super Bowl, luxury vacation) = NOT OK without permission. EXAMPLE: A company whose stock you cover invites you to a $5,000-per-person resort weekend. You must decline OR get employer permission AND disclose it. Why? Because this could influence your analysis of their stock.</li><li><strong>Pressure from investment banking:</strong> Your firm's banking division is helping Company XYZ raise money. They ask you to issue a 'buy' recommendation on XYZ stock. Your analysis says 'sell.' What do you do? ANSWER: Issue the 'sell' recommendation. Banking pressure cannot influence your analysis.</li><li><strong>Issuer-paid research:</strong> A company pays you to write a research report on them. This is allowed ONLY IF your compensation is a FLAT FEE (not tied to your conclusions). You must disclose that the research was paid for by the company. EXAMPLE: Company ABC pays you $10,000 to write a report. You can accept IF: (1) you get $10,000 regardless of whether you say 'buy' or 'sell', and (2) you clearly disclose 'This research was paid for by Company ABC.'</li></ul><p><strong>THE KEY TEST:</strong> Would a reasonable person think this gift or relationship could influence your judgment? If yes, don't accept it (or get permission and disclose).</p><p><strong>EXAM MEMORY TIP:</strong> Remember 'GIFT' - Gifts should be Insufficient to influence, Fully disclosed, Permission obtained, Trivial in value</p>",
+      "keyPoints": [
+        "Must maintain independent judgment in all investment analysis",
+        "Cannot accept gifts that could compromise independence",
+        "Modest gifts (under $100) typically acceptable without disclosure",
+        "Expensive gifts require employer permission AND disclosure",
+        "Investment banking cannot pressure research analysts",
+        "Issuer-paid research allowed only with flat fee (not performance-based)",
+        "Must disclose any conflicts of interest to clients and employers",
+        "Memory aid: 'GIFT' - Gifts Insufficient to influence, Fully disclosed, Permission, Trivial"
       ],
       "formulas": [],
       "practiceQuestions": [
         {
           "id": "ethics-q8",
-          "question": "When there is a conflict between local law and the CFA Code and Standards, a member should:",
+          "question": "A research analyst receives two tickets worth $800 to a professional sports game from a company whose stock she covers. She should:",
           "options": [
-            "Always follow local law regardless of which is more strict",
-            "Always follow the CFA Code and Standards regardless of local law",
-            "Follow the MORE STRICT of the two requirements"
+            "Accept the tickets without telling anyone since they're a gift",
+            "Decline the tickets or seek employer permission before accepting",
+            "Accept the tickets and sell them for cash instead"
           ],
-          "correctAnswer": "C",
-          "explanation": "Standard I(A) requires members to follow the MORE STRICT of applicable law or the Code and Standards when there is a conflict. This ensures the highest ethical standards are maintained. If local law is more strict, follow local law. If the Code and Standards are more strict, follow the Code and Standards. The key principle is: always follow the more strict requirement."
+          "correctAnswer": "B",
+          "explanation": "Tickets worth $800 are NOT a modest gift - they could reasonably be expected to influence the analyst's judgment. She must either decline them OR seek employer permission before accepting. Selling the tickets for cash (option C) is actually WORSE because it converts the gift to cash, which looks like a bribe. EXAM TIP: When gifts are from companies you cover/review, be EXTRA careful. The appearance of impropriety matters."
         },
         {
           "id": "ethics-q9",
-          "question": "If a member discovers their employer is engaging in illegal activities, they should FIRST:",
+          "question": "An investment banking client asks a research analyst to issue a 'buy' recommendation on their stock. The analyst's analysis indicates the stock should be 'sold.' The analyst should:",
           "options": [
-            "Ignore it as it is management's responsibility, not theirs",
-            "Disassociate from the activity and seek guidance from compliance or legal counsel",
-            "Immediately report it to the media to expose the wrongdoing"
+            "Issue the 'buy' recommendation to maintain the banking relationship",
+            "Issue the 'sell' recommendation based on independent analysis",
+            "Issue a 'hold' recommendation as a compromise"
           ],
           "correctAnswer": "B",
-          "explanation": "Standard I(A) requires members to NOT knowingly participate in violations. The first step is to disassociate from the activity and seek guidance from compliance or legal counsel. Members should document their objection in writing. If the violation is not remedied, they may need to report to regulatory authorities and/or consider resigning. Option A is wrong because ignoring violations makes you complicit. Option C is wrong because going to the media is not the appropriate first step - internal channels and regulatory authorities are more appropriate."
-        },
+          "explanation": "Standard I(B) requires independence and objectivity. The analyst must issue the recommendation that reflects their TRUE analysis, regardless of pressure from investment banking. Option A violates the standard by letting banking pressure influence research. Option C is also wrong - a 'hold' recommendation when analysis says 'sell' is still not independent. EXAM TIP: Never compromise your analysis to please banking clients, employers, or anyone else."
+        }
+      ]
+    },
+    {
+      "title": "Misrepresentation - Standard I(C)",
+      "content": "<p><strong>WHAT THIS MEANS:</strong> Don't lie, don't exaggerate, and don't steal other people's work. Be honest and give credit where credit is due.</p><p><strong>THREE MAIN TYPES OF MISREPRESENTATION:</strong></p><ol><li><strong>Guaranteeing Returns (NEVER ALLOWED):</strong> You can NEVER guarantee or promise specific investment returns. EXAMPLES OF VIOLATIONS: 'I guarantee you'll earn 12% this year.' 'This investment is risk-free.' 'You won't lose money with this strategy.' WHY IT'S WRONG: Investment returns are NEVER certain. Markets go up and down. Even 'safe' investments like government bonds have some risk. Making guarantees is dishonest.</li><li><strong>Plagiarism (Stealing Others' Work):</strong> Using someone else's work, ideas, or words without giving them credit. EXAMPLES OF VIOLATIONS: Copying a colleague's research report and putting your name on it. Using an analyst's recommendation from another firm without saying where it came from. Downloading charts from the internet and using them in your presentation without attribution. EXAMPLES OF NOT PLAGIARISM: Using factual data from recognized sources (government statistics, stock exchange data). Ideas that are 'common knowledge' in the industry. Work you created yourself (obviously!).</li><li><strong>Misrepresenting Your Qualifications or Track Record:</strong> Lying about your credentials, experience, or past performance. EXAMPLES OF VIOLATIONS: Claiming you have a CFA charter when you're only a candidate. Exaggerating your investment returns ('I earned 50%' when you actually earned 15%). Claiming you 'saved' a client money when you can't prove it.</li></ol><p><strong>REAL EXAMPLE:</strong> You're pitching to a potential client. You say: 'I guarantee this portfolio will earn 10% annually with no risk.' This violates Standard I(C) TWICE: (1) guaranteeing returns, and (2) implying investments can be risk-free. Even if you genuinely believe this, it's misrepresentation.</p><p><strong>HOW TO AVOID PLAGIARISM:</strong></p><ul><li>When in doubt, cite your source</li><li>Use quotation marks for direct quotes</li><li>Attribute ideas even when paraphrasing</li><li>For data: if it's from a recognized statistical source (government, exchange), no attribution needed. If it's from another analyst's report, attribution needed.</li></ul><p><strong>EXAM MEMORY TIP:</strong> Remember 'NO LIES' - No guarantees, Own your work (don't plagiarize), Identify your sources, be Truthful about qualifications</p>",
+      "keyPoints": [
+        "NEVER guarantee investment returns - this is always a violation",
+        "Cannot claim investments are 'risk-free' or 'guaranteed'",
+        "Must attribute others' work, ideas, and direct quotes",
+        "Factual data from recognized sources doesn't need attribution",
+        "Cannot misrepresent qualifications, credentials, or track record",
+        "Plagiarism applies to written work, oral presentations, and electronic media",
+        "When in doubt about attribution, cite the source",
+        "Memory aid: 'NO LIES' - No guarantees, Own your work, Identify sources"
+      ],
+      "formulas": [],
+      "practiceQuestions": [
         {
           "id": "ethics-q10",
-          "question": "A CFA member works in a country where certain types of insider trading are legal under local law. The member:",
+          "question": "A portfolio manager tells a prospective client: 'Based on my analysis, I'm confident this strategy will generate 15% returns annually with minimal risk.' This statement:",
           "options": [
-            "May engage in insider trading because it is legal in that jurisdiction",
-            "Must still comply with CFA Standards which prohibit insider trading",
-            "May engage in insider trading only if disclosing it to clients"
+            "Is acceptable because it's based on thorough analysis",
+            "Violates Standard I(C) because it implies a guarantee of returns",
+            "Is acceptable if the manager has achieved 15% returns in the past"
           ],
           "correctAnswer": "B",
-          "explanation": "Even if local law permits certain activities, CFA members and candidates must comply with the Code and Standards. The Standards prohibit insider trading regardless of local law. Since the Standards are MORE STRICT than the local law in this case, the member must follow the Standards. This is a direct application of the 'follow the more strict requirement' principle from Standard I(A)."
+          "explanation": "This statement violates Standard I(C) because it implies a guarantee of specific returns ('will generate 15%'). Even though the manager says 'based on my analysis,' the statement still suggests certainty about future performance, which is misrepresentation. Past performance (option C) does NOT justify implying future guarantees. EXAM TIP: Watch for words like 'will,' 'guarantee,' 'certain,' 'assured' - these often signal violations."
+        },
+        {
+          "id": "ethics-q11",
+          "question": "An analyst reads a research report from another firm and uses the key conclusions in her own report without attribution. This:",
+          "options": [
+            "Is acceptable because research conclusions are not copyrightable",
+            "Violates Standard I(C) as plagiarism",
+            "Is acceptable if she changes the wording"
+          ],
+          "correctAnswer": "B",
+          "explanation": "Using someone else's conclusions without attribution is plagiarism, which violates Standard I(C). It doesn't matter if she changes the wording - the IDEAS came from someone else and must be attributed. Option A is wrong - while conclusions may not be copyrightable in a legal sense, using them without attribution is still plagiarism under the Standards. EXAM TIP: Plagiarism isn't just about copying words - it's about using others' IDEAS without credit."
+        }
+      ]
+    },
+    {
+      "title": "Duties to Clients - Loyalty, Prudence, and Care (III-A)",
+      "content": "<p><strong>WHAT THIS MEANS:</strong> You work for your CLIENTS, not yourself or your employer. Put their interests first, always. This is called 'fiduciary duty' - it's the highest standard of care in the investment industry.</p><p><strong>THREE KEY WORDS:</strong></p><ul><li><strong>Loyalty:</strong> Be faithful to clients. Their interests come first.</li><li><strong>Prudence:</strong> Be careful and thoughtful. Act like a 'prudent person' would with their own money.</li><li><strong>Care:</strong> Put in the effort. Do the research. Don't be careless with client money.</li></ul><p><strong>WHO IS YOUR CLIENT?</strong> This is important and sometimes tricky:</p><ul><li>If you manage a pension fund → The pension fund is your client (NOT the individual employees)</li><li>If you manage a mutual fund → The mutual fund is your client (NOT the individual shareholders)</li><li>If you work directly with individuals → The individual is your client</li></ul><p><strong>KEY REQUIREMENTS:</strong></p><ol><li><strong>Vote proxies in clients' best interests:</strong> When companies have shareholder votes, you must vote in ways that benefit clients. Don't just automatically vote with management. Don't waste proxy votes - they belong to clients.</li><li><strong>Seek best execution:</strong> When trading for clients, get the best possible price. Don't trade just to generate commissions ('churning').</li><li><strong>Disclose conflicts:</strong> If you have any personal interest that could conflict with client interests, tell the client. EXAMPLE: You recommend a stock that your spouse owns. Disclose this to the client.</li><li><strong>Soft dollars:</strong> Client brokerage commissions belong to CLIENTS. You can only use them for research or services that benefit clients. Can't use client commissions to pay for your office rent or personal expenses.</li></ol><p><strong>REAL EXAMPLE:</strong> You manage a pension fund. Company XYZ is having a shareholder vote on whether to give the CEO a huge bonus. Your analysis says the bonus is excessive and not in shareholders' interests. The pension fund's management says 'vote with the CEO.' What do you do? ANSWER: Vote against the bonus. Your duty is to the pension fund beneficiaries (the ultimate clients), not the pension fund management. Voting against excessive compensation is in clients' best interests.</p><p><strong>EXAM MEMORY TIP:</strong> Remember 'CLIENTS FIRST' - Client interests, Loyalty, Independent judgment, Execute best, Never waste proxy votes, Trust is everything, Invest carefully, Serve faithfully, First always</p>",
+      "keyPoints": [
+        "Client interests come BEFORE personal AND employer interests",
+        "Must exercise prudence and care (the 'prudent person' standard)",
+        "Must vote proxies in clients' best interests, not management's",
+        "Must seek best execution for client transactions",
+        "Must disclose ALL conflicts of interest to clients",
+        "Understand who your client is (entity vs. beneficiaries)",
+        "Soft dollars (client commissions) can only be used for client-benefiting research",
+        "Cannot 'churn' accounts (excessive trading to generate commissions)",
+        "Memory aid: 'CLIENTS FIRST' - Client interests come first, always"
+      ],
+      "formulas": [],
+      "practiceQuestions": [
+        {
+          "id": "ethics-q12",
+          "question": "When managing a pension fund portfolio, the CFA member's client is:",
+          "options": [
+            "The pension fund management",
+            "The pension fund beneficiaries (employees)",
+            "The company that sponsors the pension plan"
+          ],
+          "correctAnswer": "B",
+          "explanation": "The ultimate clients are the pension fund beneficiaries (the employees who will receive pension benefits). While you work with pension fund management, your fiduciary duty is to the beneficiaries. This is important when there are conflicts - for example, if management wants you to vote proxies one way but it's not in beneficiaries' interests, you must vote for beneficiaries. EXAM TIP: For pooled investments (pension funds, mutual funds, endowments), the beneficiaries/shareholders are the ultimate clients."
+        },
+        {
+          "id": "ethics-q13",
+          "question": "Regarding proxy voting, a member should:",
+          "options": [
+            "Always vote with company management to maintain good relationships",
+            "Vote proxies in the best interests of clients",
+            "Not vote proxies as it creates potential conflicts"
+          ],
+          "correctAnswer": "B",
+          "explanation": "Standard III(A) requires members to vote proxies in the BEST INTERESTS OF CLIENTS. This means analyzing each proposal and voting accordingly. Automatically voting with management (option A) is a violation because it puts the company's interests ahead of clients'. Not voting at all (option C) is also a violation - proxy votes are client assets and wasting them violates the duty of care. EXAM TIP: Proxy voting is a fiduciary responsibility - you MUST vote, and you MUST vote for clients' benefit."
+        }
+      ]
+    },
+    {
+      "title": "Fair Dealing - Standard III(B)",
+      "content": "<p><strong>WHAT THIS MEANS:</strong> Treat all clients FAIRLY when making recommendations or taking investment action. This doesn't mean treating everyone EXACTLY the same, but it does mean not favoring some clients over others.</p><p><strong>FAIR vs. EQUAL - IMPORTANT DISTINCTION:</strong></p><ul><li><strong>FAIR dealing (required):</strong> All clients should have a reasonable opportunity to act on your recommendations. Don't tell some clients before others.</li><li><strong>EQUAL treatment (NOT required):</strong> You CAN offer different service levels to different clients. EXAMPLE: Premium clients might get monthly reports and weekly calls. Basic clients might get quarterly reports only. This is OK as long as it's DISCLOSED in advance and clients agree to it.</li></ul><p><strong>WHAT'S NOT FAIR (VIOLATIONS):</strong></p><ul><li>Telling your favorite clients about a stock recommendation BEFORE telling other clients</li><li>Buying a stock for your own account before buying it for clients who want it ('front-running')</li><li>Allocating profitable trades to favored clients and unprofitable trades to others</li><li>Having a 'tiered' system where some clients get recommendations days before others</li></ul><p><p><strong>WHAT IS FAIR (ALLOWED):</strong></p><ul><li>Different fee structures for different service levels (if disclosed)</li><li>Different minimum investment amounts for different share classes</li><li>Broad dissemination of recommendations (email to all clients at once, posting on website)</li><li>Tiered service levels (premium vs. basic) as long as all clients know what they're getting</li></ul><p><strong>BEST PRACTICES TO ENSURE FAIR DEALING:</strong></p><ol><li>Disseminate recommendations broadly (email blast, website posting, etc.)</li><li>Don't tell some clients before others</li><li>Execute trades for all clients at approximately the same time</li><li>Use a systematic approach to allocate trades (pro-rata, not favoritism)</li><li>Document your trade allocation procedures</li></ol><p><strong>REAL EXAMPLE:</strong> You're about to issue a 'buy' recommendation on Stock ABC. You have 100 clients. What's the FAIR approach? ANSWER: Send the recommendation to all 100 clients at approximately the same time (same email blast, same time). Don't call your 10 biggest clients first, then email the rest later. That's favoritism and violates Standard III(B).</p><p><strong>EXAM MEMORY TIP:</strong> Remember 'FAIR' - Fair opportunity for all, All interested clients notified, Information released simultaneously, Relationships disclosed</p>",
+      "keyPoints": [
+        "Must treat all clients FAIRLY (not necessarily EQUALLY)",
+        "Cannot favor some clients over others for recommendations",
+        "Different service levels OK if disclosed to all clients in advance",
+        "Disseminate recommendations to all interested clients SIMULTANEOUSLY",
+        "Don't tell favored clients before other clients",
+        "Trade allocation must be systematic (pro-rata), not based on favoritism",
+        "Front-running (trading for yourself before clients) is prohibited",
+        "Memory aid: 'FAIR' - Fair opportunity, All notified, Information simultaneous, Relationships disclosed"
+      ],
+      "formulas": [],
+      "practiceQuestions": [
+        {
+          "id": "ethics-q14",
+          "question": "A firm is about to issue a 'buy' recommendation on a stock. To comply with Standard III(B) on Fair Dealing, the firm should:",
+          "options": [
+            "Tell their largest clients first, then other clients 24 hours later",
+            "Make the recommendation available to all clients who might be interested at approximately the same time",
+            "Only tell clients who have accounts over $1 million"
+          ],
+          "correctAnswer": "B",
+          "explanation": "Standard III(B) requires fair dealing - all clients who might be interested should have a reasonable opportunity to receive and act on recommendations at approximately the same time. Option A violates the standard by favoring large clients. Option C discriminates against smaller clients. EXAM TIP: 'Simultaneous' or 'approximately the same time' is the key phrase for fair dealing questions."
+        },
+        {
+          "id": "ethics-q15",
+          "question": "Standard III(B) on Fair Dealing allows for:",
+          "options": [
+            "Different service levels for different clients if disclosed in advance",
+            "Telling some clients about recommendations before others based on account size",
+            "Charging all clients the same fees regardless of service level"
+          ],
+          "correctAnswer": "A",
+          "explanation": "Fair dealing does NOT mean identical treatment. Different service levels (and fees) are acceptable as long as they are DISCLOSED to all clients in advance and clients agree to them. Option B violates fair dealing by favoring some clients. Option C is not required - different service levels can have different fees. EXAM TIP: The key is DISCLOSURE. If clients know what they're getting (and what they're not getting) before they sign up, different service levels are acceptable."
+        }
+      ]
+    },
+    {
+      "title": "Suitability - Standard III(C)",
+      "content": "<p><strong>WHAT THIS MEANS:</strong> Before recommending an investment to a client, you must understand that client's situation. Don't recommend the same thing to everyone. A 25-year-old with high risk tolerance has different needs than a 70-year-old retiree.</p><p><strong>WHAT YOU NEED TO KNOW ABOUT EACH CLIENT (The 'IPS' - Investment Policy Statement):</strong></p><ul><li><strong>Return objectives:</strong> What return does the client need? (e.g., 'I need 7% annually to meet my retirement goal')</li><li><strong>Risk tolerance:</strong> How much volatility can they handle emotionally and financially? (e.g., 'I can't sleep when my portfolio drops 10%')</li><li><strong>Time horizon:</strong> When will they need the money? (e.g., 'I need this for college in 5 years' vs. 'This is for retirement in 30 years')</li><li><strong>Liquidity needs:</strong> Will they need to access the money soon? (e.g., 'I might need $50,000 for a house down payment in 2 years')</li><li><strong>Tax situation:</strong> What's their tax bracket? Taxable or tax-deferred account?</li><li><strong>Legal/regulatory constraints:</strong> Any restrictions? (e.g., 'I can't invest in tobacco stocks for religious reasons')</li><li><strong>Unique circumstances:</strong> Anything else relevant? (e.g., 'I work for Company XYZ so I already have lots of XYZ stock in my 401k')</li></ul><p><strong>KEY PRINCIPLE:</strong> Judge suitability in the context of the CLIENT'S ENTIRE PORTFOLIO, not individual investments in isolation.</p><p><strong>REAL EXAMPLE:</strong> Your client is a 30-year-old software engineer with stable income, no debt, $500,000 portfolio, and 35 years until retirement. She asks about investing 10% of her portfolio in a speculative biotech startup. Is this suitable? ANSWER: Probably YES. Even though the biotech stock is very risky, it's only 10% of her portfolio, she has a long time horizon, and she can afford the risk. The same recommendation would be UNSUITABLE for a 70-year-old retiree with limited savings.</p><p><strong>WHAT IF A CLIENT REQUESTS AN UNSUITABLE INVESTMENT?</strong></p><ol><li>Explain why it's not suitable for their situation</li><li>Document your explanation (in writing)</li><li>If they insist, you may need to decline the request</li><li>In extreme cases, consider terminating the relationship</li></ol><p><strong>EXAM MEMORY TIP:</strong> Remember 'RRTTLL' - Return, Risk, Time horizon, Taxes, Liquidity, Legal (the six components of an IPS)</p>",
+      "keyPoints": [
+        "Must understand client's objectives and constraints BEFORE recommending",
+        "Must assess client's risk tolerance (emotional and financial)",
+        "Must consider time horizon, liquidity needs, tax situation",
+        "Judge suitability in context of ENTIRE PORTFOLIO, not individual investments",
+        "Must update client information REGULARLY (at least annually)",
+        "If client requests unsuitable investment, explain and document",
+        "Apply to BOTH recommendations AND investment actions",
+        "Memory aid: 'RRTTLL' - Return, Risk, Time, Taxes, Liquidity, Legal"
+      ],
+      "formulas": [],
+      "practiceQuestions": [
+        {
+          "id": "ethics-q16",
+          "question": "Before making an investment recommendation, a member must make a reasonable inquiry into all of the following EXCEPT:",
+          "options": [
+            "The client's risk tolerance and return objectives",
+            "The client's favorite industry sectors",
+            "The client's time horizon and liquidity needs"
+          ],
+          "correctAnswer": "B",
+          "explanation": "While client preferences about industries may be noted, they are NOT required for suitability determination. The REQUIRED elements are risk tolerance, return objectives, time horizon, liquidity needs, tax situation, and legal constraints. A client's 'favorite' sectors are preferences, not suitability requirements. EXAM TIP: Know the difference between what's REQUIRED for suitability (RRTTLL) vs. what's merely a preference."
+        },
+        {
+          "id": "ethics-q17",
+          "question": "A 70-year-old retiree with a $200,000 portfolio asks the advisor to invest 50% in a speculative cryptocurrency. The advisor believes this is unsuitable. The advisor should:",
+          "options": [
+            "Make the investment because the client requested it",
+            "Explain why it's unsuitable, document the explanation, and decline if the client insists",
+            "Invest 25% as a compromise"
+          ],
+          "correctAnswer": "B",
+          "explanation": "Standard III(C) requires recommendations to be suitable for the client's situation. A 70-year-old retiree with limited assets should not have 50% in speculative investments. The advisor must explain why it's unsuitable, document this explanation, and if the client insists, decline the request. Option A violates the standard by making an unsuitable investment. Option C is also unsuitable - compromising on an unsuitable recommendation is still a violation. EXAM TIP: Never make an unsuitable investment, even if the client requests it. Your professional judgment matters."
+        }
+      ]
+    },
+    {
+      "title": "Performance Presentation - Standard III(D)",
+      "content": "<p><strong>WHAT THIS MEANS:</strong> When you tell clients or prospects about your investment performance, be honest, complete, and fair. Don't cherry-pick only your best results.</p><p><strong>WHAT'S PROHIBITED (VIOLATIONS):</strong></p><ul><li><strong>Cherry-picking:</strong> Showing only your best-performing accounts while hiding poor performers. EXAMPLE: You manage 20 accounts. Five did great (+30%), fifteen did poorly (-5%). You create a marketing brochure showing only the five best accounts. This is MISREPRESENTATION.</li><li><strong>Imputing past performance:</strong> Claiming your new fund has the same performance as your old fund (when they have different strategies or you didn't manage the old fund). EXAMPLE: You just started Fund ABC. You tell clients: 'This fund will perform like my previous fund which earned 15% annually.' Unless you can prove the strategies are identical AND you managed the previous fund, this is misrepresentation.</li><li><strong>Presenting gross returns without disclosure:</strong> Showing returns BEFORE fees without clearly saying 'gross of fees.' Clients care about what they actually earn (net of fees).</li><li><strong>Using hypothetical performance without labeling:</strong> Showing 'simulated' or 'backtested' results without clearly saying it's hypothetical (not actual performance).</li></ul><p><p><strong>WHAT'S REQUIRED (BEST PRACTICES):</strong></p><ul><li>Present COMPOSITE performance (group similar accounts together)</li><li>Clearly disclose whether performance is gross or net of fees</li><li>Clearly label any hypothetical or simulated performance</li><li>Include relevant benchmarks for comparison</li><li>Follow GIPS (Global Investment Performance Standards) when possible</li></ul><p><strong>REAL EXAMPLE:</strong> You're pitching to a potential client. You say: 'My average annual return is 12%.' What's wrong with this? ANSWER: Several things: (1) Is this gross or net of fees? (2) Over what time period? (3) Is this one account or a composite? (4) What was the risk/volatility? A proper presentation would be: 'Our balanced composite returned 12% annually (net of fees) over the 10-year period ending December 2024, with a standard deviation of 8%.'</p><p><strong>EXAM MEMORY TIP:</strong> Remember 'HONEST' - Honest presentation, No cherry-picking, All relevant disclosures, Simulated performance labeled, Every account included in composites, Transparent about fees</p>",
+      "keyPoints": [
+        "Cannot misrepresent past or expected performance",
+        "Must present performance FAIRLY, ACCURATELY, and COMPLETELY",
+        "Cannot cherry-pick only best-performing accounts",
+        "Must disclose if performance is gross or net of fees",
+        "Must clearly label hypothetical or simulated performance",
+        "Should present COMPOSITE performance (not selected accounts)",
+        "Should follow GIPS (Global Investment Performance Standards) when possible",
+        "Memory aid: 'HONEST' - Honest, No cherry-picking, All disclosures, Simulated labeled, Every account, Transparent"
+      ],
+      "formulas": [],
+      "practiceQuestions": [
+        {
+          "id": "ethics-q18",
+          "question": "A portfolio manager creates a marketing brochure showing only the five best-performing accounts out of 50 total accounts managed. This practice:",
+          "options": [
+            "Is acceptable marketing as long as the returns are accurate",
+            "Violates Standard III(D) on Performance Presentation",
+            "Is required by regulations"
+          ],
+          "correctAnswer": "B",
+          "explanation": "Cherry-picking only the best accounts misrepresents overall performance and violates Standard III(D). Performance should be presented for COMPOSITES (groups of similar accounts), not selected accounts. Even if the returns shown are accurate, presenting only the best accounts is misleading because it doesn't represent typical client experience. EXAM TIP: If you see 'selected accounts' or 'representative accounts' in an answer choice, it's usually a violation."
+        },
+        {
+          "id": "ethics-q19",
+          "question": "When presenting investment performance that includes hypothetical or backtested results, members must:",
+          "options": [
+            "Present it the same as actual performance",
+            "Clearly label it as hypothetical and not actual performance",
+            "Not present hypothetical performance under any circumstances"
+          ],
+          "correctAnswer": "B",
+          "explanation": "Standard III(D) permits presenting hypothetical or backtested performance, but it MUST be clearly labeled as such. Clients and prospects need to understand that hypothetical performance is not actual results and may not reflect real-world trading. Option A is wrong because hypothetical and actual performance must be distinguished. Option C is wrong - hypothetical performance is allowed if properly disclosed. EXAM TIP: 'Hypothetical' or 'simulated' performance is OK with disclosure, but never present it as if it were actual performance."
+        }
+      ]
+    },
+    {
+      "title": "Confidentiality - Standard III(E)",
+      "content": "<p><strong>WHAT THIS MEANS:</strong> Keep client information PRIVATE. Don't share it with others unless the client says it's OK or the law requires it.</p><p><strong>WHAT INFORMATION IS CONFIDENTIAL?</strong></p><ul><li>Personal information (name, address, Social Security number, etc.)</li><li>Financial information (income, net worth, account balances, etc.)</li><li>Investment holdings and transactions</li><li>Estate planning information</li><li>Tax returns and tax information</li><li>ANY non-public information about the client</li></ul><p><strong>WHO DOES THIS PROTECT?</strong></p><ul><li>Current clients</li><li>Former clients (yes, even after they leave you)</li><li>Prospective clients (even if they never become clients)</li></ul><p><strong>WHEN CAN YOU DISCLOSE CONFIDENTIAL INFORMATION?</strong></p><ol><li><strong>Client gives permission:</strong> Get it IN WRITING. EXAMPLE: Client wants you to talk to their accountant about tax planning. Get written authorization specifying what information can be shared and with whom.</li><li><strong>Information concerns illegal activities:</strong> If you discover client is doing something illegal (money laundering, tax fraud, etc.), you MAY disclose to authorities. You're not REQUIRED to disclose (unless local law requires it), but you're PERMITTED to.</li><li><strong>Required by law:</strong> If a court orders you to disclose, or if law requires reporting (like suspicious activity reports for money laundering).</li><li><strong>To defend yourself:</strong> If a client complains about you to regulators or sues you, you can disclose confidential information as needed to defend yourself.</li></ol><p><strong>REAL EXAMPLE:</strong> A prospective client meets with you to discuss managing their portfolio. They share detailed financial information. They decide not to hire you. Can you tell other people about their finances? ANSWER: NO. Standard III(E) protects prospective clients too. Just because they didn't become clients doesn't mean you can share their information.</p><p><strong>REAL EXAMPLE:</strong> A former client left your firm 2 years ago. A colleague asks you about this person's financial situation. Can you tell them? ANSWER: NO. Confidentiality continues even after the client relationship ends. The information is still confidential.</p><p><strong>EXAM MEMORY TIP:</strong> Remember 'SECRET' - Secure information, Exceptions permitted (permission, illegal, required by law, to defend), Continues after relationship ends, Everyone protected (current, former, prospective), Required to protect confidentiality, Trust is essential</p>",
+      "keyPoints": [
+        "Must maintain client confidentiality ALWAYS",
+        "Protects current, former, AND prospective clients",
+        "Can disclose if client gives WRITTEN permission",
+        "Can disclose information about ILLEGAL activities",
+        "Can disclose if required by law or court order",
+        "Can disclose to defend against client allegations",
+        "Confidentiality continues after client relationship ends",
+        "Memory aid: 'SECRET' - Secure, Exceptions, Continues, Everyone, Required, Trust"
+      ],
+      "formulas": [],
+      "practiceQuestions": [
+        {
+          "id": "ethics-q20",
+          "question": "A member may disclose confidential client information without client permission when:",
+          "options": [
+            "The information concerns illegal activities by the client",
+            "A competing firm asks for the information for marketing purposes",
+            "It would help the member attract new clients"
+          ],
+          "correctAnswer": "A",
+          "explanation": "Standard III(E) permits (but doesn't require) disclosure when the information concerns illegal activities. Options B and C are never acceptable reasons to disclose confidential information. Competitor requests and marketing purposes are NOT exceptions to the confidentiality rule. EXAM TIP: The four exceptions are: (1) client permission, (2) illegal activities, (3) required by law, (4) to defend yourself. If it's not one of these four, don't disclose."
+        },
+        {
+          "id": "ethics-q21",
+          "question": "Client confidentiality under Standard III(E) applies to:",
+          "options": [
+            "Only current clients",
+            "Current and former clients only",
+            "Current, former, AND prospective clients"
+          ],
+          "correctAnswer": "C",
+          "explanation": "Standard III(E) protects the confidentiality of information about current, former, AND prospective clients. The duty continues even after the client relationship ends. EXAM TIP: Many candidates forget that prospective clients are protected. Even if someone meets with you once and never becomes a client, their information is still confidential."
+        }
+      ]
+    },
+    {
+      "title": "Duties to Employers - Standard IV",
+      "content": "<p><strong>WHAT THIS MEANS:</strong> You have duties to your employer too, not just clients. Be loyal, don't steal, and if you're a supervisor, make sure your team follows the rules.</p><p><p><strong>THREE PARTS OF STANDARD IV:</strong></p><ol><li><strong>IV(A) - Loyalty to Employer:</strong></li><ul><li>Act for your employer's benefit</li><li>Don't misappropriate employer's property or clients</li><li>Don't solicit clients before leaving your firm</li><li>Can prepare to compete (get licenses, rent office) but can't actually compete while employed</li><li>When leaving: can't take client lists, proprietary information, or computer files</li></ul><li><strong>IV(B) - Additional Compensation:</strong></li><ul><li>Can't accept gifts/benefits from third parties that create conflicts</li><li>If offered additional compensation (bonus, gifts, etc.), must disclose to employer AND get permission</li><li>EXAMPLE: A client offers you a $5,000 bonus for good performance. You must tell your employer and get permission before accepting.</li></ul><li><strong>IV(C) - Responsibilities of Supervisors:</strong></li><ul><li>Must make reasonable efforts to detect and prevent violations</li><li>Must have adequate compliance procedures</li><li>If you discover violations, must take action to stop them</li><li>Can delegate compliance tasks but NOT responsibility</li></ul></ol><p><strong>REAL EXAMPLE - LOYALTY:</strong> You're thinking about leaving your firm to start your own business. What can you do while still employed? CAN DO: Register for the CFA exam, rent office space for your future business, create a business plan. CANNOT DO: Solicit your current firm's clients, use firm resources for your new business, take client lists or proprietary information.</p><p><strong>REAL EXAMPLE - SUPERVISOR RESPONSIBILITIES:</strong> You're a supervisor. One of your team members is doing something that might violate the Standards. What must you do? ANSWER: (1) Investigate to confirm, (2) If violation confirmed, stop it immediately, (3) Put procedures in place to prevent recurrence, (4) Document everything. You can't ignore it or delegate the responsibility to someone else.</p><p><strong>EXAM MEMORY TIP:</strong> Remember 'LOYAL' - Loyal to employer, Offered compensation must be disclosed, Your team's violations are your responsibility (if supervisor), Act for employer's benefit, Leave properly (no stealing clients/property)</p>",
+      "keyPoints": [
+        "Must act for employer's benefit in all professional activities",
+        "Cannot accept additional compensation without employer permission",
+        "Cannot misappropriate employer's property, clients, or confidential information",
+        "When leaving firm, can prepare to compete but not actually compete",
+        "Supervisors must make reasonable efforts to prevent violations",
+        "Supervisors can delegate tasks but NOT responsibility for compliance",
+        "Must have adequate compliance procedures if you're a supervisor",
+        "Memory aid: 'LOYAL' - Loyal, Offered compensation disclosed, Your team's violations, Act for employer, Leave properly"
+      ],
+      "formulas": [],
+      "practiceQuestions": [
+        {
+          "id": "ethics-q22",
+          "question": "A supervisor discovers a subordinate has violated the Code and Standards. The supervisor should:",
+          "options": [
+            "Ignore it if no clients were harmed",
+            "Take reasonable steps to address the violation and prevent recurrence",
+            "Immediately terminate the employee without investigation"
+          ],
+          "correctAnswer": "B",
+          "explanation": "Standard IV(C) requires supervisors to make reasonable efforts to detect and prevent violations. When violations are discovered, supervisors must take action to address them and prevent recurrence. Option A is wrong - ignoring violations makes the supervisor complicit. Option C is wrong - immediate termination without investigation may not be appropriate; the response should be proportional to the violation. EXAM TIP: Supervisors have AFFIRMATIVE DUTY to address violations. Ignoring them is itself a violation."
+        },
+        {
+          "id": "ethics-q23",
+          "question": "Before accepting a $10,000 bonus from a client, a member should:",
+          "options": [
+            "Accept it without telling anyone since it's from a client",
+            "Disclose it to their employer and get written permission before accepting",
+            "Decline all client bonuses regardless of circumstances"
+          ],
+          "correctAnswer": "B",
+          "explanation": "Standard IV(B) requires members to disclose any additional compensation arrangements to their employer and obtain permission BEFORE accepting. The bonus must be disclosed in writing, and employer must give written permission. Option A violates the standard by not disclosing. Option C is not required - bonuses are allowed with proper disclosure and permission. EXAM TIP: 'Additional compensation' includes bonuses, gifts, benefits - anything of value beyond normal compensation."
         }
       ]
     }
