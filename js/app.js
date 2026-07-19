@@ -40,7 +40,7 @@ class App {
      * Load topics data
      */
     async loadTopics() {
-        const response = await fetch('data/topics.json');
+        const response = await fetch('./data/topics.json');
         if (!response.ok) {
             throw new Error('Failed to load topics');
         }
