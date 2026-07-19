@@ -1,6 +1,6 @@
-# 📚 CFA Level I Study Materials - User Guide
+# 📚 Level I Study Materials - User Guide
 
-Welcome to the CFA Level I Exam Study Platform!
+Welcome to the Exam Study Platform!
 
 ---
 
@@ -107,11 +107,3 @@ The site works on:
 ## 📧 **Feedback**
 
 If you find any errors or have suggestions, please create an issue on this GitHub repository.
-
----
-
-## 🙏 **Share With Others**
-
-Know someone studying for CFA Level I? Share this link with them!
-
-**Good luck with your studies!** 📈✨
