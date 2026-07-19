@@ -2,58 +2,70 @@
   "sections": [
     {
       "title": "Supply and Demand Analysis",
-      "content": "<p>Supply and demand is the fundamental model of price determination in a market economy. The interaction of supply and demand determines market prices and quantities.</p>",
+      "content": "<p><strong>WHAT THIS MEANS:</strong> Supply and demand is the FOUNDATION of economics. It explains how prices are determined in a market economy. Understanding this is CRITICAL for the CFA exam and for understanding how markets work.</p><p><strong>WHY THIS MATTERS FOR THE EXAM:</strong> Economics represents 8-12% of the CFA Level I exam (approximately 14-22 questions out of 180). Supply and demand is the MOST TESTED concept in economics.</p><p><strong>THE LAW OF DEMAND:</strong></p><p>As price INCREASES, quantity demanded DECREASES (and vice versa). This is an INVERSE relationship.</p><ul><li><strong>WHY?</strong> When something gets more expensive, people buy less of it. EXAMPLE: If coffee costs $2/cup, you might buy 5 cups per week. If price rises to $10/cup, you'll probably buy less (maybe 1 cup per week).</li><li><strong>THE DEMAND CURVE:</strong> Slopes DOWNWARD from left to right. Price on vertical axis, Quantity on horizontal axis.</li><li><strong>MOVEMENT ALONG the demand curve:</strong> Caused by a CHANGE IN PRICE. EXAMPLE: Coffee price drops from $5 to $3 → you buy more (movement along the curve).</li><li><strong>SHIFT OF the demand curve:</strong> Caused by factors OTHER THAN PRICE. EXAMPLE: Your income increases → you buy more coffee at EVERY price (entire curve shifts right).</li></ul><p><strong>FACTORS THAT SHIFT DEMAND (NOT price):</strong></p><ul><li><strong>Income:</strong> Higher income → demand increases (for normal goods)</li><li><strong>Prices of related goods:</strong> If tea gets expensive, demand for coffee increases (substitutes)</li><li><strong>Tastes/Preferences:</strong> If coffee becomes trendy, demand increases</li><li><strong>Expectations:</strong> If you expect coffee prices to rise tomorrow, you buy more today</li><li><strong>Number of buyers:</strong> More buyers in the market → higher demand</li></ul><p><strong>THE LAW OF SUPPLY:</strong></p><p>As price INCREASES, quantity supplied INCREASES (and vice versa). This is a DIRECT relationship.</p><ul><li><strong>WHY?</strong> When something gets more expensive, producers want to sell more (higher profits!). EXAMPLE: If coffee price rises from $3 to $10/cup, coffee shops will make more coffee to maximize profits.</li><li><strong>THE SUPPLY CURVE:</strong> Slopes UPWARD from left to right.</li><li><strong>MOVEMENT ALONG the supply curve:</strong> Caused by a CHANGE IN PRICE.</li><li><strong>SHIFT OF the supply curve:</strong> Caused by factors OTHER THAN PRICE.</li></ul><p><strong>FACTORS THAT SHIFT SUPPLY (NOT price):</strong></p><ul><li><strong>Input prices:</strong> If coffee beans get expensive, supply decreases (shifts left)</li><li><strong>Technology:</strong> Better coffee machines → supply increases</li><li><strong>Taxes/Subsidies:</strong> Higher taxes → supply decreases; Subsidies → supply increases</li><li><strong>Expectations:</strong> If producers expect prices to rise, they may hold back supply now</li><li><strong>Number of sellers:</strong> More coffee shops → higher supply</li></ul><p><strong>MARKET EQUILIBRIUM:</strong></p><p>Equilibrium occurs where SUPPLY = DEMAND. At this point:</p><ul><li>The market 'clears' (no shortage, no surplus)</li><li>Price is stable (no pressure to change)</li><li>Quantity supplied = Quantity demanded</li></ul><p><strong>WHAT HAPPENS WHEN MARKET IS NOT IN EQUILIBRIUM?</strong></p><ul><li><strong>Price ABOVE equilibrium:</strong> Surplus (excess supply). Producers can't sell all they want → price falls toward equilibrium. EXAMPLE: Coffee shops make 1000 cups but only 600 are demanded at $8/cup → shops lower price to sell inventory.</li><li><strong>Price BELOW equilibrium:</strong> Shortage (excess demand). Consumers can't buy all they want → price rises toward equilibrium. EXAMPLE: At $2/cup, consumers want 1000 cups but shops only make 400 → shops raise price.</li></ul><p><strong>REAL EXAMPLE:</strong> Let's analyze the coffee market:</p><ul><li>At $3/cup: Consumers want 500 cups, Shops supply 500 cups → EQUILIBRIUM!</li><li>At $5/cup: Consumers want 300 cups, Shops supply 700 cups → SURPLUS of 400 cups → Price will FALL</li><li>At $1/cup: Consumers want 800 cups, Shops supply 200 cups → SHORTAGE of 600 cups → Price will RISE</li></ul><p><strong>CHANGES IN EQUILIBRIUM:</strong></p><table style='width:100%;border-collapse:collapse;margin:20px 0;'><tr style='background:#f0f9ff;'><th style='border:1px solid #bae6fd;padding:12px;'>Event</th><th style='border:1px solid #bae6fd;padding:12px;'>Demand</th><th style='border:1px solid #bae6fd;padding:12px;'>Supply</th><th style='border:1px solid #bae6fd;padding:12px;'>Equilibrium Price</th><th style='border:1px solid #bae6fd;padding:12px;'>Equilibrium Quantity</th></tr><tr><td style='border:1px solid #e2e8f0;padding:12px;'>Income increases (normal good)</td><td style='border:1px solid #e2e8f0;padding:12px;'>Increases →</td><td style='border:1px solid #e2e8f0;padding:12px;'>No change</td><td style='border:1px solid #e2e8f0;padding:12px;'>Increases ↑</td><td style='border:1px solid #e2e8f0;padding:12px;'>Increases ↑</td></tr><tr><td style='border:1px solid #e2e8f0;padding:12px;'>Coffee bean prices rise</td><td style='border:1px solid #e2e8f0;padding:12px;'>No change</td><td style='border:1px solid #e2e8f0;padding:12px;'>Decreases ←</td><td style='border:1px solid #e2e8f0;padding:12px;'>Increases ↑</td><td style='border:1px solid #e2e8f0;padding:12px;'>Decreases ↓</td></tr><tr><td style='border:1px solid #e2e8f0;padding:12px;'>Tea price increases (substitute)</td><td style='border:1px solid #e2e8f0;padding:12px;'>Increases →</td><td style='border:1px solid #e2e8f0;padding:12px;'>No change</td><td style='border:1px solid #e2e8f0;padding:12px;'>Increases ↑</td><td style='border:1px solid #e2e8f0;padding:12px;'>Increases ↑</td></tr></table><p><strong>EXAM MEMORY TIP:</strong> Remember 'DEMAND SHIFT' - Income, Related goods, Expectations, Number of buyers, Tastes. These are the 5 factors that shift demand (not price).</p>",
       "keyPoints": [
-        "Law of demand: price and quantity demanded are inversely related",
-        "Law of supply: price and quantity supplied are directly related",
-        "Equilibrium occurs where supply equals demand",
-        "Shifts in curves vs. movements along curves"
+        "Economics = 8-12% of exam (14-22 questions)",
+        "Law of Demand: Price ↑ → Quantity demanded ↓ (inverse relationship)",
+        "Law of Supply: Price ↑ → Quantity supplied ↑ (direct relationship)",
+        "Demand curve slopes DOWNWARD; Supply curve slopes UPWARD",
+        "Price change = MOVEMENT ALONG the curve",
+        "Non-price factor = SHIFT OF the curve",
+        "Equilibrium: Supply = Demand (market clears)",
+        "Surplus (price too high) → Price falls",
+        "Shortage (price too low) → Price rises",
+        "Memory aid: 'DEMAND SHIFT' - 5 demand shifters"
       ],
       "formulas": [],
       "practiceQuestions": [
         {
           "id": "econ-q1",
-          "question": "If the price of a good increases, what happens to the quantity demanded?",
+          "question": "If the price of coffee increases from $3 to $5 per cup, what happens to the demand for coffee?",
           "options": [
-            "It increases",
-            "It decreases",
-            "It remains unchanged"
+            "Demand decreases",
+            "Quantity demanded decreases",
+            "Demand increases"
           ],
           "correctAnswer": "B",
-          "explanation": "According to the law of demand, there is an inverse relationship between price and quantity demanded. When price increases, quantity demanded decreases."
+          "explanation": "A price change causes a change in QUANTITY DEMANDED (movement along the demand curve), NOT a change in demand (shift of the curve). When price increases, quantity demanded decreases. EXAM TIP: This is a CRITICAL distinction. 'Demand' changes only when non-price factors change. 'Quantity demanded' changes when price changes."
         },
         {
           "id": "econ-q2",
-          "question": "Market equilibrium occurs when:",
+          "question": "If consumer incomes increase and coffee is a normal good, what happens to equilibrium price and quantity?",
           "options": [
-            "Supply exceeds demand",
-            "Demand exceeds supply",
-            "Quantity supplied equals quantity demanded"
+            "Price increases, quantity decreases",
+            "Price decreases, quantity increases",
+            "Price increases, quantity increases"
           ],
           "correctAnswer": "C",
-          "explanation": "Market equilibrium is the point where the supply and demand curves intersect, meaning quantity supplied equals quantity demanded at the equilibrium price."
+          "explanation": "Higher income increases demand for normal goods (demand curve shifts right). This causes BOTH equilibrium price and equilibrium quantity to increase. EXAM TIP: Draw the graph! When demand increases (shifts right), both price and quantity rise. When supply increases (shifts right), price falls but quantity rises."
         },
         {
           "id": "econ-q3",
-          "question": "Which of the following would cause a shift in the demand curve?",
+          "question": "A surplus in the market occurs when:",
           "options": [
-            "A change in the price of the good",
-            "A change in consumer income",
-            "A change in the quantity supplied"
+            "Price is below equilibrium",
+            "Price is above equilibrium",
+            "Supply equals demand"
           ],
           "correctAnswer": "B",
-          "explanation": "A change in consumer income shifts the entire demand curve. A change in the price of the good causes a movement along the demand curve, not a shift."
+          "explanation": "A surplus (excess supply) occurs when price is ABOVE equilibrium. At high prices, producers want to sell more than consumers want to buy. This creates downward pressure on price until equilibrium is restored. EXAM TIP: Remember 'SURPLUS = TOO HIGH' - surplus means price is too high, shortage means price is too low."
         }
       ]
     },
     {
       "title": "Elasticity",
-      "content": "<p>Elasticity measures the responsiveness of quantity demanded or supplied to changes in various factors such as price, income, or prices of related goods.</p>",
+      "content": "<p><strong>WHAT THIS MEANS:</strong> Elasticity measures HOW RESPONSIVE quantity is to a change in something else (price, income, etc.). It tells us: 'If I change price by 10%, how much will quantity change?'</p><p><strong>WHY THIS MATTERS:</strong> Elasticity is TESTED FREQUENTLY on the CFA exam. It's crucial for understanding pricing decisions, tax incidence, and consumer behavior.</p><p><strong>PRICE ELASTICITY OF DEMAND:</strong></p><p>Measures how responsive quantity demanded is to a change in price.</p><p style='background:#f0f9ff;padding:15px;border-radius:8px;'><strong>Price Elasticity = % Change in Quantity Demanded / % Change in Price</strong></p><p><strong>INTERPRETATION:</strong></p><ul><li><strong>Elastic (|E| > 1):</strong> Quantity is VERY responsive to price. EXAMPLE: Luxury goods, items with many substitutes. If price rises 10%, quantity falls MORE than 10%.</li><li><strong>Inelastic (|E| < 1):</strong> Quantity is NOT very responsive to price. EXAMPLE: Necessities (medicine, salt), addictive goods. If price rises 10%, quantity falls LESS than 10%.</li><li><strong>Unit Elastic (|E| = 1):</strong> Quantity changes by the SAME percentage as price. If price rises 10%, quantity falls exactly 10%.</li><li><strong>Perfectly Elastic (|E| = ∞):</strong> Any price increase causes quantity to fall to zero. Horizontal demand curve.</li><li><strong>Perfectly Inelastic (|E| = 0):</strong> Quantity doesn't change regardless of price. Vertical demand curve. EXAMPLE: Life-saving medicine with no substitutes.</li></ul><p><strong>FACTORS AFFECTING PRICE ELASTICITY:</strong></p><ul><li><strong>Availability of substitutes:</strong> More substitutes → More elastic (easier to switch)</li><li><strong>Necessity vs. Luxury:</strong> Necessities → Inelastic; Luxuries → Elastic</li><li><strong>Time horizon:</strong> Longer time → More elastic (more time to find alternatives)</li><li><strong>Proportion of income:</strong> Larger portion of budget → More elastic</li></ul><p><strong>ELASTICITY AND TOTAL REVENUE:</strong></p><p>This is CRITICAL for the exam!</p><table style='width:100%;border-collapse:collapse;margin:20px 0;'><tr style='background:#f0f9ff;'><th style='border:1px solid #bae6fd;padding:12px;'>Elasticity</th><th style='border:1px solid #bae6fd;padding:12px;'>If Price INCREASES</th><th style='border:1px solid #bae6fd;padding:12px;'>If Price DECREASES</th></tr><tr><td style='border:1px solid #e2e8f0;padding:12px;'>Elastic (|E| > 1)</td><td style='border:1px solid #e2e8f0;padding:12px;'>Total Revenue DECREASES</td><td style='border:1px solid #e2e8f0;padding:12px;'>Total Revenue INCREASES</td></tr><tr><td style='border:1px solid #e2e8f0;padding:12px;'>Inelastic (|E| < 1)</td><td style='border:1px solid #e2e8f0;padding:12px;'>Total Revenue INCREASES</td><td style='border:1px solid #e2e8f0;padding:12px;'>Total Revenue DECREASES</td></tr><tr><td style='border:1px solid #e2e8f0;padding:12px;'>Unit Elastic (|E| = 1)</td><td style='border:1px solid #e2e8f0;padding:12px;'>Total Revenue UNCHANGED</td><td style='border:1px solid #e2e8f0;padding:12px;'>Total Revenue UNCHANGED</td></tr></table><p><strong>WHY?</strong> When demand is elastic, quantity falls MORE than price rises, so total revenue (P × Q) falls. When demand is inelastic, quantity falls LESS than price rises, so total revenue rises.</p><p><strong>EXAMPLE:</strong> A coffee shop raises prices from $3 to $4 (33% increase).</p><ul><li>If demand is ELASTIC: Quantity falls 50% → Revenue falls (lost more customers than gained from higher price)</li><li>If demand is INELASTIC: Quantity falls 10% → Revenue rises (gained more from higher price than lost from fewer customers)</li></ul><p><strong>INCOME ELASTICITY OF DEMAND:</strong></p><p>Measures how responsive quantity demanded is to a change in income.</p><p style='background:#f0f9ff;padding:15px;border-radius:8px;'><strong>Income Elasticity = % Change in Quantity Demanded / % Change in Income</strong></p><p><strong>INTERPRETATION:</strong></p><ul><li><strong>Positive (> 0):</strong> NORMAL GOOD. As income rises, you buy more. EXAMPLE: Restaurant meals, new cars.</li><li><strong>Negative (< 0):</strong> INFERIOR GOOD. As income rises, you buy LESS. EXAMPLE: Instant noodles, used cars, bus tickets (you switch to better alternatives when richer).</li><li><strong>Greater than 1:</strong> Luxury good. Demand rises MORE than income.</li><li><strong>Between 0 and 1:</strong> Necessity. Demand rises LESS than income.</li></ul><p><strong>CROSS-PRICE ELASTICITY:</strong></p><p>Measures how responsive demand for one good is to a change in the price of ANOTHER good.</p><p style='background:#f0f9ff;padding:15px;border-radius:8px;'><strong>Cross-Price Elasticity = % Change in Quantity of Good A / % Change in Price of Good B</strong></p><p><strong>INTERPRETATION:</strong></p><ul><li><strong>Positive (> 0):</strong> SUBSTITUTES. If tea price rises, coffee demand increases. EXAMPLE: Coffee and tea, Coke and Pepsi.</li><li><strong>Negative (< 0):</strong> COMPLEMENTS. If printer price falls, ink demand increases. EXAMPLE: Printers and ink, cars and gasoline, phones and phone cases.</li><li><strong>Zero (≈ 0):</strong> UNRELATED GOODS. If butter price changes, demand for laptops doesn't change.</li></ul><p><strong>EXAM MEMORY TIP:</strong> Remember 'SUN' - Substitutes have positive cross-elasticity, Unrelated have zero, Negatives are complements.</p>",
       "keyPoints": [
-        "Price elasticity of demand measures responsiveness to price changes",
-        "Elastic demand: |E| > 1; Inelastic demand: |E| < 1",
-        "Cross-price elasticity indicates substitutes or complements",
-        "Income elasticity distinguishes normal from inferior goods"
+        "Price Elasticity = %ΔQ / %ΔP",
+        "Elastic (|E| > 1): Quantity VERY responsive to price",
+        "Inelastic (|E| < 1): Quantity NOT very responsive",
+        "Unit Elastic (|E| = 1): Quantity changes same as price",
+        "Elastic demand: Price ↑ → Revenue ↓ (opposite direction)",
+        "Inelastic demand: Price ↑ → Revenue ↑ (same direction)",
+        "Income Elasticity > 0: Normal good",
+        "Income Elasticity < 0: Inferior good",
+        "Cross-Price > 0: Substitutes; Cross-Price < 0: Complements",
+        "Memory aid: 'SUN' - Substitutes positive, Unrelated zero, Negative complements"
       ],
       "formulas": [
         {
@@ -61,6 +73,20 @@
           "variables": {
             "%ΔQ_d": "Percentage change in quantity demanded",
             "%ΔP": "Percentage change in price"
+          }
+        },
+        {
+          "expression": "Income Elasticity = %ΔQ_d / %ΔIncome",
+          "variables": {
+            "%ΔQ_d": "Percentage change in quantity demanded",
+            "%ΔIncome": "Percentage change in income"
+          }
+        },
+        {
+          "expression": "Cross-Price Elasticity = %ΔQ_A / %ΔP_B",
+          "variables": {
+            "%ΔQ_A": "Percentage change in quantity of Good A",
+            "%ΔP_B": "Percentage change in price of Good B"
           }
         }
       ],
@@ -74,64 +100,180 @@
             "Unit elastic"
           ],
           "correctAnswer": "A",
-          "explanation": "Elasticity = 20%/10% = 2. Since |E| > 1, demand is elastic."
+          "explanation": "Price Elasticity = %ΔQ / %ΔP = -20% / 10% = -2.0. The absolute value |−2.0| = 2.0, which is greater than 1, so demand is ELASTIC. EXAM TIP: Always use absolute value when interpreting elasticity. The negative sign just reflects the inverse relationship (law of demand)."
         },
         {
           "id": "econ-q5",
-          "question": "A positive cross-price elasticity indicates that two goods are:",
+          "question": "If the price of tea increases and the demand for coffee increases, tea and coffee are:",
           "options": [
             "Complements",
             "Substitutes",
-            "Unrelated"
+            "Unrelated goods"
           ],
           "correctAnswer": "B",
-          "explanation": "Positive cross-price elasticity means that when the price of one good increases, demand for the other good increases, indicating they are substitutes."
+          "explanation": "When the price of one good rises and demand for another good increases, they are SUBSTITUTES. Consumers are switching from tea to coffee because tea is now more expensive. Cross-price elasticity would be POSITIVE. EXAM TIP: Substitutes = Positive cross-elasticity (both move same direction). Complements = Negative cross-elasticity (move opposite directions)."
+        },
+        {
+          "id": "econ-q6",
+          "question": "For a product with INELASTIC demand, if the firm raises its price, total revenue will:",
+          "options": [
+            "Increase",
+            "Decrease",
+            "Remain unchanged"
+          ],
+          "correctAnswer": "A",
+          "explanation": "When demand is inelastic (|E| < 1), quantity demanded falls LESS than price rises. So the higher price more than offsets the lower quantity, and total revenue (P × Q) INCREASES. EXAM TIP: Remember 'INELASTIC = INCREASE' - when demand is inelastic, raising price increases revenue. This is why pharmaceutical companies can charge high prices for life-saving drugs."
         }
       ]
     },
     {
-      "title": "Macroeconomic Measures",
-      "content": "<p>Key macroeconomic indicators include GDP, inflation, and unemployment rates. These measures help assess the overall health of an economy.</p>",
+      "title": "Macroeconomic Measures - GDP",
+      "content": "<p><strong>WHAT THIS MEANS:</strong> GDP (Gross Domestic Product) measures the total value of all FINAL goods and services produced within a country's borders during a specific period (usually a year or quarter). It's the PRIMARY measure of economic activity.</p><p><strong>WHY THIS MATTERS FOR THE EXAM:</strong> GDP is one of the MOST TESTED macroeconomic concepts. Understanding GDP is essential for understanding economic growth, business cycles, and monetary/fiscal policy.</p><p><strong>WHAT'S INCLUDED IN GDP:</strong></p><ul><li>ONLY final goods and services (NOT intermediate goods - avoids double-counting)</li><li>Produced WITHIN the country's borders (regardless of who owns the factory)</li><li>Produced DURING the specific time period (not used goods from previous years)</li><li>Legal market transactions (NOT illegal activities or unpaid household work)</li></ul><p><strong>WHAT'S NOT INCLUDED IN GDP:</strong></p><ul><li>Intermediate goods (steel used to make cars is counted in the car's price)</li><li>Used goods (selling your used car doesn't count - it was counted when new)</li><li>Financial transactions (buying stocks/bonds - just transferring ownership)</li><li>Transfer payments (Social Security, unemployment benefits - no production involved)</li><li>Illegal activities and underground economy</li><li>Unpaid household work (cooking, cleaning for your own family)</li></ul><p><strong>THREE APPROACHES TO MEASURING GDP:</strong></p><ol><li><strong>Production (Value-Added) Approach:</strong> Sum of value added at each stage of production. EXAMPLE: Wheat farmer sells wheat for $1 → Miller makes flour, sells for $2 (value added = $1) → Baker makes bread, sells for $5 (value added = $3) → GDP contribution = $1 + $1 + $3 = $5 (equals final price of bread).</li><li><strong>Expenditure Approach (MOST COMMON):</strong> Sum of all spending on final goods and services. FORMULA: GDP = C + I + G + (X - M). This is THE MOST IMPORTANT GDP FORMULA for the exam!</li><li><strong>Income Approach:</strong> Sum of all incomes earned in production (wages, rent, interest, profits). Should equal expenditure approach (every dollar spent is someone's income).</li></ol><p><strong>THE EXPENDITURE APPROACH FORMULA:</strong></p><p style='background:#f0f9ff;padding:15px;border-radius:8px;text-align:center;font-size:1.2em;'><strong>GDP = C + I + G + (X - M)</strong></p><p>Where:<ul><li><strong>C = Consumption:</strong> Household spending on goods and services. EXAMPLES: Food, clothes, haircuts, medical care. LARGEST component (about 70% of US GDP).</li><li><strong>I = Investment:</strong> Business spending on capital goods + residential construction + changes in inventories. EXAMPLES: Factories, machines, new houses, unsold inventory. NOT financial investments (stocks/bonds).</li><li><strong>G = Government Spending:</strong> Government purchases of goods and services. EXAMPLES: Roads, schools, military, government salaries. NOT transfer payments (Social Security).</li><li><strong>X = Exports:</strong> Goods/services sold to foreigners (produced domestically, purchased by foreigners).</li><li><strong>M = Imports:</strong> Goods/services bought from foreigners (produced abroad, purchased domestically). We SUBTRACT imports because they're included in C, I, and G but weren't produced domestically.</li></ul></p><p><strong>REAL GDP vs. NOMINAL GDP:</strong></p><ul><li><strong>Nominal GDP:</strong> Measured using CURRENT prices. Changes when prices OR quantities change. PROBLEM: Can increase just because of inflation, even if no more goods produced.</li><li><strong>Real GDP:</strong> Measured using CONSTANT (base year) prices. ONLY changes when quantities change. BENEFIT: Removes inflation effect, shows true economic growth.</li><li><strong>GDP Deflator:</strong> Measures the overall price level. FORMULA: GDP Deflator = (Nominal GDP / Real GDP) × 100</li></ul><p><strong>EXAMPLE:</strong> Country produces only apples.</p><table style='width:100%;border-collapse:collapse;margin:20px 0;'><tr style='background:#f0f9ff;'><th style='border:1px solid #bae6fd;padding:12px;'>Year</th><th style='border:1px solid #bae6fd;padding:12px;'>Quantity</th><th style='border:1px solid #bae6fd;padding:12px;'>Price</th><th style='border:1px solid #bae6fd;padding:12px;'>Nominal GDP</th><th style='border:1px solid #bae6fd;padding:12px;'>Real GDP (Base Year 2020)</th></tr><tr><td style='border:1px solid #e2e8f0;padding:12px;'>2020</td><td style='border:1px solid #e2e8f0;padding:12px;'>100</td><td style='border:1px solid #e2e8f0;padding:12px;'>$1.00</td><td style='border:1px solid #e2e8f0;padding:12px;'>$100</td><td style='border:1px solid #e2e8f0;padding:12px;'>$100</td></tr><tr><td style='border:1px solid #e2e8f0;padding:12px;'>2021</td><td style='border:1px solid #e2e8f0;padding:12px;'>100</td><td style='border:1px solid #e2e8f0;padding:12px;'>$1.20</td><td style='border:1px solid #e2e8f0;padding:12px;'>$120</td><td style='border:1px solid #e2e8f0;padding:12px;'>$100</td></tr></table><p>Nominal GDP rose 20% (from $100 to $120), but Real GDP was UNCHANGED (still $100). The economy didn't grow - prices just increased (inflation).</p><p><strong>GDP PER CAPITA:</strong></p><p style='background:#f0f9ff;padding:15px;border-radius:8px;'><strong>GDP Per Capita = GDP / Population</strong></p><p>Better measure of living standards than total GDP. China has higher total GDP than Switzerland, but Swiss citizens are much richer (higher GDP per capita).</p><p><strong>LIMITATIONS OF GDP:</strong></p><ul><li>Doesn't measure income distribution (a country can have high GDP but extreme inequality)</li><li>Doesn't account for environmental degradation</li><li>Doesn't include unpaid work (childcare, housework)</li><li>Doesn't measure leisure time or quality of life</li><li>Doesn't account for depreciation of capital</li></ul><p><strong>EXAM MEMORY TIP:</strong> Remember 'CIG(X-M)' - Consumption, Investment, Government, eXports minus Imports. Say it like 'sig-zam' to remember it!</p>",
       "keyPoints": [
-        "GDP measures total output of an economy",
-        "CPI and PPI measure inflation",
-        "Unemployment rate = Unemployed / Labor Force",
-        "Real GDP adjusts for inflation"
+        "GDP = total value of all FINAL goods/services produced domestically",
+        "GDP = C + I + G + (X - M) - MUST KNOW THIS FORMULA",
+        "C = Consumption (largest component, ~70% of US GDP)",
+        "I = Investment (business capital, NOT stocks/bonds)",
+        "G = Government spending (NOT transfer payments)",
+        "X - M = Net exports (exports minus imports)",
+        "Real GDP adjusts for inflation; Nominal GDP does not",
+        "GDP Deflator = (Nominal GDP / Real GDP) × 100",
+        "GDP Per Capita = GDP / Population (better for living standards)",
+        "Memory aid: 'CIG(X-M)' - say it like 'sig-zam'"
       ],
       "formulas": [
         {
           "expression": "GDP = C + I + G + (X - M)",
           "variables": {
-            "C": "Consumption",
-            "I": "Investment",
+            "C": "Consumption (household spending)",
+            "I": "Investment (business capital)",
             "G": "Government spending",
             "X": "Exports",
             "M": "Imports"
+          }
+        },
+        {
+          "expression": "GDP Deflator = (Nominal GDP / Real GDP) × 100",
+          "variables": {
+            "Nominal GDP": "GDP at current prices",
+            "Real GDP": "GDP at constant (base year) prices"
+          }
+        },
+        {
+          "expression": "GDP Per Capita = GDP / Population",
+          "variables": {
+            "GDP": "Total gross domestic product",
+            "Population": "Total population"
           }
         }
       ],
       "practiceQuestions": [
         {
-          "id": "econ-q6",
-          "question": "Which component is the largest in most countries' GDP?",
-          "options": [
-            "Investment",
-            "Government spending",
-            "Consumption"
-          ],
-          "correctAnswer": "C",
-          "explanation": "Consumption (C) is typically the largest component of GDP in most economies, often representing 60-70% of total GDP."
-        },
-        {
           "id": "econ-q7",
-          "question": "Real GDP differs from nominal GDP in that real GDP:",
+          "question": "Which of the following is INCLUDED in GDP?",
           "options": [
-            "Includes only goods, not services",
-            "Is adjusted for inflation",
-            "Excludes government spending"
+            "A stay-at-home parent caring for their own children",
+            "A construction company building a new office building",
+            "An investor purchasing $10,000 of stocks"
           ],
           "correctAnswer": "B",
-          "explanation": "Real GDP is adjusted for inflation using a price index, allowing for meaningful comparisons of output over time."
+          "explanation": "Building a new office building is investment (I) in GDP. Option A is unpaid household work (not included). Option C is a financial transaction (just transferring ownership, not production). EXAM TIP: GDP only includes PRODUCTION of new goods/services. Financial transactions, used goods, and unpaid work don't count."
+        },
+        {
+          "id": "econ-q8",
+          "question": "If nominal GDP increases by 5% and real GDP increases by 3%, what can we conclude?",
+          "options": [
+            "The economy produced 5% more goods and services",
+            "The price level increased by approximately 2%",
+            "The price level decreased by approximately 2%"
+          ],
+          "correctAnswer": "B",
+          "explanation": "Nominal GDP growth = Real GDP growth + Inflation (approximately). So 5% = 3% + Inflation. Inflation ≈ 2%. The economy produced 3% more (real GDP), and prices rose about 2%. EXAM TIP: The difference between nominal and real GDP growth is approximately the inflation rate."
+        },
+        {
+          "id": "econ-q9",
+          "question": "In the GDP formula GDP = C + I + G + (X - M), which component is typically the LARGEST?",
+          "options": [
+            "Investment (I)",
+            "Government spending (G)",
+            "Consumption (C)"
+          ],
+          "correctAnswer": "C",
+          "explanation": "Consumption (C) is typically the largest component, representing about 65-70% of GDP in most developed economies. Investment is usually 15-20%, government spending 15-20%, and net exports vary. EXAM TIP: Remember 'Consumption is King' - it's the biggest part of GDP."
+        }
+      ]
+    },
+    {
+      "title": "Unemployment and Inflation",
+      "content": "<p><strong>WHAT THIS MEANS:</strong> Unemployment and inflation are the TWO KEY MACROECONOMIC INDICATORS. Policymakers (central banks, governments) constantly monitor these to make decisions about interest rates and fiscal policy.</p><p><strong>UNEMPLOYMENT RATE:</strong></p><p>The percentage of the labor force that is unemployed and ACTIVELY SEEKING work.</p><p style='background:#f0f9ff;padding:15px;border-radius:8px;'><strong>Unemployment Rate = (Unemployed / Labor Force) × 100</strong></p><p>Where:<ul><li><strong>Labor Force</strong> = Employed + Unemployed (those actively looking for work)</li><li><strong>NOT in Labor Force:</strong> Children, retirees, students, stay-at-home parents, discouraged workers (stopped looking)</li></ul></p><p><strong>THREE TYPES OF UNEMPLOYMENT:</strong></p><ol><li><strong>Frictional Unemployment:</strong> Short-term unemployment due to job transitions. EXAMPLE: Recent graduate looking for first job, worker quitting to find better job, worker moving to new city. ALWAYS EXISTS - even in healthy economy. Considered NORMAL and even BENEFICIAL (people finding better matches).</li><li><strong>Structural Unemployment:</strong> Unemployment due to SKILL MISMATCH or GEOGRAPHIC MISMATCH. EXAMPLE: Coal miners lose jobs when mines close; their skills don't match available tech jobs. Manufacturing workers in Rust Belt; jobs are in Sun Belt. LONGER-TERM than frictional. Requires RETRAINING or RELOCATION to fix.</li><li><strong>Cyclical Unemployment:</strong> Unemployment caused by ECONOMIC DOWNTURNS (recessions). EXAMPLE: During 2008 financial crisis, millions lost jobs due to reduced economic activity. VARIES with business cycle. Rises in recessions, falls in expansions. This is what policymakers try to fix with monetary/fiscal policy.</li></ol><p><strong>NATURAL RATE OF UNEMPLOYMENT:</strong></p><p>The unemployment rate when the economy is at 'full employment.' This equals Frictional + Structural unemployment (NO cyclical unemployment).</p><ul><li>Typically 4-6% in developed economies</li><li>NOT zero unemployment - that's impossible and undesirable</li><li>When actual rate = natural rate, economy is at potential output</li><li>When actual rate > natural rate, economy is in recession (cyclical unemployment exists)</li></ul><p><strong>INFLATION:</strong></p><p>A sustained increase in the GENERAL PRICE LEVEL. NOT the same as one product getting more expensive (that's a relative price change).</p><p><strong>HOW INFLATION IS MEASURED:</strong></p><ul><li><strong>Consumer Price Index (CPI):</strong> Tracks prices of a 'basket' of goods/services typically bought by consumers. Includes food, energy, housing, medical care, etc. MOST COMMONLY USED measure.</li><li><strong>Producer Price Index (PPI):</strong> Tracks prices at the PRODUCER/WHOLESALE level. Often leads CPI (producers pass cost changes to consumers).</li><li><strong>GDP Deflator:</strong> Broadest measure - includes ALL goods/services produced in the economy (not just consumer goods).</li></ul><p><strong>INFLATION RATE FORMULA:</strong></p><p style='background:#f0f9ff;padding:15px;border-radius:8px;'><strong>Inflation Rate = [(CPI this year - CPI last year) / CPI last year] × 100</strong></p><p><strong>EXAMPLE:</strong> CPI was 250 last year, 257.5 this year. Inflation = [(257.5 - 250) / 250] × 100 = 3.0%</p><p><strong>CAUSES OF INFLATION:</strong></p><ol><li><strong>Demand-Pull Inflation:</strong> 'Too much money chasing too few goods.' Aggregate demand exceeds economy's capacity. EXAMPLE: Economy booming, everyone has jobs, everyone spending → prices rise. Associated with LOW unemployment.</li><li><strong>Cost-Push Inflation:</strong> Production costs rise, firms pass costs to consumers. EXAMPLES: Oil price shock (1970s), wage increases, supply chain disruptions. Associated with HIGH unemployment (stagflation).</li></ol><p><strong>COSTS OF INFLATION:</strong></p><ul><li><strong>Reduced purchasing power:</strong> Your money buys less. EXAMPLE: $100 today buys less than $100 did 10 years ago.</li><li><strong>Menu costs:</strong> Costs of changing prices (printing new menus, updating price tags).</li><li><strong>Shoe leather costs:</strong> Time/effort spent minimizing cash holdings (more trips to bank).</li><li><strong>Uncertainty:</strong> Hard to plan for future when prices are unpredictable.</li><li><strong>Redistribution of wealth:</strong> Borrowers gain (repay with cheaper dollars), lenders lose (get repaid in cheaper dollars). FIXED incomes lose (pensions buy less).</li></ul><p><strong>DEFLATION:</strong></p><p>Sustained DECREASE in general price level (negative inflation). MORE DANGEROUS than inflation!</p><ul><li>Consumers delay purchases (waiting for lower prices)</li><li>Debt becomes harder to repay (debt stays same, income falls)</li><li>Can lead to deflationary spiral (Japan's 'Lost Decade')</li><li>Central banks work hard to avoid deflation</li></ul><p><strong>THE PHILLIPS CURVE:</strong></p><p>Shows the SHORT-RUN tradeoff between inflation and unemployment.</p><ul><li>Low unemployment → Higher inflation (economy overheating)</li><li>High unemployment → Lower inflation (or deflation)</li><li>LONG-RUN: No tradeoff (vertical Phillips curve at natural rate of unemployment)</li></ul><p><strong>EXAM MEMORY TIP:</strong> Remember 'FSC' - Frictional, Structural, Cyclical. These are the three types of unemployment, in order of duration (shortest to longest).</p>",
+      "keyPoints": [
+        "Unemployment Rate = (Unemployed / Labor Force) × 100",
+        "Frictional unemployment: Short-term, between jobs (NORMAL)",
+        "Structural unemployment: Skill/geographic mismatch (LONG-TERM)",
+        "Cyclical unemployment: Due to recessions (varies with business cycle)",
+        "Natural rate = Frictional + Structural (NO cyclical)",
+        "Natural rate typically 4-6% in developed economies",
+        "CPI measures consumer prices; PPI measures producer prices",
+        "Demand-pull inflation: Too much demand",
+        "Cost-push inflation: Rising production costs",
+        "Memory aid: 'FSC' - Frictional, Structural, Cyclical"
+      ],
+      "formulas": [
+        {
+          "expression": "Unemployment Rate = (Unemployed / Labor Force) × 100",
+          "variables": {
+            "Unemployed": "People without jobs, actively seeking",
+            "Labor Force": "Employed + Unemployed"
+          }
+        },
+        {
+          "expression": "Inflation Rate = [(CPI_t - CPI_t-1) / CPI_t-1] × 100",
+          "variables": {
+            "CPI_t": "CPI this period",
+            "CPI_t-1": "CPI last period"
+          }
+        },
+        {
+          "expression": "Natural Rate = Frictional + Structural",
+          "variables": {
+            "Frictional": "Short-term job transitions",
+            "Structural": "Skill/geographic mismatch"
+          }
+        }
+      ],
+      "practiceQuestions": [
+        {
+          "id": "econ-q10",
+          "question": "A recent college graduate who is actively looking for their first job is classified as:",
+          "options": [
+            "Not in the labor force",
+            "Frictionally unemployed",
+            "Structurally unemployed"
+          ],
+          "correctAnswer": "B",
+          "explanation": "A recent graduate looking for their first job is frictionally unemployed - they're in transition between school and work. This is short-term, normal unemployment. They ARE in the labor force (unemployed but seeking work). EXAM TIP: Frictional unemployment is NORMAL and always exists, even in healthy economies."
+        },
+        {
+          "id": "econ-q11",
+          "question": "If the unemployment rate is BELOW the natural rate of unemployment, what is likely happening?",
+          "options": [
+            "The economy is in a recession",
+            "The economy is at full employment",
+            "The economy is overheating with demand-pull inflation"
+          ],
+          "correctAnswer": "C",
+          "explanation": "When unemployment is below the natural rate, cyclical unemployment is NEGATIVE (economy is ABOVE full employment). This creates upward pressure on wages and prices, leading to demand-pull inflation. The economy is 'overheating.' EXAM TIP: Unemployment < Natural Rate → Inflation rising. Unemployment > Natural Rate → Recession."
+        },
+        {
+          "id": "econ-q12",
+          "question": "Which type of inflation is caused by an increase in oil prices?",
+          "options": [
+            "Demand-pull inflation",
+            "Cost-push inflation",
+            "Hyperinflation"
+          ],
+          "correctAnswer": "B",
+          "explanation": "Rising oil prices increase production and transportation costs for many goods. Firms pass these costs to consumers, causing cost-push inflation. This is different from demand-pull inflation (caused by excess demand). EXAM TIP: Supply shocks (oil prices, natural disasters, supply chain disruptions) cause cost-push inflation."
         }
       ]
     }
