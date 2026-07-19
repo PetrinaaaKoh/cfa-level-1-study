@@ -1,133 +1,129 @@
 {
   "sections": [
     {
-      "title": "Portfolio Management Process",
-      "content": "<p>The portfolio management process is a systematic approach to managing client portfolios. It involves planning, execution, and feedback stages.</p>",
+      "title": "Portfolio Management Process - IPS and Asset Allocation",
+      "content": "<p><strong>WHAT THIS MEANS:</strong> Portfolio management is a SYSTEMATIC PROCESS for managing client investments. It starts with understanding the client's needs (Investment Policy Statement) and then choosing the right mix of assets (Asset Allocation).</p><p><strong>WHY THIS MATTERS FOR THE EXAM:</strong> Portfolio Management represents 5-8% of the CFA Level I exam (approximately 9-14 questions). The portfolio management PROCESS is heavily tested.</p><p><strong>THE PORTFOLIO MANAGEMENT PROCESS:</strong></p><ol><li><strong>Planning (IPS):</strong> Understand the client</li><li><strong>Execution (Asset Allocation):</strong> Choose the right mix of assets</li><li><strong>Feedback (Monitoring & Rebalancing):</strong> Review and adjust</li></ol><p><strong>INVESTMENT POLICY STATEMENT (IPS) - THE FOUNDATION:</strong></p><p>The IPS is a WRITTEN DOCUMENT that guides all investment decisions. It's like a 'roadmap' for managing the portfolio.</p><p><strong>IPS COMPONENTS - 'RRTTLLU':</strong></p><ul><li><strong>Return Objectives:</strong> What return does the client NEED? (e.g., 'Need 7% annually to fund retirement')</li><li><strong>Risk Tolerance:</strong> How much risk can the client HANDLE? (e.g., 'Can't sleep when portfolio drops 10%')</li><li><strong>Time Horizon:</strong> When will the client NEED the money? (e.g., '20 years until retirement')</li><li><strong>Tax Concerns:</strong> What's the client's TAX situation? (e.g., 'High tax bracket, use tax-efficient investments')</li><li><strong>Liquidity Needs:</strong> Will the client need to ACCESS the money soon? (e.g., 'Need $50,000 for house down payment in 2 years')</li><li><strong>Legal/Regulatory:</strong> Any RESTRICTIONS? (e.g., 'Can't invest in tobacco stocks')</li><li><strong>Unique Circumstances:</strong> Anything else RELEVANT? (e.g., 'Works for Company XYZ, already has lots of XYZ stock')</li></ul><p><strong>EXAMPLE IPS:</strong></p><ul><li>Return: Need 6% annually to meet retirement goal</li><li>Risk: Moderate tolerance (can handle 15% decline)</li><li>Time: 25 years until retirement</li><li>Taxes: High tax bracket (37%)</li><li>Liquidity: No major needs expected</li><li>Legal: None</li><li>Unique: Ethical investing (no fossil fuels)</li></ul><p><strong>ASSET ALLOCATION - THE KEY DECISION:</strong></p><p>Asset allocation is choosing HOW MUCH to invest in each asset class (stocks, bonds, real estate, etc.).</p><p><strong>WHY IT MATTERS:</strong> Studies show 90%+ of portfolio returns are explained by ASSET ALLOCATION, not individual security selection!</p><p><strong>STRATEGIC vs. TACTICAL ASSET ALLOCATION:</strong></p><table style='width:100%;border-collapse:collapse;margin:20px 0;'><tr style='background:#f0f9ff;'><th style='border:1px solid #bae6fd;padding:12px;'>Type</th><th style='border:1px solid #bae6fd;padding:12px;'>Description</th><th style='border:1px solid #bae6fd;padding:12px;'>Example</th></tr><tr><td style='border:1px solid #e2e8f0;padding:12px;'>Strategic</td><td style='border:1px solid #e2e8f0;padding:12px;'>LONG-TERM target allocation</td><td style='border:1px solid #e2e8f0;padding:12px;'>60% stocks, 40% bonds (stick with this for years)</td></tr><tr><td style='border:1px solid #e2e8f0;padding:12px;'>Tactical</td><td style='border:1px solid #e2e8f0;padding:12px;'>SHORT-TERM deviations from strategic</td><td style='border:1px solid #e2e8f0;padding:12px;'>Temporarily increase stocks to 70% (think stocks will outperform)</td></tr></table><p><strong>EXAMPLE:</strong> Strategic allocation is 60% stocks / 40% bonds. After a stock market rally, the portfolio is now 70% stocks / 30% bonds. You should REBALANCE back to 60/40 (sell stocks, buy bonds).</p><p><strong>DIVERSIFICATION - THE ONLY FREE LUNCH:</strong></p><p>Don't put all eggs in one basket! Diversification REDUCES RISK without reducing expected return.</p><p><strong>HOW IT WORKS:</strong> Different assets don't move perfectly together. When stocks fall, bonds might rise. The portfolio is more STABLE.</p><p><strong>EXAM MEMORY TIP:</strong> Remember 'RRTTLLU' - Return, Risk, Time, Taxes, Liquidity, Legal, Unique (the seven IPS components). Also remember 'Strategic = Long-term, Tactical = Short-term'. Think: Strategic is your STRATEGY (long-term plan), Tactical is TACTICAL moves (short-term adjustments).</p>",
       "keyPoints": [
-        "Investment Policy Statement (IPS) guides decisions",
-        "IPS includes objectives and constraints",
-        "Strategic asset allocation sets long-term targets",
-        "Tactical asset allocation makes short-term deviations"
+        "Portfolio Management = 5-8% of exam (9-14 questions)",
+        "IPS = Investment Policy Statement (the foundation)",
+        "IPS components: RRTTLLU (Return, Risk, Time, Taxes, Liquidity, Legal, Unique)",
+        "Return objectives = What client NEEDS",
+        "Risk tolerance = What client can HANDLE",
+        "Time horizon = When client NEEDS the money",
+        "Strategic asset allocation = LONG-TERM targets",
+        "Tactical asset allocation = SHORT-TERM deviations",
+        "Rebalancing = Return to strategic allocation",
+        "Diversification reduces risk without reducing return",
+        "90%+ of returns explained by asset allocation (not stock picking)",
+        "Memory aid: 'RRTTLLU' - the seven IPS components"
       ],
       "formulas": [],
       "practiceQuestions": [
         {
           "id": "pm-q1",
-          "question": "The Investment Policy Statement (IPS) primarily serves to:",
+          "question": "Which of the following is NOT a component of an Investment Policy Statement (IPS)?",
           "options": [
-            "Maximize returns",
-            "Guide investment decisions based on client needs",
-            "Minimize taxes"
+            "Return objectives and risk tolerance",
+            "Specific securities to purchase",
+            "Time horizon and liquidity needs"
           ],
           "correctAnswer": "B",
-          "explanation": "The IPS documents the client's objectives, constraints, and guidelines, serving as a roadmap for investment decisions."
+          "explanation": "The IPS sets HIGH-LEVEL guidelines (return objectives, risk tolerance, time horizon, etc.), NOT specific securities. Security selection happens during portfolio CONSTRUCTION, not during IPS creation. The IPS is the 'roadmap,' not the specific 'turn-by-turn directions.' EXAM TIP: Remember 'RRTTLLU' - the seven IPS components. Specific securities are NOT part of the IPS."
         },
         {
           "id": "pm-q2",
-          "question": "Strategic asset allocation refers to:",
+          "question": "A portfolio's strategic allocation is 60% stocks / 40% bonds. After a market rally, it's now 70% stocks / 30% bonds. What should the portfolio manager do?",
           "options": [
-            "Short-term market timing",
-            "Long-term target asset class weights",
-            "Security selection"
+            "Do nothing - let the allocation drift",
+            "Rebalance back to 60/40",
+            "Increase stocks to 80% (momentum strategy)"
           ],
           "correctAnswer": "B",
-          "explanation": "Strategic asset allocation establishes long-term target weights for asset classes based on the client's objectives and constraints."
-        }
-      ]
-    },
-    {
-      "title": "Risk and Return",
-      "content": "<p>Understanding the risk-return tradeoff is fundamental to portfolio management. Key measures include expected return, variance, standard deviation, and Sharpe ratio.</p>",
-      "keyPoints": [
-        "Expected return is probability-weighted average",
-        "Standard deviation measures total risk",
-        "Sharpe ratio measures risk-adjusted return",
-        "Diversification reduces unsystematic risk"
-      ],
-      "formulas": [
-        {
-          "expression": "Sharpe Ratio = (R_p - R_f) / σ_p",
-          "variables": {
-            "R_p": "Portfolio return",
-            "R_f": "Risk-free rate",
-            "σ_p": "Portfolio standard deviation"
-          }
+          "explanation": "The manager should REBALANCE back to the strategic allocation (60/40). This means SELLING stocks (which outperformed) and BUYING bonds (which underperformed). This is 'selling high and buying low' - the essence of disciplined investing. EXAM TIP: Rebalancing maintains the client's DESIRED risk level. Letting the allocation drift increases risk (more stocks = more volatile)."
         },
-        {
-          "expression": "E(R_p) = Σ(w_i × R_i)",
-          "variables": {
-            "w_i": "Weight of asset i",
-            "R_i": "Return of asset i"
-          }
-        }
-      ],
-      "practiceQuestions": [
         {
           "id": "pm-q3",
-          "question": "The Sharpe ratio measures:",
+          "question": "A client says: 'I need 8% annual returns to meet my retirement goal, but I panic when my portfolio drops 5%.' What does this indicate?",
           "options": [
-            "Total return",
-            "Risk-adjusted return",
-            "Systematic risk"
+            "The client should invest 100% in stocks",
+            "There's a mismatch between return objectives and risk tolerance",
+            "The client should invest 100% in bonds"
           ],
           "correctAnswer": "B",
-          "explanation": "The Sharpe ratio measures excess return per unit of total risk, providing a measure of risk-adjusted performance."
-        },
-        {
-          "id": "pm-q4",
-          "question": "Diversification primarily reduces:",
-          "options": [
-            "Systematic risk",
-            "Unsystematic risk",
-            "Market risk"
-          ],
-          "correctAnswer": "B",
-          "explanation": "Diversification reduces unsystematic (company-specific) risk but cannot eliminate systematic (market) risk."
+          "explanation": "There's a MISMATCH. The client NEEDS 8% returns (which requires risky investments like stocks), but can only TOLERATE 5% declines (which requires safe investments like bonds). The portfolio manager must ADDRESS this mismatch - either lower return expectations or increase risk tolerance through education. EXAM TIP: This is a COMMON real-world scenario. The IPS must balance what the client NEEDS (return) with what the client can HANDLE (risk)."
         }
       ]
     },
     {
-      "title": "Modern Portfolio Theory",
-      "content": "<p>Modern Portfolio Theory (MPT) provides a framework for constructing portfolios to maximize expected return for a given level of risk. The efficient frontier represents optimal portfolios.</p>",
+      "title": "Risk and Return - Portfolio Theory",
+      "content": "<p><strong>WHAT THIS MEANS:</strong> Modern Portfolio Theory (MPT) provides a FRAMEWORK for constructing portfolios to MAXIMIZE RETURN for a given level of RISK. The key insight: It's not about individual assets, it's about how assets work TOGETHER in a portfolio.</p><p><strong>WHY THIS MATTERS:</strong> Risk and return concepts are FOUNDATIONAL to the CFA program. You MUST understand expected return, standard deviation, correlation, and diversification.</p><p><strong>EXPECTED RETURN OF A PORTFOLIO:</strong></p><p>The weighted AVERAGE of the expected returns of individual assets.</p><p style='background:#f0f9ff;padding:15px;border-radius:8px;'><strong>E(R_p) = w_1 × R_1 + w_2 × R_2 + ... + w_n × R_n</strong></p><p><strong>EXAMPLE:</strong> Portfolio is 60% stocks (expected return 10%) and 40% bonds (expected return 4%).<br>E(R_p) = 0.60 × 10% + 0.40 × 4% = 6% + 1.6% = 7.6%</p><p><strong>PORTFOLIO RISK (STANDARD DEVIATION) - IT'S COMPLEX:</strong></p><p>Portfolio risk is NOT just the weighted average of individual risks. It depends on CORRELATION between assets!</p><p style='background:#f0f9ff;padding:15px;border-radius:8px;'><strong>Portfolio Risk depends on:</strong><br>1. Individual asset risks (standard deviations)<br>2. Correlation between assets</p><p><strong>CORRELATION - THE KEY TO DIVERSIFICATION:</strong></p><p>Correlation measures how two assets MOVE TOGETHER. Ranges from -1 to +1.</p><table style='width:100%;border-collapse:collapse;margin:20px 0;'><tr style='background:#f0f9ff;'><th style='border:1px solid #bae6fd;padding:12px;'>Correlation</th><th style='border:1px solid #bae6fd;padding:12px;'>Meaning</th><th style='border:1px solid #bae6fd;padding:12px;'>Diversification Benefit</th></tr><tr><td style='border:1px solid #e2e8f0;padding:12px;'>+1.0</td><td style='border:1px solid #e2e8f0;padding:12px;'>Perfect positive (move together)</td><td style='border:1px solid #e2e8f0;padding:12px;'>NO benefit (like holding same asset)</td></tr><tr><td style='border:1px solid #e2e8f0;padding:12px;'>0</td><td style='border:1px solid #e2e8f0;padding:12px;'>No relationship</td><td style='border:1px solid #e2e8f0;padding:12px;'>Some benefit</td></tr><tr><td style='border:1px solid #e2e8f0;padding:12px;'>-1.0</td><td style='border:1px solid #e2e8f0;padding:12px;'>Perfect negative (move opposite)</td><td style='border:1px solid #e2e8f0;padding:12px;'>MAXIMUM benefit (can eliminate risk!)</td></tr></table><p><strong>EXAMPLE:</strong><ul><li>Stocks and bonds: Correlation ≈ 0.2 (low positive) → GOOD diversification</li><li>Two tech stocks: Correlation ≈ 0.8 (high positive) → POOR diversification</li><li>Gold and stocks: Correlation ≈ -0.1 (slight negative) → GOOD diversification</li></ul></p><p><strong>DIVERSIFICATION:</strong></p><p>Combining assets with LOW or NEGATIVE correlation REDUCES portfolio risk without reducing expected return.</p><p><strong>THE LIMIT:</strong> Diversification eliminates UNSYSTEMATIC RISK (company-specific risk) but NOT SYSTEMATIC RISK (market risk).</p><p><strong>BETA - MEASURING SYSTEMATIC RISK:</strong></p><p>Beta measures how much a stock moves WITH THE MARKET.</p><ul><li>β = 1.0: Moves with the market (average risk)</li><li>β > 1.0: More volatile than market (higher risk, higher expected return)</li><li>β < 1.0: Less volatile than market (lower risk, lower expected return)</li></ul><p><strong>CAPITAL ASSET PRICING MODEL (CAPM):</strong></p><p style='background:#f0f9ff;padding:15px;border-radius:8px;'><strong>E(R_i) = R_f + β_i × (R_m - R_f)</strong></p><p>Where:<ul><li>E(R_i) = Expected return on asset i</li><li>R_f = Risk-free rate (e.g., Treasury bonds)</li><li>β_i = Beta of asset i</li><li>R_m = Expected market return</li><li>(R_m - R_f) = Market risk premium</li></ul></p><p><strong>EXAMPLE:</strong> Risk-free rate = 3%, Market return = 10%, Stock beta = 1.2.<br>E(R) = 3% + 1.2 × (10% - 3%) = 3% + 1.2 × 7% = 3% + 8.4% = 11.4%</p><p>The stock should return 11.4% to compensate for its risk.</p><p><strong>EXAM MEMORY TIP:</strong> Remember 'Correlation = Diversification' - Lower correlation = More diversification benefit. Also remember 'Beta = Market Risk' - Beta measures systematic (market) risk, which CANNOT be diversified away. CAPM formula is ESSENTIAL - memorize it!</p>",
       "keyPoints": [
-        "Efficient frontier: optimal risk-return combinations",
-        "Capital Market Line (CML): risk-free + market portfolio",
-        "CAPM relates expected return to beta",
-        "Beta measures systematic risk"
+        "Expected portfolio return = Weighted average of individual returns",
+        "Portfolio risk depends on correlation between assets",
+        "Correlation ranges from -1 (perfect negative) to +1 (perfect positive)",
+        "Lower correlation = MORE diversification benefit",
+        "Correlation of +1 = NO diversification benefit",
+        "Correlation of -1 = MAXIMUM diversification benefit",
+        "Diversification eliminates UNSYSTEMATIC risk (company-specific)",
+        "SYSTEMATIC risk (market risk) CANNOT be diversified away",
+        "Beta measures systematic risk relative to market",
+        "CAPM: E(R) = R_f + β × (R_m - R_f)",
+        "Beta = 1: Market risk, Beta > 1: Higher risk, Beta < 1: Lower risk",
+        "Memory aid: 'Correlation = Diversification'"
       ],
       "formulas": [
         {
-          "expression": "CAPM: E(R_i) = R_f + β_i[E(R_m) - R_f]",
+          "expression": "E(R_p) = w_1 × R_1 + w_2 × R_2 + ... + w_n × R_n",
+          "variables": {
+            "E(R_p)": "Expected portfolio return",
+            "w_i": "Weight of asset i in portfolio",
+            "R_i": "Expected return of asset i"
+          }
+        },
+        {
+          "expression": "CAPM: E(R_i) = R_f + β_i × (R_m - R_f)",
           "variables": {
             "E(R_i)": "Expected return on asset i",
             "R_f": "Risk-free rate",
             "β_i": "Beta of asset i",
-            "E(R_m)": "Expected market return"
+            "R_m": "Expected market return",
+            "(R_m - R_f)": "Market risk premium"
           }
         }
       ],
       "practiceQuestions": [
         {
-          "id": "pm-q5",
-          "question": "According to CAPM, the expected return on a stock with beta of 1.5, when Rf = 3% and expected market return = 10%, is:",
+          "id": "pm-q4",
+          "question": "A portfolio is 70% stocks (expected return 12%) and 30% bonds (expected return 4%). What is the expected portfolio return?",
           "options": [
-            "10.5%",
-            "13.5%",
-            "15.0%"
+            "8.0%",
+            "9.6%",
+            "12.0%"
           ],
           "correctAnswer": "B",
-          "explanation": "E(R) = 3% + 1.5(10% - 3%) = 3% + 1.5(7%) = 3% + 10.5% = 13.5%"
+          "explanation": "E(R_p) = 0.70 × 12% + 0.30 × 4% = 8.4% + 1.2% = 9.6%. The portfolio's expected return is the WEIGHTED AVERAGE of the individual asset returns. EXAM TIP: This is a STRAIGHTFORWARD calculation. Just multiply each weight by its return and ADD them up."
+        },
+        {
+          "id": "pm-q5",
+          "question": "Using CAPM, what is the expected return for a stock with beta of 1.5, when the risk-free rate is 2% and the market risk premium is 6%?",
+          "options": [
+            "9.0%",
+            "11.0%",
+            "14.0%"
+          ],
+          "correctAnswer": "B",
+          "explanation": "E(R) = R_f + β × (R_m - R_f) = 2% + 1.5 × 6% = 2% + 9% = 11%. The stock should return 11% to compensate for its higher-than-average risk (beta of 1.5). EXAM TIP: CAPM is TESTED FREQUENTLY. Memorize the formula: Risk-free rate + Beta × Market risk premium. Note: Market risk premium = (R_m - R_f), NOT just R_m."
         },
         {
           "id": "pm-q6",
-          "question": "A stock with a beta greater than 1 is:",
+          "question": "Which correlation between two assets provides the GREATEST diversification benefit?",
           "options": [
-            "Less volatile than the market",
-            "More volatile than the market",
-            "Unaffected by market movements"
+            "+1.0",
+            "0.0",
+            "-0.5"
           ],
-          "correctAnswer": "B",
-          "explanation": "Beta > 1 indicates the stock is more volatile than the market. It amplifies market movements."
+          "correctAnswer": "C",
+          "explanation": "The LOWER (more negative) the correlation, the GREATER the diversification benefit. -0.5 provides more benefit than 0.0, which provides more benefit than +1.0. Perfect negative correlation (-1.0) would provide MAXIMUM benefit (could eliminate all risk). EXAM TIP: Remember: Lower correlation = More diversification. Negative correlation is BETTER than positive correlation for diversification."
         }
       ]
     }

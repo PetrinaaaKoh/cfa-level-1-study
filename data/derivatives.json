@@ -1,59 +1,89 @@
 {
   "sections": [
     {
-      "title": "Derivative Markets and Instruments",
-      "content": "<p>Derivatives are financial instruments whose value depends on (derives from) an underlying asset. Main types include forwards, futures, options, and swaps.</p>",
+      "title": "Derivative Markets and Instruments - Basics",
+      "content": "<p><strong>WHAT THIS MEANS:</strong> A derivative is a financial instrument whose VALUE DEPENDS ON (derives from) the value of an underlying asset. The underlying can be stocks, bonds, commodities, currencies, or interest rates.</p><p><strong>WHY THIS MATTERS FOR THE EXAM:</strong> Derivatives represents 5-8% of the CFA Level I exam (approximately 9-14 questions). Understanding derivatives is ESSENTIAL for risk management and investment strategies.</p><p><p><strong>FOUR MAIN TYPES OF DERIVATIVES:</strong></p><ol><li><strong>Forwards:</strong><ul><li>PRIVATE contract between two parties</li><li>To buy/sell an asset at a FUTURE DATE for a price agreed TODAY</li><li>Customized terms (not standardized)</li><li>Traded OVER-THE-COUNTER (OTC), not on exchanges</li><li>EXAMPLE: A farmer agrees to sell 10,000 bushels of wheat to a bakery in 3 months at $5/bushel. Both lock in the price today.</li><li><strong>RISK:</strong> Counterparty risk (one party might default)</li></ul></li><li><strong>Futures:</strong><ul><li>Like forwards, but STANDARDIZED and exchange-traded</li><li>Traded on organized exchanges (CME, CBOT)</li><li>Daily settlement (gains/losses settled daily)</li><li>Lower counterparty risk (clearinghouse guarantees)</li><li>EXAMPLE: Crude oil futures contract on NYMEX. Standardized: 1,000 barrels, specific delivery date.</li></ul></li><li><strong>Options:</strong><ul><li>Gives the RIGHT (but NOT obligation) to buy or sell</li><li><strong>Call Option:</strong> Right to BUY the underlying asset</li><li><strong>Put Option:</strong> Right to SELL the underlying asset</li><li><strong>Strike Price:</strong> The price at which you can buy/sell</li><li><strong>Expiration:</strong> The date when the option expires</li><li>EXAMPLE: You buy a call option on Stock XYZ with strike price $50, expiring in 3 months. If XYZ rises to $70, you can exercise and buy at $50 (immediate $20 profit). If XYZ falls to $40, you DON'T exercise (you only lose the option premium).</li></ul></li><li><strong>Swaps:</strong><ul><li>Agreement to EXCHANGE cash flows over time</li><li>Most common: Interest rate swaps</li><li>EXAMPLE: Company A has a floating-rate loan but wants fixed payments. Company B has a fixed-rate loan but wants floating. They SWAP payments. Company A pays fixed, receives floating. Company B pays floating, receives fixed.</li></ul></li></ol><p><strong>DERIVATIVE PURPOSES:</strong></p><ul><li><strong>Hedging (Risk Management):</strong> Reducing risk. EXAMPLE: An airline buys oil futures to lock in fuel costs. If oil prices rise, the futures gain offsets higher fuel costs.</li><li><strong>Speculation:</strong> Betting on price movements. EXAMPLE: You think gold will rise, so you buy gold futures. High leverage = high risk!</li><li><strong>Arbitrage:</strong> Exploiting price differences. EXAMPLE: Same stock trades at $100 on NYSE and $100.50 on LSE. Buy on NYSE, sell on LSE, pocket the $0.50 difference (risk-free profit).</li></ul><p><strong>DERIVATIVE PAYOFFS - CALL OPTIONS:</strong></p><table style='width:100%;border-collapse:collapse;margin:20px 0;'><tr style='background:#f0f9ff;'><th style='border:1px solid #bae6fd;padding:12px;'>Stock Price at Expiration</th><th style='border:1px solid #bae6fd;padding:12px;'>Call Option Payoff</th><th style='border:1px solid #bae6fd;padding:12px;'>Action</th></tr><tr><td style='border:1px solid #e2e8f0;padding:12px;'>Above strike price</td><td style='border:1px solid #e2e8f0;padding:12px;'>Stock Price - Strike Price</td><td style='border:1px solid #e2e8f0;padding:12px;'>EXERCISE (profit)</td></tr><tr><td style='border:1px solid #e2e8f0;padding:12px;'>Below strike price</td><td style='border:1px solid #e2e8f0;padding:12px;'>Zero</td><td style='border:1px solid #e2e8f0;padding:12px;'>DON'T EXERCISE (loss = premium paid)</td></tr></table><p><strong>EXAMPLE:</strong> Call option with $50 strike, premium = $3.<ul><li>Stock at $60: Payoff = $60 - $50 = $10. Profit = $10 - $3 = $7</li><li>Stock at $45: Payoff = $0 (don't exercise). Loss = $3 (premium)</li></ul></p><p><strong>EXAM MEMORY TIP:</strong> Remember 'FFOS' - Forwards, Futures, Options, Swaps (the four derivative types). Also remember 'Call = Right to Buy, Put = Right to Sell'. Think: You CALL something to you (buy), you PUT something away (sell).</p>",
       "keyPoints": [
-        "Forwards: customized OTC contracts",
-        "Futures: standardized exchange-traded contracts",
-        "Options: right but not obligation to buy/sell",
-        "Swaps: exchange of cash flows"
+        "Derivatives = 5-8% of exam (9-14 questions)",
+        "Derivative value DERIVES from underlying asset",
+        "Forwards = Private, customized, OTC contracts",
+        "Futures = Standardized, exchange-traded, daily settlement",
+        "Call Option = RIGHT TO BUY at strike price",
+        "Put Option = RIGHT TO SELL at strike price",
+        "Options: Right but NOT obligation (unlike forwards/futures)",
+        "Swaps = Exchange of cash flows over time",
+        "Three purposes: Hedging, Speculation, Arbitrage",
+        "Counterparty risk highest in forwards (private contracts)",
+        "Futures have clearinghouse guarantee (low counterparty risk)",
+        "Memory aid: 'FFOS' - Forwards, Futures, Options, Swaps"
       ],
-      "formulas": [],
+      "formulas": [
+        {
+          "expression": "Call Option Payoff = Max(0, Stock Price - Strike Price)",
+          "variables": {
+            "Stock Price": "Price at expiration",
+            "Strike Price": "Agreed exercise price"
+          }
+        },
+        {
+          "expression": "Put Option Payoff = Max(0, Strike Price - Stock Price)",
+          "variables": {
+            "Strike Price": "Agreed exercise price",
+            "Stock Price": "Price at expiration"
+          }
+        }
+      ],
       "practiceQuestions": [
         {
           "id": "deriv-q1",
-          "question": "A forward contract is:",
+          "question": "A call option gives the holder the right to:",
           "options": [
-            "Standardized and exchange-traded",
-            "Customized and traded over-the-counter",
-            "An option to buy or sell"
+            "Sell the underlying asset at the strike price",
+            "Buy the underlying asset at the strike price",
+            "Receive dividends from the underlying asset"
           ],
           "correctAnswer": "B",
-          "explanation": "Forward contracts are customized agreements between two parties to buy/sell an asset at a future date for a price agreed today. They trade over-the-counter (OTC)."
+          "explanation": "A CALL option gives the holder the RIGHT TO BUY the underlying asset at the strike price. A PUT option gives the right to SELL. Remember: You 'call' something to you (buy it), you 'put' something away (sell it). EXAM TIP: This is a BASIC but ESSENTIAL concept. Know the difference between calls and puts cold."
         },
         {
           "id": "deriv-q2",
-          "question": "A call option gives the holder the right to:",
+          "question": "Which derivative instrument has the HIGHEST counterparty (default) risk?",
           "options": [
-            "Sell the underlying asset",
-            "Buy the underlying asset",
-            "Exchange cash flows"
+            "Futures contracts",
+            "Forward contracts",
+            "Exchange-traded options"
           ],
           "correctAnswer": "B",
-          "explanation": "A call option gives the holder the right (but not obligation) to buy the underlying asset at the strike price."
+          "explanation": "FORWARD contracts have the HIGHEST counterparty risk because they are PRIVATE agreements between two parties with no guarantee. If one party defaults, the other loses. Futures and exchange-traded options have a CLEARINGHOUSE that guarantees performance, eliminating counterparty risk. EXAM TIP: OTC derivatives (forwards, swaps) = high counterparty risk. Exchange-traded derivatives (futures, options) = low counterparty risk."
         },
         {
           "id": "deriv-q3",
-          "question": "Which derivative is typically used to hedge against interest rate risk?",
+          "question": "You buy a call option with a $50 strike price for a $3 premium. At expiration, the stock is trading at $55. What is your profit?",
           "options": [
-            "Stock options",
-            "Interest rate swaps",
-            "Commodity futures"
+            "$2",
+            "$5",
+            "$8"
           ],
-          "correctAnswer": "B",
-          "explanation": "Interest rate swaps are commonly used to hedge against or speculate on interest rate movements by exchanging fixed and floating rate payments."
+          "correctAnswer": "A",
+          "explanation": "Call option payoff = Stock Price - Strike Price = $55 - $50 = $5. But you PAID $3 premium, so Profit = $5 - $3 = $2. EXAM TIP: Remember to subtract the premium! The payoff is $5, but the PROFIT is only $2 because you paid $3 upfront."
         }
       ]
     },
     {
-      "title": "Option Valuation",
-      "content": "<p>Option pricing depends on several factors including underlying price, strike price, time to expiration, volatility, and interest rates. Intrinsic value and time value make up an option's premium.</p>",
+      "title": "Option Valuation - Intrinsic and Time Value",
+      "content": "<p><strong>WHAT THIS MEANS:</strong> An option's price (premium) has TWO COMPONENTS: Intrinsic Value (what it's worth if exercised NOW) and Time Value (what you pay for the POSSIBILITY of future gains).</p><p><strong>WHY THIS MATTERS:</strong> Option valuation questions are COMMON on the exam. Understanding intrinsic vs. time value is FOUNDATIONAL.</p><p><strong>OPTION PREMIUM = INTRINSIC VALUE + TIME VALUE</strong></p><p><strong>INTRINSIC VALUE:</strong></p><p>The profit you would make if you exercised the option RIGHT NOW.</p><ul><li><strong>Call Option:</strong> Intrinsic Value = Max(0, Stock Price - Strike Price)</li><li><strong>Put Option:</strong> Intrinsic Value = Max(0, Strike Price - Stock Price)</li></ul><p><strong>THREE STATES:</strong></p><table style='width:100%;border-collapse:collapse;margin:20px 0;'><tr style='background:#f0f9ff;'><th style='border:1px solid #bae6fd;padding:12px;'></th><th style='border:1px solid #bae6fd;padding:12px;'>Call Option</th><th style='border:1px solid #bae6fd;padding:12px;'>Put Option</th></tr><tr><td style='border:1px solid #e2e8f0;padding:12px;'>In-the-Money</td><td style='border:1px solid #e2e8f0;padding:12px;'>Stock > Strike</td><td style='border:1px solid #e2e8f0;padding:12px;'>Stock < Strike</td></tr><tr><td style='border:1px solid #e2e8f0;padding:12px;'>At-the-Money</td><td style='border:1px solid #e2e8f0;padding:12px;'>Stock = Strike</td><td style='border:1px solid #e2e8f0;padding:12px;'>Stock = Strike</td></tr><tr><td style='border:1px solid #e2e8f0;padding:12px;'>Out-of-the-Money</td><td style='border:1px solid #e2e8f0;padding:12px;'>Stock < Strike</td><td style='border:1px solid #e2e8f0;padding:12px;'>Stock > Strike</td></tr></table><p><strong>EXAMPLE:</strong> Call option with $50 strike:<ul><li>Stock at $55: In-the-money, Intrinsic Value = $5</li><li>Stock at $50: At-the-money, Intrinsic Value = $0</li><li>Stock at $45: Out-of-the-money, Intrinsic Value = $0</li></ul></p><p><strong>TIME VALUE:</strong></p><p>The EXTRA amount investors pay for the POSSIBILITY that the option will become more valuable before expiration.</p><p style='background:#f0f9ff;padding:15px;border-radius:8px;'><strong>Time Value = Option Premium - Intrinsic Value</strong></p><p><strong>FACTORS AFFECTING TIME VALUE:</strong></p><ul><li><strong>Time to Expiration:</strong> MORE time = HIGHER time value (more chance for favorable moves)</li><li><strong>Volatility:</strong> HIGHER volatility = HIGHER time value (bigger potential moves)</li><li><strong>Interest Rates:</strong> HIGHER rates = HIGHER call time value, LOWER put time value</li></ul><p><strong>TIME DECAY:</strong></p><p>As expiration approaches, time value DECREASES. At expiration, time value = ZERO (only intrinsic value remains).</p><p><strong>EXAMPLE:</strong> Call option premium = $7, Stock = $55, Strike = $50.<ul><li>Intrinsic Value = $55 - $50 = $5</li><li>Time Value = $7 - $5 = $2</li></ul><p>Investors pay $2 extra for the possibility that the stock rises further before expiration.</p><p><strong>EXAM MEMORY TIP:</strong> Remember 'ITV' - Intrinsic + Time Value = Option Price. Also remember 'Time Value DECAYS' - as expiration approaches, time value falls to zero. Out-of-the-money options have ONLY time value (no intrinsic value).</p>",
       "keyPoints": [
-        "Call option: right to buy",
-        "Put option: right to sell",
-        "Intrinsic value: immediate exercise value",
-        "Time value: premium over intrinsic value"
+        "Option Premium = Intrinsic Value + Time Value",
+        "Intrinsic Value = Profit if exercised immediately",
+        "Time Value = Premium - Intrinsic Value",
+        "In-the-Money Call: Stock Price > Strike Price",
+        "In-the-Money Put: Stock Price < Strike Price",
+        "Out-of-the-Money options have ZERO intrinsic value",
+        "More time to expiration = HIGHER time value",
+        "Higher volatility = HIGHER time value",
+        "Time value DECAYS as expiration approaches",
+        "At expiration, time value = ZERO",
+        "Memory aid: 'ITV' - Intrinsic + Time Value = Price"
       ],
       "formulas": [
         {
@@ -69,30 +99,37 @@
             "X": "Strike price",
             "S": "Current stock price"
           }
+        },
+        {
+          "expression": "Time Value = Option Premium - Intrinsic Value",
+          "variables": {
+            "Option Premium": "Market price of option",
+            "Intrinsic Value": "Immediate exercise value"
+          }
         }
       ],
       "practiceQuestions": [
         {
           "id": "deriv-q4",
-          "question": "A call option with strike price $50 when the stock trades at $55 has an intrinsic value of:",
+          "question": "A call option with a $40 strike price is trading when the stock is at $45. The option premium is $7. What is the time value?",
           "options": [
-            "$0",
+            "$2",
             "$5",
-            "$55"
+            "$7"
           ],
-          "correctAnswer": "B",
-          "explanation": "Call Intrinsic Value = Max(0, $55 - $50) = $5"
+          "correctAnswer": "A",
+          "explanation": "Intrinsic Value = Stock Price - Strike Price = $45 - $40 = $5. Time Value = Premium - Intrinsic Value = $7 - $5 = $2. The option has $5 of intrinsic value (immediate exercise profit) and $2 of time value (possibility of further gains). EXAM TIP: Always calculate intrinsic value FIRST, then subtract from premium to get time value."
         },
         {
           "id": "deriv-q5",
-          "question": "An out-of-the-money put option has:",
+          "question": "An out-of-the-money call option has:",
           "options": [
-            "Positive intrinsic value",
-            "Zero intrinsic value",
-            "Negative intrinsic value"
+            "Only intrinsic value, no time value",
+            "Only time value, no intrinsic value",
+            "Both intrinsic and time value"
           ],
           "correctAnswer": "B",
-          "explanation": "A put option is out-of-the-money when the stock price is above the strike price. Intrinsic value = Max(0, X - S) = 0."
+          "explanation": "Out-of-the-money options have ZERO intrinsic value (exercising would lose money). They have ONLY time value - investors are paying for the POSSIBILITY that the option becomes in-the-money before expiration. EXAM TIP: Out-of-the-money = No intrinsic value. At expiration, out-of-the-money options expire WORTHLESS."
         }
       ]
     }

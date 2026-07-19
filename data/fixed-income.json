@@ -1,115 +1,172 @@
 {
   "sections": [
     {
-      "title": "Fixed Income Securities",
-      "content": "<p>Fixed income securities represent debt obligations that pay periodic interest and return principal at maturity. Key types include government bonds, corporate bonds, and municipal bonds.</p>",
+      "title": "Fixed Income Securities - Basic Features",
+      "content": "<p><strong>WHAT THIS MEANS:</strong> A fixed income security is a LOAN that an investor makes to a borrower (government or corporation). In return, the borrower promises to make REGULAR interest payments and repay the principal at maturity.</p><p><strong>WHY THIS MATTERS FOR THE EXAM:</strong> Fixed Income represents 10-12% of the CFA Level I exam (approximately 18-22 questions). Understanding bonds is ESSENTIAL for portfolio management and valuation.</p><p><strong>BASIC BOND FEATURES:</strong></p><ul><li><strong>Principal (Par Value, Face Value):</strong> The amount the issuer promises to repay at maturity. Typically $1,000 or $100,000.</li><li><strong>Coupon Rate:</strong> The INTEREST RATE the issuer pays on the bond. EXAMPLE: A 5% coupon on a $1,000 bond = $50 per year in interest.</li><li><strong>Maturity:</strong> The date when the principal must be repaid. Can range from 1 year (short-term) to 30+ years (long-term).</li><li><strong>Coupon Frequency:</strong> How often interest is paid. MOST bonds pay SEMI-ANNUALLY (twice per year).</li></ul><p><strong>EXAMPLE:</strong> A 10-year, 5% coupon bond with $1,000 par value:<ul><li>You lend the issuer $1,000 today</li><li>Issuer pays you $25 every 6 months (5% ÷ 2 = 2.5% semi-annual)</li><li>After 10 years, issuer repays your $1,000</li><li>Total interest received: $25 × 20 payments = $500</li></ul></p><p><strong>BOND PRICING - THE FUNDAMENTAL CONCEPT:</strong></p><p>A bond's price is the PRESENT VALUE of all future cash flows (coupon payments + principal repayment).</p><p style='background:#f0f9ff;padding:15px;border-radius:8px;'><strong>Bond Price = PV(Coupons) + PV(Principal)</strong></p><p><strong>THE GOLDEN RULE OF BONDS:</strong></p><p style='background:#fff3cd;padding:15px;border-radius:8px;'><strong>Market Interest Rates ↑ → Bond Prices ↓</strong><br><strong>Market Interest Rates ↓ → Bond Prices ↑</strong></p><p>Prices and yields move in OPPOSITE DIRECTIONS! This is THE MOST IMPORTANT concept in fixed income.</p><p><strong>WHY?</strong> Imagine you own a bond paying 5% coupon. If market rates RISE to 7%, your 5% bond is LESS ATTRACTIVE. To sell it, you must LOWER the price. If market rates FALL to 3%, your 5% bond is MORE ATTRACTIVE. You can RAISE the price.</p><p><strong>BOND TRADING - PREMIUM, PAR, DISCOUNT:</strong></p><table style='width:100%;border-collapse:collapse;margin:20px 0;'><tr style='background:#f0f9ff;'><th style='border:1px solid #bae6fd;padding:12px;'>Relationship</th><th style='border:1px solid #bae6fd;padding:12px;'>Bond Trades At</th><th style='border:1px solid #bae6fd;padding:12px;'>Example</th></tr><tr><td style='border:1px solid #e2e8f0;padding:12px;'>Coupon Rate = Market Rate</td><td style='border:1px solid #e2e8f0;padding:12px;'>PAR ($1,000)</td><td style='border:1px solid #e2e8f0;padding:12px;'>5% coupon, 5% market → $1,000</td></tr><tr><td style='border:1px solid #e2e8f0;padding:12px;'>Coupon Rate < Market Rate</td><td style='border:1px solid #e2e8f0;padding:12px;'>DISCOUNT (< $1,000)</td><td style='border:1px solid #e2e8f0;padding:12px;'>5% coupon, 7% market → $850</td></tr><tr><td style='border:1px solid #e2e8f0;padding:12px;'>Coupon Rate > Market Rate</td><td style='border:1px solid #e2e8f0;padding:12px;'>PREMIUM (> $1,000)</td><td style='border:1px solid #e2e8f0;padding:12px;'>5% coupon, 3% market → $1,200</td></tr></table><p><strong>EXAM MEMORY TIP:</strong> Remember 'RATES UP, PRICES DOWN' - like a seesaw. When interest rates go up, bond prices go down. Also remember 'Coupon < Market = Discount' - if the coupon is less than market rate, the bond trades at a discount.</p>",
       "keyPoints": [
-        "Coupon rate: stated interest rate on bond",
-        "Maturity: time until principal repayment",
-        "Par value: face value repaid at maturity",
-        "Zero-coupon bonds pay no periodic interest"
-      ],
-      "formulas": [],
-      "practiceQuestions": [
-        {
-          "id": "fixed-q1",
-          "question": "A zero-coupon bond:",
-          "options": [
-            "Pays interest annually",
-            "Pays no periodic interest",
-            "Pays interest semi-annually"
-          ],
-          "correctAnswer": "B",
-          "explanation": "Zero-coupon bonds do not pay periodic interest. They are issued at a discount and pay par value at maturity."
-        },
-        {
-          "id": "fixed-q2",
-          "question": "The coupon rate of a bond is:",
-          "options": [
-            "The market interest rate",
-            "The stated interest rate on the bond",
-            "The yield to maturity"
-          ],
-          "correctAnswer": "B",
-          "explanation": "The coupon rate is the stated annual interest rate on the bond, expressed as a percentage of par value."
-        }
-      ]
-    },
-    {
-      "title": "Bond Valuation",
-      "content": "<p>Bond prices are determined by discounting future cash flows (coupons and principal) at the market required rate of return. Bond prices and yields move inversely.</p>",
-      "keyPoints": [
-        "Bond price = PV of coupons + PV of principal",
-        "When market rate > coupon rate, bond trades at discount",
-        "When market rate < coupon rate, bond trades at premium",
-        "Price and yield move in opposite directions"
+        "Fixed Income = 10-12% of exam (18-22 questions)",
+        "Bond = Loan from investor to issuer (government or corporation)",
+        "Principal (Par Value) = Amount repaid at maturity",
+        "Coupon Rate = Interest rate paid on the bond",
+        "Most bonds pay interest SEMI-ANNUALLY",
+        "Bond Price = PV of all future cash flows",
+        "Market Rates ↑ → Bond Prices ↓ (OPPOSITE relationship!)",
+        "Coupon = Market Rate → Bond trades at PAR",
+        "Coupon < Market Rate → Bond trades at DISCOUNT",
+        "Coupon > Market Rate → Bond trades at PREMIUM",
+        "Memory aid: 'RATES UP, PRICES DOWN' - like a seesaw"
       ],
       "formulas": [
         {
-          "expression": "Bond Price = Σ[C/(1+r)^t] + F/(1+r)^n",
+          "expression": "Bond Price = PV(Coupons) + PV(Principal)",
           "variables": {
-            "C": "Coupon payment",
-            "r": "Market interest rate",
-            "t": "Time period",
-            "F": "Face value",
-            "n": "Number of periods"
+            "PV": "Present Value of future cash flows",
+            "Coupons": "Periodic interest payments",
+            "Principal": "Face value repaid at maturity"
           }
         }
       ],
       "practiceQuestions": [
         {
-          "id": "fixed-q3",
-          "question": "If market interest rates rise, existing bond prices will:",
+          "id": "fixed-q1",
+          "question": "If market interest rates RISE, what happens to existing bond prices?",
           "options": [
-            "Rise",
-            "Fall",
-            "Remain unchanged"
+            "Bond prices rise",
+            "Bond prices fall",
+            "Bond prices remain unchanged"
           ],
           "correctAnswer": "B",
-          "explanation": "Bond prices and interest rates move inversely. When market rates rise, existing bonds with lower coupon rates become less attractive, causing their prices to fall."
+          "explanation": "Bond prices and market interest rates move in OPPOSITE DIRECTIONS. When market rates rise, existing bonds with lower coupon rates become LESS ATTRACTIVE, so their prices FALL. This is THE MOST IMPORTANT concept in fixed income. EXAM TIP: Remember 'RATES UP, PRICES DOWN' - like a seesaw. This relationship is fundamental to understanding bonds."
         },
         {
-          "id": "fixed-q4",
-          "question": "A bond with a 5% coupon rate when market rates are 6% will trade at:",
+          "id": "fixed-q2",
+          "question": "A bond with a 4% coupon rate is trading when market rates are 6%. This bond is trading at:",
           "options": [
-            "Par",
-            "Premium",
-            "Discount"
+            "Par value",
+            "A premium",
+            "A discount"
           ],
           "correctAnswer": "C",
-          "explanation": "When the coupon rate (5%) is below the market rate (6%), the bond must trade at a discount to compensate investors for the lower coupon payments."
+          "explanation": "When the coupon rate (4%) is LESS THAN the market rate (6%), the bond trades at a DISCOUNT (below par value). Investors won't pay full price for a bond that pays less than the market rate, so the price must fall to compensate. EXAM TIP: Remember 'Coupon < Market = Discount' (CMD). If coupon > market, it trades at a premium."
+        },
+        {
+          "id": "fixed-q3",
+          "question": "A 10-year, 5% coupon bond with $1,000 par value pays interest:",
+          "options": [
+            "$50 once per year",
+            "$25 twice per year",
+            "$50 twice per year"
+          ],
+          "correctAnswer": "B",
+          "explanation": "Most bonds pay interest SEMI-ANNUALLY (twice per year). Annual coupon = 5% × $1,000 = $50. Semi-annual payment = $50 ÷ 2 = $25 every 6 months. EXAM TIP: Unless stated otherwise, assume bonds pay semi-annually. This affects yield calculations."
         }
       ]
     },
     {
-      "title": "Duration and Convexity",
-      "content": "<p>Duration measures a bond's sensitivity to interest rate changes. Convexity provides a more accurate measure for larger rate changes.</p>",
+      "title": "Duration and Convexity - Interest Rate Risk",
+      "content": "<p><strong>WHAT THIS MEANS:</strong> Duration and convexity measure how SENSITIVE a bond's price is to changes in interest rates. This is CRITICAL for managing bond portfolio risk.</p><p><strong>WHY THIS MATTERS:</strong> If you're a pension fund manager and rates rise 1%, how much will your bond portfolio lose? Duration tells you. This is tested HEAVILY on the exam.</p><p><strong>DURATION - THE BASICS:</strong></p><p>Duration measures the APPROXIMATE PERCENTAGE CHANGE in a bond's price for a 1% change in interest rates.</p><p style='background:#f0f9ff;padding:15px;border-radius:8px;'><strong>%Δ Price ≈ -Duration × ΔYield</strong></p><p><strong>EXAMPLE:</strong> A bond has a duration of 5 years. If interest rates rise by 1% (100 basis points):<ul><li>%Δ Price ≈ -5 × 1% = -5%</li><li>The bond price will FALL by approximately 5%</li></ul></p><p><strong>KEY DURATION FACTORS:</strong></p><table style='width:100%;border-collapse:collapse;margin:20px 0;'><tr style='background:#f0f9ff;'><th style='border:1px solid #bae6fd;padding:12px;'>Factor</th><th style='border:1px solid #bae6fd;padding:12px;'>Effect on Duration</th><th style='border:1px solid #bae6fd;padding:12px;'>Why?</th></tr><tr><td style='border:1px solid #e2e8f0;padding:12px;'>Longer Maturity</td><td style='border:1px solid #e2e8f0;padding:12px;'>HIGHER duration</td><td style='border:1px solid #e2e8f0;padding:12px;'>More time for rates to change</td></tr><tr><td style='border:1px solid #e2e8f0;padding:12px;'>Lower Coupon</td><td style='border:1px solid #e2e8f0;padding:12px;'>HIGHER duration</td><td style='border:1px solid #e2e8f0;padding:12px;'>More value in distant principal payment</td></tr><tr><td style='border:1px solid #e2e8f0;padding:12px;'>Lower Yield</td><td style='border:1px solid #e2e8f0;padding:12px;'>HIGHER duration</td><td style='border:1px solid #e2e8f0;padding:12px;'>Distant cash flows worth more</td></tr></table><p><strong>EXAMPLE COMPARISON:</strong><ul><li>Bond A: 10-year maturity, 2% coupon → Duration = 8.5 years</li><li>Bond B: 10-year maturity, 8% coupon → Duration = 6.5 years</li></ul><p>Bond A has HIGHER duration (more rate sensitive) because it has a lower coupon.</p><p><strong>CONVEXITY - THE CORRECTION:</strong></p><p>Duration is a LINEAR approximation. The actual price-yield relationship is CURVED (convex). Convexity measures this curvature.</p><p style='background:#f0f9ff;padding:15px;border-radius:8px;'><strong>More Convexity = BETTER for investors</strong></p><p><strong>WHY?</strong> With positive convexity:<ul><li>When rates FALL, price rises MORE than duration predicts</li><li>When rates RISE, price falls LESS than duration predicts</li></ul></p><p><strong>EXAMPLE:</strong> Two bonds have the same duration (5 years) but different convexity:<ul><li>Bond A: Convexity = 50</li><li>Bond B: Convexity = 100</li></ul><p>If rates fall 1%, Bond B will gain MORE than Bond A. If rates rise 1%, Bond B will lose LESS than Bond A. Bond B is BETTER!</p><p><strong>EXAM MEMORY TIP:</strong> Remember 'DURATION = RISK' - Higher duration = More interest rate risk. Also remember 'CONVEXITY IS GOOD' - More convexity = Better price protection. Think of convexity as 'free insurance' against rate changes.</p>",
       "keyPoints": [
-        "Duration: approximate % price change for 1% rate change",
-        "Longer maturity = higher duration",
-        "Lower coupon = higher duration",
-        "Convexity improves duration estimate"
+        "Duration measures interest rate SENSITIVITY",
+        "%Δ Price ≈ -Duration × ΔYield (approximate formula)",
+        "Duration of 5 = 5% price change for 1% rate change",
+        "Longer maturity = HIGHER duration (more risk)",
+        "Lower coupon = HIGHER duration (more risk)",
+        "Lower yield = HIGHER duration (more risk)",
+        "Convexity measures the CURVATURE of price-yield relationship",
+        "More convexity = BETTER for investors",
+        "Duration + Convexity = More accurate price estimate",
+        "Zero-coupon bonds have HIGHEST duration (all cash flow at end)",
+        "Memory aid: 'DURATION = RISK, CONVEXITY = GOOD'"
       ],
       "formulas": [
         {
-          "expression": "%ΔPrice ≈ -Duration × ΔYield",
+          "expression": "%Δ Price ≈ -Duration × ΔYield",
           "variables": {
-            "Duration": "Modified duration",
+            "%Δ Price": "Percentage change in bond price",
+            "Duration": "Modified duration in years",
+            "ΔYield": "Change in yield (as decimal)"
+          }
+        },
+        {
+          "expression": "%Δ Price ≈ (-Duration × ΔYield) + (½ × Convexity × (ΔYield)²)",
+          "variables": {
+            "Convexity": "Measure of curvature",
             "ΔYield": "Change in yield"
           }
         }
       ],
       "practiceQuestions": [
         {
-          "id": "fixed-q5",
-          "question": "A bond with duration of 5 years will approximately change in price by what percentage if rates increase by 1%?",
+          "id": "fixed-q4",
+          "question": "A bond has a duration of 7 years. If interest rates rise by 0.50%, the bond's price will approximately:",
           "options": [
-            "+5%",
-            "-5%",
-            "-1%"
+            "Fall by 3.5%",
+            "Rise by 3.5%",
+            "Fall by 7%"
+          ],
+          "correctAnswer": "A",
+          "explanation": "%Δ Price ≈ -Duration × ΔYield = -7 × 0.50% = -3.5%. The negative sign means the price FALLS. So the bond price will fall by approximately 3.5%. EXAM TIP: Remember the MINUS SIGN in the formula. When rates rise (positive ΔYield), price change is negative (price falls)."
+        },
+        {
+          "id": "fixed-q5",
+          "question": "Which bond has the HIGHEST interest rate risk (duration)?",
+          "options": [
+            "5-year, 8% coupon bond",
+            "10-year, 4% coupon bond",
+            "10-year, 8% coupon bond"
           ],
           "correctAnswer": "B",
-          "explanation": "%ΔPrice ≈ -5 × 1% = -5%. The negative sign indicates price falls when rates rise."
+          "explanation": "The 10-year, 4% coupon bond has the HIGHEST duration because: (1) Longer maturity (10 years vs. 5 years) = higher duration, and (2) Lower coupon (4% vs. 8%) = higher duration. Both factors increase interest rate sensitivity. EXAM TIP: Remember 'LONG maturity + LOW coupon = HIGH duration = HIGH RISK'. Zero-coupon bonds have the highest duration of all."
+        }
+      ]
+    },
+    {
+      "title": "Yield Measures - Understanding Bond Returns",
+      "content": "<p><strong>WHAT THIS MEANS:</strong> There are MANY ways to measure a bond's return. Each tells you something different. Understanding the DIFFERENCES is critical for the exam.</p><p><strong>WHY THIS MATTERS:</strong> Yield questions are GUARANTEED on the exam. You MUST know the differences between current yield, YTM, YTC, etc.</p><p><strong>DIFFERENT YIELD MEASURES:</strong></p><ol><li><strong>Coupon Rate:</strong><p>The INTEREST RATE the bond pays. FIXED at issuance.<br>EXAMPLE: 5% coupon on $1,000 bond = $50 per year.</p></li><li><strong>Current Yield:</strong><p>Annual coupon payment DIVIDED BY current market price.</p><p style='background:#f0f9ff;padding:15px;border-radius:8px;'><strong>Current Yield = Annual Coupon / Current Price</strong></p><p><strong>EXAMPLE:</strong> Bond pays $50/year, trades at $900.<br>Current Yield = $50 / $900 = 5.56%</p><p><strong>LIMITATION:</strong> Ignores capital gains/losses at maturity. Doesn't tell the full story.</p></li><li><strong>Yield to Maturity (YTM) - THE MOST IMPORTANT:</strong><p>The TOTAL RETURN if you hold the bond to MATURITY. Includes coupon payments PLUS any capital gain or loss.</p><p><strong>EXAMPLE:</strong> You buy a bond for $950 (discount). It pays $50/year and matures at $1,000 in 5 years.<br>YTM includes: (1) $50/year coupon, (2) $50 capital gain at maturity ($1,000 - $950)</p><p>YTM is the INTERNAL RATE OF RETURN (IRR) of the bond. Must use financial calculator.</p><p><strong>ASSUMPTIONS:</strong><ul><li>You hold the bond to maturity</li><li>All coupons are reinvested at the YTM rate</li><li>No default</li></ul></p></li><li><strong>Yield to Call (YTC):</strong><p>Like YTM, but assumes the bond is CALLED (redeemed early) at the first call date.</p><p><strong>WHEN IT MATTERS:</strong> For CALLABLE bonds trading at a PREMIUM. Issuer is likely to call the bond, so YTC is more relevant than YTM.</p></li><li><strong>Yield to Worst (YTW):</strong><p>The LOWEST possible yield among YTM, YTC, and other yield measures.</p><p><strong>CONSERVATIVE APPROACH:</strong> Investors should assume they'll get the WORST yield (lowest one).</p></li></ol><p><strong>YIELD RELATIONSHIPS:</strong></p><table style='width:100%;border-collapse:collapse;margin:20px 0;'><tr style='background:#f0f9ff;'><th style='border:1px solid #bae6fd;padding:12px;'>Bond Trades At</th><th style='border:1px solid #bae6fd;padding:12px;'>Relationship</th></tr><tr><td style='border:1px solid #e2e8f0;padding:12px;'>Discount</td><td style='border:1px solid #e2e8f0;padding:12px;'>Coupon Rate < Current Yield < YTM</td></tr><tr><td style='border:1px solid #e2e8f0;padding:12px;'>Par</td><td style='border:1px solid #e2e8f0;padding:12px;'>Coupon Rate = Current Yield = YTM</td></tr><tr><td style='border:1px solid #e2e8f0;padding:12px;'>Premium</td><td style='border:1px solid #e2e8f0;padding:12px;'>Coupon Rate > Current Yield > YTM</td></tr></table><p><strong>EXAMPLE:</strong> A 5% coupon bond:<ul><li>Trading at DISCOUNT ($950): Coupon (5%) < Current Yield (5.26%) < YTM (6.0%)</li><li>Trading at PAR ($1,000): Coupon (5%) = Current Yield (5%) = YTM (5%)</li><li>Trading at PREMIUM ($1,050): Coupon (5%) > Current Yield (4.76%) > YTM (4.0%)</li></ul></p><p><strong>EXAM MEMORY TIP:</strong> Remember 'YTM is KING' - Yield to Maturity is the MOST COMPREHENSIVE measure. Also remember the order: For discount bonds, yields go UP (Coupon < Current < YTM). For premium bonds, yields go DOWN (Coupon > Current > YTM).</p>",
+      "keyPoints": [
+        "Coupon Rate = Fixed interest rate (set at issuance)",
+        "Current Yield = Annual Coupon / Current Price",
+        "YTM = Total return if held to maturity (MOST IMPORTANT)",
+        "YTC = Yield if bond is called early",
+        "YTW = Lowest of all yields (most conservative)",
+        "Discount bond: Coupon < Current Yield < YTM",
+        "Par bond: Coupon = Current Yield = YTM",
+        "Premium bond: Coupon > Current Yield > YTM",
+        "YTM assumes coupons reinvested at YTM rate",
+        "Callable bonds: Use YTC if trading at premium",
+        "Memory aid: 'YTM is KING' - most comprehensive measure"
+      ],
+      "formulas": [
+        {
+          "expression": "Current Yield = Annual Coupon / Current Price",
+          "variables": {
+            "Annual Coupon": "Coupon rate × Par value",
+            "Current Price": "Market price of bond"
+          }
+        }
+      ],
+      "practiceQuestions": [
+        {
+          "id": "fixed-q6",
+          "question": "A bond with a 5% coupon is trading at $950 (discount). Which yield measure is HIGHEST?",
+          "options": [
+            "Coupon Rate",
+            "Current Yield",
+            "Yield to Maturity"
+          ],
+          "correctAnswer": "C",
+          "explanation": "For DISCOUNT bonds: Coupon Rate < Current Yield < YTM. YTM is HIGHEST because it includes BOTH the coupon payments AND the capital gain at maturity (buy at $950, receive $1,000 at maturity). Current Yield = $50/$950 = 5.26%. YTM will be higher (around 6%) because it includes the $50 capital gain. EXAM TIP: Remember the order for discount bonds: Coupon < Current < YTM (yields go UP)."
+        },
+        {
+          "id": "fixed-q7",
+          "question": "Yield to Maturity (YTM) assumes that:",
+          "options": [
+            "The bond will be called early",
+            "All coupon payments are reinvested at the YTM rate",
+            "Interest rates will remain unchanged"
+          ],
+          "correctAnswer": "B",
+          "explanation": "YTM assumes that: (1) You hold the bond to maturity, (2) All coupon payments are REINVESTED at the YTM rate, and (3) No default occurs. The reinvestment assumption is CRITICAL - if you can't reinvest coupons at the YTM rate, your actual return will be DIFFERENT. EXAM TIP: This reinvestment assumption is a COMMON exam topic. It's why realized return may differ from YTM."
         }
       ]
     }

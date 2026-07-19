@@ -1,104 +1,122 @@
 {
   "sections": [
     {
-      "title": "Hedge Funds",
-      "content": "<p>Hedge funds are pooled investment vehicles that employ various strategies to earn positive returns. They typically have more flexibility than traditional funds.</p>",
+      "title": "Hedge Funds - Strategies and Fees",
+      "content": "<p><strong>WHAT THIS MEANS:</strong> Hedge funds are pooled investment vehicles that use a WIDE RANGE of strategies to earn returns. They're called 'hedge' funds because they were originally designed to HEDGE (reduce) risk, but modern hedge funds often take SIGNIFICANT risks.</p><p><strong>WHY THIS MATTERS FOR THE EXAM:</strong> Alternative Investments represents 5-8% of the CFA Level I exam (approximately 9-14 questions). Hedge funds are the MOST TESTED alternative investment.</p><p><p><strong>HEDGE FUND CHARACTERISTICS:</strong></p><ul><li><strong>Private pools:</strong> Available only to wealthy/qualified investors</li><li><strong>Less regulated:</strong> More flexibility than mutual funds</li><li><strong>Can use leverage:</strong> Borrow money to amplify returns (and risks!)</li><li><strong>Can short sell:</strong> Profit from declining prices</li><li><strong>Can use derivatives:</strong> Options, futures, swaps for hedging or speculation</li><li><strong>Illiquid:</strong> Lock-up periods (can't withdraw for months/years)</li></ul><p><strong>HEDGE FUND FEE STRUCTURE - THE '2 AND 20':</strong></p><table style='width:100%;border-collapse:collapse;margin:20px 0;'><tr style='background:#f0f9ff;'><th style='border:1px solid #bae6fd;padding:12px;'>Fee Type</th><th style='border:1px solid #bae6fd;padding:12px;'>Typical Amount</th><th style='border:1px solid #bae6fd;padding:12px;'>Based On</th></tr><tr><td style='border:1px solid #e2e8f0;padding:12px;'>Management Fee</td><td style='border:1px solid #e2e8f0;padding:12px;'>2% per year</td><td style='border:1px solid #e2e8f0;padding:12px;'>Assets Under Management (AUM)</td></tr><tr><td style='border:1px solid #e2e8f0;padding:12px;'>Incentive Fee</td><td style='border:1px solid #e2e8f0;padding:12px;'>20% of profits</td><td style='border:1px solid #e2e8f0;padding:12px;'>Investment gains</td></tr></table><p><strong>EXAMPLE:</strong> You invest $1 million in a hedge fund. The fund earns 15% return ($150,000 profit).</p><ul><li>Management Fee: 2% × $1,000,000 = $20,000</li><li>Incentive Fee: 20% × $150,000 = $30,000</li><li>Total Fees: $50,000</li><li>Your Net Return: $150,000 - $50,000 = $100,000 (10%)</li></ul><p>Even though the fund earned 15%, you only received 10% after fees!</p><p><strong>COMMON HEDGE FUND STRATEGIES:</strong></p><ol><li><strong>Long/Short Equity:</strong><ul><li>Buy (go long) undervalued stocks</li><li>Sell short overvalued stocks</li><li>Profit from BOTH rising and falling prices</li><li>EXAMPLE: Long Ford (think undervalued), Short Tesla (think overvalued)</li></ul></li><li><strong>Global Macro:</strong><ul><li>Bet on MACROECONOMIC trends</li><li>Trade currencies, interest rates, commodities, stock indices</li><li>EXAMPLE: Bet that US dollar will strengthen vs. Euro</li><li>Famous example: George Soros 'broke the Bank of England' by shorting the British pound</li></ul></li><li><strong>Event-Driven:</strong><ul><li>Profit from CORPORATE EVENTS</li><li>Mergers, acquisitions, bankruptcies, restructurings</li><li>EXAMPLE: Company A announces acquisition of Company B at $50/share. Current price is $48. Hedge fund buys at $48, bets deal will close at $50.</li></ul></li><li><strong>Relative Value:</strong><ul><li>Exploit PRICE DIFFERENCES between related securities</li><li>EXAMPLE: Same stock trades at $100 on NYSE and $100.50 on LSE. Buy on NYSE, sell on LSE.</li></ul></li></ol><p><strong>HEDGE FUND RISKS:</strong></p><ul><li><strong>Leverage Risk:</strong> Borrowing amplifies losses as well as gains</li><li><strong>Liquidity Risk:</strong> Can't withdraw during lock-up periods</li><li><strong>Manager Risk:</strong> Performance depends heavily on manager skill</li><li><strong>Transparency Risk:</strong> Hedge funds don't disclose holdings (unlike mutual funds)</li></ul><p><strong>EXAM MEMORY TIP:</strong> Remember '2 and 20' - 2% management fee, 20% incentive fee. Also remember 'LSGER' - Long/Short, Global Macro, Event-Driven, Relative Value (the four main strategies).</p>",
       "keyPoints": [
-        "Long/short equity strategies",
-        "Event-driven strategies (mergers, bankruptcies)",
-        "Global macro strategies",
-        "Management fee + performance fee structure"
-      ],
-      "formulas": [],
-      "practiceQuestions": [
-        {
-          "id": "alt-q1",
-          "question": "A typical hedge fund fee structure is:",
-          "options": [
-            "1% management fee, no performance fee",
-            "2% management fee, 20% performance fee",
-            "No management fee, 50% performance fee"
-          ],
-          "correctAnswer": "B",
-          "explanation": "The traditional hedge fund fee structure is '2 and 20': 2% management fee on assets and 20% of profits as performance fee."
-        },
-        {
-          "id": "alt-q2",
-          "question": "A long/short equity hedge fund strategy involves:",
-          "options": [
-            "Only buying stocks",
-            "Buying undervalued stocks and shorting overvalued stocks",
-            "Only shorting stocks"
-          ],
-          "correctAnswer": "B",
-          "explanation": "Long/short equity funds take long positions in stocks expected to increase and short positions in stocks expected to decrease."
-        }
-      ]
-    },
-    {
-      "title": "Private Equity",
-      "content": "<p>Private equity involves investing in private companies or taking public companies private. Strategies include venture capital, buyouts, and growth capital.</p>",
-      "keyPoints": [
-        "Venture capital: early-stage companies",
-        "Buyouts: mature companies using leverage",
-        "Growth capital: expanding companies",
-        "Illiquidity premium compensates for long lock-ups"
-      ],
-      "formulas": [],
-      "practiceQuestions": [
-        {
-          "id": "alt-q3",
-          "question": "Venture capital primarily invests in:",
-          "options": [
-            "Mature public companies",
-            "Early-stage private companies",
-            "Government bonds"
-          ],
-          "correctAnswer": "B",
-          "explanation": "Venture capital focuses on early-stage, high-growth potential private companies, typically in technology or innovative sectors."
-        },
-        {
-          "id": "alt-q4",
-          "question": "A leveraged buyout (LBO) is characterized by:",
-          "options": [
-            "Minimal debt usage",
-            "High debt financing to acquire a company",
-            "Only equity financing"
-          ],
-          "correctAnswer": "B",
-          "explanation": "An LBO uses significant debt (leverage) to finance the acquisition of a company, with the target's cash flows used to service the debt."
-        }
-      ]
-    },
-    {
-      "title": "Real Estate and Commodities",
-      "content": "<p>Real estate and commodities provide diversification benefits and inflation hedging. They have unique valuation and risk characteristics.</p>",
-      "keyPoints": [
-        "Real estate provides income and appreciation",
-        "Commodities can hedge against inflation",
-        "REITs offer liquid real estate exposure",
-        "Storage costs affect commodity prices"
+        "Alternatives = 5-8% of exam (9-14 questions)",
+        "Hedge funds = Private, less regulated, flexible strategies",
+        "Management Fee = 2% of AUM (typical)",
+        "Incentive Fee = 20% of profits (typical)",
+        "'2 and 20' = Standard hedge fund fee structure",
+        "Long/Short Equity = Buy undervalued, short overvalued",
+        "Global Macro = Bet on economic trends (currencies, rates)",
+        "Event-Driven = Profit from mergers, bankruptcies",
+        "Relative Value = Exploit price differences",
+        "Hedge funds can use leverage, short selling, derivatives",
+        "Lock-up periods = Can't withdraw for specified time",
+        "Memory aid: '2 and 20' fees, 'LSGER' strategies"
       ],
       "formulas": [
         {
-          "expression": "Cap Rate = Net Operating Income / Property Value",
+          "expression": "Management Fee = Management Fee % × AUM",
           "variables": {
-            "NOI": "Net operating income",
-            "Property Value": "Market value of property"
+            "AUM": "Assets Under Management"
+          }
+        },
+        {
+          "expression": "Incentive Fee = Incentive Fee % × Profits",
+          "variables": {
+            "Profits": "Investment gains for the period"
+          }
+        },
+        {
+          "expression": "Net Return = Gross Return - Management Fee - Incentive Fee",
+          "variables": {
+            "Gross Return": "Return before fees",
+            "Net Return": "Return to investors after fees"
           }
         }
       ],
       "practiceQuestions": [
         {
-          "id": "alt-q5",
-          "question": "A property with NOI of $100,000 valued at $1,250,000 has a cap rate of:",
+          "id": "alt-q1",
+          "question": "A hedge fund charges '2 and 20'. If the fund has $100 million AUM and earns 15% return, what is the TOTAL fee?",
+          "options": [
+            "$2 million",
+            "$3 million",
+            "$5 million"
+          ],
+          "correctAnswer": "C",
+          "explanation": "Management Fee = 2% × $100M = $2M. Profit = 15% × $100M = $15M. Incentive Fee = 20% × $15M = $3M. Total Fees = $2M + $3M = $5M. EXAM TIP: Remember to calculate BOTH fees and ADD them. The '2 and 20' structure can significantly reduce investor returns!"
+        },
+        {
+          "id": "alt-q2",
+          "question": "A hedge fund that bets on merger announcements is using which strategy?",
+          "options": [
+            "Long/Short Equity",
+            "Global Macro",
+            "Event-Driven"
+          ],
+          "correctAnswer": "C",
+          "explanation": "Event-Driven strategies profit from CORPORATE EVENTS like mergers, acquisitions, bankruptcies, and restructurings. A merger arbitrage fund buys the target company's stock after a deal is announced, betting the deal will close. EXAM TIP: Remember the strategies: Long/Short = Stock picking, Global Macro = Economic trends, Event-Driven = Corporate events, Relative Value = Price differences."
+        }
+      ]
+    },
+    {
+      "title": "Private Equity and Real Estate",
+      "content": "<p><strong>WHAT THIS MEANS:</strong> Private equity involves investing in PRIVATE COMPANIES (not publicly traded). Real estate involves investing in PROPERTY. Both are major alternative investment categories.</p><p><strong>WHY THIS MATTERS:</strong> Private equity and real estate are COMMON exam topics within alternatives. Know the strategies and characteristics.</p><p><strong>PRIVATE EQUITY STRATEGIES:</strong></p><ol><li><strong>Venture Capital:</strong><ul><li>Invest in EARLY-STAGE companies (startups)</li><li>HIGH RISK, HIGH POTENTIAL RETURN</li><li>EXAMPLE: Investing in a tech startup before it goes public</li><li>Stages: Seed (idea stage) → Early stage → Later stage → Mezzanine (pre-IPO)</li><li>Most startups FAIL, but successful ones can return 10-100× the investment</li></ul></li><li><strong>Leveraged Buyouts (LBOs):</strong><ul><li>Buy MATURE companies using mostly DEBT (leverage)</li><li>Improve operations, pay down debt, sell or IPO</li><li>EXAMPLE: Private equity firm buys Company X for $1B, puts in $300M equity, borrows $700M. Uses Company X's cash flows to pay down debt. Sells for $2B in 5 years.</li><li>Target companies have: Stable cash flows, undervalued assets, room for improvement</li></ul></li><li><strong>Growth Capital:</strong><ul><li>Invest in MATURE companies seeking to EXPAND</li><li>Less risky than venture capital</li><li>EXAMPLE: Company wants to enter new markets, needs capital for expansion</li></ul></li></ol><p><strong>PRIVATE EQUITY CHARACTERISTICS:</strong></p><ul><li><strong>Illiquid:</strong> 5-10 year lock-up periods</li><li><strong>J-Curve Effect:</strong> Early years show NEGATIVE returns (fees, setup costs), later years show POSITIVE returns (exits)</li><li><strong>High fees:</strong> Similar to hedge funds (2 and 20)</li><li><strong>Active management:</strong> PE firms actively improve portfolio companies</li></ul><p><strong>REAL ESTATE INVESTMENT:</strong></p><p><strong>WAYS TO INVEST:</strong></p><ol><li><strong>Direct Ownership:</strong> Buy property directly (apartments, offices, retail)</li><li><strong>REITs (Real Estate Investment Trusts):</strong> Publicly traded companies that own real estate. Trade like stocks, provide liquidity.</li><li><strong>Real Estate Funds:</strong> Pooled investments in multiple properties</li></ol><p><strong>REAL ESTATE VALUATION:</strong></p><p style='background:#f0f9ff;padding:15px;border-radius:8px;'><strong>Cap Rate = Net Operating Income (NOI) / Property Value</strong></p><p><strong>EXAMPLE:</strong> An apartment building generates $100,000 annual NOI and is valued at $1,250,000.<br>Cap Rate = $100,000 / $1,250,000 = 8%</p><p><strong>INTERPRETATION:</strong> Higher cap rate = HIGHER return but HIGHER risk. Lower cap rate = LOWER return but LOWER risk.</p><p><strong>REAL ESTATE CHARACTERISTICS:</strong></p><ul><li><strong>Inflation Hedge:</strong> Rents and property values tend to rise with inflation</li><li><strong>Income Generation:</strong> Rental income provides steady cash flow</li><li><strong>Diversification:</strong> Low correlation with stocks and bonds</li><li><strong>Illiquid:</strong> Takes time to buy/sell properties</li><li><strong>High Transaction Costs:</strong> Legal fees, inspections, closing costs</li></ul><p><strong>EXAM MEMORY TIP:</strong> Remember 'VLG' - Venture Capital, LBOs, Growth Capital (the three PE strategies). Also remember 'Cap Rate = NOI / Value' - like a dividend yield for real estate. Higher cap rate = higher risk/return.</p>",
+      "keyPoints": [
+        "Venture Capital = Early-stage, high risk/high return",
+        "LBO = Buy mature companies with high DEBT (leverage)",
+        "Growth Capital = Mature companies expanding",
+        "J-Curve Effect = Early negative returns, later positive",
+        "Private equity = 5-10 year lock-up (illiquid)",
+        "REITs = Publicly traded real estate (liquid)",
+        "Cap Rate = NOI / Property Value",
+        "Higher cap rate = Higher return but higher risk",
+        "Real estate = Inflation hedge, income generation",
+        "Direct ownership vs. REITs vs. Real estate funds",
+        "Memory aid: 'VLG' - Venture, LBO, Growth (PE strategies)"
+      ],
+      "formulas": [
+        {
+          "expression": "Cap Rate = Net Operating Income (NOI) / Property Value",
+          "variables": {
+            "NOI": "Rental income minus operating expenses",
+            "Property Value": "Market value of property"
+          }
+        },
+        {
+          "expression": "Property Value = NOI / Cap Rate",
+          "variables": {
+            "NOI": "Annual net operating income",
+            "Cap Rate": "Market capitalization rate"
+          }
+        }
+      ],
+      "practiceQuestions": [
+        {
+          "id": "alt-q3",
+          "question": "Venture capital investments are BEST described as:",
+          "options": [
+            "Low-risk investments in mature companies",
+            "High-risk investments in early-stage companies",
+            "Investments in publicly traded stocks"
+          ],
+          "correctAnswer": "B",
+          "explanation": "Venture capital invests in EARLY-STAGE companies (startups) with HIGH RISK but HIGH POTENTIAL RETURNS. Most startups fail, but successful ones can return 10-100× the investment. EXAM TIP: Remember the PE spectrum: Venture Capital (earliest, riskiest) → Growth Capital → LBOs (latest, least risky)."
+        },
+        {
+          "id": "alt-q4",
+          "question": "A property generates $200,000 in net operating income and is valued at $2,500,000. What is the cap rate?",
           "options": [
             "6%",
             "8%",
             "10%"
           ],
           "correctAnswer": "B",
-          "explanation": "Cap Rate = $100,000 / $1,250,000 = 0.08 = 8%"
+          "explanation": "Cap Rate = NOI / Property Value = $200,000 / $2,500,000 = 0.08 = 8%. This means the property generates an 8% return based on its current value. EXAM TIP: Cap rate is like a 'dividend yield' for real estate. It's the inverse of a P/E ratio. Higher cap rate = higher return but higher risk."
         }
       ]
     }
