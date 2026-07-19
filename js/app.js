@@ -1,85 +1,66 @@
-// app.js - CFA Study Application (Standalone Version)
+// app.js - Simple Version
 
 class App {
     constructor() {
         this.topics = [];
-        this.totalSections = 0;
         this.init();
     }
     
     async init() {
-        try {
-            console.log('App initializing...');
-            await this.loadTopics();
-            this.renderTopicList();
-            this.setupEventListeners();
-            console.log('App initialized successfully!');
-        } catch (error) {
-            console.error('Init error:', error);
-            alert('Error loading app: ' + error.message);
-        }
+        await this.loadTopics();
+        this.renderTopicList();
+        this.setupEventListeners();
     }
     
     async loadTopics() {
-        console.log('Loading topics...');
         const response = await fetch('./data/topics.json');
-        if (!response.ok) {
-            throw new Error('Failed to load topics: ' + response.status);
-        }
-        
         const data = await response.json();
-        this.topics = data.topics || [];
+        this.topics = data.topics;
         console.log('Loaded', this.topics.length, 'topics');
-        this.totalSections = this.topics.length * 6;
     }
     
     renderTopicList() {
-        console.log('Rendering topic list...');
         const topicList = document.getElementById('topic-list');
-        if (!topicList) {
-            console.error('topic-list element not found!');
-            return;
-        }
-        
         topicList.innerHTML = '';
         
-        if (!this.topics || this.topics.length === 0) {
-            console.error('No topics to render!');
-            return;
-        }
-        
-        this.topics.forEach(topic => {
+        this.topics.forEach(function(topic) {
             const li = document.createElement('li');
             li.className = 'topic-item';
             
-            const button = document.createElement('button');
-            button.className = 'topic-btn';
-            button.setAttribute('data-topic-id', topic.id);
+            const btn = document.createElement('button');
+            btn.className = 'topic-btn';
+            btn.setAttribute('data-topic-id', topic.id);
             
-            button.innerHTML = '<span class="topic-status">☐</span>' +
-                '<span class="topic-name">' + topic.name + '</span>' +
-                '<span class="topic-weight">' + topic.weight + '</span>';
+            const status = document.createElement('span');
+            status.className = 'topic-status';
+            status.textContent = '\u2610';
             
-            button.addEventListener('click', () => {
-                console.log('Topic clicked:', topic.id);
-                this.loadTopic(topic.id);
+            const name = document.createElement('span');
+            name.className = 'topic-name';
+            name.textContent = topic.name;
+            
+            const weight = document.createElement('span');
+            weight.className = 'topic-weight';
+            weight.textContent = topic.weight;
+            
+            btn.appendChild(status);
+            btn.appendChild(name);
+            btn.appendChild(weight);
+            
+            btn.addEventListener('click', function() {
+                window.app.loadTopic(topic.id);
             });
             
-            li.appendChild(button);
+            li.appendChild(btn);
             topicList.appendChild(li);
         });
-        
-        console.log('Topic list rendered with', this.topics.length, 'topics');
     }
     
     async loadTopic(topicId) {
-        console.log('Loading topic:', topicId);
-        
-        const topic = this.topics.find(t => t.id === topicId);
-        if (!topic) {
-            console.error('Topic not found:', topicId);
-            return;
-        }
+        const topic = this.topics.find(function(t) {
+            return t.id === topicId;
+        });
+        if (!topic) return;
         
         const welcome = document.getElementById('welcome-screen');
         const content = document.getElementById('topic-content');
@@ -87,132 +68,81 @@ class App {
         if (welcome) welcome.style.display = 'none';
         if (content) content.style.display = 'block';
         
-        document.querySelectorAll('.topic-btn').forEach(btn => {
+        const buttons = document.querySelectorAll('.topic-btn');
+        buttons.forEach(function(btn) {
             btn.classList.remove('active');
             if (btn.getAttribute('data-topic-id') === topicId) {
                 btn.classList.add('active');
             }
         });
         
-        try {
-            console.log('Loading content from ./data/' + topicId + '.json');
-            const response = await fetch('./data/' + topicId + '.json');
-            if (!response.ok) {
-                throw new Error('Failed to load content: ' + response.status);
-            }
-            
-            const topicData = await response.json();
-            console.log('Topic data loaded, sections:', topicData.sections ? topicData.sections.length : 0);
-            this.renderTopicContent(topic, topicData);
-        } catch (error) {
-            console.error('Error loading topic:', error);
-            if (content) {
-                content.innerHTML = '<div class="section"><p style="color: red;">Error loading content: ' + error.message + '</p></div>';
-            }
-        }
+        const response = await fetch('./data/' + topicId + '.json');
+        const topicData = await response.json();
+        this.renderTopicContent(topic, topicData);
     }
     
     renderTopicContent(topic, topicData) {
         const content = document.getElementById('topic-content');
-        if (!content) return;
+        let html = '<div class="topic-header"><h2>' + topic.name + '</h2>';
+        html += '<p>Exam Weight: ' + topic.weight + '</p></div>';
         
-        let html = '<div class="topic-header"><h2>' + topic.name + '</h2>' +
-            '<p class="topic-weight-display">Exam Weight: ' + topic.weight + '</p></div>' +
-            '<div id="sections-container">';
-        
-        if (topicData.sections && topicData.sections.length > 0) {
-            topicData.sections.forEach((section, index) => {
-                const sectionId = topic.id + '-' + index;
-                
-                html += '<div class="section" data-section-id="' + sectionId + '">' +
-                    '<h3>' + section.title + '</h3>' +
-                    '<div class="section-content">' + section.content + '</div>';
-                
-                if (section.keyPoints && section.keyPoints.length > 0) {
-                    html += '<div class="key-points"><h4>Key Points</h4><ul>';
-                    section.keyPoints.forEach(point => {
-                        html += '<li>' + point + '</li>';
-                    });
-                    html += '</ul></div>';
+        const sections = topicData.sections;
+        for (let idx = 0; idx < sections.length; idx++) {
+            const section = sections[idx];
+            html += '<div class="section"><h3>' + section.title + '</h3>';
+            html += '<div class="section-content">' + section.content + '</div>';
+            
+            if (section.keyPoints && section.keyPoints.length > 0) {
+                html += '<div class="key-points"><h4>Key Points</h4><ul>';
+                for (let i = 0; i < section.keyPoints.length; i++) {
+                    html += '<li>' + section.keyPoints[i] + '</li>';
                 }
-                
-                if (section.formulas && section.formulas.length > 0) {
-                    html += '<h4>Formulas</h4>';
-                    section.formulas.forEach(formula => {
-                        html += '<div class="formula-card"><div class="formula">' + formula.expression + '</div></div>';
-                    });
+                html += '</ul></div>';
+            }
+            
+            if (section.formulas && section.formulas.length > 0) {
+                html += '<h4>Formulas</h4>';
+                for (let i = 0; i < section.formulas.length; i++) {
+                    html += '<div class="formula-card"><div class="formula">' + section.formulas[i].expression + '</div></div>';
                 }
-                
-                if (section.practiceQuestions && section.practiceQuestions.length > 0) {
-                    console.log('Section', index, 'has', section.practiceQuestions.length, 'questions');
-                    html += '<div class="section quiz-section" style="margin-top: 32px;">' +
-                        '<div class="quiz-header">' +
-                        '<h3>Practice Questions</h3>' +
-                        '<span id="quiz-progress-' + sectionId + '">0 of ' + section.practiceQuestions.length + '</span>' +
-                        '</div>' +
-                        '<div id="quiz-container-' + sectionId + '"></div>' +
-                        '<div id="quiz-controls-' + sectionId + '" class="quiz-controls"></div>' +
-                        '</div>';
-                }
-                
-                html += '<button class="btn btn-primary" style="margin-top: 16px;" ' +
-                    'onclick="this.textContent=\'✓ Completed\'; this.className=\'btn btn-secondary\';">' +
-                    'Mark as Complete</button></div>';
-            });
+            }
+            
+            if (section.practiceQuestions && section.practiceQuestions.length > 0) {
+                html += '<div class="quiz-section" style="margin-top:32px">';
+                html += '<h3>Practice Questions</h3>';
+                html += '<div id="quiz-' + idx + '"></div>';
+                html += '<div id="quiz-controls-' + idx + '" class="quiz-controls"></div></div>';
+            }
+            
+            html += '<button class="btn btn-primary" style="margin-top:16px" onclick="this.textContent=\'Completed\';this.className=\'btn btn-secondary\'">Mark as Complete</button></div>';
         }
         
-        html += '</div>';
         content.innerHTML = html;
         
-        console.log('Content rendered, initializing quizzes...');
-        
-        // Initialize quizzes after DOM is ready
-        setTimeout(() => {
-            if (topicData.sections) {
-                topicData.sections.forEach((section, index) => {
-                    if (section.practiceQuestions && section.practiceQuestions.length > 0) {
-                        const sectionId = topic.id + '-' + index;
-                        const container = document.getElementById('quiz-container-' + sectionId);
-                        const controls = document.getElementById('quiz-controls-' + sectionId);
-                        
-                        console.log('Quiz container:', container ? 'FOUND' : 'NOT FOUND');
-                        console.log('Quiz controls:', controls ? 'FOUND' : 'NOT FOUND');
-                        
-                        if (container && controls) {
-                            console.log('Initializing quiz with', section.practiceQuestions.length, 'questions');
-                            if (typeof quizEngine !== 'undefined' && quizEngine && quizEngine.init) {
-                                quizEngine.init(section.practiceQuestions);
-                                console.log('Quiz initialized successfully!');
-                            } else {
-                                console.error('quizEngine not available!');
-                                container.innerHTML = '<p>Quiz engine not loaded. Please refresh the page.</p>';
-                            }
-                        } else {
-                            console.error('Quiz container or controls not found for section', index);
-                        }
+        // Initialize quizzes
+        setTimeout(function() {
+            for (let idx = 0; idx < sections.length; idx++) {
+                const section = sections[idx];
+                if (section.practiceQuestions && window.quizEngine) {
+                    const container = document.getElementById('quiz-' + idx);
+                    if (container) {
+                        window.quizEngine.init(section.practiceQuestions);
                     }
-                });
+                }
             }
-        }, 300);
+        }, 100);
     }
     
     setupEventListeners() {
-        const searchBtn = document.getElementById('search-btn');
         const searchModal = document.getElementById('search-modal');
-        const closeBtn = document.querySelector('.close-btn');
+        const searchBtn = document.getElementById('search-btn');
         
         if (searchBtn && searchModal) {
-            searchBtn.addEventListener('click', () => {
+            searchBtn.addEventListener('click', function() {
                 searchModal.style.display = 'flex';
             });
             
-            if (closeBtn) {
-                closeBtn.addEventListener('click', () => {
-                    searchModal.style.display = 'none';
-                });
-            }
-            
-            searchModal.addEventListener('click', (e) => {
+            searchModal.addEventListener('click', function(e) {
                 if (e.target === searchModal) {
                     searchModal.style.display = 'none';
                 }
@@ -221,9 +151,4 @@ class App {
     }
 }
 
-// Initialize when DOM is ready
-if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', () => new App());
-} else {
-    new App();
-}
+window.app = new App();
