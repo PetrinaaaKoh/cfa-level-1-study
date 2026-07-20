@@ -40,7 +40,6 @@ This free study platform covers **all 10 CFA Level I topics**:
 - ✅ **Search Function** - find any topic quickly
 - ✅ **Mobile-Friendly** - study on any device
 - ✅ **100% Free** - no login required
-- ✅ **Works Offline** - after first load
 
 ---
 
